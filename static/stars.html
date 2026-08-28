@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>我的 GitHub 星标库 · 航标 Beacon</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/stars-library.css?v=20260829e">
+</head>
+<body class="access-locked">
+  <section class="library-access-gate" id="accessGate" aria-modal="true" role="dialog" aria-labelledby="accessTitle">
+    <form class="library-access-card" id="accessForm">
+      <span class="access-star">✦</span>
+      <p>STAR LIBRARY · LOCAL ACCESS</p>
+      <h1 id="accessTitle">打开你的<br>星标图书馆</h1>
+      <label for="accessCode">访问码</label>
+      <div><input id="accessCode" type="password" inputmode="numeric" maxlength="32" autocomplete="current-password" placeholder="请输入访问码" required autofocus><button type="submit">进入 →</button></div>
+      <small id="accessError" role="status"></small>
+    </form>
+  </section>
+  <div class="library-shell">
+    <header class="library-topbar">
+      <a class="product-mark" href="index.html" title="返回航标 Beacon 首页">
+        <img src="starlogo.png" alt="">
+        <span><b>航标 Beacon</b><small>PERSONAL LIBRARY</small></span>
+      </a>
+      <nav class="topnav" aria-label="主导航">
+        <a href="index.html">发现项目</a>
+        <a href="index.html">热门趋势</a>
+        <a class="active" href="stars.html" aria-current="page">我的星标库</a>
+      </nav>
+      <div class="topbar-actions">
+        <span class="local-badge"><i></i> 数据仅存本机</span>
+        <a class="back-link" href="index.html">← 返回雷达</a>
+      </div>
+    </header>
+
+    <section class="library-intro">
+      <div>
+        <p class="eyebrow">GITHUB STARS · LOCAL FIRST</p>
+        <h1>我的 <em>GitHub 星标库</em></h1>
+        <p>把收藏过的开源项目，整理成可搜索、可筛选、可持续维护的个人图书馆。</p>
+      </div>
+      <div class="intro-stat"><b id="libraryCount">—</b><span>已同步的星标项目</span></div>
+    </section>
+
+    <main class="library-workbench">
+      <section class="library-toolbar" aria-label="星标库工具栏">
+        <div class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 4.3 4.3"></path></svg>
+          <input id="librarySearch" type="search" autocomplete="off" placeholder="搜索仓库名、描述、主题、标签或笔记">
+          <button id="clearSearch" hidden aria-label="清空搜索">×</button>
+        </div>
+        <select id="sortSelect" aria-label="排序方式">
+          <option value="starred_at">按加星时间排序</option>
+          <option value="pushed_at">按最近更新排序</option>
+          <option value="stars">按 Star 数排序</option>
+          <option value="name">按名称排序</option>
+        </select>
+        <button class="icon-button" id="sortDirection" title="切换升降序" aria-label="切换升降序">↓</button>
+        <button class="sync-button" id="syncStars"><span>↻</span> 同步</button>
+        <button class="tool-button" id="autoTag" title="将 GitHub Topics 合并为本地标签">✧ 自动标签</button>
+        <button class="tool-button" id="forYou">For You</button>
+        <button class="tool-button" id="following">Following</button>
+        <button class="tool-button" id="cubby">✦ Cubby AI</button>
+        <button class="tool-button" id="tableLayout">列布局</button>
+        <div class="batch-tools" id="batchTools" hidden>
+          <span id="batchCount">已选 0 项</span>
+          <input id="batchTag" maxlength="32" placeholder="添加标签">
+          <button id="applyBatchTag">应用</button>
+          <button id="batchFavorite">★ 收藏</button>
+          <button id="clearSelection" title="清除选择">×</button>
+        </div>
+        <span class="toolbar-spacer"></span>
+        <span class="sync-status" id="syncStatus" role="status">准备就绪</span>
+      </section>
+
+      <section class="active-filters" id="activeFilters" hidden aria-label="当前筛选"></section>
+
+      <section class="library-body">
+        <aside class="filter-sidebar" aria-label="筛选星标库">
+          <div class="filter-group">
+            <p class="filter-title">快速筛选</p>
+            <label class="filter-check"><input id="filterFavorites" type="checkbox"><span>★</span> 仅看收藏</label>
+            <label class="filter-check"><input id="filterUntagged" type="checkbox"><span>○</span> 未添加标签</label>
+          </div>
+          <div class="filter-group">
+            <button class="filter-heading" data-collapse="languages"><span>语言</span><em id="languageTotal">0</em><i>⌄</i></button>
+            <div class="filter-list" id="languageFilters"></div>
+          </div>
+          <div class="filter-group">
+            <button class="filter-heading" data-collapse="tags"><span>我的标签</span><em id="tagTotal">0</em><i>⌄</i></button>
+            <div class="filter-list" id="tagFilters"></div>
+          </div>
+          <button class="clear-filters" id="clearFilters">清除全部筛选</button>
+        </aside>
+
+        <section class="table-pane" aria-label="星标项目列表">
+          <div class="table-wrap" id="tableWrap">
+            <div class="table-head" id="tableHead" role="row"></div>
+            <div id="starsRows" class="star-rows" role="rowgroup"></div>
+          </div>
+          <div class="pager" id="pager" hidden>
+            <button id="prevPage">← 上一页</button><span id="pageLabel">第 1 页</span><button id="nextPage">下一页 →</button>
+          </div>
+        </section>
+
+        <aside class="detail-pane" id="detailPane" aria-live="polite">
+          <div class="detail-empty" id="detailEmpty">
+            <span>✦</span><b>选择一个项目</b><p>在这里查看仓库详情、维护标签和写下你的笔记。</p>
+          </div>
+          <div id="detailContent" hidden></div>
+        </aside>
+      </section>
+    </main>
+  </div>
+  <aside class="workspace-drawer" id="workspaceDrawer" hidden aria-live="polite">
+    <header><div><small id="drawerKicker">STAR LIBRARY</small><h2 id="drawerTitle">工作区</h2></div><button id="drawerClose" aria-label="关闭">×</button></header>
+    <div class="drawer-body" id="drawerBody"></div>
+  </aside>
+  <section class="cubby-organize" id="cubbyOrganize" hidden aria-modal="true" role="dialog" aria-labelledby="cubbyOrganizeTitle">
+    <div class="cubby-organize-window">
+      <header class="cubby-organize-head">
+        <div class="cubby-brand"><img src="assets/better-stars/cubby-static.png" alt=""><span><b id="cubbyOrganizeTitle">Cubby</b><small id="cubbyJobBadge">准备整理</small></span></div>
+        <div class="cubby-head-actions"><button class="cubby-head-icon" title="新对话" aria-label="新对话">↗</button><button class="cubby-head-icon" title="固定本次分析" aria-label="固定本次分析">⌁</button><button id="cubbyOrganizeClose" aria-label="关闭 Cubby 整理工作台">×</button></div>
+      </header>
+      <div class="cubby-organize-stage" id="cubbyOrganizeStage"></div>
+      <div class="cubby-organize-content" id="cubbyOrganizeContent"></div>
+      <footer class="cubby-agent-composer"><span id="cubbyScopeHint">未锁定范围</span><div><input id="cubbyAsk" placeholder="询问你的仓库…" autocomplete="off"><button id="cubbyAskSend">发送</button></div></footer>
+    </div>
+  </section>
+  <button class="cubby-float" id="cubbyFloat" aria-label="打开 Cubby AI 助手" title="Cubby AI · 总结、对比和整理星标库">
+    <span class="cubby-orbit"></span>
+    <img id="cubbyMascot" src="assets/better-stars/cubby-static.png" alt="Cubby AI">
+    <span><b>Cubby</b><small>AI 助手</small></span>
+  </button>
+  <script src="js/access.js?v=20260825g"></script>
+  <script src="js/llm.js?v=20260825g"></script>
+  <script src="js/stars-library.js?v=20260829i"></script>
+</body>
+</html>

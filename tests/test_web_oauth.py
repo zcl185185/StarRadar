@@ -220,34 +220,34 @@ def test_idea_search_gate_and_cache(oauth_server, monkeypatch):
     assert len(calls) == 1  # 闸内只放行了一笔
 
 
-def test_llm_key_save_and_delete(oauth_server):
-    """POST /api/llm_key 落库（供 --personal 管道）+ DELETE 清除。"""
-    from config import PROFILE_DIR
-    f = PROFILE_DIR / "llm_config.json"
-    if f.is_file():
-        f.unlink()
-    try:
-        assert _post_json(oauth_server, "/api/llm_key", {
-            "base_url": "https://api.deepseek.com/v1", "key": "sk-test", "model": "deepseek-chat",
-        }) == 200
-        assert f.is_file()
-        saved = json.loads(f.read_text(encoding="utf-8"))
-        assert saved["key"] == "sk-test"
-        assert saved["base_url"] == "https://api.deepseek.com/v1"
-        assert saved["model"] == "deepseek-chat"
-        # 缺 key 拒绝
-        assert _post_json(oauth_server, "/api/llm_key", {"base_url": "x"}) == 400
-        # DELETE 清除
-        conn = http.client.HTTPConnection("127.0.0.1", oauth_server, timeout=10)
-        conn.request("DELETE", "/api/llm_key")
-        resp = conn.getresponse()
-        resp.read()
-        assert resp.status == 200
-        conn.close()
-        assert not f.is_file()
-    finally:
-        if f.is_file():
-            f.unlink()
+def test_llm_key_save_and_delete(oauth_server, monkeypatch, tmp_path):
+    """POST /api/llm_key 落库（供 --personal 管道）+ DELETE 清除。
+
+    用 tmp_path 隔离 PROFILE_DIR，避免真实 llm_config.json 被测试清除。
+    """
+    import config
+    fake_profile = tmp_path / "profile"
+    fake_profile.mkdir()
+    monkeypatch.setattr(config, "PROFILE_DIR", fake_profile)
+    f = fake_profile / "llm_config.json"
+    assert _post_json(oauth_server, "/api/llm_key", {
+        "base_url": "https://api.deepseek.com/v1", "key": "sk-test", "model": "deepseek-chat",
+    }) == 200
+    assert f.is_file()
+    saved = json.loads(f.read_text(encoding="utf-8"))
+    assert saved["key"] == "sk-test"
+    assert saved["base_url"] == "https://api.deepseek.com/v1"
+    assert saved["model"] == "deepseek-chat"
+    # 缺 key 拒绝
+    assert _post_json(oauth_server, "/api/llm_key", {"base_url": "x"}) == 400
+    # DELETE 清除
+    conn = http.client.HTTPConnection("127.0.0.1", oauth_server, timeout=10)
+    conn.request("DELETE", "/api/llm_key")
+    resp = conn.getresponse()
+    resp.read()
+    assert resp.status == 200
+    conn.close()
+    assert not f.is_file()
 
 
 def test_personal_pipeline_loads_llm_config(oauth_server, tmp_path, monkeypatch):

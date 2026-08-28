@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>StarRadar · 星探</title>
+<title>航标 Beacon · 开源项目发现</title>
 <link rel="icon" type="image/png" href="favicon.png">
-<link rel="stylesheet" href="css/style.css?v=20260828c">
+<link rel="stylesheet" href="css/style.css?v=20260829b">
 </head>
 <body class="access-locked">
 <div class="ambient a"></div>
@@ -26,7 +26,7 @@
       </div>
       <small id="accessError" role="status"></small>
     </form>
-    <footer>本地访问 · 不会上传你的项目库 · <b class="gate-version">v2026.08.28.5</b></footer>
+    <footer>本地访问 · 不会上传你的项目库 · <b class="gate-version">v2026.08.28.6</b></footer>
   </div>
 </section>
 
@@ -37,15 +37,16 @@
       <span class="mark" aria-hidden="true">
         <img src="starlogo.png" alt="" width="22" height="22">
       </span>
-      <span><strong>StarRadar</strong><small>星探 · 近期热门项目 <b class="app-version">v2026.08.28.5</b></small></span>
+      <span><strong>航标 <em>Beacon</em></strong><small>开源项目发现 · 近期热门项目 <b class="app-version">v2026.08.28.6</b></small></span>
     </a>
     <div class="actions">
-      <a class="gh-repo" href="https://github.com/2BingLing/StarRadar" target="_blank" rel="noopener" title="StarRadar 仓库">
+      <a class="gh-repo" href="https://github.com/2BingLing/StarRadar" target="_blank" rel="noopener" title="航标 Beacon 源码仓库">
         <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15" aria-hidden="true"><path d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.8 9.7.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 4-1.4 6.8-5.2 6.8-9.7C22 6.6 17.5 2 12 2z"/></svg>
-        <span>StarRadar</span>
+        <span>航标 Beacon</span>
       </a>
       <button class="icon" id="search" title="搜索 GitHub 项目">⌗</button>
       <button class="icon" id="library" title="我的项目库">▣</button>
+      <a class="icon starred-library-link" href="stars.html" title="打开我的 GitHub 星标库" aria-label="打开我的 GitHub 星标库">★</a>
       <button class="icon" id="ghConn" title="连接 GitHub，解锁一键加星 / Fork"></button>
       <button class="profile" id="profile"><span>林</span><em>我的雷达</em>⌄</button>
     </div>
@@ -428,7 +429,7 @@
       <button class="search-mode" data-search-mode="library" role="tab">我的项目库</button>
       <button class="search-mode" data-search-mode="starred" role="tab">我的 GitHub 星标</button>
     </div>
-    <p class="idea-hint" id="ideaHint" hidden>说说你想做或想学什么。StarRadar 会实时搜索 GitHub；收藏只存本机，不会点 Star。</p>
+    <p class="idea-hint" id="ideaHint" hidden>说说你想做或想学什么。航标会实时搜索 GitHub；收藏只存本机，不会点 Star。</p>
     <div class="search-hist" id="searchHist" hidden></div>
     <div class="idea-query-row">
     <div class="search-bar">
@@ -615,7 +616,7 @@
   };
 </script>
 <script src="js/access.js?v=20260825g"></script>
-<script src="js/app.js?v=20260826h"></script>
+<script src="js/app.js?v=20260829c"></script>
 <script src="js/github.js?v=20260825g"></script>
 <script src="js/llm.js?v=20260825g"></script>
 </body>

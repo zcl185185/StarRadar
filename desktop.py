@@ -53,7 +53,7 @@ def main() -> None:
         logging.warning("8970 端口已被占用，桌面版改用端口 %s", port)
     try:
         webview.create_window(
-            "StarRadar · 星探",
+            "航标 Beacon · 开源项目发现",
             f"http://127.0.0.1:{port}/",
             width=1440,
             height=920,

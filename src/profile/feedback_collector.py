@@ -101,6 +101,15 @@ CREATE TABLE IF NOT EXISTS saved_projects (
     saved_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS idx_saved_projects_saved_at ON saved_projects(saved_at DESC);
+
+CREATE TABLE IF NOT EXISTS starred_project_metadata (
+    full_name TEXT PRIMARY KEY,
+    tags TEXT NOT NULL DEFAULT '[]',
+    note TEXT NOT NULL DEFAULT '',
+    favorite INTEGER NOT NULL DEFAULT 0,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS idx_starred_metadata_favorite ON starred_project_metadata(favorite DESC, updated_at DESC);
 """
 
 
@@ -251,6 +260,61 @@ def delete_saved_project(full_name: str) -> None:
     """从本机项目库移除项目；不会影响 GitHub Star 或远程仓库。"""
     with _connect() as conn:
         conn.execute("DELETE FROM saved_projects WHERE full_name=?", (full_name,))
+
+
+# ===== GitHub 星标管理（只存本机，不改 GitHub 原始星标） =====
+
+def list_starred_metadata() -> dict[str, dict[str, Any]]:
+    """Return locally managed tags, notes, and favorites keyed by repository."""
+    with _connect() as conn:
+        rows = conn.execute(
+            "SELECT full_name,tags,note,favorite,updated_at FROM starred_project_metadata"
+        ).fetchall()
+    items: dict[str, dict[str, Any]] = {}
+    for full_name, tags, note, favorite, updated_at in rows:
+        try:
+            parsed_tags = json.loads(tags or "[]")
+        except json.JSONDecodeError:
+            parsed_tags = []
+        if not isinstance(parsed_tags, list):
+            parsed_tags = []
+        items[str(full_name)] = {
+            "tags": [str(tag)[:32] for tag in parsed_tags if str(tag).strip()][:12],
+            "note": str(note or "")[:1000],
+            "favorite": bool(favorite),
+            "updated_at": str(updated_at or ""),
+        }
+    return items
+
+
+def save_starred_metadata(
+    full_name: str, *, tags: list[str] | None = None, note: str = "", favorite: bool = False,
+) -> dict[str, Any]:
+    """Upsert local metadata for a GitHub-starred repository.
+
+    The repository itself stays on GitHub. This is deliberately a local-only
+    layer so a browser login never has to grant more than normal star access.
+    """
+    name = str(full_name or "").strip()
+    if not name or "/" not in name or len(name) > 256:
+        raise ValueError("仓库名称无效")
+    clean_tags: list[str] = []
+    for tag in tags or []:
+        cleaned = str(tag or "").strip()[:32]
+        if cleaned and cleaned not in clean_tags:
+            clean_tags.append(cleaned)
+        if len(clean_tags) >= 12:
+            break
+    clean_note = str(note or "").strip()[:1000]
+    with _connect() as conn:
+        conn.execute(
+            "INSERT INTO starred_project_metadata (full_name,tags,note,favorite,updated_at) "
+            "VALUES (?,?,?,?,CURRENT_TIMESTAMP) "
+            "ON CONFLICT(full_name) DO UPDATE SET tags=excluded.tags,note=excluded.note, "
+            "favorite=excluded.favorite,updated_at=CURRENT_TIMESTAMP",
+            (name, json.dumps(clean_tags, ensure_ascii=False), clean_note, int(bool(favorite))),
+        )
+    return {"tags": clean_tags, "note": clean_note, "favorite": bool(favorite)}
 
 
 # ===== 问卷档案（前端上报，供冷启动画像） =====

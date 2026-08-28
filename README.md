@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="static/readme/hero.svg" width="100%" alt="StarRadar 星探 · 看见下一颗明星 · GitHub 潜力项目发现雷达">
+  <img src="static/readme/hero.svg" width="100%" alt="航标 Beacon · 在开源海洋里，找到值得追随的方向">
 </p>
 
 <p align="center">
@@ -19,9 +19,9 @@
 
 ## 这是什么
 
-**一句话描述你想做的东西，StarRadar 在 GitHub 全库里找出：能直接用的、值得 Fork 二开的、仅值得参考的——每个结论都附带 README 证据和理由，不让你重复造轮子。**
+**一句话描述你想做的东西，航标 Beacon 在 GitHub 全库里找出：能直接用的、值得 Fork 二开的、仅值得参考的——每个结论都附带 README 证据和理由，不让你重复造轮子。**
 
-| 你平时的做法 | 用 StarRadar 之后 |
+| 你平时的做法 | 用 航标 Beacon 之后 |
 | --- | --- |
 | GitHub 搜索不会用限定符，结果混满课程作业和玩具项目 | 一句中文描述 → 自动规划英文检索词 + 课程/课件噪声过滤 |
 | Trending 只有巨头，中量级好项目根本看不到 | 潜力雷达专挖 50~5000 星的「正在起飞」项目 |

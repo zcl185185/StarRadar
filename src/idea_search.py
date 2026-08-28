@@ -251,7 +251,7 @@ def _recommendation(repo: Repository, query_terms: list[str]) -> tuple[str, str]
     ]).lower()
     keywords = {
         word for term in query_terms for word in re.findall(r"[a-z][a-z0-9+#.-]{1,}", term.lower())
-        if word not in {"ai", "app", "tool", "project"}
+        if word not in {"ai", "app", "tool", "project", "github", "git", "http", "https", "com"}
     }
     hits = sum(1 for word in keywords if word in haystack)
     active = age_days <= 180 and not repo.archived
@@ -384,6 +384,7 @@ def search_ideas(query: str, *, limit: int = 5, filters: dict[str, Any] | None =
         qualifiers.append(f"pushed:>{cutoff}")
     seen: dict[str, Repository] = {}
     github_queries: list[str] = []
+    recall_by_term: dict[str, int] = {}
     for term in terms[:3]:
         query_qualifiers = list(qualifiers)
         if rule:
@@ -391,6 +392,37 @@ def search_ideas(query: str, *, limit: int = 5, filters: dict[str, Any] | None =
         github_query = " ".join([term] + query_qualifiers)
         github_queries.append(github_query)
         result = client.search_repositories(github_query, sort=None, order="desc", per_page=15, use_cache=True)
+        recall_by_term[term] = len(result.items)
+        for repo in result.items:
+            if include_archived or not repo.archived:
+                seen.setdefault(repo.full_name.lower(), repo)
+
+    # 召回不足时的一轮同义扩展：意图同义词表 + LLM expanded_terms 兜底，最多补 2 条查询。
+    _INTENT_SYNONYMS = {
+        "information gathering": ["OSINT tools", "reconnaissance enumeration"],
+        "osint": ["reconnaissance framework"],
+        "note taking": ["markdown notes app"],
+        "knowledge base": ["personal wiki"],
+        "rss reader": ["feed aggregator"],
+        "password manager": ["secrets vault"],
+    }
+    weak_terms = [t for t, n in recall_by_term.items() if n < 3][:1]
+    extra_queries: list[str] = []
+    for weak in weak_terms:
+        weak_lower = weak.lower()
+        synonyms: list[str] = []
+        for key, values in _INTENT_SYNONYMS.items():
+            if key in weak_lower:
+                synonyms.extend(values)
+                break
+        if not synonyms:
+            synonyms = [str(t) for t in plan.get("core_queries", []) if str(t).lower() != weak_lower][:2]
+        for syn in synonyms[:2]:
+            if syn.lower() not in {t.lower() for t in terms[:3]}:
+                extra_queries.append(" ".join([syn] + qualifiers))
+    for extra in extra_queries[:2]:
+        github_queries.append(extra)
+        result = client.search_repositories(extra, sort=None, order="desc", per_page=15, use_cache=True)
         for repo in result.items:
             if include_archived or not repo.archived:
                 seen.setdefault(repo.full_name.lower(), repo)
@@ -406,16 +438,26 @@ def search_ideas(query: str, *, limit: int = 5, filters: dict[str, Any] | None =
             text = " ".join([repo.full_name, repo.description or "", " ".join(repo.topics), repo.language or ""]).lower()
             return any(word in text for word in rule["include"])
         items = [repo for repo in items if is_relevant(repo)]
-    # 排序优先级：查询词命中数 > 检索计划匹配分 > 最近活跃 > Star 数。
-    # 元组按字典序比较：命中始终压过一切；Star 仅在同分且同活跃度时起作用。
-    def rank(repo: Repository) -> tuple[int, int, float, int]:
+    # 排序优先级：意图相关度（多词短语全命中）> 查询词命中数 > 检索计划匹配分 > 最近活跃 > Star 数。
+    # 单词命中很容易误伤（"gathering" 会中 gradle-profiler），只有多词短语整体命中才说明描述真的在说这件事。
+    intent_phrases = [
+        t.lower().strip() for t in terms
+        if len(t.split()) >= 2 and not t.startswith("\u4e00") and not re.search(r"[\u4e00-\u9fff]", t)
+    ]
+    zh_intents = [t.strip() for t in terms if re.search(r"[\u4e00-\u9fff]", t)]
+
+    def rank(repo: Repository) -> tuple[int, int, int, float, int]:
         text = " ".join([repo.full_name, repo.description or "", " ".join(repo.topics)]).lower()
         matched = sum(
             1 for term in terms
             for word in re.findall(r"[a-z][a-z0-9+#.-]{1,}", term.lower())
-            if word not in {"ai", "app", "tool", "project"} and word in text
+            if word not in {"ai", "app", "tool", "project", "github", "git", "http", "https", "com"} and word in text
         )
-        return (matched, _plan_score(repo, plan), repo.pushed_at.timestamp(), repo.stars)
+        # 意图短语全命中（如 "information gathering" 完整出现）给强信号，权重高于零散单词。
+        phrase_hits = sum(1 for phrase in intent_phrases if phrase in text)
+        # 中文意图词直接命中 topics/description（如「信息收集」出现在中文简介里）也给强信号。
+        zh_hits = sum(1 for phrase in zh_intents if phrase and phrase in text)
+        return (phrase_hits * 3 + zh_hits * 3, matched, _plan_score(repo, plan), repo.pushed_at.timestamp(), repo.stars)
     items.sort(key=rank, reverse=True)
 
     # 第一层 RAG：只为初排靠前的候选抓取 README，避免一次搜索耗尽 GitHub 配额。
@@ -445,7 +487,7 @@ def search_ideas(query: str, *, limit: int = 5, filters: dict[str, Any] | None =
             evidence_degraded = evidence_degraded or isinstance(exc, RateLimitError)
             logger.info("README evidence unavailable for %s: %s", repo.full_name, exc)
             evidence_by_repo[repo.full_name.lower()] = []
-    def evidence_rank(repo: Repository) -> tuple[int, int, int, float, int]:
+    def evidence_rank(repo: Repository) -> tuple[int, int, int, int, float, int]:
         evidence_score = sum(int(item.get("score") or 0) for item in evidence_by_repo.get(repo.full_name.lower(), []))
         return (evidence_score,) + rank(repo)
     items.sort(key=evidence_rank, reverse=True)
@@ -459,7 +501,7 @@ def search_ideas(query: str, *, limit: int = 5, filters: dict[str, Any] | None =
         matched = sorted({
             w for t in terms
             for w in re.findall(r"[a-z][a-z0-9+#.-]{1,}", t.lower())
-            if len(w) > 2 and w in text
+            if len(w) > 2 and w not in {"github", "git", "http", "https", "com"} and w in text
         })[:6]
         payload.append({
             "full_name": repo.full_name,

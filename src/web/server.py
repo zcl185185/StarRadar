@@ -12,6 +12,7 @@ API：
     POST /api/idea-search → 自然语言实时搜索 GitHub 仓库（仅本地服务）
     GET  /api/github/starred → 已登录账户的 GitHub 星标列表（仅本地服务）
     GET/POST /api/library → 我的项目库读取 / 收藏（仅存本机，不影响 GitHub Star）
+    GET/POST /api/starred-meta → 星标标签、笔记、收藏状态（仅存本机）
     GET  /api/personal/history → 每日发现归档目录 / 单次快照（仅本机）
     GET  /api/trending → GitHub Trending 今日/本周/本月榜（读取公开趋势页）
 
@@ -44,10 +45,12 @@ from src.trending import translate_descriptions
 from src.profile.feedback_collector import (
     has_interaction,
     list_saved_projects,
+    list_starred_metadata,
     load_latest_survey,
     log_project,
     record_interaction,
     save_project_to_library,
+    save_starred_metadata,
     save_survey,
     summarize_history,
 )
@@ -375,6 +378,8 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             self._library_list()
         elif path == "/api/github/starred":
             self._github_starred(query)
+        elif path == "/api/starred-meta":
+            self._starred_metadata_list()
         else:
             self._serve_static(path)
 
@@ -418,6 +423,9 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             return
         if path == "/api/library":
             self._library_save()
+            return
+        if path == "/api/starred-meta":
+            self._starred_metadata_save()
             return
         if path != "/api/events":
             self._bad("not found")
@@ -656,6 +664,36 @@ class StarRadarHandler(BaseHTTPRequestHandler):
         except Exception as exc:  # noqa: BLE001
             logger.warning("library list failed: %s", exc)
             self._json(500, {"ok": False, "error": "读取项目库失败"})
+
+    def _starred_metadata_list(self) -> None:
+        try:
+            self._json(200, {"ok": True, "items": list_starred_metadata()})
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("starred metadata list failed: %s", exc)
+            self._json(500, {"ok": False, "error": "读取星标管理数据失败"})
+
+    def _starred_metadata_save(self) -> None:
+        payload = self._read_json_body()
+        if payload is None:
+            return
+        full_name = str(payload.get("full_name") or "")
+        raw_tags = payload.get("tags") or []
+        if not isinstance(raw_tags, list):
+            self._bad("tags must be a list")
+            return
+        try:
+            item = save_starred_metadata(
+                full_name,
+                tags=[str(tag) for tag in raw_tags],
+                note=str(payload.get("note") or ""),
+                favorite=bool(payload.get("favorite")),
+            )
+            self._json(200, {"ok": True, "item": item})
+        except ValueError as exc:
+            self._bad(str(exc))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("starred metadata save failed: %s", exc)
+            self._json(500, {"ok": False, "error": "保存星标管理数据失败"})
 
     def _github_starred(self, query: dict[str, list[str]]) -> None:
         """Return a paginated view of GitHub stars without exposing the token."""

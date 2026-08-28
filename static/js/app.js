@@ -1091,14 +1091,117 @@
       .catch(function (error) { searchResultsEl.innerHTML = '<div class="search-empty"><p>' + escapeHtml(error.message || "读取项目库失败") + '</p></div>'; });
   }
 
-  function githubStarredCard(item) {
+  // ===== 我的 GitHub 星标 · 本地管理层 =====
+  // GitHub 仍然是 Star 的唯一来源；标签、笔记、收藏只是本机的整理信息。
+  var starredManagerFilter = "all";
+
+  function starredMetaFor(meta, fullName) {
+    var item = (meta && meta[fullName]) || {};
+    return {
+      tags: Array.isArray(item.tags) ? item.tags.slice(0, 12) : [],
+      note: String(item.note || ""),
+      favorite: !!item.favorite
+    };
+  }
+
+  function starredManagerHeader(items, meta) {
+    var favoriteCount = items.filter(function (item) { return starredMetaFor(meta, item.full_name).favorite; }).length;
+    var tags = {};
+    items.forEach(function (item) {
+      starredMetaFor(meta, item.full_name).tags.forEach(function (tag) { tags[tag] = (tags[tag] || 0) + 1; });
+    });
+    var tagButtons = Object.keys(tags).sort().map(function (tag) {
+      var filter = "tag:" + tag;
+      return '<button class="starred-filter' + (starredManagerFilter === filter ? ' active' : '') + '" data-starred-filter="' + escapeHtml(filter) + '">' + escapeHtml(tag) + ' <b>' + tags[tag] + '</b></button>';
+    }).join("");
+    return '<section class="starred-manager-head">' +
+      '<div><small>STAR LIBRARY · LOCAL FIRST</small><strong>整理你的 GitHub 星标</strong><p>标签、笔记与收藏只保存在本机，不会改动 GitHub。</p></div>' +
+      '<div class="starred-filters"><button class="starred-filter' + (starredManagerFilter === "all" ? ' active' : '') + '" data-starred-filter="all">全部 <b>' + items.length + '</b></button>' +
+      '<button class="starred-filter' + (starredManagerFilter === "favorite" ? ' active' : '') + '" data-starred-filter="favorite">★ 收藏 <b>' + favoriteCount + '</b></button>' + tagButtons + '</div>' +
+      '</section>';
+  }
+
+  function githubStarredCard(item, meta) {
+    meta = starredMetaFor(meta, item.full_name);
     var starredAt = item.starred_at ? new Date(item.starred_at).toLocaleDateString() : "时间未知";
     var topics = Array.isArray(item.topics) && item.topics.length ? '<div class="starred-topics">' + item.topics.slice(0, 4).map(function (topic) { return '<span>' + escapeHtml(topic) + '</span>'; }).join("") + '</div>' : '';
-    return '<article class="idea-card starred-card">' +
-      '<div class="idea-top"><a class="idea-title" href="' + escapeHtml(item.html_url) + '" target="_blank" rel="noopener">' + escapeHtml(item.full_name) + ' ↗</a><span class="idea-badge">已加星</span></div>' +
+    var tags = meta.tags.map(function (tag) {
+      return '<button class="starred-local-tag" data-starred-remove-tag="' + escapeHtml(tag) + '" title="移除标签">' + escapeHtml(tag) + ' <i>×</i></button>';
+    }).join("");
+    var note = meta.note ? '<p class="starred-note-preview">' + escapeHtml(meta.note) + '</p>' : '';
+    return '<article class="idea-card starred-card" data-starred-repo="' + escapeHtml(item.full_name) + '">' +
+      '<div class="idea-top"><a class="idea-title" href="' + escapeHtml(item.html_url) + '" target="_blank" rel="noopener">' + escapeHtml(item.full_name) + ' ↗</a><button class="starred-favorite' + (meta.favorite ? ' on' : '') + '" data-starred-favorite title="' + (meta.favorite ? '取消收藏' : '收藏项目') + '">★ ' + (meta.favorite ? '已收藏' : '收藏') + '</button></div>' +
       '<p class="idea-desc">' + escapeHtml(item.description || "暂无项目描述。") + '</p>' +
       '<div class="idea-meta">★ ' + Number(item.stars || 0).toLocaleString() + ' · ' + escapeHtml(item.language || "未标注") + ' · 加星于 ' + escapeHtml(starredAt) + '</div>' + topics +
+      '<div class="starred-local-tags">' + tags + '<div class="starred-tag-add"><input maxlength="32" placeholder="添加标签，例如 AI 工具"><button data-starred-add-tag>添加</button></div></div>' +
+      '<div class="starred-note-area"><button class="starred-note-toggle" data-starred-note-toggle>' + (meta.note ? '编辑笔记' : '添加笔记') + '</button>' + note +
+      '<div class="starred-note-editor" hidden><textarea maxlength="1000" placeholder="为什么收藏它？下一步要做什么？">' + escapeHtml(meta.note) + '</textarea><button data-starred-save-note>保存笔记</button></div></div>' +
       '</article>';
+  }
+
+  function saveStarredMeta(fullName, meta) {
+    return fetch('/api/starred-meta', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ full_name: fullName, tags: meta.tags || [], note: meta.note || '', favorite: !!meta.favorite })
+    }).then(function (response) { return response.json().then(function (body) { return { response: response, body: body }; }); })
+      .then(function (result) {
+        if (!result.response.ok || !result.body.ok) throw new Error(result.body.error || '保存失败');
+        return result.body.item;
+      });
+  }
+
+  function bindStarredManager(items, metadata, targetPage) {
+    function itemFor(button) {
+      var card = button.closest('.starred-card');
+      var fullName = card && card.dataset.starredRepo;
+      return items.filter(function (item) { return item.full_name === fullName; })[0];
+    }
+    function commit(item, next) {
+      if (!item) return;
+      saveStarredMeta(item.full_name, next).then(function () { loadGithubStarred(targetPage); })
+        .catch(function (error) { notify(error.message || '保存失败'); });
+    }
+    Array.prototype.forEach.call(searchResultsEl.querySelectorAll('[data-starred-filter]'), function (button) {
+      button.addEventListener('click', function () { starredManagerFilter = button.dataset.starredFilter || 'all'; loadGithubStarred(targetPage); });
+    });
+    Array.prototype.forEach.call(searchResultsEl.querySelectorAll('[data-starred-favorite]'), function (button) {
+      button.addEventListener('click', function () {
+        var item = itemFor(button); if (!item) return;
+        var meta = starredMetaFor(metadata, item.full_name); meta.favorite = !meta.favorite; commit(item, meta);
+      });
+    });
+    Array.prototype.forEach.call(searchResultsEl.querySelectorAll('[data-starred-add-tag]'), function (button) {
+      button.addEventListener('click', function () {
+        var item = itemFor(button); var input = button.previousElementSibling;
+        var tag = String((input && input.value) || '').trim();
+        if (!item || !tag) { notify('先输入一个标签'); return; }
+        var meta = starredMetaFor(metadata, item.full_name);
+        if (meta.tags.indexOf(tag) === -1) meta.tags.push(tag);
+        commit(item, meta);
+      });
+    });
+    Array.prototype.forEach.call(searchResultsEl.querySelectorAll('[data-starred-remove-tag]'), function (button) {
+      button.addEventListener('click', function () {
+        var item = itemFor(button); if (!item) return;
+        var meta = starredMetaFor(metadata, item.full_name);
+        meta.tags = meta.tags.filter(function (tag) { return tag !== button.dataset.starredRemoveTag; });
+        commit(item, meta);
+      });
+    });
+    Array.prototype.forEach.call(searchResultsEl.querySelectorAll('[data-starred-note-toggle]'), function (button) {
+      button.addEventListener('click', function () {
+        var editor = button.parentNode.querySelector('.starred-note-editor');
+        if (editor) editor.hidden = !editor.hidden;
+      });
+    });
+    Array.prototype.forEach.call(searchResultsEl.querySelectorAll('[data-starred-save-note]'), function (button) {
+      button.addEventListener('click', function () {
+        var item = itemFor(button); if (!item) return;
+        var meta = starredMetaFor(metadata, item.full_name);
+        var area = button.parentNode.querySelector('textarea'); meta.note = String((area && area.value) || '');
+        commit(item, meta);
+      });
+    });
   }
 
   function loadGithubStarred(page) {
@@ -1111,11 +1214,16 @@
       })
       : fetch('/api/github/starred?page=' + targetPage + '&per_page=30', { cache: 'no-store' })
         .then(function (response) { return response.json().then(function (body) { return { response: response, body: body }; }); });
-    request
-      .then(function (result) {
+    Promise.all([request, fetch('/api/starred-meta', { cache: 'no-store' }).then(function (response) {
+      return response.json().then(function (body) { return { response: response, body: body }; });
+    }).catch(function () { return { response: { ok: true }, body: { ok: true, items: {} } }; })])
+      .then(function (results) {
+        var result = results[0];
+        var metadataResult = results[1];
         if (!result.response.ok || !result.body.ok) throw new Error(result.body.error || '读取 GitHub 星标失败');
+        var metadata = metadataResult.body && metadataResult.body.ok ? metadataResult.body.items || {} : {};
         var query = searchInput.value.trim().toLowerCase();
-        var items = (result.body.items || []).map(function (item) {
+        var allItems = (result.body.items || []).map(function (item) {
           // GitHub's star media type wraps repository metadata in `repo`.
           var repo = item && item.repo && typeof item.repo === 'object' ? item.repo : item;
           return {
@@ -1125,16 +1233,24 @@
             language: repo.language || '未标注', topics: repo.topics || [],
             starred_at: item.starred_at || repo.starred_at || '', updated_at: repo.updated_at || repo.pushed_at || '',
           };
-        }).filter(function (item) {
+        });
+        var items = allItems.filter(function (item) {
           return !query || (item.full_name + ' ' + item.description + ' ' + (item.topics || []).join(' ')).toLowerCase().indexOf(query) !== -1;
+        }).filter(function (item) {
+          var meta = starredMetaFor(metadata, item.full_name);
+          if (starredManagerFilter === 'favorite') return meta.favorite;
+          if (starredManagerFilter.indexOf('tag:') === 0) return meta.tags.indexOf(starredManagerFilter.slice(4)) !== -1;
+          return true;
         });
         if (!items.length) {
-          searchResultsEl.innerHTML = '<div class="search-empty"><p>' + (query ? '本页没有匹配的星标项目。' : '你还没有 GitHub 星标项目。') + '</p></div>';
+          searchResultsEl.innerHTML = starredManagerHeader(allItems, metadata) + '<div class="search-empty"><p>' + (query || starredManagerFilter !== 'all' ? '本页没有符合条件的星标项目。' : '你还没有 GitHub 星标项目。') + '</p></div>';
+          bindStarredManager(allItems, metadata, targetPage);
           return;
         }
         var previous = targetPage > 1 ? '<button class="starred-page" data-page="' + (targetPage - 1) + '">上一页</button>' : '';
         var next = result.body.has_next ? '<button class="starred-page" data-page="' + (targetPage + 1) + '">下一页</button>' : '';
-        searchResultsEl.innerHTML = '<p class="idea-hint">你的 GitHub 星标 · 最新加星优先 · 第 ' + targetPage + ' 页</p>' + items.map(githubStarredCard).join('') + '<div class="starred-pages">' + previous + next + '</div>';
+        searchResultsEl.innerHTML = starredManagerHeader(allItems, metadata) + '<p class="idea-hint">GitHub 星标 · 最新加星优先 · 第 ' + targetPage + ' 页</p>' + items.map(function (item) { return githubStarredCard(item, metadata); }).join('') + '<div class="starred-pages">' + previous + next + '</div>';
+        bindStarredManager(allItems, metadata, targetPage);
         Array.prototype.forEach.call(searchResultsEl.querySelectorAll('.starred-page'), function (button) {
           button.addEventListener('click', function () { loadGithubStarred(Number(button.dataset.page)); });
         });
@@ -1460,7 +1576,7 @@
         return d.label + " ×" + d.count + (d.delta > 0 ? " +" + d.delta : "");
       }).join(", ");
       window.LLM.chat([
-        { role: "system", content: "你是 StarRadar 每周趋势的个性化解读助手。结合用户兴趣画像与本周总体数据，写「为你解读」。输出 JSON。画像：" +
+        { role: "system", content: "你是航标 Beacon 的每周趋势个性化解读助手。结合用户兴趣画像与本周总体数据，写「为你解读」。输出 JSON。画像：" +
           (img && img.summary ? img.summary : "无") },
         { role: "user", content: "本周热度 TOP：\n" + topBrief + "\n热门领域：" + domBrief +
           "\n\n输出 JSON：{\"title\":\"本周为你 · 一句话标题\",\"points\":[\"3 条与用户相关且有信息量的要点，每条≤50字\"]}" },
@@ -2157,7 +2273,7 @@
       '<div class="t-report">' +
         '<header class="t-header">' +
           "<div>" +
-            '<div class="t-eyebrow">StarRadar · Weekly Signal</div>' +
+            '<div class="t-eyebrow">Beacon · Weekly Signal</div>' +
             '<h2 class="t-title">每周趋势<span class="week">' + escapeHtml(rep.week) + "</span></h2>" +
             '<div class="t-sub">' + escapeHtml(rep.range) + " &nbsp;·&nbsp; 生成于 " +
               escapeHtml((rep.generated_at || "").replace("T", " ").slice(5, 16)) + " UTC</div>" +
@@ -2183,7 +2299,7 @@
             comeCard +
           "</div>" +
         "</section>" +
-        '<p class="t-footnote">数据快照 <b>' + escapeHtml(rep.week) + "</b> · 每周一 08:00 自动更新 · <b>StarRadar</b> 星探 · 近期热门项目</p>" +
+        '<p class="t-footnote">数据快照 <b>' + escapeHtml(rep.week) + "</b> · 每周一 08:00 自动更新 · <b>航标 Beacon</b> · 近期热门项目</p>" +
       "</div>";
     renderPersonalInsight(rep);
   }
@@ -2261,7 +2377,7 @@
       '<div><span>' + period + '增长最高</span><b class="repo">' + escapeHtml(gainChampion ? gainChampion.full_name : "—") + "</b></div>" +
     "</section>";
     cardsEl.innerHTML = '<div class="t-report gh-trending-report">' +
-      '<header class="t-header"><div><div class="t-eyebrow">StarRadar · GitHub Trending</div>' +
+      '<header class="t-header"><div><div class="t-eyebrow">Beacon · GitHub Trending</div>' +
       '<h2 class="t-title">热门榜单<span class="week">GitHub ' + escapeHtml(period) + '</span></h2>' +
       '<div class="t-sub">直接读取 GitHub Trending 公开榜单 · ' + escapeHtml(body.cached ? "本机缓存（10 分钟）" : "刚刚更新") + '</div></div>' +
       '<a class="gh-source" href="' + escapeHtml(body.source_url || "https://github.com/trending") + '" target="_blank" rel="noopener">在 GitHub 查看 ↗</a></header>' +
@@ -3245,6 +3361,20 @@
 
   function bootPersonalRadar() {
     init();
+    // 从星标库带来的项目会直接进入现有「想法搜索」链路，复用 README 证据
+    // 核对与调研结论，而不是另起一套项目分析页。
+    var libraryRepo = new URLSearchParams(window.location.search).get("libraryRepo");
+    if (libraryRepo && /^[\w.-]+\/[\w.-]+$/.test(libraryRepo)) {
+      setTimeout(function () {
+        openSearch("idea");
+        searchInput.value = libraryRepo;
+        document.querySelector("#searchClear").hidden = false;
+        runIdeaSearch();
+        var remainingParams = new URLSearchParams(window.location.search);
+        remainingParams.delete("libraryRepo");
+        history.replaceState(null, "", window.location.pathname + (remainingParams.toString() ? "?" + remainingParams : ""));
+      }, 450);
+    }
     // 冷启动问卷：首次进入时自动弹出；先尝试从本地后端恢复档案。
     var restoreP = FORCE_FRESH ? Promise.resolve() : restoreSurveyFromBackend();
     setTimeout(function () {

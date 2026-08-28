@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="static/readme/hero-en.svg" width="100%" alt="StarRadar · See the next rising star · A radar for discovering rising GitHub projects">
+  <img src="static/readme/hero-en.svg" width="100%" alt="Beacon · Find a direction worth following in open source">
 </p>
 
 <p align="center">
@@ -19,9 +19,9 @@
 
 ## What is this
 
-**Describe what you want to build in one sentence. StarRadar searches all of GitHub and tells you which projects you can use directly, which are worth forking and extending, and which are reference-only — every verdict backed by README evidence and reasons, so you never reinvent the wheel.**
+**Describe what you want to build in one sentence. Beacon searches all of GitHub and tells you which projects you can use directly, which are worth forking and extending, and which are reference-only — every verdict backed by README evidence and reasons, so you never reinvent the wheel.**
 
-| What you do today | With StarRadar |
+| What you do today | With Beacon |
 | --- | --- |
 | GitHub search qualifiers are hard; results drown in course assignments and toy projects | One Chinese/English sentence → auto-planned English queries + course/homework noise filtering |
 | Trending only shows giants; great mid-tier projects stay invisible | The potential radar hunts 50–5000 star projects that are taking off |

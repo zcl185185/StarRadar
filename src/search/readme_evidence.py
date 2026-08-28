@@ -27,7 +27,7 @@ _TRANSLATION_TIMEOUT = 20
 
 _HEADING_RE = re.compile(r"(?m)^#{1,4}\s+(.+?)\s*#*\s*$")
 _WORD_RE = re.compile(r"[a-z][a-z0-9+#.-]{1,}")
-_IGNORED_WORDS = {"ai", "app", "tool", "project", "software", "open", "source"}
+_IGNORED_WORDS = {"ai", "app", "tool", "project", "software", "open", "source", "github", "git", "http", "https", "com"}
 
 # 常见「安装前依赖」标题：其内容是元任务而不是项目功能，禁止当作 features。
 _META_HEADINGS = ("installation", "getting started", "quick start", "usage", "deploy",
@@ -144,7 +144,7 @@ def _is_meta_heading(heading: str) -> bool:
 
 
 def _looks_like_description(text: str) -> bool:
-    """简介形态：一段完整陈述句，不含代码块/表格/语言清单/徽章残骸，长度适中。"""
+    """简介形态：一段完整陈述句，不含代码块/表格/语言清单/字典JSON/日志行。"""
     if len(text) > 900 or "```" in text:
         return False
     clean = _strip_markup(text)
@@ -152,6 +152,15 @@ def _looks_like_description(text: str) -> bool:
         return False
     # 拒绝非句子内容：语言清单（大量 "|" 或 "X | Y | Z"）、短词堆叠、大写缩写连发
     if clean.count("|") >= 2:
+        return False
+    # 拒绝字典/JSON 片段：{ 'key': ... } 或 {"key": ...} 或 key: 'value' 连缀
+    if re.search(r"[\{\[]\s*['\"]?\w+['\"]?\s*:", clean) or re.search(r"['\"]\s*:\s*['\"]http", clean):
+        return False
+    # 拒绝更新日志行：以日期开头
+    if re.match(r"^\d{4}-\d{1,2}-\d{1,2}", clean.strip()):
+        return False
+    # 拒绝纯链接堆叠行
+    if clean.lower().count("http") >= 2:
         return False
     words = clean.split()
     if len(words) >= 4 and sum(1 for w in words if len(w) <= 2) / len(words) > 0.5:
@@ -161,7 +170,7 @@ def _looks_like_description(text: str) -> bool:
 
 
 def _looks_like_feature(text: str) -> bool:
-    """功能条目形态：描述性短语，排除命令、分支名、配置片段。"""
+    """功能条目形态：描述性短语，排除命令、分支名、配置片段、字典JSON、更新日志。"""
     stripped = text.strip()
     if not stripped or len(stripped) < 8:
         return False
@@ -170,6 +179,12 @@ def _looks_like_feature(text: str) -> bool:
     if lowered.startswith(("git ", "pip ", "npm ", "npx ", "yarn ", "pnpm ", "docker ", "cargo ", "go ", "make ", "python ", "brew ", "sudo ", "cd ", "-")):
         return False
     if "git@" in stripped or "clone" == stripped.split(" ")[0].lower():
+        return False
+    # 字典/JSON 片段：以 { ' 或 {" 开头，或内含 ': ' 键值形态
+    if stripped.startswith(("{", "[")) or re.search(r"['\"]\w+['\"]\s*:\s*['\"]", stripped):
+        return False
+    # 更新日志行：日期开头（2021-04-12: ...）
+    if re.match(r"^\d{4}-\d{1,2}-\d{1,2}\s*[:：]", stripped):
         return False
     # 分支名 / 配置键形态：单词或 "key: value" 且无动词短语
     if " " not in stripped and len(stripped) < 20:
@@ -529,7 +544,8 @@ def build_overview(
             if cleaned:
                 ranked.append((score, heading, cleaned, matched))
     ranked.sort(key=lambda item: item[0], reverse=True)
-    fallback = ranked[:1]
+    # 降级片段同样要过简介形态检查：字典行/日志行/语言清单不配当「这是什么」。
+    fallback = [item for item in ranked if _looks_like_description(item[2])][:1]
     return {
         "kind": "overview",
         "what": fallback[0][2] if fallback else None,
