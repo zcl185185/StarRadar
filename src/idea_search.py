@@ -470,6 +470,7 @@ def search_ideas(query: str, *, limit: int = 5, filters: dict[str, Any] | None =
             "language": repo.language or "未标注",
             "license": repo.license or "未标注",
             "topics": repo.topics[:8],
+            "created_at": repo.created_at.date().isoformat(),
             "pushed_at": repo.pushed_at.date().isoformat(),
             "recommendation": label,
             "recommendation_reason": reason,

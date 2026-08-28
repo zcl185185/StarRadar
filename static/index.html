@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>StarRadar · 星探</title>
 <link rel="icon" type="image/png" href="favicon.png">
-<link rel="stylesheet" href="css/style.css?v=20260826f">
+<link rel="stylesheet" href="css/style.css?v=20260828c">
 </head>
 <body class="access-locked">
 <div class="ambient a"></div>
@@ -26,7 +26,7 @@
       </div>
       <small id="accessError" role="status"></small>
     </form>
-    <footer>本地访问 · 不会上传你的项目库 · <b class="gate-version">v2026.08.26.6</b></footer>
+    <footer>本地访问 · 不会上传你的项目库 · <b class="gate-version">v2026.08.28.5</b></footer>
   </div>
 </section>
 
@@ -37,7 +37,7 @@
       <span class="mark" aria-hidden="true">
         <img src="starlogo.png" alt="" width="22" height="22">
       </span>
-      <span><strong>StarRadar</strong><small>星探 · 近期热门项目 <b class="app-version">v2026.08.26.6</b></small></span>
+      <span><strong>StarRadar</strong><small>星探 · 近期热门项目 <b class="app-version">v2026.08.28.5</b></small></span>
     </a>
     <div class="actions">
       <a class="gh-repo" href="https://github.com/2BingLing/StarRadar" target="_blank" rel="noopener" title="StarRadar 仓库">
@@ -71,21 +71,11 @@
         <span class="live">正在扫描</span>
       </div>
       <div class="radar" aria-hidden="true">
+        <i class="ping p1"></i><i class="ping p2"></i>
         <i class="star s1"></i><i class="star s2"></i><i class="star s3"></i><i class="star s4"></i>
       </div>
-      <button class="radar-launch" id="radarLaunch" type="button" aria-expanded="false" aria-controls="radarQuery">
-        <span class="radar-launch-icon" aria-hidden="true">⌗</span>
-        <span>点击探索</span>
-        <small>用一句话搜 GitHub</small>
-      </button>
-      <form class="radar-query" id="radarQuery" role="search">
-        <label for="radarQueryInput">这次，想发现什么？</label>
-        <div>
-          <input id="radarQueryInput" type="search" maxlength="500" autocomplete="off" placeholder="例如：能整理 AI 新闻的个人工具">
-          <button type="submit" aria-label="开始搜索">↗</button>
-        </div>
-        <small>搜索 GitHub 全量项目 · Esc 收起</small>
-      </form>
+      <button class="radar-hit" id="radarLaunch" type="button" aria-label="进入搜索：一句话，搜 GitHub 全量项目"></button>
+      <span class="radar-hint" aria-hidden="true">一句话，搜全库 →</span>
       <div class="radar-foot">
         <span>扫描范围 <strong>GitHub 全量</strong></span>
         <span>更新于 <strong id="radarUpd">—</strong></span>

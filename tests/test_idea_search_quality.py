@@ -93,7 +93,9 @@ def _fake_repo(name="octocat/project"):
         description="A test project for rss readers",
         html_url=f"https://github.com/{name}",
         stars=100, forks=10, language="Python", license="MIT",
-        topics=["rss"], pushed_at=datetime.now(timezone.utc), archived=False,
+        topics=["rss"],
+        created_at=datetime.now(timezone.utc),
+        pushed_at=datetime.now(timezone.utc), archived=False,
     )
 
 

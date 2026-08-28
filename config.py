@@ -69,7 +69,7 @@ def _resolve_access_code() -> str:
 
 # 打包版会把前端复制到 LocalAppData；此版本号变更时仅同步应用壳资源，
 # 不触碰 static/data 内的用户雷达数据和本地快照。
-STATIC_ASSET_VERSION = "2026.08.28.1"
+STATIC_ASSET_VERSION = "2026.08.28.5"
 _STATIC_ASSET_ENTRIES = ("index.html", "css", "js", "favicon.png", "starlogo.png", "readme")
 
 

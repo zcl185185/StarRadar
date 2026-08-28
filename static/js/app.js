@@ -912,21 +912,69 @@
   function ideaCard(item, index, inLibrary) {
     var tag = item.recommendation || "值得研究";
     var evidence = Array.isArray(item.evidence) ? item.evidence : [];
-    var evidenceHtml = evidence.length ? '<details class="idea-evidence"><summary><span>关键 README 证据</span><em>' + evidence.length + ' 条</em></summary>' + evidence.slice(0, 2).map(function (entry) {
-      var terms = Array.isArray(entry.matched_terms) && entry.matched_terms.length ? '<small>命中：' + entry.matched_terms.map(escapeHtml).join(' · ') + '</small>' : '';
-      return '<article><div><b>' + escapeHtml(entry.section || 'README') + '</b><a href="' + escapeHtml(entry.source_url || item.html_url) + '" target="_blank" rel="noopener">原文 ↗</a></div><p>' + escapeHtml(entry.text || '') + '</p>' + terms + '</article>';
-    }).join('') + '</details>' : '<p class="idea-evidence-missing">证据不足：当前仅依据 GitHub 元数据。</p>';
+    var first = evidence.length ? evidence[0] : null;
+    var isOverview = !!(first && first.section === "overview");
+    // ===== 信息带：star / 发布 / 更新 / 语言 / 许可证（一眼看清项目基本面）=====
+    var starCount = Number(item.stars) || 0;
+    var starText = starCount >= 1000 ? (starCount / 1000).toFixed(starCount >= 10000 ? 0 : 1) + "k" : String(starCount);
+    var infoBits = [];
+    infoBits.push('<span class="ib ib-star">★ ' + starText + '</span>');
+    if (item.created_at) {
+      infoBits.push('<span class="ib">' + escapeHtml(item.created_at).slice(0, 7) + ' 发布</span>');
+    }
+    if (item.pushed_at) {
+      infoBits.push('<span class="ib">更新于 ' + escapeHtml(item.pushed_at).slice(0, 10) + '</span>');
+    }
+    if (item.language && item.language !== "未标注") {
+      infoBits.push('<span class="ib">' + escapeHtml(item.language) + '</span>');
+    }
+    if (item.license && item.license !== "未标注") {
+      infoBits.push('<span class="ib">' + escapeHtml(item.license) + '</span>');
+    }
+    var infoHtml = '<div class="idea-info">' + infoBits.join('') + '</div>';
+    // ===== 项目速览 =====
+    var evidenceHtml = "";
+    if (isOverview && (first.text || (first.features && first.features.length) || (first.run && first.run.length) || (first.needs && first.needs.length))) {
+      var parts = "";
+      if (first.text) {
+        parts += '<div class="ov-row"><b class="ov-key">这是什么</b><span>' + escapeHtml(first.text) + '</span></div>';
+      }
+      if (first.features && first.features.length) {
+        parts += '<div class="ov-row"><b class="ov-key">核心功能</b><span>' +
+          first.features.map(escapeHtml).join('</span><span class="ov-sep">·</span><span>') + '</span></div>';
+      }
+      if (first.run && first.run.length) {
+        parts += '<div class="ov-row"><b class="ov-key">怎么跑起来</b><span>' +
+          first.run.map(function (cmd) { return '<code>' + escapeHtml(cmd) + '</code>'; }).join(" ") + '</span></div>';
+      }
+      if (first.needs && first.needs.length) {
+        parts += '<div class="ov-row"><b class="ov-key">跑起来需要</b><span>' +
+          first.needs.map(escapeHtml).join('</span><span class="ov-sep">·</span><span>') + '</span></div>';
+      }
+      if (parts) {
+        evidenceHtml = '<details class="idea-evidence ov"><summary><span>项目速览（来自 README）</span>' +
+          '<a href="' + escapeHtml(first.source_url || item.html_url) + '" target="_blank" rel="noopener">README 原文 ↗</a></summary>' +
+          parts + '</details>';
+      }
+    } else if (evidence.length) {
+      evidenceHtml = '<details class="idea-evidence"><summary><span>关键 README 证据</span><em>' + evidence.length + ' 条</em></summary>' + evidence.slice(0, 2).map(function (entry) {
+        var terms = Array.isArray(entry.matched_terms) && entry.matched_terms.length ? '<small>命中：' + entry.matched_terms.map(escapeHtml).join(' · ') + '</small>' : '';
+        return '<article><div><b>' + escapeHtml(entry.section || 'README') + '</b><a href="' + escapeHtml(entry.source_url || item.html_url) + '" target="_blank" rel="noopener">原文 ↗</a></div><p>' + escapeHtml(entry.text || '') + '</p>' + terms + '</article>';
+      }).join('') + '</details>';
+    } else {
+      evidenceHtml = '<p class="idea-evidence-missing">该 README 结构较少，未能提取速览 — 点项目名直达原文确认。</p>';
+    }
     var matched = Array.isArray(item.matched_terms) && item.matched_terms.length
-      ? '<p class="idea-meta">匹配依据：命中 ' + item.matched_terms.map(escapeHtml).join(' · ') + ' · ' + escapeHtml(item.license || "") + ' · 更新于 ' + escapeHtml(item.pushed_at || "") + '</p>'
+      ? '<p class="idea-meta">匹配依据：命中 ' + item.matched_terms.map(escapeHtml).join(' · ') + ' · 更新于 ' + escapeHtml(item.pushed_at || "") + '</p>'
       : '';
     return '<article class="idea-card" data-idea-index="' + index + '">' +
       '<div class="idea-top"><a class="idea-title" href="' + escapeHtml(item.html_url) + '" target="_blank" rel="noopener">' + escapeHtml(item.full_name) + ' ↗</a>' +
       '<span class="idea-badge">' + escapeHtml(tag) + '</span></div>' +
+      infoHtml +
       '<p class="idea-desc"><b>为什么匹配：</b>' + escapeHtml(item.recommendation_reason || "需查看 README 确认。") + '</p>' +
       matched +
       evidenceHtml +
-      '<div class="idea-bottom"><span class="idea-reason">' + escapeHtml(item.recommendation_reason || "") + '</span>' +
-      (inLibrary ? '<button class="idea-save saved" disabled>已收藏</button>' : '<button class="idea-save">收藏到项目库</button>') +
+      '<div class="idea-bottom">' + (inLibrary ? '<button class="idea-save saved" disabled>已收藏</button>' : '<button class="idea-save">收藏到项目库</button>') +
       '</div></article>';
   }
 
@@ -2550,34 +2598,12 @@
 
   document.querySelector("#search").addEventListener("click", function () { openSearch("radar"); });
   document.querySelector("#library").addEventListener("click", function () { openSearch("library"); });
-  // Hero 雷达是“发现”的入口：先在原场景输入，再复用已有的 GitHub 想法搜索结果页。
+  // Hero 雷达是「发现」的入口：雷达本身无文字卡，整卡可点，点一下直接进入想法搜索。
   var radarCard = document.querySelector("#radarCard");
   var radarLaunch = document.querySelector("#radarLaunch");
-  var radarQuery = document.querySelector("#radarQuery");
-  var radarQueryInput = document.querySelector("#radarQueryInput");
-  function closeRadarQuery() {
-    radarCard.classList.remove("is-searching");
-    radarLaunch.setAttribute("aria-expanded", "false");
-    radarLaunch.focus();
-  }
   radarLaunch.addEventListener("click", function () {
-    radarCard.classList.add("is-searching");
-    radarLaunch.setAttribute("aria-expanded", "true");
-    setTimeout(function () { radarQueryInput.focus(); }, 180);
-  });
-  radarQuery.addEventListener("submit", function (e) {
-    e.preventDefault();
-    var query = radarQueryInput.value.trim();
-    if (!query) { radarQueryInput.focus(); return; }
-    radarCard.classList.remove("is-searching");
-    radarLaunch.setAttribute("aria-expanded", "false");
     openSearch("idea");
-    searchInput.value = query;
-    document.querySelector("#searchClear").hidden = false;
-    runIdeaSearch();
-  });
-  radarQueryInput.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") { e.preventDefault(); closeRadarQuery(); }
+    setTimeout(function () { searchInput.focus(); }, 60);
   });
   Array.prototype.forEach.call(document.querySelectorAll(".search-mode"), function (button) {
     button.addEventListener("click", function () { setSearchMode(button.dataset.searchMode); });
