@@ -1,0 +1,71 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">StarRadar Idea Search · four steps of one search</title>
+  <desc id="desc">One-sentence idea → LLM search planning → GitHub full-text search → README evidence check → categorized verdict (use directly / fork &amp; extend / reference only), every step backed by evidence and reasons.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#071529"/><stop offset="0.52" stop-color="#0E2746"/><stop offset="1" stop-color="#07101F"/></linearGradient>
+    <linearGradient id="starG" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFD166"/><stop offset="1" stop-color="#FF9F2D"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#A9C9F8" stroke-opacity="0.07"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="26" fill="url(#bg)"/><rect width="1200" height="320" rx="26" fill="url(#grid)"/>
+  <circle cx="1080" cy="-20" r="190" fill="#2471EE" fill-opacity="0.10"/><circle cx="80" cy="340" r="180" fill="#FF9F2D" fill-opacity="0.05"/>
+
+  <text x="56" y="50" fill="#8FB9F7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="3">STARRADAR · IDEA SEARCH PIPELINE</text>
+  <text x="600" y="92" text-anchor="middle" fill="#DCEBFF" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="26" font-weight="800">One sentence in, evidence-backed verdicts out</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+    <!-- 1 idea -->
+    <g transform="translate(120,170)">
+      <circle r="46" fill="#ffffff" fill-opacity="0.04" stroke="#B8D6FF" stroke-opacity="0.28" stroke-width="2"/>
+      <path d="M-10,10 Q-16,2 -10,-6 Q-4,-14 6,-12 Q16,-10 16,0 Q16,10 6,10 Z" fill="none" stroke="#7DB5FF" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="10" cy="-14" r="2.5" fill="#FFD166"/><circle cx="17" cy="-8" r="2" fill="#FFD166"/>
+      <text y="78" text-anchor="middle" fill="#DCEBFF" font-size="15" font-weight="700">Describe your idea</text>
+      <text y="98" text-anchor="middle" fill="#8FA8C5" font-size="12">"I want to build X"</text>
+    </g>
+    <!-- 2 LLM planning -->
+    <g transform="translate(360,170)">
+      <circle r="46" fill="#ffffff" fill-opacity="0.04" stroke="#B8D6FF" stroke-opacity="0.28" stroke-width="2"/>
+      <circle cx="-6" cy="-4" r="12" fill="none" stroke="#7DB5FF" stroke-width="2.5"/>
+      <line x1="3" y1="5" x2="14" y2="16" stroke="#7DB5FF" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="14" cy="-14" r="4" fill="none" stroke="#FFD166" stroke-width="2"/>
+      <text y="78" text-anchor="middle" fill="#DCEBFF" font-size="15" font-weight="700">LLM search planning</text>
+      <text y="98" text-anchor="middle" fill="#8FA8C5" font-size="12">intent → English queries (dictionary fallback)</text>
+    </g>
+    <!-- 3 GitHub search -->
+    <g transform="translate(600,170)">
+      <circle r="46" fill="#ffffff" fill-opacity="0.04" stroke="#B8D6FF" stroke-opacity="0.28" stroke-width="2"/>
+      <circle cx="0" cy="-2" r="17" fill="none" stroke="#7DB5FF" stroke-width="2.5"/>
+      <ellipse cx="0" cy="-2" rx="7" ry="17" fill="none" stroke="#7DB5FF" stroke-width="1.8"/>
+      <line x1="-17" y1="-2" x2="17" y2="-2" stroke="#7DB5FF" stroke-width="1.8"/>
+      <path d="M -12,10 Q 0,16 12,10" fill="none" stroke="#7DB5FF" stroke-width="1.8"/>
+      <text y="78" text-anchor="middle" fill="#DCEBFF" font-size="15" font-weight="700">GitHub-wide search</text>
+      <text y="98" text-anchor="middle" fill="#8FA8C5" font-size="12">multi-query + course/homework noise filter</text>
+    </g>
+    <!-- 4 README evidence -->
+    <g transform="translate(840,170)">
+      <circle r="46" fill="#ffffff" fill-opacity="0.04" stroke="#B8D6FF" stroke-opacity="0.28" stroke-width="2"/>
+      <rect x="-13" y="-17" width="22" height="28" rx="3" fill="none" stroke="#7DB5FF" stroke-width="2.5"/>
+      <line x1="-7" y1="-8" x2="3" y2="-8" stroke="#7DB5FF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-7" y1="-1" x2="3" y2="-1" stroke="#7DB5FF" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 8,8 L 20,20" stroke="#FFD166" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="5" cy="5" r="5" fill="none" stroke="#FFD166" stroke-width="2"/>
+      <text y="78" text-anchor="middle" fill="#DCEBFF" font-size="15" font-weight="700">README evidence check</text>
+      <text y="98" text-anchor="middle" fill="#8FA8C5" font-size="12">install / deploy / usage proof, anti-hallucination</text>
+    </g>
+    <!-- 5 verdict -->
+    <g transform="translate(1080,170)">
+      <circle r="46" fill="#ffffff" fill-opacity="0.04" stroke="#FFD166" stroke-opacity="0.45" stroke-width="2"/>
+      <path d="M -14,2 L -4,12 L 14,-10" fill="none" stroke="#FFD166" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="78" text-anchor="middle" fill="#FFD166" font-size="15" font-weight="700">Categorized verdict</text>
+      <text y="98" text-anchor="middle" fill="#8FA8C5" font-size="12">use directly / fork &amp; extend / reference</text>
+    </g>
+    <!-- arrows -->
+    <g fill="#5EA2FF" font-size="22" font-weight="700">
+      <text x="240" y="178" text-anchor="middle">→</text>
+      <text x="480" y="178" text-anchor="middle">→</text>
+      <text x="720" y="178" text-anchor="middle">→</text>
+      <text x="960" y="178" text-anchor="middle">→</text>
+    </g>
+  </g>
+
+  <text x="600" y="292" text-anchor="middle" fill="#5E7FA6" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="13">LLM verdicts must cite verifiable metadata &amp; README evidence · no proof, no "use directly" · dictionary fallback without a Key</text>
+</svg>

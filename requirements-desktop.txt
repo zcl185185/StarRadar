@@ -1,0 +1,4 @@
+# 桌面版构建依赖。运行时依赖继承自 requirements.txt。
+-r requirements.txt
+pywebview>=5.4
+pyinstaller>=6.0
