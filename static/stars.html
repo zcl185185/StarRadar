@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light">
   <title>我的 GitHub 星标库 · 航标 Beacon</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="css/stars-library.css?v=20260829e">
+  <link rel="stylesheet" href="css/stars-library.css?v=20260829v">
 </head>
 <body class="access-locked">
   <section class="library-access-gate" id="accessGate" aria-modal="true" role="dialog" aria-labelledby="accessTitle">
@@ -25,25 +25,18 @@
         <img src="starlogo.png" alt="">
         <span><b>航标 Beacon</b><small>PERSONAL LIBRARY</small></span>
       </a>
-      <nav class="topnav" aria-label="主导航">
-        <a href="index.html">发现项目</a>
-        <a href="index.html">热门趋势</a>
-        <a class="active" href="stars.html" aria-current="page">我的星标库</a>
+      <nav class="surface-tabs" aria-label="星标库视图">
+        <a class="surface-tab active" data-surface="stars" href="stars.html" aria-current="page" title="查看已收藏的 GitHub 仓库"><span>★</span> 星标 <sup id="surfaceStarsCount">—</sup></a>
+        <a class="surface-tab" data-surface="watch" href="#watch" title="查看 GitHub 动态通知"><span>动态通知</span> <sup>—</sup></a>
+        <a class="surface-tab" data-surface="following" href="#following" title="查看关注账号最近公开收藏"><span>关注动态</span> <sup>—</sup></a>
+        <a class="surface-tab" data-surface="issues" id="issues" href="#issues" title="查看 Star 仓库中的问题"><span>问题</span> <sup>—</sup></a>
+        <a class="surface-tab" data-surface="recommendations" id="recommendationsTab" href="#recommendations" title="根据我的星标推荐相似仓库"><span>为你推荐</span> <sup>—</sup></a>
       </nav>
       <div class="topbar-actions">
-        <span class="local-badge"><i></i> 数据仅存本机</span>
-        <a class="back-link" href="index.html">← 返回雷达</a>
+        <span class="local-badge"><i></i> 本机数据</span>
+        <a class="back-link" href="index.html">⌂ 返回雷达</a>
       </div>
     </header>
-
-    <section class="library-intro">
-      <div>
-        <p class="eyebrow">GITHUB STARS · LOCAL FIRST</p>
-        <h1>我的 <em>GitHub 星标库</em></h1>
-        <p>把收藏过的开源项目，整理成可搜索、可筛选、可持续维护的个人图书馆。</p>
-      </div>
-      <div class="intro-stat"><b id="libraryCount">—</b><span>已同步的星标项目</span></div>
-    </section>
 
     <main class="library-workbench">
       <section class="library-toolbar" aria-label="星标库工具栏">
@@ -55,25 +48,30 @@
         <select id="sortSelect" aria-label="排序方式">
           <option value="starred_at">按加星时间排序</option>
           <option value="pushed_at">按最近更新排序</option>
+          <option value="created_at">按创建时间排序</option>
           <option value="stars">按 Star 数排序</option>
           <option value="name">按名称排序</option>
         </select>
-        <button class="icon-button" id="sortDirection" title="切换升降序" aria-label="切换升降序">↓</button>
-        <button class="sync-button" id="syncStars"><span>↻</span> 同步</button>
-        <button class="tool-button" id="autoTag" title="将 GitHub Topics 合并为本地标签">✧ 自动标签</button>
-        <button class="tool-button" id="forYou">For You</button>
-        <button class="tool-button" id="following">Following</button>
-        <button class="tool-button" id="cubby">✦ Cubby AI</button>
-        <button class="tool-button" id="tableLayout">列布局</button>
+        <button class="icon-button" id="sortDirection" title="切换升序或降序" aria-label="切换升序或降序">↓</button>
+        <button class="sync-button" id="syncStars" title="从 GitHub 重新读取我的星标"><span>↻</span> 同步</button>
+        <button class="tool-button" id="autoTag" title="将 GitHub 主题批量复制为本地标签">✧ 自动标签</button>
+        <button class="tool-button" id="following" title="查看我关注的账号最近收藏">关注动态</button>
+        <button class="tool-button" id="tableLayout" title="显示、隐藏或调整表格列">列布局</button>
         <div class="batch-tools" id="batchTools" hidden>
           <span id="batchCount">已选 0 项</span>
           <input id="batchTag" maxlength="32" placeholder="添加标签">
-          <button id="applyBatchTag">应用</button>
-          <button id="batchFavorite">★ 收藏</button>
-          <button id="clearSelection" title="清除选择">×</button>
+          <button id="applyBatchTag" title="给选中的仓库添加标签">应用</button>
+          <button id="batchFavorite" title="收藏选中的仓库">★ 收藏</button>
+          <button id="clearSelection" title="清除当前选择">×</button>
         </div>
         <span class="toolbar-spacer"></span>
         <span class="sync-status" id="syncStatus" role="status">准备就绪</span>
+      </section>
+
+      <section class="library-statusbar" aria-live="polite">
+        <span><b id="libraryCount">—</b> 个结果 / <b id="libraryTotal">—</b> 总数</span>
+        <span class="statusbar-divider">·</span>
+        <span class="statusbar-hint">本地标签、笔记和收藏状态会即时同步</span>
       </section>
 
       <section class="active-filters" id="activeFilters" hidden aria-label="当前筛选"></section>
@@ -81,22 +79,28 @@
       <section class="library-body">
         <aside class="filter-sidebar" aria-label="筛选星标库">
           <div class="filter-group">
-            <p class="filter-title">快速筛选</p>
-            <label class="filter-check"><input id="filterFavorites" type="checkbox"><span>★</span> 仅看收藏</label>
+            <p class="filter-title">特殊筛选</p>
+            <label class="filter-check"><input id="filterFavorites" type="checkbox"><span>♡</span> 仅看收藏</label>
             <label class="filter-check"><input id="filterUntagged" type="checkbox"><span>○</span> 未添加标签</label>
+            <label class="filter-check"><input id="filterArchived" type="checkbox"><span>▣</span> 已归档</label>
           </div>
           <div class="filter-group">
-            <button class="filter-heading" data-collapse="languages"><span>语言</span><em id="languageTotal">0</em><i>⌄</i></button>
+            <button class="filter-heading" data-collapse="languages" title="展开或折叠语言筛选"><span>语言</span><em id="languageTotal">0</em><i>⌄</i></button>
             <div class="filter-list" id="languageFilters"></div>
           </div>
           <div class="filter-group">
-            <button class="filter-heading" data-collapse="tags"><span>我的标签</span><em id="tagTotal">0</em><i>⌄</i></button>
+            <button class="filter-heading" data-collapse="tags" title="展开或折叠标签筛选"><span>标签</span><em id="tagTotal">0</em><i>⌄</i></button>
+            <div class="sidebar-search"><input id="tagSearch" type="search" placeholder="搜索标签…" autocomplete="off"></div>
             <div class="filter-list" id="tagFilters"></div>
           </div>
-          <button class="clear-filters" id="clearFilters">清除全部筛选</button>
+          <button class="clear-filters" id="clearFilters" title="清除搜索、语言和标签筛选">清除全部筛选</button>
         </aside>
 
         <section class="table-pane" aria-label="星标项目列表">
+          <section class="recommendation-view" id="recommendationView" hidden aria-label="为你推荐"></section>
+          <section class="recommendation-view issues-view" id="issuesView" hidden aria-label="问题"></section>
+          <section class="recommendation-view following-view" id="followingView" hidden aria-label="关注动态"></section>
+          <section class="library-overview" id="libraryOverview" hidden aria-label="星标库概览"></section>
           <div class="table-wrap" id="tableWrap">
             <div class="table-head" id="tableHead" role="row"></div>
             <div id="starsRows" class="star-rows" role="rowgroup"></div>
@@ -137,6 +141,6 @@
   </button>
   <script src="js/access.js?v=20260825g"></script>
   <script src="js/llm.js?v=20260825g"></script>
-  <script src="js/stars-library.js?v=20260829i"></script>
+  <script src="js/stars-library.js?v=20260829ac"></script>
 </body>
 </html>

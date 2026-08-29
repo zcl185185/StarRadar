@@ -13,6 +13,9 @@ API：
     GET  /api/github/starred → 已登录账户的 GitHub 星标列表（仅本地服务）
     GET/POST /api/library → 我的项目库读取 / 收藏（仅存本机，不影响 GitHub Star）
     GET/POST /api/starred-meta → 星标标签、笔记、收藏状态（仅存本机）
+    GET /api/recommendations → 当前账号的推荐快照与查看笔记
+    POST /api/recommendations/refresh → 手动换一批推荐
+    POST /api/recommendations/reviews → 保存推荐查看状态和笔记
     GET  /api/personal/history → 每日发现归档目录 / 单次快照（仅本机）
     GET  /api/trending → GitHub Trending 今日/本周/本月榜（读取公开趋势页）
 
@@ -54,6 +57,7 @@ from src.profile.feedback_collector import (
     save_survey,
     summarize_history,
 )
+from src.recommendations import load_reviews, load_snapshot, refresh as refresh_recommendations, save_review
 
 logger = logging.getLogger(__name__)
 
@@ -160,6 +164,8 @@ def _github_starred_page(page: int, per_page: int) -> dict:
             "topics": [str(topic) for topic in (repo.get("topics") or [])[:8]],
             "starred_at": str(entry.get("starred_at") or repo.get("starred_at") or ""),
             "updated_at": str(repo.get("pushed_at") or ""),
+            "created_at": str(repo.get("created_at") or ""),
+            "archived": bool(repo.get("archived")),
         })
     return {"ok": True, "items": items, "page": page, "per_page": per_page,
             "has_next": 'rel="next"' in link_header}
@@ -380,6 +386,8 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             self._github_starred(query)
         elif path == "/api/starred-meta":
             self._starred_metadata_list()
+        elif path == "/api/recommendations":
+            self._recommendations_get()
         else:
             self._serve_static(path)
 
@@ -417,6 +425,30 @@ class StarRadarHandler(BaseHTTPRequestHandler):
         if path == "/api/personal/refresh":
             started = _maybe_run_personal(force=True)
             self._json(200, {"ok": True, "started": started})
+            return
+        if path == "/api/recommendations/refresh":
+            force = parse_qs(self.path.split("?", 1)[1]).get("force", ["0"])[0] == "1" if "?" in self.path else False
+            self._json(200, {"ok": True, "snapshot": refresh_recommendations(force)})
+            return
+        if path == "/api/recommendations/reviews":
+            payload = self._read_json_body()
+            if payload is None: return
+            name = str(payload.get("full_name") or "").strip()
+            if not name or "/" not in name:
+                self._bad("missing full_name"); return
+            self._json(200, {"ok": True, "review": save_review(name, str(payload.get("status") or "seen"), str(payload.get("note") or ""))})
+            return
+        if path == "/api/translate-descriptions":
+            payload = self._read_json_body(max_bytes=1 << 20)
+            if payload is None: return
+            items = payload.get("items") if isinstance(payload.get("items"), list) else []
+            items = [x for x in items if isinstance(x, dict)][:50]
+            try:
+                _load_local_llm_config(); translated = translate_descriptions(items)
+                self._json(200, {"ok": True, "items": items, "translated": bool(translated)})
+            except Exception as exc:  # noqa: BLE001
+                logger.warning("description translation failed: %s", exc)
+                self._json(200, {"ok": True, "items": items, "translated": False})
             return
         if path == "/api/idea-search":
             self._idea_search()
@@ -547,7 +579,7 @@ class StarRadarHandler(BaseHTTPRequestHandler):
         self.wfile.write(data)
 
     def do_DELETE(self) -> None:
-        path = unquote(self.path.split("?", 1)[0])
+        path = unquote(self.path.split("?", 1)[0]); query = parse_qs(self.path.split("?", 1)[1]) if "?" in self.path else {}
         if not self._is_authorized():
             self._unauthorized()
             return
@@ -573,6 +605,13 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             return
         if path == "/api/library":
             self._library_delete()
+            return
+        if path == "/api/recommendations":
+            from src.recommendations import load_snapshot, save_snapshot
+            name = (query.get("full_name") or [""])[0]; snap = load_snapshot()
+            if snap and name:
+                snap["items"] = [x for x in snap.get("items", []) if x.get("full_name") != name]; save_snapshot(snap)
+            self._json(200, {"ok": True})
             return
         self._json(404, {"ok": False, "error": "not found"})
 
@@ -997,6 +1036,12 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             "data_exists": scores.is_file(),
         })
 
+    def _recommendations_get(self) -> None:
+        """GET /api/recommendations：读取当前账号的独立推荐快照与查看笔记。"""
+        snapshot = load_snapshot(); account = (snapshot or {}).get("account")
+        reviews = load_reviews(account)
+        self._json(200, {"ok": True, "snapshot": snapshot or {"status": "never_loaded", "items": []}, "reviews": reviews})
+
     def _personal_scores(self) -> None:
         """GET /api/personal/scores：返回个人版雷达数据（仅本机可访问）。"""
         scores = PERSONAL_DIR / "scores.json"
@@ -1188,6 +1233,8 @@ def create_server(*, port: int = 8970, host: str = "127.0.0.1") -> ThreadingHTTP
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
     _tls_self_check()
     _start_personal_scheduler()  # 个人版自动生成（启动补跑 + 每日 06:00）
+    from src.recommendations import start_scheduler as _start_recommendation_scheduler
+    _start_recommendation_scheduler()  # 页面关闭后仍运行：启动补偿 + 本地每日 08:00
     return _bind_server(host, port)
 
 

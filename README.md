@@ -135,6 +135,9 @@ pytest                      # 全量测试
 | **每日潜力雷达** | 3 个 Star 区间多桶采样，过滤课程 / 课件 / 镜像噪声；五维评分：速度 · 加速度 · 社区健康 · 新鲜度 · 信号，动态基准对比同规模项目 |
 | **每周趋势周报** | TrendScore v2 增长动能排序；增速门票制，巨无霸不进榜；新星 / 热度 TOP / 领域走势四大板块，跨周追踪 |
 | **为你精选** | 个人版专属：问卷 → 冷启动画像 → 行为 EMA 增量更新 + 遗忘曲线，每日生成专属推荐（越用越准） |
+| **星标工作台** | 本地同步 GitHub 星标，支持搜索、语言 / 标签 / 归档筛选、批量标签、列布局和随行笔记；可查看已关注账号的公开收藏与单个仓库的 Issue |
+| **为你推荐** | 根据最近星标的公开 Topics 与语言，在 GitHub 中发现尚未收藏的相关仓库；显示推荐依据、研究方向、查看状态与笔记，每天 08:00 自动更新，也可手动换一批 |
+| **Cubby 整理助手** | 在本机对选定星标批量提出标签建议，支持逐项确认、修改、应用与执行回执；标签只写入本地元数据，不会改变 GitHub 的原始 Star |
 | **AI 中文解读** | 每个上榜项目生成「为什么值得关注」解读，增量缓存，失败自动降级规则文本；个人版可填自己的 Key 全量个性化 |
 | **GitHub 原生集成** | 一键登录（OAuth 设备流零配置）→ 网页内直接加星 · Fork · 复制克隆命令 · 随行笔记 · 收藏到本机项目库 |
 
@@ -163,6 +166,7 @@ pytest                      # 全量测试
 - **应用只调用**：加星/取消星、Fork、读取你的星标与仓库信息
 - **随时可退出**：页面「退出登录」立即清除本机 token；也可在 GitHub → Settings → Applications 撤销授权
 - **数据不上传**：问卷 / 行为数据仅在本地 `--serve` 时落库；CORS 默认白名单（Pages 域名 + 本机回环），第三方网页无法静默调用本机 API
+- **推荐快照也只在本机**：为你推荐、查看状态与笔记保存在 `data/profile/recommendations/`；推荐只读取你已授权账号的星标及 GitHub 公开仓库数据
 - **LLM Key 仅本机流转**：只存浏览器 localStorage + 本地 `data/profile/llm_config.json`，公版不涉及、不上传任何第三方
 
 ---
@@ -173,7 +177,7 @@ pytest                      # 全量测试
 | --- | --- |
 | src/ | collector（采集）· analyzer（评分）· profile（画像 / 推荐）· reporter（周报 / LLM 解读）· search（语义搜索）· web（本地服务 + OAuth + 自动调度）· personal（个人版管道） |
 | static/ | GitHub Pages 前端（原生 JS，零框架）：index.html · js/ · css/ · data/（CI 生成 JSON） |
-| data/profile/ | memory.db（问卷 + 行为 + 快照）+ gh_token.json / llm_config.json / access_code.txt（登录、LLM 与访问码配置） |
+| data/profile/ | memory.db（问卷 + 行为 + 快照）+ recommendations/（本地推荐快照 / 笔记）+ gh_token.json / llm_config.json / access_code.txt（登录、LLM 与访问码配置） |
 | .github/ | daily.yml 每日刷新 · weekly.yml 周一周报 · Pages 部署 |
 | 后端 | Python 3.10+ · SQLite · numpy · scikit-learn · BGE 嵌入 · HNSW · BM25 |
 | 自动化 | GitHub Actions（公版）+ 本地服务后台调度（个人版每日 06:00） |

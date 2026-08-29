@@ -98,7 +98,11 @@ def _parse_translation_response(content: str, expected_count: int) -> list[dict[
         left, right = cleaned.find("["), cleaned.rfind("]")
         if left < 0 or right <= left:
             raise ValueError("LLM 未返回 JSON 数组")
-        payload = json.loads(cleaned[left:right + 1])
+        fragment = cleaned[left:right + 1]
+        # 兼容模型漏逗号、尾逗号等常见格式问题。
+        fragment = re.sub(r"}\s*{", "},{", fragment)
+        fragment = re.sub(r",\s*([}\]])", r"\1", fragment)
+        payload = json.loads(fragment)
     if isinstance(payload, dict):
         payload = payload.get("items") or payload.get("translations") or payload.get("results")
     if not isinstance(payload, list) or len(payload) != expected_count:
@@ -140,9 +144,9 @@ def _translate_batch(descriptions: list[str]) -> list[dict[str, object]] | None:
 
     client = OpenAI(api_key=settings.llm.api_key, base_url=_llm_base_url())
     translated: list[dict[str, object]] = []
-    # 每批最多 8 条，兼顾 API 上下文长度、延迟和输出稳定性。
-    for start in range(0, len(descriptions), 8):
-        batch = descriptions[start:start + 8]
+    # 每批最多 4 条，避免中文长文本导致 JSON 输出被截断。
+    for start in range(0, len(descriptions), 4):
+        batch = descriptions[start:start + 4]
         prompt = (
             "分析以下 GitHub 项目简介，并为每项输出："
             "translation（自然简洁的简体中文简介）、value（不超过28字的一句话价值）、"
@@ -159,7 +163,7 @@ def _translate_batch(descriptions: list[str]) -> list[dict[str, object]] | None:
                     {"role": "user", "content": prompt},
                 ],
                 temperature=0,
-                max_tokens=900,
+                max_tokens=1400,
             )
             content = response.choices[0].message.content or ""
             translated.extend(_parse_translation_response(content, len(batch)))

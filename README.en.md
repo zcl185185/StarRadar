@@ -135,6 +135,9 @@ Desktop binds `127.0.0.1:8970` by default (auto-falls back to a free port). The 
 | **Daily potential radar** | Multi-bucket sampling across 3 star ranges, noise filtering; 5D scoring: velocity · acceleration · community health · freshness · signal, benchmarked against same-size peers |
 | **Weekly trend report** | TrendScore v2 momentum ranking; growth ticket gate keeps giants off; new stars / hot TOP / domain trends, cross-week tracking |
 | **Personalized picks** | Personal edition: questionnaire → cold-start profile → behavior EMA updates + forgetting curve, daily recommendations that sharpen with use |
+| **Star workspace** | Locally sync GitHub Stars with search, language / tag / archived filters, bulk tags, column layout, and inline notes; browse followed users' public Stars and a repository's Issues |
+| **For you recommendations** | Finds unstarred public repositories from the Topics and languages of your recent Stars; every card shows its reason, research direction, review state, and note. Refreshes daily at 08:00 or on demand |
+| **Cubby organizer** | Proposes local tags for a selected batch of Stars, lets you review or edit every proposal, then records an execution receipt. It never changes the original GitHub Stars |
 | **AI explanations** | A "why it deserves attention" note per listed project, incrementally cached, graceful rule-text fallback; bring your own Key for full personalization |
 | **GitHub native integration** | One-click login (OAuth device flow) → star · fork · copy clone command · notes · save to a local project library |
 
@@ -163,6 +166,7 @@ All five dimensions are measured against a **dynamic baseline of same-size proje
 - **The app only calls**: star/unstar, fork, reading your starred/repo info
 - **Sign out anytime**: the page's "Sign out" clears the local token instantly; revoke at GitHub → Settings → Applications to kill it remotely
 - **No data uploads**: questionnaire / behavior data is only persisted via local `--serve`; CORS defaults to a whitelist (Pages domain + loopback), so third-party pages can't silently call the local API
+- **Recommendation snapshots stay local**: recommendations, review states, and notes are stored in `data/profile/recommendations/`; the feature reads only your authorized Stars and public GitHub repository data
 - **LLM Key stays local**: browser localStorage + local `data/profile/llm_config.json` only; the public edition never touches it
 
 ---
@@ -173,7 +177,7 @@ All five dimensions are measured against a **dynamic baseline of same-size proje
 | --- | --- |
 | src/ | collector · analyzer · profile · reporter · search · web (local server + OAuth + scheduler) · personal |
 | static/ | GitHub Pages frontend (vanilla JS): index.html · js/ · css/ · data/ (CI-generated JSON) |
-| data/profile/ | memory.db (questionnaire + behavior + snapshots) + gh_token.json / llm_config.json / access_code.txt |
+| data/profile/ | memory.db (questionnaire + behavior + snapshots) + recommendations/ (local recommendation snapshots / notes) + gh_token.json / llm_config.json / access_code.txt |
 | .github/ | daily.yml daily refresh · weekly.yml Monday report · Pages deployment |
 | Backend | Python 3.10+ · SQLite · numpy · scikit-learn · BGE embeddings · HNSW · BM25 |
 | Automation | GitHub Actions (public edition) + local scheduler (personal edition, daily 06:00) |
