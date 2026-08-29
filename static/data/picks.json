@@ -1,735 +1,755 @@
 [
   {
     "repo": {
-      "owner": "vercel-labs",
-      "name": "eve-software-factory-template",
-      "full_name": "vercel-labs/eve-software-factory-template",
-      "description": "Meet Foreman, an eve Software Factory.",
-      "stars": 994,
-      "forks": 63,
-      "open_issues": 0,
-      "created_at": "2026-08-12T12:34:43+00:00",
-      "pushed_at": "2026-08-20T03:28:12+00:00",
-      "updated_at": "2026-08-24T06:00:46+00:00",
+      "owner": "917Dhj",
+      "name": "DeepPaperNote",
+      "full_name": "917Dhj/DeepPaperNote",
+      "description": "DeepPaperNote is an agent skill for deep-reading a single paper and generating high-quality Obsidian-style research notes. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "stars": 1000,
+      "forks": 71,
+      "open_issues": 5,
+      "created_at": "2026-03-21T13:50:42+00:00",
+      "pushed_at": "2026-08-29T09:15:59+00:00",
+      "updated_at": "2026-08-29T09:12:33+00:00",
       "topics": [
-        "agent",
-        "ai",
-        "eve",
-        "vercel"
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "copilot",
+        "cursor",
+        "gemini-cli",
+        "markdown",
+        "obsidian",
+        "paper-reading",
+        "research-notes",
+        "zotero"
       ],
-      "language": "TypeScript",
+      "language": "Python",
       "license": "MIT",
-      "homepage": "https://ask-foreman.dev",
-      "html_url": "https://github.com/vercel-labs/eve-software-factory-template",
+      "homepage": "https://917dhj.github.io/DeepPaperNote/",
+      "html_url": "https://github.com/917Dhj/DeepPaperNote",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 892,
+      "stars_7d_ago": 766,
       "star_series": [
         {
-          "d": "07-26",
-          "s": 818
-        },
-        {
-          "d": "07-27",
-          "s": 818
-        },
-        {
-          "d": "07-28",
-          "s": 818
-        },
-        {
-          "d": "07-29",
-          "s": 818
-        },
-        {
-          "d": "07-30",
-          "s": 818
-        },
-        {
           "d": "07-31",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-01",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-02",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-03",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-04",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-05",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-06",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-07",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-08",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-09",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-10",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-11",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-12",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-13",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-14",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-15",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-16",
-          "s": 818
+          "s": 766
         },
         {
           "d": "08-17",
-          "s": 864
+          "s": 766
         },
         {
           "d": "08-18",
-          "s": 892
+          "s": 766
         },
         {
           "d": "08-19",
-          "s": 920
+          "s": 766
         },
         {
           "d": "08-20",
-          "s": 936
+          "s": 766
         },
         {
           "d": "08-21",
-          "s": 983
+          "s": 766
         },
         {
           "d": "08-22",
-          "s": 992
+          "s": 766
         },
         {
           "d": "08-23",
-          "s": 993
+          "s": 766
         },
         {
           "d": "08-24",
-          "s": 994
+          "s": 852
+        },
+        {
+          "d": "08-25",
+          "s": 936
+        },
+        {
+          "d": "08-26",
+          "s": 966
+        },
+        {
+          "d": "08-27",
+          "s": 992
+        },
+        {
+          "d": "08-28",
+          "s": 998
+        },
+        {
+          "d": "08-29",
+          "s": 1000
         }
       ]
     },
     "score": {
-      "score": 94.5,
+      "score": 100.0,
       "breakdown": {
-        "vel": 82,
-        "acc": 59,
-        "health": 80,
-        "fresh": 97,
+        "vel": 96,
+        "acc": 99,
+        "health": 82,
+        "fresh": 56,
         "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 78.75,
-      "explanation": "eve-software-factory-template 是 TypeScript 开源项目，主打「Meet Foreman, an eve Software Factory.」；处于增长早期，本周涨速 15 star/天；社区健康（fork/star 比 6.3%，0 个 open issue）、项目元数据完整、开发活跃。"
+      "base_score": 87.02,
+      "explanation": "DeepPaperNote 是 Python 开源项目，主打「DeepPaperNote is an agent skill for deep-reading a single paper and generating high-quality Obsidian-style research notes. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.」；处于增长早期，本周涨速 33 star/天，涨速在加快；社区健康（fork/star 比 7.1%，5 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "chiba233",
-      "name": "atm10-zh-cn",
-      "full_name": "chiba233/atm10-zh-cn",
-      "description": "这是个ATM10汉化补丁，嗯....似乎也没啥好说的。哦对了，不收费不收费，如果遇到骗捐赠或收费的都不是本人。",
-      "stars": 200,
-      "forks": 2,
-      "open_issues": 0,
-      "created_at": "2026-07-24T09:49:17+00:00",
-      "pushed_at": "2026-08-23T16:02:23+00:00",
-      "updated_at": "2026-08-24T02:49:49+00:00",
-      "topics": [],
+      "owner": "handsomejustin",
+      "name": "easy_tdx",
+      "full_name": "handsomejustin/easy_tdx",
+      "description": "免费Python量化SDK:通达信协议直连 A股/港股/美股数据,内置技术指标、缠论分析、回测引擎与 Web 可视化,JSON 输出适配 AI Agent",
+      "stars": 998,
+      "forks": 293,
+      "open_issues": 2,
+      "created_at": "2026-05-21T04:20:17+00:00",
+      "pushed_at": "2026-08-28T14:41:40+00:00",
+      "updated_at": "2026-08-29T11:25:30+00:00",
+      "topics": [
+        "a-share-tdx",
+        "chinese-stock-market",
+        "financial-data",
+        "mootdx",
+        "pytdx",
+        "stock-analysis",
+        "stock-data",
+        "stock-trading",
+        "tdx",
+        "technical-analysis"
+      ],
       "language": "Python",
       "license": "NOASSERTION",
       "homepage": null,
-      "html_url": "https://github.com/chiba233/atm10-zh-cn",
+      "html_url": "https://github.com/handsomejustin/easy_tdx",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 176,
+      "stars_7d_ago": 783,
       "star_series": [
         {
-          "d": "07-26",
-          "s": 169
-        },
-        {
-          "d": "07-27",
-          "s": 169
-        },
-        {
-          "d": "07-28",
-          "s": 169
-        },
-        {
-          "d": "07-29",
-          "s": 169
-        },
-        {
-          "d": "07-30",
-          "s": 169
-        },
-        {
           "d": "07-31",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-01",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-02",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-03",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-04",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-05",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-06",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-07",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-08",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-09",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-10",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-11",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-12",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-13",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-14",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-15",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-16",
-          "s": 169
+          "s": 783
         },
         {
           "d": "08-17",
-          "s": 171
+          "s": 783
         },
         {
           "d": "08-18",
-          "s": 176
+          "s": 783
         },
         {
           "d": "08-19",
-          "s": 177
+          "s": 783
         },
         {
           "d": "08-20",
-          "s": 182
+          "s": 783
         },
         {
           "d": "08-21",
-          "s": 182
+          "s": 783
         },
         {
           "d": "08-22",
-          "s": 187
+          "s": 783
         },
         {
           "d": "08-23",
-          "s": 198
+          "s": 783
         },
         {
           "d": "08-24",
-          "s": 200
+          "s": 790
+        },
+        {
+          "d": "08-25",
+          "s": 860
+        },
+        {
+          "d": "08-26",
+          "s": 928
+        },
+        {
+          "d": "08-27",
+          "s": 969
+        },
+        {
+          "d": "08-28",
+          "s": 986
+        },
+        {
+          "d": "08-29",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 77.7,
+      "score": 100.0,
       "breakdown": {
-        "vel": 44,
-        "acc": 92,
-        "health": 61,
-        "fresh": 92,
-        "signal": 55
+        "vel": 94,
+        "acc": 99,
+        "health": 100,
+        "fresh": 73,
+        "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 64.75,
-      "explanation": "atm10-zh-cn 是 Python 开源项目，主打「这是个ATM10汉化补丁，嗯....似乎也没啥好说的。哦对了，不收费不收费，如果遇到骗捐赠或收费的都不是本人。」；处于增长早期，本周涨速 3.4 star/天，涨速在加快；开发活跃。"
+      "base_score": 90.12,
+      "explanation": "easy_tdx 是 Python 开源项目，主打「免费Python量化SDK:通达信协议直连 A股/港股/美股数据,内置技术指标、缠论分析、回测引擎与 Web 可视化,JSON 输出适配 AI Agent」；处于增长早期，本周涨速 31 star/天，涨速在加快；社区健康（fork/star 比 29.4%，2 个 open issue）、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "DataDog",
-      "name": "pup",
-      "full_name": "DataDog/pup",
-      "description": "Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products.",
-      "stars": 994,
-      "forks": 105,
-      "open_issues": 14,
-      "created_at": "2026-02-03T19:56:25+00:00",
-      "pushed_at": "2026-08-24T00:20:58+00:00",
-      "updated_at": "2026-08-24T00:29:09+00:00",
+      "owner": "matlab",
+      "name": "simulink-agentic-toolkit",
+      "full_name": "matlab/simulink-agentic-toolkit",
+      "description": "The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.",
+      "stars": 1000,
+      "forks": 97,
+      "open_issues": 17,
+      "created_at": "2026-04-15T14:41:36+00:00",
+      "pushed_at": "2026-08-26T21:06:01+00:00",
+      "updated_at": "2026-08-29T08:49:04+00:00",
       "topics": [
-        "cli",
-        "client",
-        "datadog",
-        "observability"
+        "agent-skills",
+        "claude-code",
+        "codex-plugin",
+        "engineering-agents",
+        "github-copilot",
+        "matlab",
+        "matlab-mcp-server",
+        "mcp-tools",
+        "simulink"
       ],
-      "language": "Rust",
-      "license": "Apache-2.0",
-      "homepage": "https://www.datadoghq.com",
-      "html_url": "https://github.com/DataDog/pup",
+      "language": "HTML",
+      "license": "NOASSERTION",
+      "homepage": null,
+      "html_url": "https://github.com/matlab/simulink-agentic-toolkit",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 987,
+      "stars_7d_ago": 970,
       "star_series": [
         {
-          "d": "07-26",
-          "s": 977
-        },
-        {
-          "d": "07-27",
-          "s": 977
-        },
-        {
-          "d": "07-28",
-          "s": 977
-        },
-        {
-          "d": "07-29",
-          "s": 977
-        },
-        {
-          "d": "07-30",
-          "s": 977
-        },
-        {
           "d": "07-31",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-01",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-02",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-03",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-04",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-05",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-06",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-07",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-08",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-09",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-10",
-          "s": 977
+          "s": 934
         },
         {
           "d": "08-11",
-          "s": 979
+          "s": 934
         },
         {
           "d": "08-12",
+          "s": 934
+        },
+        {
+          "d": "08-13",
+          "s": 934
+        },
+        {
+          "d": "08-14",
+          "s": 939
+        },
+        {
+          "d": "08-15",
+          "s": 942
+        },
+        {
+          "d": "08-16",
+          "s": 945
+        },
+        {
+          "d": "08-17",
+          "s": 948
+        },
+        {
+          "d": "08-18",
+          "s": 951
+        },
+        {
+          "d": "08-19",
+          "s": 955
+        },
+        {
+          "d": "08-20",
+          "s": 963
+        },
+        {
+          "d": "08-21",
+          "s": 968
+        },
+        {
+          "d": "08-22",
+          "s": 970
+        },
+        {
+          "d": "08-23",
+          "s": 970
+        },
+        {
+          "d": "08-24",
+          "s": 974
+        },
+        {
+          "d": "08-25",
           "s": 980
         },
         {
-          "d": "08-13",
-          "s": 983
-        },
-        {
-          "d": "08-14",
-          "s": 985
-        },
-        {
-          "d": "08-15",
-          "s": 985
-        },
-        {
-          "d": "08-16",
-          "s": 985
-        },
-        {
-          "d": "08-17",
-          "s": 986
-        },
-        {
-          "d": "08-18",
-          "s": 987
-        },
-        {
-          "d": "08-19",
+          "d": "08-26",
           "s": 988
         },
         {
-          "d": "08-20",
-          "s": 989
-        },
-        {
-          "d": "08-21",
-          "s": 991
-        },
-        {
-          "d": "08-22",
+          "d": "08-27",
           "s": 993
         },
         {
-          "d": "08-23",
-          "s": 993
+          "d": "08-28",
+          "s": 998
         },
         {
-          "d": "08-24",
-          "s": 994
+          "d": "08-29",
+          "s": 1000
         }
       ]
     },
     "score": {
-      "score": 48.97,
+      "score": 71.68,
       "breakdown": {
-        "vel": 21,
-        "acc": 47,
-        "health": 93,
-        "fresh": 45,
-        "signal": 85
+        "vel": 45,
+        "acc": 55,
+        "health": 89,
+        "fresh": 63,
+        "signal": 70
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "early",
+      "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 44.52,
-      "explanation": "pup 是 Rust 开源项目，主打「Give your AI agent a Pup — a CLI companion with 200+ commands across 33+ Datadog products.」；处于中早期增长；社区健康（fork/star 比 10.6%，14 个 open issue）、项目元数据完整。"
+      "base_score": 59.74,
+      "explanation": "simulink-agentic-toolkit 是 HTML 开源项目，主打「The Simulink Agentic Toolkit gives your AI agent both the tools and the expertise to work effectively with Simulink and Model-Based Design.」；处于增长早期，本周涨速 4.3 star/天；社区健康（fork/star 比 9.7%，17 个 open issue）。"
     }
   },
   {
     "repo": {
-      "owner": "espressoplease",
-      "name": "smalldocs",
-      "full_name": "espressoplease/smalldocs",
-      "description": "Read, style, and share markdown files - privately. Formerly SDocs.",
-      "stars": 200,
-      "forks": 20,
-      "open_issues": 12,
-      "created_at": "2026-03-11T18:00:07+00:00",
-      "pushed_at": "2026-08-24T06:26:09+00:00",
-      "updated_at": "2026-08-23T22:04:06+00:00",
-      "topics": [],
-      "language": "JavaScript",
-      "license": "NOASSERTION",
-      "homepage": "https://smalldocs.org",
-      "html_url": "https://github.com/espressoplease/smalldocs",
+      "owner": "chrisbanes",
+      "name": "skills",
+      "full_name": "chrisbanes/skills",
+      "description": "Skills for Kotlin, Jetpack Compose, and Android development",
+      "stars": 996,
+      "forks": 46,
+      "open_issues": 1,
+      "created_at": "2026-05-12T07:34:30+00:00",
+      "pushed_at": "2026-08-27T15:15:46+00:00",
+      "updated_at": "2026-08-28T13:05:59+00:00",
+      "topics": [
+        "android",
+        "compose-multiplatform",
+        "coroutines",
+        "jetpack-compose",
+        "kotlin",
+        "kotlin-multiplatform",
+        "skills"
+      ],
+      "language": "Python",
+      "license": "Apache-2.0",
+      "homepage": null,
+      "html_url": "https://github.com/chrisbanes/skills",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 198,
+      "stars_7d_ago": 977,
       "star_series": [
         {
-          "d": "07-26",
-          "s": 198
-        },
-        {
-          "d": "07-27",
-          "s": 198
-        },
-        {
-          "d": "07-28",
-          "s": 198
-        },
-        {
-          "d": "07-29",
-          "s": 198
-        },
-        {
-          "d": "07-30",
-          "s": 198
-        },
-        {
           "d": "07-31",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-01",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-02",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-03",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-04",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-05",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-06",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-07",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-08",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-09",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-10",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-11",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-12",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-13",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-14",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-15",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-16",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-17",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-18",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-19",
-          "s": 198
+          "s": 963
         },
         {
           "d": "08-20",
-          "s": 198
+          "s": 968
         },
         {
           "d": "08-21",
-          "s": 198
+          "s": 971
         },
         {
           "d": "08-22",
-          "s": 200
+          "s": 972
         },
         {
           "d": "08-23",
-          "s": 200
+          "s": 977
         },
         {
           "d": "08-24",
-          "s": 200
+          "s": 980
+        },
+        {
+          "d": "08-25",
+          "s": 987
+        },
+        {
+          "d": "08-26",
+          "s": 991
+        },
+        {
+          "d": "08-27",
+          "s": 993
+        },
+        {
+          "d": "08-28",
+          "s": 996
+        },
+        {
+          "d": "08-29",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 38.17,
+      "score": 60.96,
       "breakdown": {
-        "vel": 8,
-        "acc": 57,
-        "health": 76,
-        "fresh": 55,
-        "signal": 85
+        "vel": 36,
+        "acc": 59,
+        "health": 74,
+        "fresh": 70,
+        "signal": 70
       },
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 34.7,
-      "explanation": "smalldocs 是 JavaScript 开源项目，主打「Read, style, and share markdown files - privately. Formerly SDocs.」；处于中早期增长；社区健康（fork/star 比 10.0%，12 个 open issue）、项目元数据完整。"
+      "base_score": 55.42,
+      "explanation": "skills 是 Python 开源项目，主打「Skills for Kotlin, Jetpack Compose, and Android development」；处于中早期增长；社区健康（fork/star 比 4.6%，1 个 open issue）、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "shy1132",
-      "name": "VacuumTube",
-      "full_name": "shy1132/VacuumTube",
-      "description": "YouTube Leanback on the desktop, with enhancements",
-      "stars": 994,
-      "forks": 59,
-      "open_issues": 68,
-      "created_at": "2024-03-24T01:07:04+00:00",
-      "pushed_at": "2026-08-23T05:39:22+00:00",
-      "updated_at": "2026-08-24T06:09:03+00:00",
-      "topics": [],
-      "language": "JavaScript",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/shy1132/VacuumTube",
+      "owner": "kavinsood",
+      "name": "yaos",
+      "full_name": "kavinsood/yaos",
+      "description": "A zero-terminal, real-time sync engine powered by your own Cloudflare Worker.",
+      "stars": 998,
+      "forks": 80,
+      "open_issues": 4,
+      "created_at": "2026-02-16T15:39:57+00:00",
+      "pushed_at": "2026-08-28T21:10:15+00:00",
+      "updated_at": "2026-08-28T22:52:33+00:00",
+      "topics": [
+        "cloudflare-workers",
+        "crdt",
+        "obsidian",
+        "obsidian-plugin",
+        "real-time",
+        "self-hosted",
+        "sync",
+        "yjs"
+      ],
+      "language": "TypeScript",
+      "license": "0BSD",
+      "homepage": "https://yaos.dev",
+      "html_url": "https://github.com/kavinsood/yaos",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 978,
+      "stars_7d_ago": 982,
       "star_series": [
         {
-          "d": "07-26",
-          "s": 952
-        },
-        {
-          "d": "07-27",
-          "s": 952
-        },
-        {
-          "d": "07-28",
-          "s": 952
-        },
-        {
-          "d": "07-29",
-          "s": 952
-        },
-        {
-          "d": "07-30",
-          "s": 952
-        },
-        {
           "d": "07-31",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-01",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-02",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-03",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-04",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-05",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-06",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-07",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-08",
-          "s": 952
+          "s": 958
         },
         {
           "d": "08-09",
-          "s": 955
+          "s": 958
         },
         {
           "d": "08-10",
@@ -737,76 +757,96 @@
         },
         {
           "d": "08-11",
-          "s": 961
+          "s": 958
         },
         {
           "d": "08-12",
-          "s": 961
+          "s": 958
         },
         {
           "d": "08-13",
-          "s": 965
+          "s": 958
         },
         {
           "d": "08-14",
-          "s": 968
+          "s": 958
         },
         {
           "d": "08-15",
-          "s": 970
+          "s": 958
         },
         {
           "d": "08-16",
-          "s": 974
+          "s": 958
         },
         {
           "d": "08-17",
-          "s": 975
+          "s": 958
         },
         {
           "d": "08-18",
-          "s": 978
+          "s": 968
         },
         {
           "d": "08-19",
-          "s": 979
+          "s": 977
         },
         {
           "d": "08-20",
-          "s": 984
+          "s": 980
         },
         {
           "d": "08-21",
-          "s": 984
+          "s": 981
         },
         {
           "d": "08-22",
-          "s": 987
+          "s": 981
         },
         {
           "d": "08-23",
-          "s": 992
+          "s": 982
         },
         {
           "d": "08-24",
-          "s": 994
+          "s": 987
+        },
+        {
+          "d": "08-25",
+          "s": 991
+        },
+        {
+          "d": "08-26",
+          "s": 995
+        },
+        {
+          "d": "08-27",
+          "s": 995
+        },
+        {
+          "d": "08-28",
+          "s": 998
+        },
+        {
+          "d": "08-29",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 30.92,
+      "score": 59.62,
       "breakdown": {
-        "vel": 36,
-        "acc": 49,
-        "health": 62,
-        "fresh": 0,
-        "signal": 55
+        "vel": 32,
+        "acc": 42,
+        "health": 85,
+        "fresh": 47,
+        "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 25.77,
-      "explanation": "VacuumTube 是 JavaScript 开源项目，主打「YouTube Leanback on the desktop, with enhancements」；处于增长早期。"
+      "base_score": 49.68,
+      "explanation": "yaos 是 TypeScript 开源项目，主打「A zero-terminal, real-time sync engine powered by your own Cloudflare Worker.」；处于增长早期；社区健康（fork/star 比 8.0%，4 个 open issue）、项目元数据完整。"
     }
   }
 ]
