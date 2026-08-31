@@ -34,11 +34,12 @@ import subprocess
 import sys
 import threading
 import time
+import base64
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.parse import parse_qs, unquote, urlencode
+from urllib.parse import parse_qs, quote, unquote, urlencode
 from urllib.request import Request, urlopen
 
 from config import IS_FROZEN, PERSONAL_DIR, PROFILE_DIR, STATIC_DIR, settings
@@ -46,7 +47,14 @@ from src.personal.daily_archive import list_daily_archives, load_daily_archive
 from src.trending import fetch_trending
 from src.trending import translate_descriptions
 from src.profile.feedback_collector import (
+    add_learning_log,
+    create_learning_project,
+    delete_learning_project,
+    get_learning_project,
     has_interaction,
+    learning_dashboard,
+    list_learning_logs,
+    list_learning_projects,
     list_saved_projects,
     list_starred_metadata,
     load_latest_survey,
@@ -56,6 +64,7 @@ from src.profile.feedback_collector import (
     save_starred_metadata,
     save_survey,
     summarize_history,
+    update_learning_project,
 )
 from src.recommendations import load_reviews, load_snapshot, refresh as refresh_recommendations, save_review
 
@@ -100,6 +109,121 @@ _idea_gate = threading.Semaphore(1)
 _idea_result_cache: dict[str, tuple[float, dict]] = {}
 _IDEA_RESULT_TTL = 60    # 同一查询 60 秒内直接复用结果
 _IDEA_DEADLINE = 45      # 单笔搜索总闸（秒），超时先回降级结果
+
+
+def _github_repo_from_url(value: str) -> tuple[str, str]:
+    """Accept only ordinary public GitHub repository URLs, never an arbitrary fetch URL."""
+    match = re.match(r"^https?://(?:www\.)?github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)(?:/|$)", str(value or "").strip())
+    if not match:
+        raise ValueError("请粘贴标准 GitHub 仓库链接，例如 https://github.com/owner/repo")
+    return match.group(1), match.group(2).removesuffix(".git")
+
+
+def _github_learning_headers() -> dict[str, str]:
+    """Prefer the already-local GitHub login for rate limits, without returning it to the browser."""
+    headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "StarRadar"}
+    try:
+        token = str(json.loads((PROFILE_DIR / "gh_token.json").read_text(encoding="utf-8")).get("token") or "").strip()
+    except (OSError, ValueError, AttributeError):
+        token = str(settings.github.token or "").strip()
+    if token:
+        headers["Authorization"] = "Bearer " + token
+    return headers
+
+
+def _github_learning_json(url: str) -> dict | list:
+    request = Request(url, headers=_github_learning_headers())
+    try:
+        with urlopen(request, timeout=15) as response:
+            return json.loads(response.read(1 << 20).decode("utf-8"))
+    except HTTPError as exc:
+        if exc.code == 404:
+            raise ValueError("仓库不存在、已私有，或当前 GitHub 登录没有读取权限") from exc
+        if exc.code == 403:
+            raise ValueError("GitHub 暂时拒绝读取：请稍后重试或在星标库完成 GitHub 登录") from exc
+        raise ValueError(f"GitHub 读取失败（HTTP {exc.code}）") from exc
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        logger.warning("GitHub learning import failed: %s", exc)
+        raise ValueError("暂时无法读取 GitHub 仓库，请检查网络后重试") from exc
+
+
+def _github_learning_text(owner: str, repo: str, path: str, branch: str) -> str:
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{quote(path, safe='/')}?ref={quote(branch, safe='')}"
+    data = _github_learning_json(url)
+    if not isinstance(data, dict) or data.get("encoding") != "base64":
+        return ""
+    try:
+        return base64.b64decode(str(data.get("content") or ""), validate=False).decode("utf-8", errors="replace")[:5000]
+    except (ValueError, UnicodeDecodeError):
+        return ""
+
+
+def _infer_learning_stack(repo: dict, file_texts: dict[str, str]) -> list[str]:
+    """Infer a concise stack from real metadata and dependency manifests, not from an LLM guess."""
+    combined = "\n".join(file_texts.values()).lower()
+    try:
+        package = json.loads(file_texts.get("package.json") or "{}")
+        packages = set((package.get("dependencies") or {}) | (package.get("devDependencies") or {}))
+        combined += "\n" + " ".join(packages).lower()
+    except (json.JSONDecodeError, AttributeError):
+        pass
+    checks = [
+        ("Next.js", ("\"next\"", "next.config")), ("React", ("\"react\"", "react-dom")),
+        ("Vue", ("\"vue\"", "nuxt")), ("FastAPI", ("fastapi",)), ("Flask", ("flask",)),
+        ("Django", ("django",)), ("Express", ("express",)), ("NestJS", ("@nestjs",)),
+        ("OpenAI API", ("openai",)), ("LangChain", ("langchain",)), ("LlamaIndex", ("llama_index", "llama-index")),
+        ("Prisma", ("prisma",)), ("Supabase", ("supabase",)), ("Firebase", ("firebase",)),
+        ("PostgreSQL", ("postgres", "psycopg", "\"pg\"")), ("MongoDB", ("mongodb", "pymongo")),
+        ("Docker", ("dockerfile", "docker-compose")),
+    ]
+    result = [str(repo.get("language"))] if repo.get("language") else []
+    result.extend(name for name, tokens in checks if any(token in combined for token in tokens))
+    return list(dict.fromkeys(result))[:12]
+
+
+def inspect_github_learning_source(url: str) -> dict:
+    """Read a bounded, useful repository evidence set for the learning archive.
+
+    This deliberately reads README, dependency manifests, shallow tree and likely entry files.
+    It is not a whole-repository crawler, so the later AI report can state its evidence limits.
+    """
+    owner, repo_name = _github_repo_from_url(url)
+    repo_url = f"https://api.github.com/repos/{owner}/{repo_name}"
+    repo = _github_learning_json(repo_url)
+    if not isinstance(repo, dict):
+        raise ValueError("GitHub 返回的仓库资料格式异常")
+    branch = str(repo.get("default_branch") or "main")
+    readme = _github_learning_text(owner, repo_name, "README.md", branch)
+    if not readme:
+        try:
+            readme_data = _github_learning_json(repo_url + "/readme")
+            if isinstance(readme_data, dict):
+                readme = _github_learning_text(owner, repo_name, str(readme_data.get("path") or "README.md"), branch)
+        except ValueError:
+            pass
+    tree_data = _github_learning_json(repo_url + "/git/trees/" + quote(branch, safe="") + "?recursive=1")
+    paths = [str(item.get("path")) for item in (tree_data.get("tree") if isinstance(tree_data, dict) else [])
+             if isinstance(item, dict) and item.get("type") == "blob"][:260]
+    preferred = ("package.json", "requirements.txt", "pyproject.toml", "Pipfile", "docker-compose.yml", "docker-compose.yaml",
+                 "next.config.js", "next.config.mjs", "vite.config.ts", "src/main.py", "src/index.ts", "src/index.js",
+                 "app/main.py", "main.py", "manage.py")
+    selected = [path for path in preferred if path in paths][:7]
+    file_texts = {path: _github_learning_text(owner, repo_name, path, branch) for path in selected}
+    file_texts = {path: text for path, text in file_texts.items() if text}
+    stack = _infer_learning_stack(repo, file_texts)
+    is_ai = any(item in stack for item in ("OpenAI API", "LangChain", "LlamaIndex"))
+    project_type = "AI 应用" if is_ai else ("SaaS" if any(item in stack for item in ("Next.js", "React", "Vue", "FastAPI", "Django")) else "未分类")
+    tree_preview = "\n".join(paths[:80]) or "未读取到文件目录。"
+    excerpts = "\n\n".join(f"--- {path}（自动读取）---\n{text[:2200]}" for path, text in file_texts.items())
+    evidence = (f"【GitHub 自动读取证据】\n仓库：{owner}/{repo_name}\n描述：{str(repo.get('description') or '未提供')}\n"
+                f"默认分支：{branch}\n检测技术栈：{', '.join(stack) or '待 AI 根据证据判断'}\n\n"
+                f"【README】\n{readme[:6500] or '仓库未提供可读取 README。'}\n\n"
+                f"【目录结构（前 80 项）】\n{tree_preview}\n\n【依赖与关键入口摘录】\n{excerpts or '未读取到常见依赖配置或入口文件。'}")[:12000]
+    return {"draft": {"name": str(repo.get("name") or repo_name), "source_url": str(repo.get("html_url") or url),
+                       "source_kind": "GitHub", "project_type": project_type, "tech_stack": stack,
+                       "readme_summary": evidence},
+            "scan": {"repository": f"{owner}/{repo_name}", "branch": branch, "files_read": list(file_texts),
+                     "paths_found": len(paths), "readme_found": bool(readme)}}
 
 
 def _oauth_configured() -> bool:
@@ -388,6 +512,14 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             self._starred_metadata_list()
         elif path == "/api/recommendations":
             self._recommendations_get()
+        elif path == "/api/learning/import":
+            self._learning_import(query)
+        elif path == "/api/learning/dashboard":
+            self._learning_dashboard()
+        elif path == "/api/learning/projects":
+            self._learning_projects()
+        elif path.startswith("/api/learning/projects/"):
+            self._learning_project_detail(path)
         else:
             self._serve_static(path)
 
@@ -458,6 +590,12 @@ class StarRadarHandler(BaseHTTPRequestHandler):
             return
         if path == "/api/starred-meta":
             self._starred_metadata_save()
+            return
+        if path == "/api/learning/projects":
+            self._learning_project_create()
+            return
+        if path.startswith("/api/learning/projects/"):
+            self._learning_project_action(path)
             return
         if path != "/api/events":
             self._bad("not found")
@@ -613,6 +751,9 @@ class StarRadarHandler(BaseHTTPRequestHandler):
                 snap["items"] = [x for x in snap.get("items", []) if x.get("full_name") != name]; save_snapshot(snap)
             self._json(200, {"ok": True})
             return
+        if path.startswith("/api/learning/projects/"):
+            self._learning_project_delete(path)
+            return
         self._json(404, {"ok": False, "error": "not found"})
 
     def _read_json_body(self, max_bytes: int = 1 << 16) -> dict | None:
@@ -703,6 +844,103 @@ class StarRadarHandler(BaseHTTPRequestHandler):
         except Exception as exc:  # noqa: BLE001
             logger.warning("library list failed: %s", exc)
             self._json(500, {"ok": False, "error": "读取项目库失败"})
+
+    # ===== 学习档案（本机单用户） =====
+
+    @staticmethod
+    def _learning_path_id(path: str) -> tuple[int | None, str]:
+        """Parse /api/learning/projects/<id>[/logs] without accepting arbitrary paths."""
+        suffix = path.removeprefix("/api/learning/projects/").strip("/")
+        parts = suffix.split("/") if suffix else []
+        if not parts or not parts[0].isdigit():
+            return None, ""
+        return int(parts[0]), parts[1] if len(parts) == 2 else ""
+
+    def _learning_dashboard(self) -> None:
+        try:
+            self._json(200, {"ok": True, "dashboard": learning_dashboard()})
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("learning dashboard failed: %s", exc)
+            self._json(500, {"ok": False, "error": "读取学习仪表盘失败"})
+
+    def _learning_import(self, query: dict) -> None:
+        """Read a public/private-with-local-login GitHub repo into an editable learning-project draft."""
+        url = str((query.get("url") or [""])[0]).strip()
+        try:
+            self._json(200, {"ok": True, **inspect_github_learning_source(url)})
+        except ValueError as exc:
+            self._json(400, {"ok": False, "error": str(exc)})
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("learning GitHub import failed: %s", exc)
+            self._json(502, {"ok": False, "error": "暂时无法读取 GitHub 项目，请稍后再试"})
+
+    def _learning_projects(self) -> None:
+        try:
+            self._json(200, {"ok": True, "items": list_learning_projects()})
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("learning projects list failed: %s", exc)
+            self._json(500, {"ok": False, "error": "读取学习档案失败"})
+
+    def _learning_project_detail(self, path: str) -> None:
+        project_id, action = self._learning_path_id(path)
+        if not project_id or action not in ("", "logs"):
+            self._bad("无效的学习项目路径")
+            return
+        project = get_learning_project(project_id)
+        if not project:
+            self._json(404, {"ok": False, "error": "学习项目不存在"})
+            return
+        if action == "logs":
+            self._json(200, {"ok": True, "items": list_learning_logs(project_id)})
+            return
+        project["logs"] = list_learning_logs(project_id)
+        self._json(200, {"ok": True, "item": project})
+
+    def _learning_project_create(self) -> None:
+        payload = self._read_json_body(max_bytes=1 << 17)
+        if payload is None:
+            return
+        try:
+            self._json(201, {"ok": True, "item": create_learning_project(payload)})
+        except ValueError as exc:
+            self._bad(str(exc))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("learning project create failed: %s", exc)
+            self._json(500, {"ok": False, "error": "新建学习项目失败"})
+
+    def _learning_project_action(self, path: str) -> None:
+        project_id, action = self._learning_path_id(path)
+        if not project_id or action not in ("", "logs"):
+            self._bad("无效的学习项目路径")
+            return
+        payload = self._read_json_body(max_bytes=1 << 17)
+        if payload is None:
+            return
+        try:
+            if action == "logs":
+                self._json(201, {"ok": True, "item": add_learning_log(project_id, payload)})
+            else:
+                self._json(200, {"ok": True, "item": update_learning_project(project_id, payload)})
+        except ValueError as exc:
+            self._bad(str(exc))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("learning project write failed: %s", exc)
+            self._json(500, {"ok": False, "error": "保存学习档案失败"})
+
+    def _learning_project_delete(self, path: str) -> None:
+        project_id, action = self._learning_path_id(path)
+        if not project_id or action:
+            self._bad("无效的学习项目路径")
+            return
+        if not get_learning_project(project_id):
+            self._json(404, {"ok": False, "error": "学习项目不存在"})
+            return
+        try:
+            delete_learning_project(project_id)
+            self._json(200, {"ok": True, "deleted": project_id})
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("learning project delete failed: %s", exc)
+            self._json(500, {"ok": False, "error": "删除学习项目失败"})
 
     def _starred_metadata_list(self) -> None:
         try:

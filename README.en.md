@@ -138,6 +138,7 @@ Desktop binds `127.0.0.1:8970` by default (auto-falls back to a free port). The 
 | **Star workspace** | Locally sync GitHub Stars with search, language / tag / archived filters, bulk tags, column layout, and inline notes; browse followed users' public Stars and a repository's Issues |
 | **For you recommendations** | Finds unstarred public repositories from the Topics and languages of your recent Stars; every card shows its reason, research direction, review state, and note. Refreshes daily at 08:00 or on demand |
 | **Cubby organizer** | Proposes local tags for a selected batch of Stars, lets you review or edit every proposal, then records an execution receipt. It never changes the original GitHub Stars |
+| **Learning archive** | Turns GitHub, local, and tutorial projects into traceable records: purpose, structured AI analysis, learning time, changed files, next steps, and client-need mapping. Import from the Star library in one click |
 | **AI explanations** | A "why it deserves attention" note per listed project, incrementally cached, graceful rule-text fallback; bring your own Key for full personalization |
 | **GitHub native integration** | One-click login (OAuth device flow) → star · fork · copy clone command · notes · save to a local project library |
 
@@ -167,6 +168,7 @@ All five dimensions are measured against a **dynamic baseline of same-size proje
 - **Sign out anytime**: the page's "Sign out" clears the local token instantly; revoke at GitHub → Settings → Applications to kill it remotely
 - **No data uploads**: questionnaire / behavior data is only persisted via local `--serve`; CORS defaults to a whitelist (Pages domain + loopback), so third-party pages can't silently call the local API
 - **Recommendation snapshots stay local**: recommendations, review states, and notes are stored in `data/profile/recommendations/`; the feature reads only your authorized Stars and public GitHub repository data
+- **Learning archives stay local**: projects, AI analyses, and learning logs are stored in `data/profile/memory.db`; a GitHub import reads the README, manifests, directory tree, and a few common entry files on demand, then the AI analyzes only that visible evidence plus your notes—it never claims to have read the whole codebase
 - **LLM Key stays local**: browser localStorage + local `data/profile/llm_config.json` only; the public edition never touches it
 
 ---

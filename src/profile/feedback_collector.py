@@ -110,6 +110,36 @@ CREATE TABLE IF NOT EXISTS starred_project_metadata (
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS idx_starred_metadata_favorite ON starred_project_metadata(favorite DESC, updated_at DESC);
+
+CREATE TABLE IF NOT EXISTS learning_projects (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    source_url TEXT NOT NULL DEFAULT '',
+    source_kind TEXT NOT NULL DEFAULT 'GitHub',
+    project_type TEXT NOT NULL DEFAULT '未分类',
+    tech_stack TEXT NOT NULL DEFAULT '[]',
+    status TEXT NOT NULL DEFAULT '待研究',
+    goal TEXT NOT NULL DEFAULT '',
+    readme_summary TEXT NOT NULL DEFAULT '',
+    analysis TEXT NOT NULL DEFAULT '{}',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS idx_learning_projects_updated ON learning_projects(updated_at DESC);
+
+CREATE TABLE IF NOT EXISTS learning_logs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id INTEGER NOT NULL,
+    logged_on TEXT NOT NULL,
+    duration_minutes INTEGER NOT NULL DEFAULT 0,
+    completed TEXT NOT NULL DEFAULT '',
+    blockers TEXT NOT NULL DEFAULT '',
+    changed_files TEXT NOT NULL DEFAULT '',
+    next_step TEXT NOT NULL DEFAULT '',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY(project_id) REFERENCES learning_projects(id) ON DELETE CASCADE
+);
+CREATE INDEX IF NOT EXISTS idx_learning_logs_project_date ON learning_logs(project_id, logged_on DESC);
 """
 
 
@@ -260,6 +290,139 @@ def delete_saved_project(full_name: str) -> None:
     """从本机项目库移除项目；不会影响 GitHub Star 或远程仓库。"""
     with _connect() as conn:
         conn.execute("DELETE FROM saved_projects WHERE full_name=?", (full_name,))
+
+
+# ===== 学习档案（单用户、本机优先） =====
+
+def _safe_json(value: Any, fallback: Any) -> Any:
+    try:
+        result = json.loads(value or "")
+        return result if isinstance(result, type(fallback)) else fallback
+    except (TypeError, json.JSONDecodeError):
+        return fallback
+
+
+def _project_from_row(row: tuple[Any, ...]) -> dict[str, Any]:
+    keys = ("id", "name", "source_url", "source_kind", "project_type", "tech_stack", "status", "goal", "readme_summary", "analysis", "created_at", "updated_at")
+    project = dict(zip(keys, row))
+    project["tech_stack"] = _safe_json(project["tech_stack"], [])
+    project["analysis"] = _safe_json(project["analysis"], {})
+    return project
+
+
+def list_learning_projects() -> list[dict[str, Any]]:
+    with _connect() as conn:
+        rows = conn.execute(
+            "SELECT id,name,source_url,source_kind,project_type,tech_stack,status,goal,readme_summary,analysis,created_at,updated_at "
+            "FROM learning_projects ORDER BY updated_at DESC,id DESC"
+        ).fetchall()
+    return [_project_from_row(row) for row in rows]
+
+
+def get_learning_project(project_id: int) -> dict[str, Any] | None:
+    with _connect() as conn:
+        row = conn.execute(
+            "SELECT id,name,source_url,source_kind,project_type,tech_stack,status,goal,readme_summary,analysis,created_at,updated_at "
+            "FROM learning_projects WHERE id=?", (int(project_id),)
+        ).fetchone()
+    return _project_from_row(row) if row else None
+
+
+def _clean_project_payload(payload: dict[str, Any], existing: dict[str, Any] | None = None) -> dict[str, Any]:
+    def value(key: str, default: str, limit: int) -> str:
+        raw = payload.get(key, existing.get(key, default) if existing else default)
+        return str(raw or default).strip()[:limit]
+    raw_stack = payload.get("tech_stack", existing.get("tech_stack", []) if existing else [])
+    if isinstance(raw_stack, str):
+        raw_stack = raw_stack.split(",")
+    stack = [str(item).strip()[:40] for item in (raw_stack or []) if str(item).strip()][:16]
+    return {"name": value("name", "", 120), "source_url": value("source_url", "", 1000),
+            "source_kind": value("source_kind", "GitHub", 32), "project_type": value("project_type", "未分类", 64),
+            "tech_stack": stack, "status": value("status", "待研究", 32), "goal": value("goal", "", 1200),
+            "readme_summary": value("readme_summary", "", 12000)}
+
+
+def create_learning_project(payload: dict[str, Any]) -> dict[str, Any]:
+    project = _clean_project_payload(payload)
+    if not project["name"]:
+        raise ValueError("请填写项目名称")
+    with _connect() as conn:
+        cursor = conn.execute(
+            "INSERT INTO learning_projects (name,source_url,source_kind,project_type,tech_stack,status,goal,readme_summary) VALUES (?,?,?,?,?,?,?,?)",
+            (project["name"], project["source_url"], project["source_kind"], project["project_type"],
+             json.dumps(project["tech_stack"], ensure_ascii=False), project["status"], project["goal"], project["readme_summary"]),
+        )
+    return get_learning_project(int(cursor.lastrowid)) or {}
+
+
+def update_learning_project(project_id: int, payload: dict[str, Any]) -> dict[str, Any]:
+    existing = get_learning_project(project_id)
+    if not existing:
+        raise ValueError("项目不存在")
+    project = _clean_project_payload(payload, existing)
+    analysis = payload.get("analysis", existing["analysis"])
+    if not isinstance(analysis, dict):
+        analysis = existing["analysis"]
+    with _connect() as conn:
+        conn.execute(
+            "UPDATE learning_projects SET name=?,source_url=?,source_kind=?,project_type=?,tech_stack=?,status=?,goal=?,readme_summary=?,analysis=?,updated_at=CURRENT_TIMESTAMP WHERE id=?",
+            (project["name"], project["source_url"], project["source_kind"], project["project_type"],
+             json.dumps(project["tech_stack"], ensure_ascii=False), project["status"], project["goal"], project["readme_summary"],
+             json.dumps(analysis, ensure_ascii=False), int(project_id)),
+        )
+    return get_learning_project(project_id) or existing
+
+
+def delete_learning_project(project_id: int) -> None:
+    with _connect() as conn:
+        conn.execute("DELETE FROM learning_logs WHERE project_id=?", (int(project_id),))
+        conn.execute("DELETE FROM learning_projects WHERE id=?", (int(project_id),))
+
+
+def list_learning_logs(project_id: int) -> list[dict[str, Any]]:
+    with _connect() as conn:
+        rows = conn.execute(
+            "SELECT id,project_id,logged_on,duration_minutes,completed,blockers,changed_files,next_step,created_at "
+            "FROM learning_logs WHERE project_id=? ORDER BY logged_on DESC,id DESC", (int(project_id),)
+        ).fetchall()
+    keys = ("id", "project_id", "logged_on", "duration_minutes", "completed", "blockers", "changed_files", "next_step", "created_at")
+    return [dict(zip(keys, row)) for row in rows]
+
+
+def add_learning_log(project_id: int, payload: dict[str, Any]) -> dict[str, Any]:
+    if not get_learning_project(project_id):
+        raise ValueError("项目不存在")
+    try:
+        minutes = max(0, min(int(payload.get("duration_minutes") or 0), 1440))
+    except (TypeError, ValueError):
+        minutes = 0
+    logged_on = str(payload.get("logged_on") or datetime.now().date().isoformat())[:10]
+    values = (int(project_id), logged_on, minutes, str(payload.get("completed") or "")[:2000],
+              str(payload.get("blockers") or "")[:2000], str(payload.get("changed_files") or "")[:2000],
+              str(payload.get("next_step") or "")[:2000])
+    with _connect() as conn:
+        cursor = conn.execute(
+            "INSERT INTO learning_logs (project_id,logged_on,duration_minutes,completed,blockers,changed_files,next_step) VALUES (?,?,?,?,?,?,?)", values
+        )
+        conn.execute("UPDATE learning_projects SET updated_at=CURRENT_TIMESTAMP WHERE id=?", (int(project_id),))
+    return {"id": int(cursor.lastrowid), "project_id": values[0], "logged_on": values[1], "duration_minutes": values[2],
+            "completed": values[3], "blockers": values[4], "changed_files": values[5], "next_step": values[6]}
+
+
+def learning_dashboard() -> dict[str, Any]:
+    projects = list_learning_projects()
+    with _connect() as conn:
+        minutes, logs = conn.execute(
+            "SELECT COALESCE(SUM(duration_minutes),0),COUNT(*) FROM learning_logs WHERE logged_on >= date('now','-29 days')"
+        ).fetchone()
+    stacks: dict[str, int] = {}; statuses: dict[str, int] = {}
+    for project in projects:
+        statuses[project["status"]] = statuses.get(project["status"], 0) + 1
+        for stack in project["tech_stack"]:
+            stacks[stack] = stacks.get(stack, 0) + 1
+    return {"project_count": len(projects), "in_progress": statuses.get("研究中", 0) + statuses.get("复刻中", 0),
+            "recent_minutes": int(minutes or 0), "recent_logs": int(logs or 0), "stack_distribution": sorted(stacks.items(), key=lambda item: (-item[1], item[0]))[:8],
+            "status_distribution": statuses}
 
 
 # ===== GitHub 星标管理（只存本机，不改 GitHub 原始星标） =====

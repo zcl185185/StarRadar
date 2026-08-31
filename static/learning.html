@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>学习档案 · 航标 Beacon</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/stars-library.css?v=20260829v">
+  <link rel="stylesheet" href="css/learning.css?v=20260830a">
+</head>
+<body class="access-locked">
+  <section class="library-access-gate" id="accessGate" aria-modal="true" role="dialog" aria-labelledby="accessTitle">
+    <form class="library-access-card" id="accessForm">
+      <span class="access-star">✦</span><p>LEARNING ARCHIVE · LOCAL ACCESS</p>
+      <h1 id="accessTitle">打开你的<br>学习档案</h1>
+      <label for="accessCode">访问码</label>
+      <div><input id="accessCode" type="password" inputmode="numeric" maxlength="32" autocomplete="current-password" placeholder="请输入访问码" required autofocus><button type="submit">进入 →</button></div>
+      <small id="accessError" role="status"></small>
+    </form>
+  </section>
+
+  <div class="library-shell learning-shell">
+    <header class="library-topbar">
+      <a class="product-mark" href="index.html" title="返回航标 Beacon 首页"><img src="starlogo.png" alt=""><span><b>航标 Beacon</b><small>LEARNING ARCHIVE</small></span></a>
+      <nav class="surface-tabs learning-tabs" aria-label="学习档案视图">
+        <button class="surface-tab active" data-view="dashboard"><span>◫</span> 学习概览</button>
+        <button class="surface-tab" data-view="library"><span>▤</span> 项目档案 <sup id="projectTabCount">—</sup></button>
+      </nav>
+      <div class="topbar-actions"><span class="local-badge"><i></i> 数据仅存本机</span><a class="back-link" href="stars.html">★ 星标库</a><button class="learning-primary" id="newProject">＋ 新增项目</button></div>
+    </header>
+
+    <main class="learning-main">
+      <section class="learning-hero">
+        <div><p class="learning-kicker">PROJECT → UNDERSTANDING → EVIDENCE</p><h1>把看过的项目，<em>变成能说明的能力。</em></h1><p>记录你研究过什么、如何复刻、改动了哪些模块，并将理解转化为真实客户交付能力。</p></div>
+        <div class="hero-flow" aria-label="学习闭环"><span>项目</span><i>→</i><span>解剖</span><i>→</i><span>复刻</span><i>→</i><span>能力</span></div>
+      </section>
+
+      <section id="dashboardView" class="learning-view"><div class="learning-loading"><b>正在打开学习档案…</b><p>正在读取你本机保存的项目与学习记录。</p></div></section>
+      <section id="libraryView" class="learning-view" hidden></section>
+      <section id="detailView" class="learning-view" hidden></section>
+    </main>
+  </div>
+
+  <section class="learning-modal" id="projectModal" hidden aria-modal="true" role="dialog" aria-labelledby="projectModalTitle">
+    <form class="learning-dialog project-dialog" id="projectForm">
+      <header><div><p class="learning-kicker">PROJECT INTAKE · EVIDENCE FIRST</p><h2 id="projectModalTitle">导入并拆解一个项目</h2><p>贴 GitHub 仓库链接；系统读取 README、依赖、目录和关键入口，再交给 AI 生成你的项目解剖。</p></div><button type="button" class="dialog-close" data-close="projectModal" aria-label="关闭">×</button></header>
+      <div class="form-grid">
+        <label>项目名称 <b>*</b><input name="name" required maxlength="120" placeholder="例如：AI 文档问答助手"></label>
+        <label>项目类型<select name="project_type"><option>AI 应用</option><option>SaaS</option><option>后台系统</option><option>电商</option><option>落地页</option><option>自动化工具</option><option>未分类</option></select></label>
+        <label>来源类型<select name="source_kind"><option>GitHub</option><option>本地项目</option><option>教程</option><option>其他</option></select></label>
+        <label>当前状态<select name="status"><option>待研究</option><option>研究中</option><option>复刻中</option><option>已完成</option><option>暂停</option></select></label>
+        <label class="span-2">GitHub 链接 / 本地路径 / 教程链接<div class="source-intake"><input name="source_url" maxlength="1000" placeholder="https://github.com/owner/repo 或 D:\\projects\\demo"><button type="button" class="learning-secondary" id="scanGithub">读取 GitHub 项目</button></div><span id="githubScanStatus">GitHub 项目会自动读取 README、依赖配置、目录结构与常见入口文件；本地目录暂时仍需手动补充摘要。</span></label>
+        <label class="span-2">技术栈<input name="tech_stack" maxlength="600" placeholder="用逗号分隔，例如 Next.js, FastAPI, OpenAI API, Chroma"></label>
+        <label class="span-2">我为什么学习它？<textarea name="goal" maxlength="1200" placeholder="例如：想理解 RAG 的完整链路、文件上传和引用回答。"></textarea></label>
+        <label class="span-2">AI 分析材料 <span>自动读取结果会出现在这里。你可继续补充自己注意到的模块；AI 只根据这里的证据解剖，不会假装读过未读取的代码。</span><textarea class="tall" name="readme_summary" maxlength="12000" placeholder="先粘贴 GitHub 链接并点击“读取 GitHub 项目”，或手动粘贴 README、目录、依赖和关键流程…"></textarea></label>
+      </div>
+      <footer><button type="button" class="learning-secondary" data-close="projectModal">取消</button><span id="projectFormStatus"></span><button class="learning-primary" type="submit">保存并生成 AI 解剖 →</button></footer>
+    </form>
+  </section>
+
+  <section class="learning-modal" id="logModal" hidden aria-modal="true" role="dialog" aria-labelledby="logModalTitle">
+    <form class="learning-dialog log-dialog" id="logForm">
+      <header><div><p class="learning-kicker">LEARNING LOG</p><h2 id="logModalTitle">记录今天的学习</h2><p id="logProjectName">把完成内容、改动和下一步留下来，才会成为能力证据。</p></div><button type="button" class="dialog-close" data-close="logModal" aria-label="关闭">×</button></header>
+      <div class="form-grid"><label>日期<input name="logged_on" type="date" required></label><label>学习时长（分钟）<input name="duration_minutes" type="number" min="0" max="1440" required placeholder="90"></label><label class="span-2">今天完成了什么 <b>*</b><textarea name="completed" required maxlength="2000" placeholder="例如：读懂 PDF 上传、文本提取和 chunk 切分代码。"></textarea></label><label class="span-2">卡在哪里<textarea name="blockers" maxlength="2000" placeholder="例如：不理解 chunk overlap 为什么要保留。"></textarea></label><label class="span-2">改动文件<textarea name="changed_files" maxlength="2000" placeholder="例如：src/parser/pdf.ts、src/api/upload.ts"></textarea></label><label class="span-2">下一步 <b>*</b><textarea name="next_step" required maxlength="2000" placeholder="例如：打印 chunk 内容，对比 overlap 前后的检索效果。"></textarea></label></div>
+      <footer><button type="button" class="learning-secondary" data-close="logModal">取消</button><span id="logFormStatus"></span><button class="learning-primary" type="submit">保存学习记录</button></footer>
+    </form>
+  </section>
+
+  <div class="learning-toast" id="toast" role="status"></div>
+  <script src="js/access.js?v=20260825g"></script>
+  <script src="js/llm.js?v=20260825g"></script>
+  <script src="js/learning.js?v=20260830a"></script>
+</body>
+</html>
