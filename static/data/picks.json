@@ -1,462 +1,464 @@
 [
   {
     "repo": {
-      "owner": "SPlayer-Dev",
-      "name": "SPlayer-Next",
-      "full_name": "SPlayer-Dev/SPlayer-Next",
-      "description": "🎵 Cross-platform desktop music player with rich lyric support and wide audio format compatibility. 跨平台桌面音乐播放器，支持丰富歌词与多种音频格式",
-      "stars": 1000,
-      "forks": 89,
-      "open_issues": 43,
-      "created_at": "2026-03-15T15:37:41+00:00",
-      "pushed_at": "2026-08-28T15:46:08+00:00",
-      "updated_at": "2026-08-30T07:47:30+00:00",
+      "owner": "tabtin-ai",
+      "name": "TabTin",
+      "full_name": "tabtin-ai/TabTin",
+      "description": "A workspace where people and multiple AI agents work together.",
+      "stars": 200,
+      "forks": 51,
+      "open_issues": 3,
+      "created_at": "2026-08-19T02:36:25+00:00",
+      "pushed_at": "2026-08-31T02:43:59+00:00",
+      "updated_at": "2026-08-31T09:26:02+00:00",
       "topics": [
-        "cross-platform",
-        "ffmpeg",
-        "media-services",
-        "music",
-        "music-library",
-        "music-player",
-        "rust",
-        "vue"
+        "agents",
+        "ai",
+        "collaboration",
+        "desktop",
+        "workspace"
       ],
       "language": "TypeScript",
       "license": "AGPL-3.0",
-      "homepage": "http://splayer-next.imsyy.top/",
-      "html_url": "https://github.com/SPlayer-Dev/SPlayer-Next",
-      "default_branch": "dev",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 966,
-      "star_series": [
-        {
-          "d": "08-01",
-          "s": 966
-        },
-        {
-          "d": "08-02",
-          "s": 966
-        },
-        {
-          "d": "08-03",
-          "s": 966
-        },
-        {
-          "d": "08-04",
-          "s": 966
-        },
-        {
-          "d": "08-05",
-          "s": 966
-        },
-        {
-          "d": "08-06",
-          "s": 966
-        },
-        {
-          "d": "08-07",
-          "s": 966
-        },
-        {
-          "d": "08-08",
-          "s": 966
-        },
-        {
-          "d": "08-09",
-          "s": 966
-        },
-        {
-          "d": "08-10",
-          "s": 966
-        },
-        {
-          "d": "08-11",
-          "s": 966
-        },
-        {
-          "d": "08-12",
-          "s": 966
-        },
-        {
-          "d": "08-13",
-          "s": 966
-        },
-        {
-          "d": "08-14",
-          "s": 966
-        },
-        {
-          "d": "08-15",
-          "s": 966
-        },
-        {
-          "d": "08-16",
-          "s": 966
-        },
-        {
-          "d": "08-17",
-          "s": 966
-        },
-        {
-          "d": "08-18",
-          "s": 966
-        },
-        {
-          "d": "08-19",
-          "s": 966
-        },
-        {
-          "d": "08-20",
-          "s": 966
-        },
-        {
-          "d": "08-21",
-          "s": 966
-        },
-        {
-          "d": "08-22",
-          "s": 966
-        },
-        {
-          "d": "08-23",
-          "s": 966
-        },
-        {
-          "d": "08-24",
-          "s": 966
-        },
-        {
-          "d": "08-25",
-          "s": 966
-        },
-        {
-          "d": "08-26",
-          "s": 972
-        },
-        {
-          "d": "08-27",
-          "s": 978
-        },
-        {
-          "d": "08-28",
-          "s": 989
-        },
-        {
-          "d": "08-29",
-          "s": 998
-        },
-        {
-          "d": "08-30",
-          "s": 1000
-        }
-      ]
-    },
-    "score": {
-      "score": 78.3,
-      "breakdown": {
-        "vel": 54,
-        "acc": 99,
-        "health": 80,
-        "fresh": 54,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 71.18,
-      "explanation": "SPlayer-Next 是 TypeScript 开源项目，主打「🎵 Cross-platform desktop music player with rich lyric support and wide audio format compatibility. 跨平台桌面音乐播放器，支持丰富歌词与多种音频格式」；处于中早期增长，本周涨速 4.9 star/天，涨速在加快；社区健康（fork/star 比 8.9%，43 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "AML-memory",
-      "name": "agent-memory-leaderboard",
-      "full_name": "AML-memory/agent-memory-leaderboard",
-      "description": null,
-      "stars": 996,
-      "forks": 54,
-      "open_issues": 10,
-      "created_at": "2026-07-29T06:24:13+00:00",
-      "pushed_at": "2026-08-27T04:15:58+00:00",
-      "updated_at": "2026-08-30T10:30:39+00:00",
-      "topics": [],
-      "language": "Python",
-      "license": null,
-      "homepage": null,
-      "html_url": "https://github.com/AML-memory/agent-memory-leaderboard",
+      "homepage": "https://www.tabtin.com/",
+      "html_url": "https://github.com/tabtin-ai/TabTin",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 874,
+      "stars_7d_ago": 149,
       "star_series": [
         {
-          "d": "08-01",
-          "s": 735
-        },
-        {
           "d": "08-02",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-03",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-04",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-05",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-06",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-07",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-08",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-09",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-10",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-11",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-12",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-13",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-14",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-15",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-16",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-17",
-          "s": 735
+          "s": 131
         },
         {
           "d": "08-18",
-          "s": 741
+          "s": 131
         },
         {
           "d": "08-19",
-          "s": 782
+          "s": 131
         },
         {
           "d": "08-20",
-          "s": 812
+          "s": 131
         },
         {
           "d": "08-21",
-          "s": 841
+          "s": 131
         },
         {
           "d": "08-22",
-          "s": 852
+          "s": 131
         },
         {
           "d": "08-23",
-          "s": 865
+          "s": 131
         },
         {
           "d": "08-24",
-          "s": 874
+          "s": 134
         },
         {
           "d": "08-25",
-          "s": 901
+          "s": 149
         },
         {
           "d": "08-26",
-          "s": 925
+          "s": 163
         },
         {
           "d": "08-27",
-          "s": 950
+          "s": 180
         },
         {
           "d": "08-28",
-          "s": 962
+          "s": 186
         },
         {
           "d": "08-29",
-          "s": 981
+          "s": 189
         },
         {
           "d": "08-30",
-          "s": 996
+          "s": 195
+        },
+        {
+          "d": "08-31",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 76.24,
+      "score": 100.0,
       "breakdown": {
-        "vel": 89,
-        "acc": 47,
-        "health": 75,
-        "fresh": 91,
-        "signal": 20
+        "vel": 67,
+        "acc": 86,
+        "health": 98,
+        "fresh": 97,
+        "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 63.53,
-      "explanation": "agent-memory-leaderboard 是 Python 方向的开源项目；处于增长早期，本周涨速 17 star/天；社区健康（fork/star 比 5.4%，10 个 open issue）、开发活跃。"
+      "base_score": 83.34,
+      "explanation": "TabTin 是 TypeScript 开源项目，主打「A workspace where people and multiple AI agents work together.」；处于增长早期，本周涨速 7.3 star/天，涨速在加快；社区健康（fork/star 比 25.5%，3 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "Formsmith746",
-      "name": "SketchForge-3D",
-      "full_name": "Formsmith746/SketchForge-3D",
-      "description": "A local-first browser 3D design editor for building, cutting, importing STL files, and exporting models.",
-      "stars": 998,
-      "forks": 93,
-      "open_issues": 14,
-      "created_at": "2026-06-06T14:19:11+00:00",
-      "pushed_at": "2026-08-28T10:24:38+00:00",
-      "updated_at": "2026-08-30T05:00:34+00:00",
-      "topics": [],
-      "language": "TypeScript",
-      "license": "AGPL-3.0",
-      "homepage": "https://sketchforge3d.com",
-      "html_url": "https://github.com/Formsmith746/SketchForge-3D",
-      "default_branch": "main",
+      "owner": "fuyuxiang",
+      "name": "echo-agent",
+      "full_name": "fuyuxiang/echo-agent",
+      "description": "Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。",
+      "stars": 997,
+      "forks": 25,
+      "open_issues": 3,
+      "created_at": "2026-03-15T03:17:38+00:00",
+      "pushed_at": "2026-08-30T14:56:19+00:00",
+      "updated_at": "2026-08-31T10:09:03+00:00",
+      "topics": [
+        "agent",
+        "agent-memory",
+        "memory"
+      ],
+      "language": "Python",
+      "license": "MIT",
+      "homepage": "http://www.ojlab.com/",
+      "html_url": "https://github.com/fuyuxiang/echo-agent",
+      "default_branch": "master",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 962,
+      "stars_7d_ago": 939,
       "star_series": [
         {
-          "d": "08-01",
-          "s": 830
-        },
-        {
           "d": "08-02",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-03",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-04",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-05",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-06",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-07",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-08",
-          "s": 830
+          "s": 862
         },
         {
           "d": "08-09",
-          "s": 832
+          "s": 862
         },
         {
           "d": "08-10",
-          "s": 834
+          "s": 862
         },
         {
           "d": "08-11",
-          "s": 837
+          "s": 862
         },
         {
           "d": "08-12",
-          "s": 839
+          "s": 862
         },
         {
           "d": "08-13",
-          "s": 842
+          "s": 862
         },
         {
           "d": "08-14",
-          "s": 843
+          "s": 875
         },
         {
           "d": "08-15",
-          "s": 844
+          "s": 892
         },
         {
           "d": "08-16",
-          "s": 848
+          "s": 907
         },
         {
           "d": "08-17",
-          "s": 850
+          "s": 919
         },
         {
           "d": "08-18",
-          "s": 851
+          "s": 930
         },
         {
           "d": "08-19",
-          "s": 853
+          "s": 930
         },
         {
           "d": "08-20",
-          "s": 856
+          "s": 931
         },
         {
           "d": "08-21",
-          "s": 858
+          "s": 932
         },
         {
           "d": "08-22",
-          "s": 871
+          "s": 934
         },
         {
           "d": "08-23",
-          "s": 905
+          "s": 935
         },
         {
           "d": "08-24",
-          "s": 962
+          "s": 936
         },
         {
           "d": "08-25",
-          "s": 971
+          "s": 939
         },
         {
           "d": "08-26",
-          "s": 976
+          "s": 939
         },
         {
           "d": "08-27",
-          "s": 985
+          "s": 951
+        },
+        {
+          "d": "08-28",
+          "s": 965
+        },
+        {
+          "d": "08-29",
+          "s": 979
+        },
+        {
+          "d": "08-30",
+          "s": 989
+        },
+        {
+          "d": "08-31",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 89.1,
+      "breakdown": {
+        "vel": 70,
+        "acc": 99,
+        "health": 67,
+        "fresh": 54,
+        "signal": 85
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 74.25,
+      "explanation": "echo-agent 是 Python 开源项目，主打「Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。」；处于增长早期，本周涨速 8.3 star/天，涨速在加快；项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "binance",
+      "name": "binance-skills-hub",
+      "full_name": "binance/binance-skills-hub",
+      "description": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
+      "stars": 1000,
+      "forks": 211,
+      "open_issues": 53,
+      "created_at": "2026-03-03T08:15:46+00:00",
+      "pushed_at": "2026-08-28T03:29:03+00:00",
+      "updated_at": "2026-08-31T01:36:39+00:00",
+      "topics": [
+        "agents",
+        "ai",
+        "crypto",
+        "skills"
+      ],
+      "language": "Python",
+      "license": null,
+      "homepage": null,
+      "html_url": "https://github.com/binance/binance-skills-hub",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 982,
+      "star_series": [
+        {
+          "d": "08-02",
+          "s": 959
+        },
+        {
+          "d": "08-03",
+          "s": 959
+        },
+        {
+          "d": "08-04",
+          "s": 959
+        },
+        {
+          "d": "08-05",
+          "s": 959
+        },
+        {
+          "d": "08-06",
+          "s": 959
+        },
+        {
+          "d": "08-07",
+          "s": 959
+        },
+        {
+          "d": "08-08",
+          "s": 959
+        },
+        {
+          "d": "08-09",
+          "s": 959
+        },
+        {
+          "d": "08-10",
+          "s": 959
+        },
+        {
+          "d": "08-11",
+          "s": 959
+        },
+        {
+          "d": "08-12",
+          "s": 959
+        },
+        {
+          "d": "08-13",
+          "s": 959
+        },
+        {
+          "d": "08-14",
+          "s": 959
+        },
+        {
+          "d": "08-15",
+          "s": 959
+        },
+        {
+          "d": "08-16",
+          "s": 959
+        },
+        {
+          "d": "08-17",
+          "s": 959
+        },
+        {
+          "d": "08-18",
+          "s": 962
+        },
+        {
+          "d": "08-19",
+          "s": 964
+        },
+        {
+          "d": "08-20",
+          "s": 969
+        },
+        {
+          "d": "08-21",
+          "s": 972
+        },
+        {
+          "d": "08-22",
+          "s": 975
+        },
+        {
+          "d": "08-23",
+          "s": 977
+        },
+        {
+          "d": "08-24",
+          "s": 980
+        },
+        {
+          "d": "08-25",
+          "s": 982
+        },
+        {
+          "d": "08-26",
+          "s": 984
+        },
+        {
+          "d": "08-27",
+          "s": 988
         },
         {
           "d": "08-28",
@@ -464,28 +466,213 @@
         },
         {
           "d": "08-29",
-          "s": 997
+          "s": 994
         },
         {
           "d": "08-30",
           "s": 998
+        },
+        {
+          "d": "08-31",
+          "s": 1000
         }
       ]
     },
     "score": {
-      "score": 69.38,
+      "score": 62.22,
       "breakdown": {
-        "vel": 55,
-        "acc": 34,
+        "vel": 40,
+        "acc": 48,
         "health": 88,
-        "fresh": 77,
-        "signal": 70
+        "fresh": 50,
+        "signal": 50
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 57.82,
-      "explanation": "SketchForge-3D 是 TypeScript 开源项目，主打「A local-first browser 3D design editor for building, cutting, importing STL files, and exporting models.」；处于增长早期，本周涨速 5.1 star/天；社区健康（fork/star 比 9.3%，14 个 open issue）、开发活跃。"
+      "base_score": 51.85,
+      "explanation": "binance-skills-hub 是 Python 开源项目，主打「Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto」；处于增长早期，本周涨速 2.6 star/天；社区健康（fork/star 比 21.1%，53 个 open issue）。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "streamcoreai",
+      "name": "streamcore-server",
+      "full_name": "streamcoreai/streamcore-server",
+      "description": "Open-source realtime voice agent server in Go with WebRTC (WHIP), barge-in, streaming STT/LLM/TTS pipelines, plugin system, multi-language SDKs, SIP telephony, ESP32 support & fully local mode.",
+      "stars": 200,
+      "forks": 27,
+      "open_issues": 19,
+      "created_at": "2026-03-28T13:04:05+00:00",
+      "pushed_at": "2026-08-29T14:44:50+00:00",
+      "updated_at": "2026-08-29T18:34:31+00:00",
+      "topics": [
+        "agent-framework",
+        "ai-voice-agent",
+        "conversational-ai",
+        "esp32",
+        "go",
+        "golang",
+        "local-ai",
+        "open-source-ai",
+        "realtime-ai",
+        "realtime-voice-agent",
+        "sip",
+        "speech-to-text",
+        "stt",
+        "telephony",
+        "text-to-speech",
+        "tts",
+        "voice-agent",
+        "voice-ai",
+        "webrtc",
+        "webrtc-whip"
+      ],
+      "language": "Go",
+      "license": "Apache-2.0",
+      "homepage": "https://www.streamcore.ai",
+      "html_url": "https://github.com/streamcoreai/streamcore-server",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 187,
+      "star_series": [
+        {
+          "d": "08-02",
+          "s": 136
+        },
+        {
+          "d": "08-03",
+          "s": 136
+        },
+        {
+          "d": "08-04",
+          "s": 136
+        },
+        {
+          "d": "08-05",
+          "s": 136
+        },
+        {
+          "d": "08-06",
+          "s": 136
+        },
+        {
+          "d": "08-07",
+          "s": 136
+        },
+        {
+          "d": "08-08",
+          "s": 136
+        },
+        {
+          "d": "08-09",
+          "s": 136
+        },
+        {
+          "d": "08-10",
+          "s": 141
+        },
+        {
+          "d": "08-11",
+          "s": 144
+        },
+        {
+          "d": "08-12",
+          "s": 151
+        },
+        {
+          "d": "08-13",
+          "s": 154
+        },
+        {
+          "d": "08-14",
+          "s": 157
+        },
+        {
+          "d": "08-15",
+          "s": 157
+        },
+        {
+          "d": "08-16",
+          "s": 159
+        },
+        {
+          "d": "08-17",
+          "s": 161
+        },
+        {
+          "d": "08-18",
+          "s": 172
+        },
+        {
+          "d": "08-19",
+          "s": 173
+        },
+        {
+          "d": "08-20",
+          "s": 174
+        },
+        {
+          "d": "08-21",
+          "s": 181
+        },
+        {
+          "d": "08-22",
+          "s": 185
+        },
+        {
+          "d": "08-23",
+          "s": 186
+        },
+        {
+          "d": "08-24",
+          "s": 186
+        },
+        {
+          "d": "08-25",
+          "s": 187
+        },
+        {
+          "d": "08-26",
+          "s": 188
+        },
+        {
+          "d": "08-27",
+          "s": 190
+        },
+        {
+          "d": "08-28",
+          "s": 192
+        },
+        {
+          "d": "08-29",
+          "s": 200
+        },
+        {
+          "d": "08-30",
+          "s": 200
+        },
+        {
+          "d": "08-31",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 61.65,
+      "breakdown": {
+        "vel": 33,
+        "acc": 47,
+        "health": 79,
+        "fresh": 58,
+        "signal": 85
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 51.38,
+      "explanation": "streamcore-server 是 Go 开源项目，主打「Open-source realtime voice agent server in Go with WebRTC (WHIP), barge-in, streaming STT/LLM/TTS pipelines, plugin system, multi-language SDKs, SIP telephony, ESP32 support & fully local mode.」；处于增长早期；社区健康（fork/star 比 13.5%，19 个 open issue）、项目元数据完整。"
     }
   },
   {
@@ -517,10 +704,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 0,
       "star_series": [
-        {
-          "d": "08-01",
-          "s": 0
-        },
         {
           "d": "08-02",
           "s": 0
@@ -636,11 +819,15 @@
         {
           "d": "08-30",
           "s": 200
+        },
+        {
+          "d": "08-31",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 60.98,
+      "score": 60.95,
       "breakdown": {
         "vel": 100,
         "acc": 99,
@@ -651,176 +838,8 @@
       "stage": "saturated",
       "stage_multiplier": 0.7,
       "confidence": 1.0,
-      "base_score": 87.11,
+      "base_score": 87.07,
       "explanation": "oddk 是 Go 开源项目，主打「Opinionated Database Deployment Kit — locally running RDS for PostgreSQL」；增长已饱和，本周涨速 29 star/天，涨速在加快；项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "chrisbanes",
-      "name": "skills",
-      "full_name": "chrisbanes/skills",
-      "description": "Skills for Kotlin, Jetpack Compose, and Android development",
-      "stars": 997,
-      "forks": 46,
-      "open_issues": 1,
-      "created_at": "2026-05-12T07:34:30+00:00",
-      "pushed_at": "2026-08-27T15:15:46+00:00",
-      "updated_at": "2026-08-29T18:50:09+00:00",
-      "topics": [
-        "android",
-        "compose-multiplatform",
-        "coroutines",
-        "jetpack-compose",
-        "kotlin",
-        "kotlin-multiplatform",
-        "skills"
-      ],
-      "language": "Python",
-      "license": "Apache-2.0",
-      "homepage": null,
-      "html_url": "https://github.com/chrisbanes/skills",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 980,
-      "star_series": [
-        {
-          "d": "08-01",
-          "s": 963
-        },
-        {
-          "d": "08-02",
-          "s": 963
-        },
-        {
-          "d": "08-03",
-          "s": 963
-        },
-        {
-          "d": "08-04",
-          "s": 963
-        },
-        {
-          "d": "08-05",
-          "s": 963
-        },
-        {
-          "d": "08-06",
-          "s": 963
-        },
-        {
-          "d": "08-07",
-          "s": 963
-        },
-        {
-          "d": "08-08",
-          "s": 963
-        },
-        {
-          "d": "08-09",
-          "s": 963
-        },
-        {
-          "d": "08-10",
-          "s": 963
-        },
-        {
-          "d": "08-11",
-          "s": 963
-        },
-        {
-          "d": "08-12",
-          "s": 963
-        },
-        {
-          "d": "08-13",
-          "s": 963
-        },
-        {
-          "d": "08-14",
-          "s": 963
-        },
-        {
-          "d": "08-15",
-          "s": 963
-        },
-        {
-          "d": "08-16",
-          "s": 963
-        },
-        {
-          "d": "08-17",
-          "s": 963
-        },
-        {
-          "d": "08-18",
-          "s": 963
-        },
-        {
-          "d": "08-19",
-          "s": 963
-        },
-        {
-          "d": "08-20",
-          "s": 968
-        },
-        {
-          "d": "08-21",
-          "s": 971
-        },
-        {
-          "d": "08-22",
-          "s": 972
-        },
-        {
-          "d": "08-23",
-          "s": 977
-        },
-        {
-          "d": "08-24",
-          "s": 980
-        },
-        {
-          "d": "08-25",
-          "s": 987
-        },
-        {
-          "d": "08-26",
-          "s": 991
-        },
-        {
-          "d": "08-27",
-          "s": 993
-        },
-        {
-          "d": "08-28",
-          "s": 996
-        },
-        {
-          "d": "08-29",
-          "s": 997
-        },
-        {
-          "d": "08-30",
-          "s": 997
-        }
-      ]
-    },
-    "score": {
-      "score": 59.44,
-      "breakdown": {
-        "vel": 38,
-        "acc": 50,
-        "health": 74,
-        "fresh": 70,
-        "signal": 70
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 54.03,
-      "explanation": "skills 是 Python 开源项目，主打「Skills for Kotlin, Jetpack Compose, and Android development」；处于中早期增长；社区健康（fork/star 比 4.6%，1 个 open issue）。"
     }
   }
 ]
