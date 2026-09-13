@@ -1,821 +1,841 @@
 [
   {
     "repo": {
-      "owner": "donvito",
-      "name": "codex-astra-luna-orchestrator",
-      "full_name": "donvito/codex-astra-luna-orchestrator",
-      "description": "Use Astra as orchestrator and Luna for subagents in Codex",
-      "stars": 998,
-      "forks": 82,
-      "open_issues": 2,
-      "created_at": "2026-09-05T16:03:06+00:00",
-      "pushed_at": "2026-09-11T11:27:26+00:00",
-      "updated_at": "2026-09-12T09:18:41+00:00",
+      "owner": "0xH4KU",
+      "name": "babel-discord-translator",
+      "full_name": "0xH4KU/babel-discord-translator",
+      "description": "A self-hosted Discord translation monorepo for server installs and user installs.",
+      "stars": 200,
+      "forks": 3,
+      "open_issues": 0,
+      "created_at": "2026-03-09T12:01:58+00:00",
+      "pushed_at": "2026-09-08T11:09:32+00:00",
+      "updated_at": "2026-09-11T10:01:12+00:00",
       "topics": [],
-      "language": "Python",
-      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "license": "GPL-3.0",
       "homepage": null,
-      "html_url": "https://github.com/donvito/codex-astra-luna-orchestrator",
+      "html_url": "https://github.com/0xH4KU/babel-discord-translator",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 820,
+      "stars_7d_ago": 127,
       "star_series": [
         {
-          "d": "08-14",
-          "s": 820
-        },
-        {
           "d": "08-15",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-16",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-17",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-18",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-19",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-20",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-21",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-22",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-23",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-24",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-25",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-26",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-27",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-28",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-29",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-30",
-          "s": 820
+          "s": 127
         },
         {
           "d": "08-31",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-01",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-02",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-03",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-04",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-05",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-06",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-07",
-          "s": 820
+          "s": 127
         },
         {
           "d": "09-08",
-          "s": 820
+          "s": 198
         },
         {
           "d": "09-09",
-          "s": 820
+          "s": 198
         },
         {
           "d": "09-10",
+          "s": 199
+        },
+        {
+          "d": "09-11",
+          "s": 200
+        },
+        {
+          "d": "09-12",
+          "s": 200
+        },
+        {
+          "d": "09-13",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 84.97,
+      "breakdown": {
+        "vel": 76,
+        "acc": 99,
+        "health": 62,
+        "fresh": 49,
+        "signal": 55
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 70.81,
+      "explanation": "babel-discord-translator 是 TypeScript 开源项目，主打「A self-hosted Discord translation monorepo for server installs and user installs.」；处于增长早期，本周涨速 10 star/天，涨速在加快。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "eltavine",
+      "name": "Duck-Detector-Refactoring",
+      "full_name": "eltavine/Duck-Detector-Refactoring",
+      "description": "Android environment integrity inspection tool for root, hook, bootloader, SELinux, virtualization, and attestation signals",
+      "stars": 996,
+      "forks": 167,
+      "open_issues": 6,
+      "created_at": "2026-03-17T11:21:11+00:00",
+      "pushed_at": "2026-09-13T00:20:46+00:00",
+      "updated_at": "2026-09-13T08:31:35+00:00",
+      "topics": [
+        "android",
+        "bootloader",
+        "lsposeed",
+        "magisk-detection",
+        "root-detection"
+      ],
+      "language": "Kotlin",
+      "license": "Apache-2.0",
+      "homepage": "https://eltavine.com/#projects",
+      "html_url": "https://github.com/eltavine/Duck-Detector-Refactoring",
+      "default_branch": "master",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 971,
+      "star_series": [
+        {
+          "d": "08-15",
+          "s": 861
+        },
+        {
+          "d": "08-16",
+          "s": 861
+        },
+        {
+          "d": "08-17",
+          "s": 861
+        },
+        {
+          "d": "08-18",
+          "s": 861
+        },
+        {
+          "d": "08-19",
+          "s": 861
+        },
+        {
+          "d": "08-20",
+          "s": 869
+        },
+        {
+          "d": "08-21",
+          "s": 873
+        },
+        {
+          "d": "08-22",
+          "s": 874
+        },
+        {
+          "d": "08-23",
+          "s": 879
+        },
+        {
+          "d": "08-24",
+          "s": 882
+        },
+        {
+          "d": "08-25",
+          "s": 886
+        },
+        {
+          "d": "08-26",
+          "s": 887
+        },
+        {
+          "d": "08-27",
+          "s": 890
+        },
+        {
+          "d": "08-28",
+          "s": 898
+        },
+        {
+          "d": "08-29",
+          "s": 900
+        },
+        {
+          "d": "08-30",
+          "s": 907
+        },
+        {
+          "d": "08-31",
+          "s": 916
+        },
+        {
+          "d": "09-01",
           "s": 921
         },
         {
-          "d": "09-11",
-          "s": 980
-        },
-        {
-          "d": "09-12",
-          "s": 998
-        }
-      ]
-    },
-    "score": {
-      "score": 100.0,
-      "breakdown": {
-        "vel": 88,
-        "acc": 99,
-        "health": 87,
-        "fresh": 98,
-        "signal": 55
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 87.63,
-      "explanation": "codex-astra-luna-orchestrator 是 Python 开源项目，主打「Use Astra as orchestrator and Luna for subagents in Codex」；处于增长早期，本周涨速 25 star/天，涨速在加快；社区健康（fork/star 比 8.2%，2 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "Vincentwei1021",
-      "name": "anything2explainer",
-      "full_name": "Vincentwei1021/anything2explainer",
-      "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
-      "stars": 996,
-      "forks": 178,
-      "open_issues": 2,
-      "created_at": "2026-09-08T17:19:54+00:00",
-      "pushed_at": "2026-09-10T19:27:26+00:00",
-      "updated_at": "2026-09-12T09:35:52+00:00",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "ai-video",
-        "claude-code",
-        "claude-code-skill",
-        "codex",
-        "edge-tts",
-        "educational-video",
-        "explainer-video",
-        "kokoro",
-        "motion-graphics",
-        "multi-agent",
-        "react",
-        "remotion",
-        "text-to-video",
-        "tts",
-        "typescript",
-        "video-generation"
-      ],
-      "language": "TypeScript",
-      "license": "NOASSERTION",
-      "homepage": null,
-      "html_url": "https://github.com/Vincentwei1021/anything2explainer",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 746,
-      "star_series": [
-        {
-          "d": "08-14",
-          "s": 746
-        },
-        {
-          "d": "08-15",
-          "s": 746
-        },
-        {
-          "d": "08-16",
-          "s": 746
-        },
-        {
-          "d": "08-17",
-          "s": 746
-        },
-        {
-          "d": "08-18",
-          "s": 746
-        },
-        {
-          "d": "08-19",
-          "s": 746
-        },
-        {
-          "d": "08-20",
-          "s": 746
-        },
-        {
-          "d": "08-21",
-          "s": 746
-        },
-        {
-          "d": "08-22",
-          "s": 746
-        },
-        {
-          "d": "08-23",
-          "s": 746
-        },
-        {
-          "d": "08-24",
-          "s": 746
-        },
-        {
-          "d": "08-25",
-          "s": 746
-        },
-        {
-          "d": "08-26",
-          "s": 746
-        },
-        {
-          "d": "08-27",
-          "s": 746
-        },
-        {
-          "d": "08-28",
-          "s": 746
-        },
-        {
-          "d": "08-29",
-          "s": 746
-        },
-        {
-          "d": "08-30",
-          "s": 746
-        },
-        {
-          "d": "08-31",
-          "s": 746
-        },
-        {
-          "d": "09-01",
-          "s": 746
-        },
-        {
           "d": "09-02",
-          "s": 746
+          "s": 936
         },
         {
           "d": "09-03",
-          "s": 746
+          "s": 948
         },
         {
           "d": "09-04",
-          "s": 746
+          "s": 955
         },
         {
           "d": "09-05",
-          "s": 746
+          "s": 961
         },
         {
           "d": "09-06",
-          "s": 746
+          "s": 964
         },
         {
           "d": "09-07",
-          "s": 746
+          "s": 971
         },
         {
           "d": "09-08",
-          "s": 746
+          "s": 975
         },
         {
           "d": "09-09",
-          "s": 746
+          "s": 978
         },
         {
           "d": "09-10",
-          "s": 746
+          "s": 982
         },
         {
           "d": "09-11",
-          "s": 929
+          "s": 986
         },
         {
           "d": "09-12",
+          "s": 992
+        },
+        {
+          "d": "09-13",
           "s": 996
         }
       ]
     },
     "score": {
-      "score": 100.0,
+      "score": 66.45,
       "breakdown": {
-        "vel": 97,
-        "acc": 99,
-        "health": 100,
-        "fresh": 99,
-        "signal": 70
+        "vel": 48,
+        "acc": 37,
+        "health": 99,
+        "fresh": 51,
+        "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 95.18,
-      "explanation": "anything2explainer 是 TypeScript 开源项目，主打「Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.」；处于增长早期，本周涨速 36 star/天，涨速在加快；社区健康（fork/star 比 17.9%，2 个 open issue）、开发活跃。"
+      "base_score": 55.37,
+      "explanation": "Duck-Detector-Refactoring 是 Kotlin 开源项目，主打「Android environment integrity inspection tool for root, hook, bootloader, SELinux, virtualization, and attestation signals」；处于增长早期，本周涨速 3.6 star/天；社区健康（fork/star 比 16.8%，6 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "FireRedTeam",
-      "name": "FireRedAudio",
-      "full_name": "FireRedTeam/FireRedAudio",
-      "description": null,
-      "stars": 997,
-      "forks": 15,
-      "open_issues": 5,
-      "created_at": "2026-08-22T11:18:12+00:00",
-      "pushed_at": "2026-09-08T03:50:39+00:00",
-      "updated_at": "2026-09-12T09:37:35+00:00",
-      "topics": [],
-      "language": "Python",
-      "license": "Apache-2.0",
-      "homepage": null,
-      "html_url": "https://github.com/FireRedTeam/FireRedAudio",
-      "default_branch": "main",
+      "owner": "hoangsonww",
+      "name": "Claude-Code-Agent-Monitor",
+      "full_name": "hoangsonww/Claude-Code-Agent-Monitor",
+      "description": "🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.",
+      "stars": 995,
+      "forks": 233,
+      "open_issues": 45,
+      "created_at": "2026-03-05T18:52:21+00:00",
+      "pushed_at": "2026-09-13T06:29:11+00:00",
+      "updated_at": "2026-09-13T06:39:12+00:00",
+      "topics": [
+        "ai-agents",
+        "claude-agents",
+        "claude-code",
+        "claude-skills",
+        "express",
+        "expressjs",
+        "macos-app",
+        "node",
+        "nodejs",
+        "python",
+        "react",
+        "rest-api",
+        "rfc-6455",
+        "sqlite",
+        "sqlite3",
+        "tailwind",
+        "tailwindcss",
+        "typescript",
+        "vite",
+        "websocket"
+      ],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": "https://hoangsonww.github.io/Claude-Code-Agent-Monitor/",
+      "html_url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
+      "default_branch": "master",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 697,
+      "stars_7d_ago": 983,
       "star_series": [
         {
-          "d": "08-14",
-          "s": 697
-        },
-        {
           "d": "08-15",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-16",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-17",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-18",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-19",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-20",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-21",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-22",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-23",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-24",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-25",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-26",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-27",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-28",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-29",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-30",
-          "s": 697
+          "s": 983
         },
         {
           "d": "08-31",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-01",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-02",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-03",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-04",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-05",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-06",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-07",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-08",
-          "s": 697
+          "s": 983
         },
         {
           "d": "09-09",
-          "s": 697
+          "s": 986
         },
         {
           "d": "09-10",
-          "s": 768
+          "s": 989
         },
         {
           "d": "09-11",
-          "s": 926
+          "s": 991
         },
         {
           "d": "09-12",
-          "s": 997
+          "s": 994
+        },
+        {
+          "d": "09-13",
+          "s": 995
         }
       ]
     },
     "score": {
-      "score": 98.89,
+      "score": 65.36,
       "breakdown": {
-        "vel": 100,
-        "acc": 99,
-        "health": 63,
-        "fresh": 95,
-        "signal": 40
+        "vel": 31,
+        "acc": 85,
+        "health": 90,
+        "fresh": 48,
+        "signal": 100
       },
-      "stage": "early",
-      "stage_multiplier": 1.2,
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 82.41,
-      "explanation": "FireRedAudio 是 Python 方向的开源项目；处于增长早期，本周涨速 43 star/天，涨速在加快；开发活跃。"
+      "base_score": 59.42,
+      "explanation": "Claude-Code-Agent-Monitor 是 TypeScript 开源项目，主打「🚀 A real-time monitoring dashboard for Claude Code & Codex, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, & WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, a cute buddy, & an interactive web UI/MacOS/Windows native app.」；处于中早期增长，涨速在加快；社区健康（fork/star 比 23.4%，45 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "daanaagua",
-      "name": "FolioLoom",
-      "full_name": "daanaagua/FolioLoom",
-      "description": "Lossless agentic long-form novel translation pipeline with evidence-backed terminology, narrative memory, recovery, and audit",
+      "owner": "Tencent",
+      "name": "wave-mcp",
+      "full_name": "Tencent/wave-mcp",
+      "description": "Open-source, license-free MCP server for RTL waveform debug: reads FST waveforms (VCD/FSDB auto-convert) plus a SystemVerilog netlist, with 34 tools covering driver analysis, value/X tracing, pass-fail waveform diff, a browser wave viewer the agent drives, and pre-simulation static analysis.",
       "stars": 200,
-      "forks": 6,
+      "forks": 26,
       "open_issues": 1,
-      "created_at": "2026-07-18T13:42:50+00:00",
-      "pushed_at": "2026-09-11T05:54:45+00:00",
-      "updated_at": "2026-09-11T05:49:23+00:00",
-      "topics": [],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/daanaagua/FolioLoom",
+      "created_at": "2026-07-27T11:35:28+00:00",
+      "pushed_at": "2026-09-11T13:21:37+00:00",
+      "updated_at": "2026-09-12T13:13:29+00:00",
+      "topics": [
+        "chip-verification",
+        "debug",
+        "eda",
+        "fsdb",
+        "fst",
+        "llm-tools",
+        "mcp",
+        "pyslang",
+        "rtl",
+        "vcd",
+        "waveform"
+      ],
+      "language": "Python",
+      "license": "NOASSERTION",
+      "homepage": "https://pypi.org/project/wave-mcp/",
+      "html_url": "https://github.com/Tencent/wave-mcp",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 102,
+      "stars_7d_ago": 181,
       "star_series": [
         {
-          "d": "08-14",
-          "s": 0
-        },
-        {
           "d": "08-15",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-16",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-17",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-18",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-19",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-20",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-21",
-          "s": 0
+          "s": 2
         },
         {
           "d": "08-22",
-          "s": 10
+          "s": 2
         },
         {
           "d": "08-23",
-          "s": 40
+          "s": 2
         },
         {
           "d": "08-24",
-          "s": 50
+          "s": 2
         },
         {
           "d": "08-25",
-          "s": 76
+          "s": 2
         },
         {
           "d": "08-26",
-          "s": 90
+          "s": 54
         },
         {
           "d": "08-27",
-          "s": 90
+          "s": 84
         },
         {
           "d": "08-28",
-          "s": 90
-        },
-        {
-          "d": "08-29",
-          "s": 90
-        },
-        {
-          "d": "08-30",
-          "s": 90
-        },
-        {
-          "d": "08-31",
-          "s": 90
-        },
-        {
-          "d": "09-01",
-          "s": 90
-        },
-        {
-          "d": "09-02",
-          "s": 90
-        },
-        {
-          "d": "09-03",
-          "s": 90
-        },
-        {
-          "d": "09-04",
-          "s": 90
-        },
-        {
-          "d": "09-05",
-          "s": 90
-        },
-        {
-          "d": "09-06",
           "s": 102
         },
         {
-          "d": "09-07",
+          "d": "08-29",
+          "s": 106
+        },
+        {
+          "d": "08-30",
+          "s": 117
+        },
+        {
+          "d": "08-31",
           "s": 120
         },
         {
+          "d": "09-01",
+          "s": 129
+        },
+        {
+          "d": "09-02",
+          "s": 141
+        },
+        {
+          "d": "09-03",
+          "s": 149
+        },
+        {
+          "d": "09-04",
+          "s": 168
+        },
+        {
+          "d": "09-05",
+          "s": 175
+        },
+        {
+          "d": "09-06",
+          "s": 176
+        },
+        {
+          "d": "09-07",
+          "s": 181
+        },
+        {
           "d": "09-08",
-          "s": 147
+          "s": 190
         },
         {
           "d": "09-09",
-          "s": 191
+          "s": 194
         },
         {
           "d": "09-10",
-          "s": 200
+          "s": 198
         },
         {
           "d": "09-11",
-          "s": 200
+          "s": 199
         },
         {
           "d": "09-12",
+          "s": 200
+        },
+        {
+          "d": "09-13",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 84.2,
+      "score": 39.03,
       "breakdown": {
-        "vel": 73,
-        "acc": 99,
-        "health": 65,
-        "fresh": 85,
-        "signal": 55
+        "vel": 41,
+        "acc": 33,
+        "health": 96,
+        "fresh": 87,
+        "signal": 85
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
       "confidence": 1.0,
-      "base_score": 76.54,
-      "explanation": "FolioLoom 是 TypeScript 开源项目，主打「Lossless agentic long-form novel translation pipeline with evidence-backed terminology, narrative memory, recovery, and audit」；处于中早期增长，本周涨速 14 star/天，涨速在加快；开发活跃。"
+      "base_score": 55.76,
+      "explanation": "wave-mcp 是 Python 开源项目，主打「Open-source, license-free MCP server for RTL waveform debug: reads FST waveforms (VCD/FSDB auto-convert) plus a SystemVerilog netlist, with 34 tools covering driver analysis, value/X tracing, pass-fail waveform diff, a browser wave viewer the agent drives, and pre-simulation static analysis.」；增长已饱和，本周涨速 2.7 star/天；社区健康（fork/star 比 13.0%，1 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "soirihiroka",
-      "name": "shrimply",
-      "full_name": "soirihiroka/shrimply",
-      "description": "you're telling me a shrimp made this video?!",
-      "stars": 996,
-      "forks": 56,
-      "open_issues": 11,
-      "created_at": "2026-08-26T01:55:08+00:00",
-      "pushed_at": "2026-09-12T09:26:14+00:00",
-      "updated_at": "2026-09-12T09:22:10+00:00",
+      "owner": "fire-la",
+      "name": "firela-bot",
+      "full_name": "fire-la/firela-bot",
+      "description": "A minimalist, self-hosted AI bot for automated billing ingestion and FIRE financial planning.",
+      "stars": 200,
+      "forks": 6,
+      "open_issues": 4,
+      "created_at": "2026-02-05T00:09:00+00:00",
+      "pushed_at": "2026-09-12T10:20:37+00:00",
+      "updated_at": "2026-09-13T01:02:23+00:00",
       "topics": [],
-      "language": "Rust",
-      "license": "GPL-3.0",
-      "homepage": "https://shrimply.pages.dev",
-      "html_url": "https://github.com/soirihiroka/shrimply",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "homepage": "https://firela.io",
+      "html_url": "https://github.com/fire-la/firela-bot",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 958,
+      "stars_7d_ago": 186,
       "star_series": [
         {
-          "d": "08-14",
-          "s": 958
-        },
-        {
           "d": "08-15",
-          "s": 958
+          "s": 177
         },
         {
           "d": "08-16",
-          "s": 958
+          "s": 177
         },
         {
           "d": "08-17",
-          "s": 958
+          "s": 178
         },
         {
           "d": "08-18",
-          "s": 958
+          "s": 179
         },
         {
           "d": "08-19",
-          "s": 958
+          "s": 181
         },
         {
           "d": "08-20",
-          "s": 958
+          "s": 182
         },
         {
           "d": "08-21",
-          "s": 958
+          "s": 185
         },
         {
           "d": "08-22",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-23",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-24",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-25",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-26",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-27",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-28",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-29",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-30",
-          "s": 958
+          "s": 186
         },
         {
           "d": "08-31",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-01",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-02",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-03",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-04",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-05",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-06",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-07",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-08",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-09",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-10",
-          "s": 958
+          "s": 186
         },
         {
           "d": "09-11",
-          "s": 987
+          "s": 186
         },
         {
           "d": "09-12",
-          "s": 996
+          "s": 186
+        },
+        {
+          "d": "09-13",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 82.36,
+      "score": 38.54,
       "breakdown": {
-        "vel": 50,
-        "acc": 99,
-        "health": 76,
-        "fresh": 95,
+        "vel": 34,
+        "acc": 88,
+        "health": 63,
+        "fresh": 40,
         "signal": 85
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
       "confidence": 1.0,
-      "base_score": 74.87,
-      "explanation": "shrimply 是 Rust 开源项目，主打「you're telling me a shrimp made this video?!」；处于中早期增长，本周涨速 5.4 star/天，涨速在加快；社区健康（fork/star 比 5.6%，11 个 open issue）、项目元数据完整、开发活跃。"
+      "base_score": 55.06,
+      "explanation": "firela-bot 是 TypeScript 开源项目，主打「A minimalist, self-hosted AI bot for automated billing ingestion and FIRE financial planning.」；增长已饱和，涨速在加快；项目元数据完整。"
     }
   }
 ]
