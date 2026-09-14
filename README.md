@@ -38,9 +38,17 @@
   <img src="static/readme/idea-search.svg" width="100%" alt="想法搜索四步链路：说出想法 → LLM 检索规划 → GitHub 全库检索 → README 证据核对 → 分类结论">
 </p>
 
-每一条结果都带：**为什么匹配**（命中词与理由）· **README 证据原文**（安装/部署片段直达原文链接）· **保守建议**（许可证是否友好、维护是否活跃）。未配置 LLM Key 时自动降级词典模式，并在结果里明示——不会静默给你低质量结果。
+每一条结果都带：**为什么匹配**（命中词与理由）· **README 证据**（「项目速览」结构化摘要：这是什么 / 核心功能 / 怎么跑起来，一键直达 README 原文）· **保守建议**（许可证是否友好、维护是否活跃）。未配置 LLM Key 时自动降级词典模式，并在结果里明示——不会静默给你低质量结果。
+
+质量默认值：未选择 Star 档位时，搜索默认过滤 10 星以下项目，命中「课程/作业」标记的仓库会在排序中降权、分类封顶为「参考灵感」；在搜索面板选择「Star 不限」即可解除（你的显式选择永远优先）。
 
 搜索资源有全局闸门：同一查询 60 秒内直接复用结果，并发请求立即提示「已有一笔搜索在进行中」，45 秒总闸超时先回元数据结果——不会连点几下就烧光 GitHub 配额。
+
+<p align="center">
+  <img src="static/screenshots/shot-idea-search.png" alt="想法搜索 · 一句话 → 分类结论 + README 证据" width="780" style="border-radius:14px;box-shadow:0 10px 32px #07101e22">
+  <br>
+  <sub>想法搜索 · 「能本地部署的 RAG 知识库」→ 分类结论（适合二开 / 参考灵感）+ README 证据</sub>
+</p>
 
 ---
 
@@ -116,15 +124,15 @@ pytest                      # 全量测试
 ## 界面
 
 <p align="center">
-  <img src="static/screenshots/shot-potential.png" alt="首页 · 今日星图 + 潜力雷达" width="780" style="border-radius:14px;box-shadow:0 10px 32px #07101e22">
+  <img src="static/screenshots/shot-home.png" alt="首页 · 只为你发现 + 今日星图" width="780" style="border-radius:14px;box-shadow:0 10px 32px #07101e22">
   <br>
-  <sub>首页 · 今日星图 + 潜力雷达（五维评分）</sub>
+  <sub>首页 · 只为你发现 + 今日星图（个人版，数据每日自动更新）</sub>
 </p>
 
 <p align="center">
-  <img src="static/screenshots/shot-trends.png" alt="每周趋势 · TrendScore v2 增长动能周榜" width="780" style="border-radius:14px;box-shadow:0 10px 32px #07101e22">
+  <img src="static/screenshots/shot-discover.png" alt="为你发现 · 五维潜力评分卡片 + AI 中文解读" width="780" style="border-radius:14px;box-shadow:0 10px 32px #07101e22">
   <br>
-  <sub>每周趋势 · 增长动能周榜</sub>
+  <sub>为你发现 · 五维潜力评分（速度 · 加速度 · 健康 · 新鲜 · 信号）+ AI 中文解读</sub>
 </p>
 
 ## 核心能力
