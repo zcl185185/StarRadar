@@ -1,649 +1,648 @@
 [
   {
     "repo": {
-      "owner": "imikerussell",
-      "name": "beebots",
-      "full_name": "imikerussell/beebots",
-      "description": "Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.",
-      "stars": 200,
-      "forks": 99,
-      "open_issues": 0,
-      "created_at": "2026-09-25T15:30:48+00:00",
-      "pushed_at": "2026-09-27T05:07:43+00:00",
-      "updated_at": "2026-10-02T08:17:06+00:00",
-      "topics": [],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": "https://beebots.tech",
-      "html_url": "https://github.com/imikerussell/beebots",
+      "owner": "kyky2347",
+      "name": "ALTA",
+      "full_name": "kyky2347/ALTA",
+      "description": "Autonomous LLM Trading Asterism — a research-only multi-agent trading platform with evidence-first research, an auditable console, Shadow simulation and explicitly authorized broker execution.",
+      "stars": 995,
+      "forks": 116,
+      "open_issues": 5,
+      "created_at": "2026-08-27T09:42:45+00:00",
+      "pushed_at": "2026-10-01T23:03:58+00:00",
+      "updated_at": "2026-10-03T09:09:57+00:00",
+      "topics": [
+        "autonomous-agents",
+        "codex-app-server",
+        "event-driven-architecture",
+        "llm-agents",
+        "local-first",
+        "market-research",
+        "multi-agent-systems",
+        "operator-console",
+        "quantitative-finance",
+        "react",
+        "research-software",
+        "shadow-trading"
+      ],
+      "language": "Python",
+      "license": "Apache-2.0",
+      "homepage": null,
+      "html_url": "https://github.com/kyky2347/ALTA",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 94,
+      "stars_7d_ago": 830,
       "star_series": [
         {
-          "d": "09-03",
-          "s": 67
-        },
-        {
           "d": "09-04",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-05",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-06",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-07",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-08",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-09",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-10",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-11",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-12",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-13",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-14",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-15",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-16",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-17",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-18",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-19",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-20",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-21",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-22",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-23",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-24",
-          "s": 67
+          "s": 730
         },
         {
           "d": "09-25",
-          "s": 67
+          "s": 762
         },
         {
           "d": "09-26",
-          "s": 94
+          "s": 801
         },
         {
           "d": "09-27",
-          "s": 145
+          "s": 830
         },
         {
           "d": "09-28",
-          "s": 167
+          "s": 866
         },
         {
           "d": "09-29",
-          "s": 174
+          "s": 894
         },
         {
           "d": "09-30",
-          "s": 185
+          "s": 917
         },
         {
           "d": "10-01",
-          "s": 198
+          "s": 950
         },
         {
           "d": "10-02",
+          "s": 983
+        },
+        {
+          "d": "10-03",
+          "s": 995
+        }
+      ]
+    },
+    "score": {
+      "score": 100.0,
+      "breakdown": {
+        "vel": 94,
+        "acc": 66,
+        "health": 99,
+        "fresh": 90,
+        "signal": 70
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 83.74,
+      "explanation": "ALTA 是 Python 开源项目，主打「Autonomous LLM Trading Asterism — a research-only multi-agent trading platform with evidence-first research, an auditable console, Shadow simulation and explicitly authorized broker execution.」；处于增长早期，本周涨速 24 star/天；社区健康（fork/star 比 11.7%，5 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "guanmo-ai",
+      "name": "awesome-ai-motion",
+      "full_name": "guanmo-ai/awesome-ai-motion",
+      "description": "发现惊艳动效、创意视频与交互艺术，探索背后的源码、提示词与制作过程。Curated motion design, creative video & interactive art — with source code, prompts & making-of resources.",
+      "stars": 200,
+      "forks": 30,
+      "open_issues": 0,
+      "created_at": "2026-09-27T08:53:43+00:00",
+      "pushed_at": "2026-10-02T19:26:50+00:00",
+      "updated_at": "2026-10-03T10:04:09+00:00",
+      "topics": [
+        "ai-video",
+        "animation",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "motion-design",
+        "opus",
+        "prompts"
+      ],
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "homepage": "https://guanmo-ai.github.io/awesome-ai-motion/",
+      "html_url": "https://github.com/guanmo-ai/awesome-ai-motion",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 0,
+      "star_series": [
+        {
+          "d": "09-04",
+          "s": 0
+        },
+        {
+          "d": "09-05",
+          "s": 0
+        },
+        {
+          "d": "09-06",
+          "s": 0
+        },
+        {
+          "d": "09-07",
+          "s": 0
+        },
+        {
+          "d": "09-08",
+          "s": 0
+        },
+        {
+          "d": "09-09",
+          "s": 0
+        },
+        {
+          "d": "09-10",
+          "s": 0
+        },
+        {
+          "d": "09-11",
+          "s": 0
+        },
+        {
+          "d": "09-12",
+          "s": 0
+        },
+        {
+          "d": "09-13",
+          "s": 0
+        },
+        {
+          "d": "09-14",
+          "s": 0
+        },
+        {
+          "d": "09-15",
+          "s": 0
+        },
+        {
+          "d": "09-16",
+          "s": 0
+        },
+        {
+          "d": "09-17",
+          "s": 0
+        },
+        {
+          "d": "09-18",
+          "s": 0
+        },
+        {
+          "d": "09-19",
+          "s": 0
+        },
+        {
+          "d": "09-20",
+          "s": 0
+        },
+        {
+          "d": "09-21",
+          "s": 0
+        },
+        {
+          "d": "09-22",
+          "s": 0
+        },
+        {
+          "d": "09-23",
+          "s": 0
+        },
+        {
+          "d": "09-24",
+          "s": 0
+        },
+        {
+          "d": "09-25",
+          "s": 0
+        },
+        {
+          "d": "09-26",
+          "s": 0
+        },
+        {
+          "d": "09-27",
+          "s": 0
+        },
+        {
+          "d": "09-28",
+          "s": 16
+        },
+        {
+          "d": "09-29",
+          "s": 60
+        },
+        {
+          "d": "09-30",
+          "s": 91
+        },
+        {
+          "d": "10-01",
+          "s": 113
+        },
+        {
+          "d": "10-02",
+          "s": 179
+        },
+        {
+          "d": "10-03",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 100.0,
-      "breakdown": {
-        "vel": 95,
-        "acc": 95,
-        "health": 75,
-        "fresh": 98,
-        "signal": 70
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 88.22,
-      "explanation": "beebots 是 TypeScript 开源项目，主打「Three AI trading bees on OKX, every decision by Jev. Paper trading by default. Not financial advice.」；处于增长早期，本周涨速 15 star/天，涨速在加快；社区健康（fork/star 比 49.5%，0 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "freestylefly",
-      "name": "WeChatBridge",
-      "full_name": "freestylefly/WeChatBridge",
-      "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
-      "stars": 999,
-      "forks": 345,
-      "open_issues": 4,
-      "created_at": "2026-09-21T02:54:51+00:00",
-      "pushed_at": "2026-10-02T06:41:41+00:00",
-      "updated_at": "2026-10-02T11:16:23+00:00",
-      "topics": [
-        "ai-agent",
-        "chat-history",
-        "macos",
-        "obsidian",
-        "share-extension",
-        "swift",
-        "wechat"
-      ],
-      "language": "Swift",
-      "license": "MIT",
-      "homepage": "https://render.qmuse.pub/p/muse/2413870555736078/index.html",
-      "html_url": "https://github.com/freestylefly/WeChatBridge",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 867,
-      "star_series": [
-        {
-          "d": "09-03",
-          "s": 867
-        },
-        {
-          "d": "09-04",
-          "s": 867
-        },
-        {
-          "d": "09-05",
-          "s": 867
-        },
-        {
-          "d": "09-06",
-          "s": 867
-        },
-        {
-          "d": "09-07",
-          "s": 867
-        },
-        {
-          "d": "09-08",
-          "s": 867
-        },
-        {
-          "d": "09-09",
-          "s": 867
-        },
-        {
-          "d": "09-10",
-          "s": 867
-        },
-        {
-          "d": "09-11",
-          "s": 867
-        },
-        {
-          "d": "09-12",
-          "s": 867
-        },
-        {
-          "d": "09-13",
-          "s": 867
-        },
-        {
-          "d": "09-14",
-          "s": 867
-        },
-        {
-          "d": "09-15",
-          "s": 867
-        },
-        {
-          "d": "09-16",
-          "s": 867
-        },
-        {
-          "d": "09-17",
-          "s": 867
-        },
-        {
-          "d": "09-18",
-          "s": 867
-        },
-        {
-          "d": "09-19",
-          "s": 867
-        },
-        {
-          "d": "09-20",
-          "s": 867
-        },
-        {
-          "d": "09-21",
-          "s": 867
-        },
-        {
-          "d": "09-22",
-          "s": 867
-        },
-        {
-          "d": "09-23",
-          "s": 867
-        },
-        {
-          "d": "09-24",
-          "s": 867
-        },
-        {
-          "d": "09-25",
-          "s": 867
-        },
-        {
-          "d": "09-26",
-          "s": 867
-        },
-        {
-          "d": "09-27",
-          "s": 867
-        },
-        {
-          "d": "09-28",
-          "s": 867
-        },
-        {
-          "d": "09-29",
-          "s": 908
-        },
-        {
-          "d": "09-30",
-          "s": 937
-        },
-        {
-          "d": "10-01",
-          "s": 966
-        },
-        {
-          "d": "10-02",
-          "s": 999
-        }
-      ]
-    },
-    "score": {
-      "score": 100.0,
+      "score": 99.46,
       "breakdown": {
         "vel": 100,
         "acc": 99,
-        "health": 96,
-        "fresh": 97,
-        "signal": 85
+        "health": 100,
+        "fresh": 98,
+        "signal": 100
       },
-      "stage": "early",
-      "stage_multiplier": 1.2,
+      "stage": "mid_late",
+      "stage_multiplier": 1.0,
       "confidence": 1.0,
-      "base_score": 97.03,
-      "explanation": "WeChatBridge 是 Swift 开源项目，主打「微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具」；处于增长早期，本周涨速 19 star/天，涨速在加快；社区健康（fork/star 比 34.5%，4 个 open issue）、项目元数据完整、开发活跃。"
+      "base_score": 99.46,
+      "explanation": "awesome-ai-motion 是 JavaScript 开源项目，主打「发现惊艳动效、创意视频与交互艺术，探索背后的源码、提示词与制作过程。Curated motion design, creative video & interactive art — with source code, prompts & making-of resources.」；处于中后期增长，本周涨速 29 star/天，涨速在加快；社区健康（fork/star 比 15.0%，0 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "hsr88",
-      "name": "mouzi",
-      "full_name": "hsr88/mouzi",
-      "description": "A free, privacy-first automatic file organizer that quietly sorts your Downloads folder from the system tray.",
-      "stars": 1000,
-      "forks": 42,
-      "open_issues": 8,
-      "created_at": "2026-05-09T16:22:54+00:00",
-      "pushed_at": "2026-10-01T14:32:16+00:00",
-      "updated_at": "2026-10-02T09:40:04+00:00",
+      "owner": "antiburn",
+      "name": "antiburn",
+      "full_name": "antiburn/antiburn",
+      "description": "Fast, free local checks to reduce your token burn. Helps you avoid limits by checking for: sessions too deep, models too powerful, caching broken, unused tools/MCPs/skills, and many more.",
+      "stars": 200,
+      "forks": 12,
+      "open_issues": 47,
+      "created_at": "2026-08-12T06:11:00+00:00",
+      "pushed_at": "2026-10-02T12:07:53+00:00",
+      "updated_at": "2026-10-03T08:43:08+00:00",
       "topics": [
-        "automation",
+        "ai-coding",
         "desktop-app",
-        "downloads-organizer",
-        "file-management",
-        "file-organizer",
-        "linux",
-        "linux-app",
-        "linux-application",
-        "local-first",
-        "open-source",
-        "privacy-first",
-        "productivity",
-        "rust",
-        "tauri",
-        "windows"
+        "developer-tools",
+        "local-first"
       ],
-      "language": "TypeScript",
+      "language": "Rust",
       "license": "MIT",
-      "homepage": "https://mouzi.cc/",
-      "html_url": "https://github.com/hsr88/mouzi",
+      "homepage": "https://antiburn.com",
+      "html_url": "https://github.com/antiburn/antiburn",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 919,
+      "stars_7d_ago": 170,
       "star_series": [
         {
-          "d": "09-03",
-          "s": 850
-        },
-        {
           "d": "09-04",
-          "s": 850
+          "s": 170
         },
         {
           "d": "09-05",
-          "s": 850
+          "s": 170
         },
         {
           "d": "09-06",
-          "s": 850
+          "s": 170
         },
         {
           "d": "09-07",
-          "s": 858
+          "s": 170
         },
         {
           "d": "09-08",
-          "s": 859
+          "s": 170
         },
         {
           "d": "09-09",
-          "s": 860
+          "s": 170
         },
         {
           "d": "09-10",
-          "s": 860
+          "s": 170
         },
         {
           "d": "09-11",
-          "s": 861
+          "s": 170
         },
         {
           "d": "09-12",
-          "s": 862
+          "s": 170
         },
         {
           "d": "09-13",
-          "s": 906
+          "s": 170
         },
         {
           "d": "09-14",
-          "s": 907
+          "s": 170
         },
         {
           "d": "09-15",
-          "s": 907
+          "s": 170
         },
         {
           "d": "09-16",
-          "s": 909
+          "s": 170
         },
         {
           "d": "09-17",
-          "s": 910
+          "s": 170
         },
         {
           "d": "09-18",
-          "s": 911
+          "s": 170
         },
         {
           "d": "09-19",
-          "s": 914
+          "s": 170
         },
         {
           "d": "09-20",
-          "s": 914
+          "s": 170
         },
         {
           "d": "09-21",
-          "s": 915
+          "s": 170
         },
         {
           "d": "09-22",
-          "s": 916
+          "s": 170
         },
         {
           "d": "09-23",
-          "s": 916
+          "s": 170
         },
         {
           "d": "09-24",
-          "s": 918
+          "s": 170
         },
         {
           "d": "09-25",
-          "s": 919
+          "s": 170
         },
         {
           "d": "09-26",
-          "s": 919
+          "s": 170
         },
         {
           "d": "09-27",
-          "s": 920
+          "s": 170
         },
         {
           "d": "09-28",
-          "s": 931
+          "s": 178
         },
         {
           "d": "09-29",
-          "s": 937
+          "s": 192
         },
         {
           "d": "09-30",
-          "s": 941
+          "s": 192
         },
         {
           "d": "10-01",
-          "s": 998
+          "s": 195
         },
         {
           "d": "10-02",
-          "s": 1000
+          "s": 199
+        },
+        {
+          "d": "10-03",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 97.7,
+      "score": 78.78,
       "breakdown": {
-        "vel": 86,
+        "vel": 49,
         "acc": 99,
-        "health": 71,
-        "fresh": 60,
+        "health": 44,
+        "fresh": 86,
         "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 81.42,
-      "explanation": "mouzi 是 TypeScript 开源项目，主打「A free, privacy-first automatic file organizer that quietly sorts your Downloads folder from the system tray.」；处于增长早期，本周涨速 12 star/天，涨速在加快；社区健康（fork/star 比 4.2%，8 个 open issue）、项目元数据完整。"
+      "base_score": 65.65,
+      "explanation": "antiburn 是 Rust 开源项目，主打「Fast, free local checks to reduce your token burn. Helps you avoid limits by checking for: sessions too deep, models too powerful, caching broken, unused tools/MCPs/skills, and many more.」；处于增长早期，本周涨速 4.3 star/天，涨速在加快；项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "seanhowarthdev",
-      "name": "Roam-Control",
-      "full_name": "seanhowarthdev/Roam-Control",
-      "description": "Choose, test and move an iPhone’s reported location.",
+      "owner": "LivXue",
+      "name": "dsh-plugin-shop",
+      "full_name": "LivXue/dsh-plugin-shop",
+      "description": "The most comprehensive DeepSeek Harness plugin market — refreshed daily, sourced across the Internet, reviewed before publishing.",
       "stars": 1000,
-      "forks": 174,
-      "open_issues": 0,
-      "created_at": "2026-09-04T15:09:22+00:00",
-      "pushed_at": "2026-09-27T09:24:04+00:00",
-      "updated_at": "2026-10-02T05:24:46+00:00",
+      "forks": 11,
+      "open_issues": 4,
+      "created_at": "2026-08-25T05:16:32+00:00",
+      "pushed_at": "2026-10-03T09:17:52+00:00",
+      "updated_at": "2026-10-02T02:49:29+00:00",
       "topics": [
-        "developer-tools",
-        "ios",
-        "iphone",
-        "location-simulation",
-        "mapkit",
-        "swiftui",
-        "testing"
+        "agent",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "harness"
       ],
-      "language": null,
-      "license": "NOASSERTION",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
       "homepage": null,
-      "html_url": "https://github.com/seanhowarthdev/Roam-Control",
+      "html_url": "https://github.com/LivXue/dsh-plugin-shop",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 958,
+      "stars_7d_ago": 934,
       "star_series": [
         {
-          "d": "09-03",
-          "s": 936
-        },
-        {
           "d": "09-04",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-05",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-06",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-07",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-08",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-09",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-10",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-11",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-12",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-13",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-14",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-15",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-16",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-17",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-18",
-          "s": 936
+          "s": 808
         },
         {
           "d": "09-19",
-          "s": 936
+          "s": 811
         },
         {
           "d": "09-20",
-          "s": 936
+          "s": 837
         },
         {
           "d": "09-21",
-          "s": 936
+          "s": 849
         },
         {
           "d": "09-22",
-          "s": 936
+          "s": 864
         },
         {
           "d": "09-23",
-          "s": 936
+          "s": 882
         },
         {
           "d": "09-24",
-          "s": 943
+          "s": 897
         },
         {
           "d": "09-25",
-          "s": 950
+          "s": 908
         },
         {
           "d": "09-26",
-          "s": 958
+          "s": 925
         },
         {
           "d": "09-27",
-          "s": 970
+          "s": 934
         },
         {
           "d": "09-28",
-          "s": 983
+          "s": 950
         },
         {
           "d": "09-29",
-          "s": 993
+          "s": 976
         },
         {
           "d": "09-30",
-          "s": 997
+          "s": 994
         },
         {
           "d": "10-01",
@@ -652,78 +651,78 @@
         {
           "d": "10-02",
           "s": 1000
+        },
+        {
+          "d": "10-03",
+          "s": 1000
         }
       ]
     },
     "score": {
-      "score": 93.02,
+      "score": 74.58,
       "breakdown": {
-        "vel": 66,
-        "acc": 71,
-        "health": 100,
-        "fresh": 93,
+        "vel": 69,
+        "acc": 42,
+        "health": 62,
+        "fresh": 89,
         "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 77.51,
-      "explanation": "Roam-Control 是 未知语言 开源项目，主打「Choose, test and move an iPhone’s reported location.」；处于增长早期，本周涨速 6.0 star/天，涨速在加快；社区健康（fork/star 比 17.4%，0 个 open issue）、开发活跃。"
+      "base_score": 62.15,
+      "explanation": "dsh-plugin-shop 是 TypeScript 开源项目，主打「The most comprehensive DeepSeek Harness plugin market — refreshed daily, sourced across the Internet, reviewed before publishing.」；处于增长早期，本周涨速 9.4 star/天；开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "LinXiaoTao",
-      "name": "FuckClaude",
-      "full_name": "LinXiaoTao/FuckClaude",
-      "description": null,
-      "stars": 998,
-      "forks": 92,
-      "open_issues": 0,
-      "created_at": "2026-07-02T05:36:45+00:00",
-      "pushed_at": "2026-09-30T13:06:39+00:00",
-      "updated_at": "2026-10-02T09:10:54+00:00",
+      "owner": "waywallen",
+      "name": "waywallen",
+      "full_name": "waywallen/waywallen",
+      "description": "Wallpaper Manager for Linux",
+      "stars": 999,
+      "forks": 46,
+      "open_issues": 47,
+      "created_at": "2026-04-07T05:06:14+00:00",
+      "pushed_at": "2026-09-28T11:15:36+00:00",
+      "updated_at": "2026-10-03T09:36:02+00:00",
       "topics": [],
-      "language": "TypeScript",
+      "language": "Rust",
       "license": "MIT",
-      "homepage": "https://fuck-claude.vercel.app",
-      "html_url": "https://github.com/LinXiaoTao/FuckClaude",
-      "default_branch": "master",
+      "homepage": null,
+      "html_url": "https://github.com/waywallen/waywallen",
+      "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 958,
+      "stars_7d_ago": 960,
       "star_series": [
         {
-          "d": "09-03",
-          "s": 917
-        },
-        {
           "d": "09-04",
-          "s": 919
+          "s": 938
         },
         {
           "d": "09-05",
-          "s": 922
+          "s": 938
         },
         {
           "d": "09-06",
-          "s": 925
+          "s": 938
         },
         {
           "d": "09-07",
-          "s": 929
+          "s": 938
         },
         {
           "d": "09-08",
-          "s": 932
+          "s": 938
         },
         {
           "d": "09-09",
-          "s": 934
+          "s": 938
         },
         {
           "d": "09-10",
-          "s": 937
+          "s": 938
         },
         {
           "d": "09-11",
@@ -743,92 +742,96 @@
         },
         {
           "d": "09-15",
-          "s": 940
+          "s": 938
         },
         {
           "d": "09-16",
-          "s": 942
+          "s": 938
         },
         {
           "d": "09-17",
-          "s": 942
+          "s": 938
         },
         {
           "d": "09-18",
-          "s": 943
+          "s": 938
         },
         {
           "d": "09-19",
-          "s": 945
+          "s": 938
         },
         {
           "d": "09-20",
-          "s": 946
+          "s": 938
         },
         {
           "d": "09-21",
-          "s": 949
+          "s": 938
         },
         {
           "d": "09-22",
-          "s": 949
+          "s": 938
         },
         {
           "d": "09-23",
-          "s": 951
+          "s": 938
         },
         {
           "d": "09-24",
-          "s": 953
+          "s": 938
         },
         {
           "d": "09-25",
-          "s": 955
+          "s": 938
         },
         {
           "d": "09-26",
-          "s": 958
+          "s": 938
         },
         {
           "d": "09-27",
-          "s": 963
+          "s": 960
         },
         {
           "d": "09-28",
-          "s": 967
+          "s": 977
         },
         {
           "d": "09-29",
-          "s": 984
+          "s": 983
         },
         {
           "d": "09-30",
-          "s": 992
+          "s": 989
         },
         {
           "d": "10-01",
-          "s": 995
+          "s": 991
         },
         {
           "d": "10-02",
-          "s": 998
+          "s": 996
+        },
+        {
+          "d": "10-03",
+          "s": 999
         }
       ]
     },
     "score": {
-      "score": 90.46,
+      "score": 71.0,
       "breakdown": {
-        "vel": 65,
-        "acc": 89,
-        "health": 90,
-        "fresh": 75,
+        "vel": 55,
+        "acc": 68,
+        "health": 63,
+        "fresh": 51,
         "signal": 55
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 75.38,
-      "explanation": "FuckClaude 是 TypeScript 方向的开源项目；处于增长早期，本周涨速 5.7 star/天，涨速在加快；社区健康（fork/star 比 9.2%，0 个 open issue）、开发活跃。"
+      "base_score": 59.17,
+      "explanation": "waywallen 是 Rust 开源项目，主打「Wallpaper Manager for Linux」；处于增长早期，本周涨速 5.6 star/天。"
     }
   }
 ]
