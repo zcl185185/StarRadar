@@ -1,151 +1,151 @@
 [
   {
     "repo": {
-      "owner": "PSRben",
-      "name": "VisionHOPE",
-      "full_name": "PSRben/VisionHOPE",
-      "description": "Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifying Learning Systems.",
-      "stars": 996,
-      "forks": 15,
-      "open_issues": 6,
-      "created_at": "2026-09-27T06:56:59+00:00",
-      "pushed_at": "2026-10-03T18:35:57+00:00",
-      "updated_at": "2026-10-08T12:17:04+00:00",
+      "owner": "PhreshOS",
+      "name": "system",
+      "full_name": "PhreshOS/system",
+      "description": "An open-source, self-hosted system for apps built with web technologies.",
+      "stars": 200,
+      "forks": 25,
+      "open_issues": 0,
+      "created_at": "2026-08-18T15:16:06+00:00",
+      "pushed_at": "2026-10-08T15:46:35+00:00",
+      "updated_at": "2026-10-09T11:38:37+00:00",
       "topics": [
-        "backbone",
-        "backbone-networks",
-        "computer-vision",
-        "image-classification",
-        "vision-framework"
+        "desktop-environment",
+        "phreshos",
+        "self-hosted",
+        "web-desktop",
+        "web-os"
       ],
-      "language": "Python",
+      "language": "TypeScript",
       "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/PSRben/VisionHOPE",
+      "homepage": "https://phreshos.com/",
+      "html_url": "https://github.com/PhreshOS/system",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 701,
+      "stars_7d_ago": 66,
       "star_series": [
         {
-          "d": "09-09",
-          "s": 701
-        },
-        {
           "d": "09-10",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-11",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-12",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-13",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-14",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-15",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-16",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-17",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-18",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-19",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-20",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-21",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-22",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-23",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-24",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-25",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-26",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-27",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-28",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-29",
-          "s": 701
+          "s": 37
         },
         {
           "d": "09-30",
-          "s": 701
+          "s": 37
         },
         {
           "d": "10-01",
-          "s": 701
+          "s": 37
         },
         {
           "d": "10-02",
-          "s": 701
+          "s": 47
         },
         {
           "d": "10-03",
-          "s": 701
+          "s": 66
         },
         {
           "d": "10-04",
-          "s": 701
+          "s": 131
         },
         {
           "d": "10-05",
-          "s": 739
+          "s": 153
         },
         {
           "d": "10-06",
-          "s": 839
+          "s": 164
         },
         {
           "d": "10-07",
-          "s": 943
+          "s": 172
         },
         {
           "d": "10-08",
-          "s": 996
+          "s": 189
+        },
+        {
+          "d": "10-09",
+          "s": 200
         }
       ]
     },
@@ -153,323 +153,647 @@
       "score": 100.0,
       "breakdown": {
         "vel": 100,
-        "acc": 99,
-        "health": 63,
-        "fresh": 97,
-        "signal": 70
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 87.4,
-      "explanation": "VisionHOPE 是 Python 开源项目，主打「Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifying Learning Systems.」；处于增长早期，本周涨速 42 star/天，涨速在加快；开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "aakarim",
-      "name": "OpenLore",
-      "full_name": "aakarim/OpenLore",
-      "description": "A minimal, extensible, agent-native knowledge repository that keeps shared context current and inspectable",
-      "stars": 998,
-      "forks": 9,
-      "open_issues": 6,
-      "created_at": "2026-06-25T12:57:08+00:00",
-      "pushed_at": "2026-10-08T06:07:01+00:00",
-      "updated_at": "2026-10-08T10:14:57+00:00",
-      "topics": [
-        "agent",
-        "agent-memory",
-        "agents",
-        "knowledge",
-        "knowledge-base",
-        "knowledge-management",
-        "knowledgebase",
-        "memory"
-      ],
-      "language": "Go",
-      "license": "Apache-2.0",
-      "homepage": "https://openlore.sh",
-      "html_url": "https://github.com/aakarim/OpenLore",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 881,
-      "star_series": [
-        {
-          "d": "09-09",
-          "s": 881
-        },
-        {
-          "d": "09-10",
-          "s": 881
-        },
-        {
-          "d": "09-11",
-          "s": 881
-        },
-        {
-          "d": "09-12",
-          "s": 881
-        },
-        {
-          "d": "09-13",
-          "s": 881
-        },
-        {
-          "d": "09-14",
-          "s": 881
-        },
-        {
-          "d": "09-15",
-          "s": 881
-        },
-        {
-          "d": "09-16",
-          "s": 881
-        },
-        {
-          "d": "09-17",
-          "s": 881
-        },
-        {
-          "d": "09-18",
-          "s": 881
-        },
-        {
-          "d": "09-19",
-          "s": 881
-        },
-        {
-          "d": "09-20",
-          "s": 881
-        },
-        {
-          "d": "09-21",
-          "s": 881
-        },
-        {
-          "d": "09-22",
-          "s": 881
-        },
-        {
-          "d": "09-23",
-          "s": 881
-        },
-        {
-          "d": "09-24",
-          "s": 881
-        },
-        {
-          "d": "09-25",
-          "s": 881
-        },
-        {
-          "d": "09-26",
-          "s": 881
-        },
-        {
-          "d": "09-27",
-          "s": 881
-        },
-        {
-          "d": "09-28",
-          "s": 881
-        },
-        {
-          "d": "09-29",
-          "s": 881
-        },
-        {
-          "d": "09-30",
-          "s": 881
-        },
-        {
-          "d": "10-01",
-          "s": 881
-        },
-        {
-          "d": "10-02",
-          "s": 881
-        },
-        {
-          "d": "10-03",
-          "s": 881
-        },
-        {
-          "d": "10-04",
-          "s": 882
-        },
-        {
-          "d": "10-05",
-          "s": 907
-        },
-        {
-          "d": "10-06",
-          "s": 963
-        },
-        {
-          "d": "10-07",
-          "s": 991
-        },
-        {
-          "d": "10-08",
-          "s": 998
-        }
-      ]
-    },
-    "score": {
-      "score": 94.98,
-      "breakdown": {
-        "vel": 80,
-        "acc": 99,
-        "health": 61,
-        "fresh": 72,
+        "acc": 97,
+        "health": 94,
+        "fresh": 86,
         "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 79.15,
-      "explanation": "OpenLore 是 Go 开源项目，主打「A minimal, extensible, agent-native knowledge repository that keeps shared context current and inspectable」；处于增长早期，本周涨速 17 star/天，涨速在加快；项目元数据完整、开发活跃。"
+      "base_score": 94.47,
+      "explanation": "system 是 TypeScript 开源项目，主打「An open-source, self-hosted system for apps built with web technologies.」；处于增长早期，本周涨速 19 star/天，涨速在加快；社区健康（fork/star 比 12.5%，0 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "Wyze3306",
-      "name": "BedrockOnLinux",
-      "full_name": "Wyze3306/BedrockOnLinux",
-      "description": "Run Minecraft Bedrock for Windows seamlessly on Linux.",
-      "stars": 996,
-      "forks": 52,
-      "open_issues": 21,
-      "created_at": "2026-05-16T11:54:43+00:00",
-      "pushed_at": "2026-10-08T11:58:05+00:00",
-      "updated_at": "2026-10-08T10:54:03+00:00",
-      "topics": [
-        "appimage",
-        "archlinux",
-        "debian",
-        "fedora",
-        "flatpak",
-        "games",
-        "launcher",
-        "linux",
-        "mc",
-        "minecraft",
-        "minecraft-linux",
-        "minecraft-server",
-        "ubuntu",
-        "ui"
-      ],
-      "language": "Python",
-      "license": "NOASSERTION",
-      "homepage": "https://wyze3306.github.io/BedrockOnLinux/",
-      "html_url": "https://github.com/Wyze3306/BedrockOnLinux",
+      "owner": "danielravina",
+      "name": "stemkit",
+      "full_name": "danielravina/stemkit",
+      "description": "Split any YouTube song into stems",
+      "stars": 995,
+      "forks": 120,
+      "open_issues": 18,
+      "created_at": "2026-08-24T06:34:25+00:00",
+      "pushed_at": "2026-10-06T21:44:55+00:00",
+      "updated_at": "2026-10-09T11:53:56+00:00",
+      "topics": [],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/danielravina/stemkit",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 951,
+      "stars_7d_ago": 945,
       "star_series": [
         {
-          "d": "09-09",
-          "s": 935
-        },
-        {
           "d": "09-10",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-11",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-12",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-13",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-14",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-15",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-16",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-17",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-18",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-19",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-20",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-21",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-22",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-23",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-24",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-25",
-          "s": 935
+          "s": 788
         },
         {
           "d": "09-26",
-          "s": 935
+          "s": 790
         },
         {
           "d": "09-27",
-          "s": 935
+          "s": 807
         },
         {
           "d": "09-28",
-          "s": 935
+          "s": 838
         },
         {
           "d": "09-29",
-          "s": 935
+          "s": 849
         },
         {
           "d": "09-30",
-          "s": 935
+          "s": 879
         },
         {
           "d": "10-01",
-          "s": 941
+          "s": 923
         },
         {
           "d": "10-02",
-          "s": 951
+          "s": 939
         },
         {
           "d": "10-03",
+          "s": 945
+        },
+        {
+          "d": "10-04",
+          "s": 953
+        },
+        {
+          "d": "10-05",
+          "s": 963
+        },
+        {
+          "d": "10-06",
+          "s": 977
+        },
+        {
+          "d": "10-07",
+          "s": 987
+        },
+        {
+          "d": "10-08",
+          "s": 991
+        },
+        {
+          "d": "10-09",
+          "s": 995
+        }
+      ]
+    },
+    "score": {
+      "score": 76.78,
+      "breakdown": {
+        "vel": 74,
+        "acc": 34,
+        "health": 97,
+        "fresh": 87,
+        "signal": 55
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 63.98,
+      "explanation": "stemkit 是 TypeScript 开源项目，主打「Split any YouTube song into stems」；处于增长早期，本周涨速 7.1 star/天；社区健康（fork/star 比 12.1%，18 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "huanfeng",
+      "name": "WindInput",
+      "full_name": "huanfeng/WindInput",
+      "description": "清风输入法 | 轻量、快速、可定制的开源中文输入法，专为五笔和码表输入方案设计（Windows / macOS）",
+      "stars": 992,
+      "forks": 56,
+      "open_issues": 29,
+      "created_at": "2026-01-21T08:51:49+00:00",
+      "pushed_at": "2026-10-09T03:58:55+00:00",
+      "updated_at": "2026-10-09T12:05:46+00:00",
+      "topics": [
+        "ime",
+        "input-method",
+        "macos",
+        "rust",
+        "tsf",
+        "windinput",
+        "wubi"
+      ],
+      "language": "Rust",
+      "license": "MIT",
+      "homepage": "https://windinput.com",
+      "html_url": "https://github.com/huanfeng/WindInput",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 939,
+      "star_series": [
+        {
+          "d": "09-10",
+          "s": 902
+        },
+        {
+          "d": "09-11",
+          "s": 902
+        },
+        {
+          "d": "09-12",
+          "s": 902
+        },
+        {
+          "d": "09-13",
+          "s": 902
+        },
+        {
+          "d": "09-14",
+          "s": 902
+        },
+        {
+          "d": "09-15",
+          "s": 902
+        },
+        {
+          "d": "09-16",
+          "s": 902
+        },
+        {
+          "d": "09-17",
+          "s": 902
+        },
+        {
+          "d": "09-18",
+          "s": 902
+        },
+        {
+          "d": "09-19",
+          "s": 902
+        },
+        {
+          "d": "09-20",
+          "s": 902
+        },
+        {
+          "d": "09-21",
+          "s": 902
+        },
+        {
+          "d": "09-22",
+          "s": 902
+        },
+        {
+          "d": "09-23",
+          "s": 902
+        },
+        {
+          "d": "09-24",
+          "s": 902
+        },
+        {
+          "d": "09-25",
+          "s": 902
+        },
+        {
+          "d": "09-26",
+          "s": 902
+        },
+        {
+          "d": "09-27",
+          "s": 902
+        },
+        {
+          "d": "09-28",
+          "s": 902
+        },
+        {
+          "d": "09-29",
+          "s": 910
+        },
+        {
+          "d": "09-30",
+          "s": 912
+        },
+        {
+          "d": "10-01",
+          "s": 924
+        },
+        {
+          "d": "10-02",
+          "s": 931
+        },
+        {
+          "d": "10-03",
+          "s": 939
+        },
+        {
+          "d": "10-04",
+          "s": 948
+        },
+        {
+          "d": "10-05",
+          "s": 954
+        },
+        {
+          "d": "10-06",
           "s": 960
+        },
+        {
+          "d": "10-07",
+          "s": 966
+        },
+        {
+          "d": "10-08",
+          "s": 984
+        },
+        {
+          "d": "10-09",
+          "s": 992
+        }
+      ]
+    },
+    "score": {
+      "score": 74.43,
+      "breakdown": {
+        "vel": 76,
+        "acc": 61,
+        "health": 71,
+        "fresh": 28,
+        "signal": 85
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 62.03,
+      "explanation": "WindInput 是 Rust 开源项目，主打「清风输入法 | 轻量、快速、可定制的开源中文输入法，专为五笔和码表输入方案设计（Windows / macOS）」；处于增长早期，本周涨速 7.6 star/天；社区健康（fork/star 比 5.6%，29 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "apify",
+      "name": "mcpc",
+      "full_name": "apify/mcpc",
+      "description": "The most compatible MCP CLI client. Supports: tools, resources, prompts, completions, async tasks, skills, stdio and Streamable HTTP (MCP 2026-07-28 and 2025-11-25). Persistent sessions, OAuth 2.1 with DCR, CIMD, client credentials, and ID-JAG, OS keychain, --json for code mode, grep across servers, proxy for AI sandboxes, x402 & more.",
+      "stars": 993,
+      "forks": 96,
+      "open_issues": 21,
+      "created_at": "2025-12-09T03:00:11+00:00",
+      "pushed_at": "2026-10-09T10:52:40+00:00",
+      "updated_at": "2026-10-09T10:52:41+00:00",
+      "topics": [
+        "ai-agents",
+        "bash",
+        "claude",
+        "cli",
+        "code-mode",
+        "command-line",
+        "mcp",
+        "mcp-client",
+        "model-context-protocol",
+        "shell"
+      ],
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "homepage": "https://npmjs.com/package/@apify/mcpc",
+      "html_url": "https://github.com/apify/mcpc",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 952,
+      "star_series": [
+        {
+          "d": "09-10",
+          "s": 945
+        },
+        {
+          "d": "09-11",
+          "s": 945
+        },
+        {
+          "d": "09-12",
+          "s": 945
+        },
+        {
+          "d": "09-13",
+          "s": 945
+        },
+        {
+          "d": "09-14",
+          "s": 945
+        },
+        {
+          "d": "09-15",
+          "s": 945
+        },
+        {
+          "d": "09-16",
+          "s": 945
+        },
+        {
+          "d": "09-17",
+          "s": 945
+        },
+        {
+          "d": "09-18",
+          "s": 945
+        },
+        {
+          "d": "09-19",
+          "s": 945
+        },
+        {
+          "d": "09-20",
+          "s": 945
+        },
+        {
+          "d": "09-21",
+          "s": 945
+        },
+        {
+          "d": "09-22",
+          "s": 945
+        },
+        {
+          "d": "09-23",
+          "s": 945
+        },
+        {
+          "d": "09-24",
+          "s": 945
+        },
+        {
+          "d": "09-25",
+          "s": 945
+        },
+        {
+          "d": "09-26",
+          "s": 945
+        },
+        {
+          "d": "09-27",
+          "s": 945
+        },
+        {
+          "d": "09-28",
+          "s": 945
+        },
+        {
+          "d": "09-29",
+          "s": 945
+        },
+        {
+          "d": "09-30",
+          "s": 945
+        },
+        {
+          "d": "10-01",
+          "s": 945
+        },
+        {
+          "d": "10-02",
+          "s": 945
+        },
+        {
+          "d": "10-03",
+          "s": 952
+        },
+        {
+          "d": "10-04",
+          "s": 962
+        },
+        {
+          "d": "10-05",
+          "s": 973
+        },
+        {
+          "d": "10-06",
+          "s": 979
+        },
+        {
+          "d": "10-07",
+          "s": 982
+        },
+        {
+          "d": "10-08",
+          "s": 985
+        },
+        {
+          "d": "10-09",
+          "s": 993
+        }
+      ]
+    },
+    "score": {
+      "score": 72.03,
+      "breakdown": {
+        "vel": 68,
+        "acc": 99,
+        "health": 88,
+        "fresh": 17,
+        "signal": 85
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 65.49,
+      "explanation": "mcpc 是 TypeScript 开源项目，主打「The most compatible MCP CLI client. Supports: tools, resources, prompts, completions, async tasks, skills, stdio and Streamable HTTP (MCP 2026-07-28 and 2025-11-25). Persistent sessions, OAuth 2.1 with DCR, CIMD, client credentials, and ID-JAG, OS keychain, --json for code mode, grep across servers, proxy for AI sandboxes, x402 & more.」；处于中早期增长，本周涨速 5.9 star/天，涨速在加快；社区健康（fork/star 比 9.7%，21 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "awdr74100",
+      "name": "figwright",
+      "full_name": "awdr74100/figwright",
+      "description": "Free, two-way Figma MCP server. Turn designs into framework-aware code, and push code back to the canvas. Works with Claude Code, Cursor, Codex, and any MCP client.",
+      "stars": 998,
+      "forks": 53,
+      "open_issues": 4,
+      "created_at": "2026-06-18T16:34:43+00:00",
+      "pushed_at": "2026-10-09T09:48:35+00:00",
+      "updated_at": "2026-10-09T10:41:50+00:00",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codegen",
+        "codex",
+        "cursor",
+        "design-to-code",
+        "figma",
+        "figma-mcp",
+        "figma-plugin",
+        "figma-to-code",
+        "mcp",
+        "model-context-protocol"
+      ],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/awdr74100/figwright",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 963,
+      "star_series": [
+        {
+          "d": "09-10",
+          "s": 882
+        },
+        {
+          "d": "09-11",
+          "s": 882
+        },
+        {
+          "d": "09-12",
+          "s": 882
+        },
+        {
+          "d": "09-13",
+          "s": 882
+        },
+        {
+          "d": "09-14",
+          "s": 882
+        },
+        {
+          "d": "09-15",
+          "s": 882
+        },
+        {
+          "d": "09-16",
+          "s": 882
+        },
+        {
+          "d": "09-17",
+          "s": 882
+        },
+        {
+          "d": "09-18",
+          "s": 882
+        },
+        {
+          "d": "09-19",
+          "s": 882
+        },
+        {
+          "d": "09-20",
+          "s": 882
+        },
+        {
+          "d": "09-21",
+          "s": 882
+        },
+        {
+          "d": "09-22",
+          "s": 882
+        },
+        {
+          "d": "09-23",
+          "s": 882
+        },
+        {
+          "d": "09-24",
+          "s": 884
+        },
+        {
+          "d": "09-25",
+          "s": 887
+        },
+        {
+          "d": "09-26",
+          "s": 898
+        },
+        {
+          "d": "09-27",
+          "s": 906
+        },
+        {
+          "d": "09-28",
+          "s": 915
+        },
+        {
+          "d": "09-29",
+          "s": 924
+        },
+        {
+          "d": "09-30",
+          "s": 936
+        },
+        {
+          "d": "10-01",
+          "s": 946
+        },
+        {
+          "d": "10-02",
+          "s": 960
+        },
+        {
+          "d": "10-03",
+          "s": 963
         },
         {
           "d": "10-04",
@@ -477,368 +801,40 @@
         },
         {
           "d": "10-05",
-          "s": 978
+          "s": 973
         },
         {
           "d": "10-06",
-          "s": 985
+          "s": 976
         },
         {
           "d": "10-07",
-          "s": 991
+          "s": 981
         },
         {
           "d": "10-08",
-          "s": 996
+          "s": 988
+        },
+        {
+          "d": "10-09",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 84.17,
+      "score": 71.41,
       "breakdown": {
-        "vel": 56,
-        "acc": 86,
-        "health": 72,
-        "fresh": 60,
-        "signal": 100
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 70.14,
-      "explanation": "BedrockOnLinux 是 Python 开源项目，主打「Run Minecraft Bedrock for Windows seamlessly on Linux.」；处于增长早期，本周涨速 6.4 star/天，涨速在加快；社区健康（fork/star 比 5.2%，21 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "OpenRSI-Foundation",
-      "name": "OpenRSI-Index",
-      "full_name": "OpenRSI-Foundation/OpenRSI-Index",
-      "description": null,
-      "stars": 200,
-      "forks": 15,
-      "open_issues": 1,
-      "created_at": "2026-08-14T22:48:00+00:00",
-      "pushed_at": "2026-10-08T00:07:03+00:00",
-      "updated_at": "2026-10-08T11:42:45+00:00",
-      "topics": [],
-      "language": "Python",
-      "license": "Apache-2.0",
-      "homepage": "https://index.openrsi.foundation/index.html",
-      "html_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 152,
-      "star_series": [
-        {
-          "d": "09-09",
-          "s": 41
-        },
-        {
-          "d": "09-10",
-          "s": 41
-        },
-        {
-          "d": "09-11",
-          "s": 41
-        },
-        {
-          "d": "09-12",
-          "s": 41
-        },
-        {
-          "d": "09-13",
-          "s": 41
-        },
-        {
-          "d": "09-14",
-          "s": 41
-        },
-        {
-          "d": "09-15",
-          "s": 41
-        },
-        {
-          "d": "09-16",
-          "s": 41
-        },
-        {
-          "d": "09-17",
-          "s": 41
-        },
-        {
-          "d": "09-18",
-          "s": 41
-        },
-        {
-          "d": "09-19",
-          "s": 41
-        },
-        {
-          "d": "09-20",
-          "s": 41
-        },
-        {
-          "d": "09-21",
-          "s": 41
-        },
-        {
-          "d": "09-22",
-          "s": 41
-        },
-        {
-          "d": "09-23",
-          "s": 41
-        },
-        {
-          "d": "09-24",
-          "s": 100
-        },
-        {
-          "d": "09-25",
-          "s": 115
-        },
-        {
-          "d": "09-26",
-          "s": 123
-        },
-        {
-          "d": "09-27",
-          "s": 128
-        },
-        {
-          "d": "09-28",
-          "s": 136
-        },
-        {
-          "d": "09-29",
-          "s": 143
-        },
-        {
-          "d": "09-30",
-          "s": 147
-        },
-        {
-          "d": "10-01",
-          "s": 150
-        },
-        {
-          "d": "10-02",
-          "s": 152
-        },
-        {
-          "d": "10-03",
-          "s": 157
-        },
-        {
-          "d": "10-04",
-          "s": 161
-        },
-        {
-          "d": "10-05",
-          "s": 174
-        },
-        {
-          "d": "10-06",
-          "s": 186
-        },
-        {
-          "d": "10-07",
-          "s": 191
-        },
-        {
-          "d": "10-08",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 70.94,
-      "breakdown": {
-        "vel": 57,
-        "acc": 57,
-        "health": 78,
-        "fresh": 85,
-        "signal": 55
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 64.49,
-      "explanation": "OpenRSI-Index 是 Python 方向的开源项目；处于中早期增长，本周涨速 6.9 star/天；社区健康（fork/star 比 7.5%，1 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "RandyChen1985",
-      "name": "nanzi-ai-agent-platform",
-      "full_name": "RandyChen1985/nanzi-ai-agent-platform",
-      "description": "🚀 开源企业级多智能体平台与 ChatBI 数据洞察平台。支持多 Agent 协作、RAG 知识增强、物理数据源直连与安全沙箱执行、Redis 长期记忆引擎，并集成多模态 EmbedChat 挂件与全方位 Token 消耗审计看板，完整 RBAC权限控制和 Harness支持。",
-      "stars": 200,
-      "forks": 56,
-      "open_issues": 1,
-      "created_at": "2026-05-28T14:05:41+00:00",
-      "pushed_at": "2026-10-08T09:39:11+00:00",
-      "updated_at": "2026-10-08T11:50:13+00:00",
-      "topics": [
-        "agentscope",
-        "agentscope-runtime",
-        "ai-agents",
-        "aigc",
-        "chat-bi",
-        "chatbot",
-        "dsh",
-        "harness",
-        "knowledge-management",
-        "langchain",
-        "ragflow"
-      ],
-      "language": "Python",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/RandyChen1985/nanzi-ai-agent-platform",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 193,
-      "star_series": [
-        {
-          "d": "09-09",
-          "s": 172
-        },
-        {
-          "d": "09-10",
-          "s": 172
-        },
-        {
-          "d": "09-11",
-          "s": 172
-        },
-        {
-          "d": "09-12",
-          "s": 172
-        },
-        {
-          "d": "09-13",
-          "s": 172
-        },
-        {
-          "d": "09-14",
-          "s": 172
-        },
-        {
-          "d": "09-15",
-          "s": 172
-        },
-        {
-          "d": "09-16",
-          "s": 172
-        },
-        {
-          "d": "09-17",
-          "s": 172
-        },
-        {
-          "d": "09-18",
-          "s": 175
-        },
-        {
-          "d": "09-19",
-          "s": 175
-        },
-        {
-          "d": "09-20",
-          "s": 176
-        },
-        {
-          "d": "09-21",
-          "s": 177
-        },
-        {
-          "d": "09-22",
-          "s": 177
-        },
-        {
-          "d": "09-23",
-          "s": 179
-        },
-        {
-          "d": "09-24",
-          "s": 179
-        },
-        {
-          "d": "09-25",
-          "s": 179
-        },
-        {
-          "d": "09-26",
-          "s": 179
-        },
-        {
-          "d": "09-27",
-          "s": 179
-        },
-        {
-          "d": "09-28",
-          "s": 181
-        },
-        {
-          "d": "09-29",
-          "s": 189
-        },
-        {
-          "d": "09-30",
-          "s": 193
-        },
-        {
-          "d": "10-01",
-          "s": 193
-        },
-        {
-          "d": "10-02",
-          "s": 193
-        },
-        {
-          "d": "10-03",
-          "s": 194
-        },
-        {
-          "d": "10-04",
-          "s": 194
-        },
-        {
-          "d": "10-05",
-          "s": 196
-        },
-        {
-          "d": "10-06",
-          "s": 196
-        },
-        {
-          "d": "10-07",
-          "s": 196
-        },
-        {
-          "d": "10-08",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 52.0,
-      "breakdown": {
-        "vel": 19,
-        "acc": 38,
-        "health": 100,
-        "fresh": 64,
+        "vel": 64,
+        "acc": 39,
+        "health": 76,
+        "fresh": 69,
         "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 43.33,
-      "explanation": "nanzi-ai-agent-platform 是 Python 开源项目，主打「🚀 开源企业级多智能体平台与 ChatBI 数据洞察平台。支持多 Agent 协作、RAG 知识增强、物理数据源直连与安全沙箱执行、Redis 长期记忆引擎，并集成多模态 EmbedChat 挂件与全方位 Token 消耗审计看板，完整 RBAC权限控制和 Harness支持。」；处于增长早期；社区健康（fork/star 比 28.0%，1 个 open issue）。"
+      "base_score": 59.51,
+      "explanation": "figwright 是 TypeScript 开源项目，主打「Free, two-way Figma MCP server. Turn designs into framework-aware code, and push code back to the canvas. Works with Claude Code, Cursor, Codex, and any MCP client.」；处于增长早期，本周涨速 5.0 star/天；社区健康（fork/star 比 5.3%，4 个 open issue）。"
     }
   }
 ]
