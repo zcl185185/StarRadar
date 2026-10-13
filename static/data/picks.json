@@ -1,481 +1,464 @@
 [
   {
     "repo": {
-      "owner": "yuzhenmao",
-      "name": "DeLM",
-      "full_name": "yuzhenmao/DeLM",
-      "description": "Implementation for Decentralized Multi-Agent Systems with Shared Context",
-      "stars": 200,
-      "forks": 27,
-      "open_issues": 2,
-      "created_at": "2026-06-07T07:23:11+00:00",
-      "pushed_at": "2026-10-09T01:05:13+00:00",
-      "updated_at": "2026-10-12T10:35:18+00:00",
+      "owner": "wesbos",
+      "name": "photo-frame-dashboard",
+      "full_name": "wesbos/photo-frame-dashboard",
+      "description": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)",
+      "stars": 999,
+      "forks": 126,
+      "open_issues": 40,
+      "created_at": "2026-10-08T18:22:19+00:00",
+      "pushed_at": "2026-10-12T18:49:08+00:00",
+      "updated_at": "2026-10-13T12:58:26+00:00",
       "topics": [],
       "language": "Python",
-      "license": "NOASSERTION",
+      "license": null,
       "homepage": null,
-      "html_url": "https://github.com/yuzhenmao/DeLM",
+      "html_url": "https://github.com/wesbos/photo-frame-dashboard",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 124,
+      "stars_7d_ago": 908,
       "star_series": [
         {
-          "d": "09-13",
-          "s": 120
-        },
-        {
           "d": "09-14",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-15",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-16",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-17",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-18",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-19",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-20",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-21",
-          "s": 120
+          "s": 908
         },
         {
           "d": "09-22",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-23",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-24",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-25",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-26",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-27",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-28",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-29",
-          "s": 121
+          "s": 908
         },
         {
           "d": "09-30",
-          "s": 121
+          "s": 908
         },
         {
           "d": "10-01",
-          "s": 121
+          "s": 908
         },
         {
           "d": "10-02",
-          "s": 122
+          "s": 908
         },
         {
           "d": "10-03",
-          "s": 124
+          "s": 908
         },
         {
           "d": "10-04",
-          "s": 124
+          "s": 908
         },
         {
           "d": "10-05",
-          "s": 124
+          "s": 908
         },
         {
           "d": "10-06",
-          "s": 124
+          "s": 908
         },
         {
           "d": "10-07",
-          "s": 125
+          "s": 908
         },
         {
           "d": "10-08",
-          "s": 150
+          "s": 908
         },
         {
           "d": "10-09",
-          "s": 186
+          "s": 908
         },
         {
           "d": "10-10",
-          "s": 191
+          "s": 908
         },
         {
           "d": "10-11",
-          "s": 193
+          "s": 908
         },
         {
           "d": "10-12",
-          "s": 200
+          "s": 940
+        },
+        {
+          "d": "10-13",
+          "s": 999
         }
       ]
     },
     "score": {
-      "score": 95.74,
+      "score": 88.47,
       "breakdown": {
-        "vel": 73,
+        "vel": 74,
         "acc": 99,
-        "health": 97,
-        "fresh": 65,
-        "signal": 55
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 79.78,
-      "explanation": "DeLM 是 Python 开源项目，主打「Implementation for Decentralized Multi-Agent Systems with Shared Context」；处于增长早期，本周涨速 11 star/天，涨速在加快；社区健康（fork/star 比 13.5%，2 个 open issue）。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "google",
-      "name": "agentmesh",
-      "full_name": "google/agentmesh",
-      "description": "Agent Mesh",
-      "stars": 996,
-      "forks": 158,
-      "open_issues": 20,
-      "created_at": "2026-04-21T15:15:58+00:00",
-      "pushed_at": "2026-10-12T10:47:39+00:00",
-      "updated_at": "2026-10-12T13:14:22+00:00",
-      "topics": [
-        "a2a",
-        "a2a-protocol",
-        "agent-mesh",
-        "agentic-ai",
-        "inference",
-        "mcp",
-        "mesh",
-        "mesh-network",
-        "network-security",
-        "networking-ai",
-        "p2p-network"
-      ],
-      "language": "Go",
-      "license": "Apache-2.0",
-      "homepage": "https://google.github.io/agentmesh/",
-      "html_url": "https://github.com/google/agentmesh",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 959,
-      "star_series": [
-        {
-          "d": "09-13",
-          "s": 959
-        },
-        {
-          "d": "09-14",
-          "s": 959
-        },
-        {
-          "d": "09-15",
-          "s": 959
-        },
-        {
-          "d": "09-16",
-          "s": 959
-        },
-        {
-          "d": "09-17",
-          "s": 959
-        },
-        {
-          "d": "09-18",
-          "s": 959
-        },
-        {
-          "d": "09-19",
-          "s": 959
-        },
-        {
-          "d": "09-20",
-          "s": 959
-        },
-        {
-          "d": "09-21",
-          "s": 959
-        },
-        {
-          "d": "09-22",
-          "s": 959
-        },
-        {
-          "d": "09-23",
-          "s": 959
-        },
-        {
-          "d": "09-24",
-          "s": 959
-        },
-        {
-          "d": "09-25",
-          "s": 959
-        },
-        {
-          "d": "09-26",
-          "s": 959
-        },
-        {
-          "d": "09-27",
-          "s": 959
-        },
-        {
-          "d": "09-28",
-          "s": 959
-        },
-        {
-          "d": "09-29",
-          "s": 959
-        },
-        {
-          "d": "09-30",
-          "s": 959
-        },
-        {
-          "d": "10-01",
-          "s": 959
-        },
-        {
-          "d": "10-02",
-          "s": 959
-        },
-        {
-          "d": "10-03",
-          "s": 959
-        },
-        {
-          "d": "10-04",
-          "s": 959
-        },
-        {
-          "d": "10-05",
-          "s": 959
-        },
-        {
-          "d": "10-06",
-          "s": 959
-        },
-        {
-          "d": "10-07",
-          "s": 959
-        },
-        {
-          "d": "10-08",
-          "s": 959
-        },
-        {
-          "d": "10-09",
-          "s": 959
-        },
-        {
-          "d": "10-10",
-          "s": 959
-        },
-        {
-          "d": "10-11",
-          "s": 962
-        },
-        {
-          "d": "10-12",
-          "s": 996
-        }
-      ]
-    },
-    "score": {
-      "score": 82.41,
-      "breakdown": {
-        "vel": 54,
-        "acc": 99,
-        "health": 96,
-        "fresh": 53,
-        "signal": 100
+        "health": 91,
+        "fresh": 99,
+        "signal": 35
       },
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 74.92,
-      "explanation": "agentmesh 是 Go 开源项目，主打「Agent Mesh」；处于中早期增长，本周涨速 5.3 star/天，涨速在加快；社区健康（fork/star 比 15.9%，20 个 open issue）、项目元数据完整。"
+      "base_score": 80.42,
+      "explanation": "photo-frame-dashboard 是 Python 开源项目，主打「Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)」；处于中早期增长，本周涨速 13 star/天，涨速在加快；社区健康（fork/star 比 12.6%，40 个 open issue）、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "screentinker",
-      "name": "screentinker",
-      "full_name": "screentinker/screentinker",
-      "description": "Open-source digital signage management software. Control content on TVs, displays, and kiosks from anywhere.",
-      "stars": 200,
-      "forks": 55,
-      "open_issues": 0,
-      "created_at": "2026-04-08T17:16:53+00:00",
-      "pushed_at": "2026-10-11T18:22:41+00:00",
-      "updated_at": "2026-10-12T13:12:44+00:00",
-      "topics": [
-        "android-tv",
-        "cms",
-        "digital-signage",
-        "fire-tv",
-        "kiosk",
-        "nodejs",
-        "open-source",
-        "raspberry-pi",
-        "self-hosted",
-        "signage",
-        "sqlite"
-      ],
-      "language": "JavaScript",
-      "license": "MIT",
-      "homepage": "https://screentinker.com",
-      "html_url": "https://github.com/screentinker/screentinker",
-      "default_branch": "main",
+      "owner": "vladtrc",
+      "name": "iw4L",
+      "full_name": "vladtrc/iw4L",
+      "description": "Standalone experimental Call of Duty runtime in Rust, built on bevy and wgpu",
+      "stars": 997,
+      "forks": 118,
+      "open_issues": 14,
+      "created_at": "2026-09-13T11:54:59+00:00",
+      "pushed_at": "2026-10-13T10:58:53+00:00",
+      "updated_at": "2026-10-13T11:30:22+00:00",
+      "topics": [],
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "homepage": null,
+      "html_url": "https://github.com/vladtrc/iw4L",
+      "default_branch": "master",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 176,
+      "stars_7d_ago": 944,
       "star_series": [
         {
-          "d": "09-13",
-          "s": 176
-        },
-        {
           "d": "09-14",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-15",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-16",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-17",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-18",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-19",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-20",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-21",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-22",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-23",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-24",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-25",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-26",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-27",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-28",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-29",
-          "s": 176
+          "s": 944
         },
         {
           "d": "09-30",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-01",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-02",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-03",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-04",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-05",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-06",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-07",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-08",
-          "s": 176
+          "s": 944
         },
         {
           "d": "10-09",
-          "s": 177
+          "s": 944
         },
         {
           "d": "10-10",
-          "s": 177
+          "s": 944
+        },
+        {
+          "d": "10-11",
+          "s": 954
+        },
+        {
+          "d": "10-12",
+          "s": 989
+        },
+        {
+          "d": "10-13",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 87.17,
+      "breakdown": {
+        "vel": 60,
+        "acc": 99,
+        "health": 97,
+        "fresh": 92,
+        "signal": 55
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 79.25,
+      "explanation": "iw4L 是 Rust 开源项目，主打「Standalone experimental Call of Duty runtime in Rust, built on bevy and wgpu」；处于中早期增长，本周涨速 7.6 star/天，涨速在加快；社区健康（fork/star 比 11.8%，14 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "AgentsLoop",
+      "name": "awesome-opus-5.5-games",
+      "full_name": "AgentsLoop/awesome-opus-5.5-games",
+      "description": "🎮 300 source-verified AI-built games — rated, categorized, and linked to real GitHub code.",
+      "stars": 200,
+      "forks": 24,
+      "open_issues": 2,
+      "created_at": "2026-09-09T11:56:03+00:00",
+      "pushed_at": "2026-10-07T09:06:17+00:00",
+      "updated_at": "2026-10-13T02:21:02+00:00",
+      "topics": [
+        "ai-games",
+        "awesome-list",
+        "browser-games",
+        "claude",
+        "game-development",
+        "gpt-6",
+        "open-source-games",
+        "threejs",
+        "vibe-coding",
+        "webgl"
+      ],
+      "language": "JavaScript",
+      "license": null,
+      "homepage": "https://lolgames.net/",
+      "html_url": "https://github.com/AgentsLoop/awesome-opus-5.5-games",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 171,
+      "star_series": [
+        {
+          "d": "09-14",
+          "s": 125
+        },
+        {
+          "d": "09-15",
+          "s": 125
+        },
+        {
+          "d": "09-16",
+          "s": 125
+        },
+        {
+          "d": "09-17",
+          "s": 125
+        },
+        {
+          "d": "09-18",
+          "s": 125
+        },
+        {
+          "d": "09-19",
+          "s": 125
+        },
+        {
+          "d": "09-20",
+          "s": 125
+        },
+        {
+          "d": "09-21",
+          "s": 125
+        },
+        {
+          "d": "09-22",
+          "s": 125
+        },
+        {
+          "d": "09-23",
+          "s": 125
+        },
+        {
+          "d": "09-24",
+          "s": 125
+        },
+        {
+          "d": "09-25",
+          "s": 125
+        },
+        {
+          "d": "09-26",
+          "s": 125
+        },
+        {
+          "d": "09-27",
+          "s": 125
+        },
+        {
+          "d": "09-28",
+          "s": 125
+        },
+        {
+          "d": "09-29",
+          "s": 125
+        },
+        {
+          "d": "09-30",
+          "s": 125
+        },
+        {
+          "d": "10-01",
+          "s": 125
+        },
+        {
+          "d": "10-02",
+          "s": 125
+        },
+        {
+          "d": "10-03",
+          "s": 134
+        },
+        {
+          "d": "10-04",
+          "s": 144
+        },
+        {
+          "d": "10-05",
+          "s": 150
+        },
+        {
+          "d": "10-06",
+          "s": 165
+        },
+        {
+          "d": "10-07",
+          "s": 171
+        },
+        {
+          "d": "10-08",
+          "s": 179
+        },
+        {
+          "d": "10-09",
+          "s": 185
+        },
+        {
+          "d": "10-10",
+          "s": 187
         },
         {
           "d": "10-11",
@@ -483,361 +466,368 @@
         },
         {
           "d": "10-12",
+          "s": 198
+        },
+        {
+          "d": "10-13",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 82.33,
+      "score": 70.49,
       "breakdown": {
-        "vel": 44,
-        "acc": 97,
-        "health": 100,
-        "fresh": 49,
-        "signal": 85
+        "vel": 46,
+        "acc": 41,
+        "health": 92,
+        "fresh": 91,
+        "signal": 65
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 68.61,
-      "explanation": "screentinker 是 JavaScript 开源项目，主打「Open-source digital signage management software. Control content on TVs, displays, and kiosks from anywhere.」；处于增长早期，本周涨速 3.4 star/天，涨速在加快；社区健康（fork/star 比 27.5%，0 个 open issue）、项目元数据完整。"
+      "base_score": 58.74,
+      "explanation": "awesome-opus-5.5-games 是 JavaScript 开源项目，主打「🎮 300 source-verified AI-built games — rated, categorized, and linked to real GitHub code.」；处于增长早期，本周涨速 4.1 star/天；社区健康（fork/star 比 12.0%，2 个 open issue）、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "Lucas0623z",
-      "name": "NoteLite",
-      "full_name": "Lucas0623z/NoteLite",
-      "description": "Open-source OMR and guided music practice: turn sheet music PDFs/images into MusicXML/MIDI, refine scores, and practice with MIDI or microphone feedback.",
-      "stars": 995,
-      "forks": 156,
-      "open_issues": 4,
-      "created_at": "2026-04-27T17:38:15+00:00",
-      "pushed_at": "2026-10-12T11:47:53+00:00",
-      "updated_at": "2026-10-12T09:30:30+00:00",
+      "owner": "ob-labs",
+      "name": "agentseek",
+      "full_name": "ob-labs/agentseek",
+      "description": "AgentSeek is an application development lifecycle toolkit for AI ecosystem apps, built by OceanBase OSS Team.",
+      "stars": 200,
+      "forks": 30,
+      "open_issues": 5,
+      "created_at": "2026-03-05T03:07:29+00:00",
+      "pushed_at": "2026-10-08T12:53:53+00:00",
+      "updated_at": "2026-10-13T02:27:02+00:00",
       "topics": [
-        "midi",
-        "musicxml",
-        "omr"
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "bub",
+        "database",
+        "harness-engineering",
+        "llms",
+        "python",
+        "skills"
       ],
-      "language": "Java",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/Lucas0623z/NoteLite",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "homepage": "https://ob-labs.github.io/agentseek/",
+      "html_url": "https://github.com/ob-labs/agentseek",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 924,
+      "stars_7d_ago": 191,
       "star_series": [
         {
-          "d": "09-13",
-          "s": 858
-        },
-        {
           "d": "09-14",
-          "s": 858
+          "s": 178
         },
         {
           "d": "09-15",
-          "s": 858
+          "s": 180
         },
         {
           "d": "09-16",
-          "s": 858
+          "s": 181
         },
         {
           "d": "09-17",
-          "s": 858
+          "s": 182
         },
         {
           "d": "09-18",
-          "s": 858
+          "s": 182
         },
         {
           "d": "09-19",
-          "s": 858
+          "s": 183
         },
         {
           "d": "09-20",
-          "s": 858
+          "s": 183
         },
         {
           "d": "09-21",
-          "s": 858
+          "s": 183
         },
         {
           "d": "09-22",
-          "s": 858
+          "s": 183
         },
         {
           "d": "09-23",
-          "s": 858
+          "s": 186
         },
         {
           "d": "09-24",
-          "s": 858
+          "s": 186
         },
         {
           "d": "09-25",
-          "s": 858
+          "s": 186
         },
         {
           "d": "09-26",
-          "s": 858
+          "s": 186
         },
         {
           "d": "09-27",
-          "s": 858
+          "s": 187
         },
         {
           "d": "09-28",
-          "s": 858
+          "s": 187
         },
         {
           "d": "09-29",
-          "s": 858
+          "s": 187
         },
         {
           "d": "09-30",
-          "s": 858
+          "s": 188
         },
         {
           "d": "10-01",
-          "s": 864
+          "s": 188
         },
         {
           "d": "10-02",
-          "s": 873
+          "s": 188
         },
         {
           "d": "10-03",
-          "s": 881
+          "s": 188
         },
         {
           "d": "10-04",
-          "s": 887
+          "s": 188
         },
         {
           "d": "10-05",
-          "s": 909
+          "s": 189
         },
         {
           "d": "10-06",
-          "s": 924
+          "s": 190
         },
         {
           "d": "10-07",
-          "s": 937
+          "s": 191
         },
         {
           "d": "10-08",
-          "s": 946
+          "s": 191
         },
         {
           "d": "10-09",
-          "s": 963
+          "s": 194
         },
         {
           "d": "10-10",
-          "s": 975
+          "s": 195
         },
         {
           "d": "10-11",
-          "s": 989
+          "s": 198
         },
         {
           "d": "10-12",
-          "s": 995
+          "s": 199
+        },
+        {
+          "d": "10-13",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 80.93,
+      "score": 61.3,
       "breakdown": {
-        "vel": 71,
-        "acc": 52,
-        "health": 100,
-        "fresh": 54,
+        "vel": 23,
+        "acc": 70,
+        "health": 97,
+        "fresh": 39,
+        "signal": 100
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 51.08,
+      "explanation": "agentseek 是 Python 开源项目，主打「AgentSeek is an application development lifecycle toolkit for AI ecosystem apps, built by OceanBase OSS Team.」；处于增长早期，涨速在加快；社区健康（fork/star 比 15.0%，5 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "WJZ-P",
+      "name": "sona",
+      "full_name": "WJZ-P/sona",
+      "description": "基于Pengu loader的英雄联盟客户端增强插件；LOL助手；sona助手；LOL插件；A LOL plugin base on Pengu loader; sona plugin; ",
+      "stars": 994,
+      "forks": 69,
+      "open_issues": 37,
+      "created_at": "2026-03-26T06:44:05+00:00",
+      "pushed_at": "2026-10-11T03:42:56+00:00",
+      "updated_at": "2026-10-13T06:35:02+00:00",
+      "topics": [
+        "client",
+        "clientside",
+        "league-of-legends",
+        "leagueoflegends",
+        "lol",
+        "pengu-loader",
+        "plugin",
+        "plugins"
+      ],
+      "language": "JavaScript",
+      "license": "AGPL-3.0",
+      "homepage": null,
+      "html_url": "https://github.com/WJZ-P/sona",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 976,
+      "star_series": [
+        {
+          "d": "09-14",
+          "s": 911
+        },
+        {
+          "d": "09-15",
+          "s": 911
+        },
+        {
+          "d": "09-16",
+          "s": 911
+        },
+        {
+          "d": "09-17",
+          "s": 914
+        },
+        {
+          "d": "09-18",
+          "s": 915
+        },
+        {
+          "d": "09-19",
+          "s": 919
+        },
+        {
+          "d": "09-20",
+          "s": 924
+        },
+        {
+          "d": "09-21",
+          "s": 930
+        },
+        {
+          "d": "09-22",
+          "s": 930
+        },
+        {
+          "d": "09-23",
+          "s": 932
+        },
+        {
+          "d": "09-24",
+          "s": 935
+        },
+        {
+          "d": "09-25",
+          "s": 938
+        },
+        {
+          "d": "09-26",
+          "s": 941
+        },
+        {
+          "d": "09-27",
+          "s": 946
+        },
+        {
+          "d": "09-28",
+          "s": 949
+        },
+        {
+          "d": "09-29",
+          "s": 953
+        },
+        {
+          "d": "09-30",
+          "s": 954
+        },
+        {
+          "d": "10-01",
+          "s": 956
+        },
+        {
+          "d": "10-02",
+          "s": 961
+        },
+        {
+          "d": "10-03",
+          "s": 966
+        },
+        {
+          "d": "10-04",
+          "s": 969
+        },
+        {
+          "d": "10-05",
+          "s": 971
+        },
+        {
+          "d": "10-06",
+          "s": 973
+        },
+        {
+          "d": "10-07",
+          "s": 976
+        },
+        {
+          "d": "10-08",
+          "s": 978
+        },
+        {
+          "d": "10-09",
+          "s": 982
+        },
+        {
+          "d": "10-10",
+          "s": 984
+        },
+        {
+          "d": "10-11",
+          "s": 986
+        },
+        {
+          "d": "10-12",
+          "s": 993
+        },
+        {
+          "d": "10-13",
+          "s": 994
+        }
+      ]
+    },
+    "score": {
+      "score": 58.25,
+      "breakdown": {
+        "vel": 36,
+        "acc": 45,
+        "health": 74,
+        "fresh": 45,
         "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 67.44,
-      "explanation": "NoteLite 是 Java 开源项目，主打「Open-source OMR and guided music practice: turn sheet music PDFs/images into MusicXML/MIDI, refine scores, and practice with MIDI or microphone feedback.」；处于增长早期，本周涨速 10 star/天；社区健康（fork/star 比 15.7%，4 个 open issue）。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "liliu-z",
-      "name": "stashbase",
-      "full_name": "liliu-z/stashbase",
-      "description": "An open-source, local-first writing workspace where you can write with Claude Code and Codex, drawing on your own sources and past work.",
-      "stars": 992,
-      "forks": 31,
-      "open_issues": 9,
-      "created_at": "2026-05-19T05:21:06+00:00",
-      "pushed_at": "2026-10-12T09:10:29+00:00",
-      "updated_at": "2026-10-12T10:29:24+00:00",
-      "topics": [
-        "ai-agents",
-        "document-search",
-        "electron",
-        "local-first",
-        "markdown",
-        "mcp",
-        "mcp-server",
-        "rag",
-        "semantic-search",
-        "typescript",
-        "wiki",
-        "writing"
-      ],
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "homepage": "https://stashbase.ai",
-      "html_url": "https://github.com/liliu-z/stashbase",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 924,
-      "star_series": [
-        {
-          "d": "09-13",
-          "s": 779
-        },
-        {
-          "d": "09-14",
-          "s": 779
-        },
-        {
-          "d": "09-15",
-          "s": 779
-        },
-        {
-          "d": "09-16",
-          "s": 779
-        },
-        {
-          "d": "09-17",
-          "s": 779
-        },
-        {
-          "d": "09-18",
-          "s": 779
-        },
-        {
-          "d": "09-19",
-          "s": 779
-        },
-        {
-          "d": "09-20",
-          "s": 779
-        },
-        {
-          "d": "09-21",
-          "s": 779
-        },
-        {
-          "d": "09-22",
-          "s": 779
-        },
-        {
-          "d": "09-23",
-          "s": 779
-        },
-        {
-          "d": "09-24",
-          "s": 779
-        },
-        {
-          "d": "09-25",
-          "s": 779
-        },
-        {
-          "d": "09-26",
-          "s": 794
-        },
-        {
-          "d": "09-27",
-          "s": 808
-        },
-        {
-          "d": "09-28",
-          "s": 825
-        },
-        {
-          "d": "09-29",
-          "s": 831
-        },
-        {
-          "d": "09-30",
-          "s": 847
-        },
-        {
-          "d": "10-01",
-          "s": 862
-        },
-        {
-          "d": "10-02",
-          "s": 871
-        },
-        {
-          "d": "10-03",
-          "s": 886
-        },
-        {
-          "d": "10-04",
-          "s": 901
-        },
-        {
-          "d": "10-05",
-          "s": 914
-        },
-        {
-          "d": "10-06",
-          "s": 924
-        },
-        {
-          "d": "10-07",
-          "s": 938
-        },
-        {
-          "d": "10-08",
-          "s": 948
-        },
-        {
-          "d": "10-09",
-          "s": 953
-        },
-        {
-          "d": "10-10",
-          "s": 978
-        },
-        {
-          "d": "10-11",
-          "s": 985
-        },
-        {
-          "d": "10-12",
-          "s": 992
-        }
-      ]
-    },
-    "score": {
-      "score": 73.71,
-      "breakdown": {
-        "vel": 70,
-        "acc": 43,
-        "health": 67,
-        "fresh": 60,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 61.42,
-      "explanation": "stashbase 是 TypeScript 开源项目，主打「An open-source, local-first writing workspace where you can write with Claude Code and Codex, drawing on your own sources and past work.」；处于增长早期，本周涨速 9.7 star/天；项目元数据完整。"
+      "base_score": 48.54,
+      "explanation": "sona 是 JavaScript 开源项目，主打「基于Pengu loader的英雄联盟客户端增强插件；LOL助手；sona助手；LOL插件；A LOL plugin base on Pengu loader; sona plugin;」；处于增长早期；社区健康（fork/star 比 6.9%，37 个 open issue）。"
     }
   }
 ]
