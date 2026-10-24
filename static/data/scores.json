@@ -1,1696 +1,2002 @@
 [
   {
     "repo": {
-      "owner": "egmtm",
-      "name": "EGM-Downloader",
-      "full_name": "egmtm/EGM-Downloader",
-      "description": "Free, open source video and audio downloader for 1000+ sites. Native desktop apps for Windows, macOS and Linux, built on yt-dlp. No terminal, no account, zero telemetry.",
-      "stars": 200,
-      "forks": 16,
-      "open_issues": 1,
-      "created_at": "2026-04-24T07:58:33+00:00",
-      "pushed_at": "2026-10-23T10:27:53+00:00",
-      "updated_at": "2026-10-23T00:10:52+00:00",
+      "owner": "Ayzzz123",
+      "name": "mcd-coupon-strategist",
+      "full_name": "Ayzzz123/mcd-coupon-strategist",
+      "description": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+      "stars": 998,
+      "forks": 21,
+      "open_issues": 0,
+      "created_at": "2026-10-10T12:59:19+00:00",
+      "pushed_at": "2026-10-21T14:03:59+00:00",
+      "updated_at": "2026-10-24T02:51:49+00:00",
       "topics": [
-        "audio-downloader",
-        "cross-platform",
-        "desktop-app",
-        "downloader",
-        "electron",
-        "flask",
-        "javascript",
-        "livestream",
-        "media-downloader",
-        "media-downloader-gui",
-        "mp3-downloader",
-        "privacy-first",
+        "agent",
+        "cost-optimization",
+        "coupon",
+        "llm",
+        "mcd-mcp",
+        "mcdonalds",
+        "mcp",
         "python",
-        "sponsorblock",
-        "subtitles",
-        "video-downloader",
-        "youtube-downloader",
-        "youtube-playlist-downloader",
-        "yt-dlp",
-        "yt-dlp-gui"
+        "skill",
+        "workbuddy"
       ],
-      "language": "HTML",
-      "license": "AGPL-3.0",
-      "homepage": "https://egm.egerena.com",
-      "html_url": "https://github.com/egmtm/EGM-Downloader",
+      "language": "Python",
+      "license": "MIT",
+      "homepage": "https://github.com/Ayzzz123/mcd-coupon-strategist/blob/main/MCP_INTEGRATION.md",
+      "html_url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 165,
+      "stars_7d_ago": 702,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 160
-        },
-        {
           "d": "09-25",
-          "s": 160
+          "s": 702
         },
         {
           "d": "09-26",
-          "s": 160
+          "s": 702
         },
         {
           "d": "09-27",
-          "s": 160
+          "s": 702
         },
         {
           "d": "09-28",
-          "s": 160
+          "s": 702
         },
         {
           "d": "09-29",
-          "s": 160
+          "s": 702
         },
         {
           "d": "09-30",
-          "s": 160
+          "s": 702
         },
         {
           "d": "10-01",
-          "s": 160
+          "s": 702
         },
         {
           "d": "10-02",
-          "s": 160
+          "s": 702
         },
         {
           "d": "10-03",
-          "s": 160
+          "s": 702
         },
         {
           "d": "10-04",
-          "s": 160
+          "s": 702
         },
         {
           "d": "10-05",
-          "s": 160
+          "s": 702
         },
         {
           "d": "10-06",
-          "s": 161
+          "s": 702
         },
         {
           "d": "10-07",
-          "s": 161
+          "s": 702
         },
         {
           "d": "10-08",
-          "s": 162
+          "s": 702
         },
         {
           "d": "10-09",
-          "s": 162
+          "s": 702
         },
         {
           "d": "10-10",
-          "s": 162
+          "s": 702
         },
         {
           "d": "10-11",
-          "s": 163
+          "s": 702
         },
         {
           "d": "10-12",
-          "s": 163
+          "s": 702
         },
         {
           "d": "10-13",
-          "s": 164
+          "s": 702
         },
         {
           "d": "10-14",
-          "s": 164
+          "s": 702
         },
         {
           "d": "10-15",
-          "s": 164
+          "s": 702
         },
         {
           "d": "10-16",
-          "s": 165
+          "s": 702
         },
         {
           "d": "10-17",
-          "s": 165
+          "s": 702
         },
         {
           "d": "10-18",
-          "s": 165
+          "s": 702
         },
         {
           "d": "10-19",
-          "s": 165
+          "s": 702
         },
         {
           "d": "10-20",
-          "s": 190
+          "s": 702
         },
         {
           "d": "10-21",
-          "s": 197
+          "s": 805
         },
         {
           "d": "10-22",
-          "s": 200
+          "s": 875
         },
         {
           "d": "10-23",
-          "s": 200
+          "s": 994
+        },
+        {
+          "d": "10-24",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 85.0,
+      "score": 100.0,
       "breakdown": {
-        "vel": 55,
+        "vel": 100,
         "acc": 99,
-        "health": 80,
-        "fresh": 50,
+        "health": 66,
+        "fresh": 96,
         "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 70.83,
-      "explanation": "EGM-Downloader 是 HTML 开源项目，主打「Free, open source video and audio downloader for 1000+ sites. Native desktop apps for Windows, macOS and Linux, built on yt-dlp. No terminal, no account, zero telemetry.」；处于增长早期，本周涨速 5.0 star/天，涨速在加快；社区健康（fork/star 比 8.0%，1 个 open issue）、项目元数据完整。"
+      "base_score": 89.78,
+      "explanation": "mcd-coupon-strategist 是 Python 开源项目，主打「麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。」；处于增长早期，本周涨速 42 star/天，涨速在加快；项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "NarYuki",
-      "name": "Dextop",
-      "full_name": "NarYuki/Dextop",
-      "description": "Unlock the hidden Samsung DeX and desktop capabilities of Android, and run a desktop environment directly on your device.",
-      "stars": 997,
-      "forks": 59,
-      "open_issues": 11,
-      "created_at": "2026-08-12T08:56:31+00:00",
-      "pushed_at": "2026-10-20T07:19:46+00:00",
-      "updated_at": "2026-10-23T02:23:06+00:00",
-      "topics": [],
-      "language": "Kotlin",
-      "license": "GPL-3.0",
-      "homepage": "dextop.n4tsu.net",
-      "html_url": "https://github.com/NarYuki/Dextop",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 943,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 846
-        },
-        {
-          "d": "09-25",
-          "s": 846
-        },
-        {
-          "d": "09-26",
-          "s": 846
-        },
-        {
-          "d": "09-27",
-          "s": 846
-        },
-        {
-          "d": "09-28",
-          "s": 846
-        },
-        {
-          "d": "09-29",
-          "s": 846
-        },
-        {
-          "d": "09-30",
-          "s": 846
-        },
-        {
-          "d": "10-01",
-          "s": 846
-        },
-        {
-          "d": "10-02",
-          "s": 846
-        },
-        {
-          "d": "10-03",
-          "s": 846
-        },
-        {
-          "d": "10-04",
-          "s": 846
-        },
-        {
-          "d": "10-05",
-          "s": 846
-        },
-        {
-          "d": "10-06",
-          "s": 846
-        },
-        {
-          "d": "10-07",
-          "s": 846
-        },
-        {
-          "d": "10-08",
-          "s": 846
-        },
-        {
-          "d": "10-09",
-          "s": 846
-        },
-        {
-          "d": "10-10",
-          "s": 861
-        },
-        {
-          "d": "10-11",
-          "s": 881
-        },
-        {
-          "d": "10-12",
-          "s": 893
-        },
-        {
-          "d": "10-13",
-          "s": 902
-        },
-        {
-          "d": "10-14",
-          "s": 912
-        },
-        {
-          "d": "10-15",
-          "s": 923
-        },
-        {
-          "d": "10-16",
-          "s": 932
-        },
-        {
-          "d": "10-17",
-          "s": 943
-        },
-        {
-          "d": "10-18",
-          "s": 955
-        },
-        {
-          "d": "10-19",
-          "s": 970
-        },
-        {
-          "d": "10-20",
-          "s": 977
-        },
-        {
-          "d": "10-21",
-          "s": 986
-        },
-        {
-          "d": "10-22",
-          "s": 995
-        },
-        {
-          "d": "10-23",
-          "s": 997
-        }
-      ]
-    },
-    "score": {
-      "score": 75.62,
-      "breakdown": {
-        "vel": 67,
-        "acc": 42,
-        "health": 77,
-        "fresh": 80,
-        "signal": 70
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 63.02,
-      "explanation": "Dextop 是 Kotlin 开源项目，主打「Unlock the hidden Samsung DeX and desktop capabilities of Android, and run a desktop environment directly on your device.」；处于增长早期，本周涨速 7.7 star/天；社区健康（fork/star 比 5.9%，11 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "zhuxian518",
-      "name": "mcd-1024-skill",
-      "full_name": "zhuxian518/mcd-1024-skill",
-      "description": "McDonald's China MCP innovation skill - entry for MCD Developer Innovation Challenge 2026 (1024 Programmers' Day)",
-      "stars": 200,
-      "forks": 0,
-      "open_issues": 0,
-      "created_at": "2026-10-09T14:25:37+00:00",
-      "pushed_at": "2026-10-20T03:38:13+00:00",
-      "updated_at": "2026-10-23T10:03:47+00:00",
+      "owner": "shinshin86",
+      "name": "mesh-avatar-studio",
+      "full_name": "shinshin86/mesh-avatar-studio",
+      "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+      "stars": 996,
+      "forks": 110,
+      "open_issues": 1,
+      "created_at": "2026-10-04T03:33:57+00:00",
+      "pushed_at": "2026-10-24T06:34:20+00:00",
+      "updated_at": "2026-10-24T08:53:45+00:00",
       "topics": [
-        "ai-agent",
-        "mcdonalds",
-        "mcp",
-        "skill",
-        "workbuddy"
+        "2d-animation",
+        "avatar",
+        "claude-code",
+        "codex",
+        "mesh-deformation",
+        "vtuber",
+        "webgl"
       ],
-      "language": null,
+      "language": "TypeScript",
       "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/zhuxian518/mcd-1024-skill",
+      "homepage": "https://shinshin86.github.io/mesh-avatar-studio/",
+      "html_url": "https://github.com/shinshin86/mesh-avatar-studio",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 94,
+      "stars_7d_ago": 809,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 0
-        },
-        {
           "d": "09-25",
-          "s": 0
+          "s": 795
         },
         {
           "d": "09-26",
-          "s": 0
+          "s": 795
         },
         {
           "d": "09-27",
-          "s": 0
+          "s": 795
         },
         {
           "d": "09-28",
-          "s": 0
+          "s": 795
         },
         {
           "d": "09-29",
-          "s": 0
+          "s": 795
         },
         {
           "d": "09-30",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-01",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-02",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-03",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-04",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-05",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-06",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-07",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-08",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-09",
-          "s": 0
+          "s": 795
         },
         {
           "d": "10-10",
-          "s": 4
+          "s": 795
         },
         {
           "d": "10-11",
-          "s": 6
+          "s": 795
         },
         {
           "d": "10-12",
-          "s": 13
+          "s": 795
         },
         {
           "d": "10-13",
-          "s": 31
+          "s": 795
         },
         {
           "d": "10-14",
-          "s": 53
+          "s": 795
         },
         {
           "d": "10-15",
-          "s": 68
+          "s": 795
         },
         {
           "d": "10-16",
-          "s": 76
+          "s": 795
         },
         {
           "d": "10-17",
-          "s": 94
+          "s": 795
         },
         {
           "d": "10-18",
-          "s": 112
+          "s": 809
         },
         {
           "d": "10-19",
-          "s": 137
+          "s": 853
         },
         {
           "d": "10-20",
-          "s": 158
+          "s": 899
         },
         {
           "d": "10-21",
-          "s": 175
+          "s": 958
         },
         {
           "d": "10-22",
-          "s": 196
+          "s": 974
         },
         {
           "d": "10-23",
-          "s": 200
+          "s": 992
+        },
+        {
+          "d": "10-24",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 71.14,
+      "score": 100.0,
       "breakdown": {
-        "vel": 86,
-        "acc": 54,
-        "health": 60,
-        "fresh": 96,
-        "signal": 70
-      },
-      "stage": "mid_late",
-      "stage_multiplier": 1.0,
-      "confidence": 1.0,
-      "base_score": 71.14,
-      "explanation": "mcd-1024-skill 是 未知语言 开源项目，主打「McDonald's China MCP innovation skill - entry for MCD Developer Innovation Challenge 2026 (1024 Programmers' Day)」；处于中后期增长，本周涨速 15 star/天；开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "ENCHIGO",
-      "name": "apple-pickup-watcher",
-      "full_name": "ENCHIGO/apple-pickup-watcher",
-      "description": "免费开源的苹果直营店到店取货库存监控与到货提醒。Apple Store pickup stock monitor for iPhone, iPad, Mac & Apple Watch in 7 regions. macOS / Windows / Linux · Desktop & Bark alerts · Rust + Tauri.",
-      "stars": 200,
-      "forks": 43,
-      "open_issues": 3,
-      "created_at": "2026-08-06T14:56:46+00:00",
-      "pushed_at": "2026-10-21T20:29:51+00:00",
-      "updated_at": "2026-10-23T08:49:14+00:00",
-      "topics": [
-        "apple",
-        "apple-store",
-        "apple-watch",
-        "availability-checker",
-        "bark",
-        "cross-platform",
-        "desktop-app",
-        "in-stock-alert",
-        "inventory-tracker",
-        "ipad",
-        "iphone",
-        "linux",
-        "macos",
-        "notifications",
-        "restock-alert",
-        "rust",
-        "stock-monitor",
-        "stock-notifier",
-        "tauri",
-        "windows"
-      ],
-      "language": "Rust",
-      "license": "GPL-3.0",
-      "homepage": "https://enchigo.github.io/apple-pickup-watcher/",
-      "html_url": "https://github.com/ENCHIGO/apple-pickup-watcher",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 183,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 126
-        },
-        {
-          "d": "09-25",
-          "s": 126
-        },
-        {
-          "d": "09-26",
-          "s": 127
-        },
-        {
-          "d": "09-27",
-          "s": 130
-        },
-        {
-          "d": "09-28",
-          "s": 133
-        },
-        {
-          "d": "09-29",
-          "s": 135
-        },
-        {
-          "d": "09-30",
-          "s": 140
-        },
-        {
-          "d": "10-01",
-          "s": 141
-        },
-        {
-          "d": "10-02",
-          "s": 141
-        },
-        {
-          "d": "10-03",
-          "s": 141
-        },
-        {
-          "d": "10-04",
-          "s": 142
-        },
-        {
-          "d": "10-05",
-          "s": 145
-        },
-        {
-          "d": "10-06",
-          "s": 145
-        },
-        {
-          "d": "10-07",
-          "s": 147
-        },
-        {
-          "d": "10-08",
-          "s": 148
-        },
-        {
-          "d": "10-09",
-          "s": 150
-        },
-        {
-          "d": "10-10",
-          "s": 152
-        },
-        {
-          "d": "10-11",
-          "s": 155
-        },
-        {
-          "d": "10-12",
-          "s": 157
-        },
-        {
-          "d": "10-13",
-          "s": 159
-        },
-        {
-          "d": "10-14",
-          "s": 160
-        },
-        {
-          "d": "10-15",
-          "s": 164
-        },
-        {
-          "d": "10-16",
-          "s": 174
-        },
-        {
-          "d": "10-17",
-          "s": 183
-        },
-        {
-          "d": "10-18",
-          "s": 184
-        },
-        {
-          "d": "10-19",
-          "s": 187
-        },
-        {
-          "d": "10-20",
-          "s": 188
-        },
-        {
-          "d": "10-21",
-          "s": 192
-        },
-        {
-          "d": "10-22",
-          "s": 195
-        },
-        {
-          "d": "10-23",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 68.35,
-      "breakdown": {
-        "vel": 38,
-        "acc": 39,
-        "health": 98,
-        "fresh": 79,
+        "vel": 91,
+        "acc": 99,
+        "health": 97,
+        "fresh": 95,
         "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 56.96,
-      "explanation": "apple-pickup-watcher 是 Rust 开源项目，主打「免费开源的苹果直营店到店取货库存监控与到货提醒。Apple Store pickup stock monitor for iPhone, iPad, Mac & Apple Watch in 7 regions. macOS / Windows / Linux · Desktop & Bark alerts · Rust + Tauri.」；处于增长早期；社区健康（fork/star 比 21.5%，3 个 open issue）、项目元数据完整、开发活跃。"
+      "base_score": 95.56,
+      "explanation": "mesh-avatar-studio 是 TypeScript 开源项目，主打「Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor」；处于增长早期，本周涨速 27 star/天，涨速在加快；社区健康（fork/star 比 11.0%，1 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "JetBrains",
-      "name": "thinkrail",
-      "full_name": "JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "stars": 994,
-      "forks": 71,
-      "open_issues": 199,
-      "created_at": "2026-07-08T07:40:43+00:00",
-      "pushed_at": "2026-10-23T07:51:43+00:00",
-      "updated_at": "2026-10-23T08:05:48+00:00",
-      "topics": [
-        "agent",
-        "agent-skills",
-        "agentic-ai",
-        "agentic-workflow",
-        "ai-coding",
-        "ai-tools",
-        "pi-agent",
-        "pi-agent-extension",
-        "spec-driven",
-        "spec-driven-coding",
-        "spec-driven-development",
-        "vibe-coding",
-        "vibecoding"
-      ],
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "homepage": "https://thinkrail.ai/",
-      "html_url": "https://github.com/JetBrains/thinkrail",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 981,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 981
-        },
-        {
-          "d": "09-25",
-          "s": 981
-        },
-        {
-          "d": "09-26",
-          "s": 981
-        },
-        {
-          "d": "09-27",
-          "s": 981
-        },
-        {
-          "d": "09-28",
-          "s": 981
-        },
-        {
-          "d": "09-29",
-          "s": 981
-        },
-        {
-          "d": "09-30",
-          "s": 981
-        },
-        {
-          "d": "10-01",
-          "s": 981
-        },
-        {
-          "d": "10-02",
-          "s": 981
-        },
-        {
-          "d": "10-03",
-          "s": 981
-        },
-        {
-          "d": "10-04",
-          "s": 981
-        },
-        {
-          "d": "10-05",
-          "s": 981
-        },
-        {
-          "d": "10-06",
-          "s": 981
-        },
-        {
-          "d": "10-07",
-          "s": 981
-        },
-        {
-          "d": "10-08",
-          "s": 981
-        },
-        {
-          "d": "10-09",
-          "s": 981
-        },
-        {
-          "d": "10-10",
-          "s": 981
-        },
-        {
-          "d": "10-11",
-          "s": 981
-        },
-        {
-          "d": "10-12",
-          "s": 981
-        },
-        {
-          "d": "10-13",
-          "s": 981
-        },
-        {
-          "d": "10-14",
-          "s": 981
-        },
-        {
-          "d": "10-15",
-          "s": 981
-        },
-        {
-          "d": "10-16",
-          "s": 981
-        },
-        {
-          "d": "10-17",
-          "s": 981
-        },
-        {
-          "d": "10-18",
-          "s": 981
-        },
-        {
-          "d": "10-19",
-          "s": 981
-        },
-        {
-          "d": "10-20",
-          "s": 981
-        },
-        {
-          "d": "10-21",
-          "s": 981
-        },
-        {
-          "d": "10-22",
-          "s": 986
-        },
-        {
-          "d": "10-23",
-          "s": 994
-        }
-      ]
-    },
-    "score": {
-      "score": 62.29,
-      "breakdown": {
-        "vel": 32,
-        "acc": 86,
-        "health": 53,
-        "fresh": 71,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 56.63,
-      "explanation": "thinkrail 是 TypeScript 开源项目，主打「Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need」；处于中早期增长，涨速在加快；项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "skillsynchq",
-      "name": "txcript",
-      "full_name": "skillsynchq/txcript",
-      "description": "Pandoc for AI chats. Move ai chats across harnesses: Claude Code, Codex, OpenCode, Cursor, and more. Rust library, CLI, and WASM.",
+      "owner": "ZeroDayEvil",
+      "name": "CVE-2026-54121-Certighost",
+      "full_name": "ZeroDayEvil/CVE-2026-54121-Certighost",
+      "description": "🛡 Official AI Security Tool module for CVE-2026-54121 (Certighost): AD CS certificate abuse deep-dive, defensive audit workflows, and safe in-app console execution for authorized Active Directory security testing.",
       "stars": 200,
-      "forks": 21,
-      "open_issues": 33,
-      "created_at": "2026-06-25T19:22:08+00:00",
-      "pushed_at": "2026-10-23T06:54:01+00:00",
-      "updated_at": "2026-10-23T06:54:06+00:00",
-      "topics": [
-        "claude-code",
-        "cli",
-        "codex",
-        "coding-agents",
-        "cursor",
-        "mcp",
-        "opencode",
-        "rust",
-        "transcripts",
-        "wasm"
-      ],
-      "language": "Rust",
-      "license": "Apache-2.0",
-      "homepage": "https://skillsync.com",
-      "html_url": "https://github.com/skillsynchq/txcript",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 181,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 137
-        },
-        {
-          "d": "09-25",
-          "s": 137
-        },
-        {
-          "d": "09-26",
-          "s": 137
-        },
-        {
-          "d": "09-27",
-          "s": 137
-        },
-        {
-          "d": "09-28",
-          "s": 141
-        },
-        {
-          "d": "09-29",
-          "s": 146
-        },
-        {
-          "d": "09-30",
-          "s": 147
-        },
-        {
-          "d": "10-01",
-          "s": 148
-        },
-        {
-          "d": "10-02",
-          "s": 148
-        },
-        {
-          "d": "10-03",
-          "s": 148
-        },
-        {
-          "d": "10-04",
-          "s": 149
-        },
-        {
-          "d": "10-05",
-          "s": 150
-        },
-        {
-          "d": "10-06",
-          "s": 153
-        },
-        {
-          "d": "10-07",
-          "s": 154
-        },
-        {
-          "d": "10-08",
-          "s": 154
-        },
-        {
-          "d": "10-09",
-          "s": 155
-        },
-        {
-          "d": "10-10",
-          "s": 155
-        },
-        {
-          "d": "10-11",
-          "s": 155
-        },
-        {
-          "d": "10-12",
-          "s": 159
-        },
-        {
-          "d": "10-13",
-          "s": 160
-        },
-        {
-          "d": "10-14",
-          "s": 160
-        },
-        {
-          "d": "10-15",
-          "s": 175
-        },
-        {
-          "d": "10-16",
-          "s": 177
-        },
-        {
-          "d": "10-17",
-          "s": 181
-        },
-        {
-          "d": "10-18",
-          "s": 181
-        },
-        {
-          "d": "10-19",
-          "s": 182
-        },
-        {
-          "d": "10-20",
-          "s": 186
-        },
-        {
-          "d": "10-21",
-          "s": 193
-        },
-        {
-          "d": "10-22",
-          "s": 200
-        },
-        {
-          "d": "10-23",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 61.75,
-      "breakdown": {
-        "vel": 41,
-        "acc": 43,
-        "health": 58,
-        "fresh": 67,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 51.46,
-      "explanation": "txcript 是 Rust 开源项目，主打「Pandoc for AI chats. Move ai chats across harnesses: Claude Code, Codex, OpenCode, Cursor, and more. Rust library, CLI, and WASM.」；处于增长早期，本周涨速 2.7 star/天；项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "ziangni-sys",
-      "name": "claude-passnote",
-      "full_name": "ziangni-sys/claude-passnote",
-      "description": null,
-      "stars": 200,
-      "forks": 10,
+      "forks": 0,
       "open_issues": 0,
-      "created_at": "2026-10-15T16:12:26+00:00",
-      "pushed_at": "2026-10-23T07:56:12+00:00",
-      "updated_at": "2026-10-23T08:41:45+00:00",
-      "topics": [],
-      "language": "Python",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/ziangni-sys/claude-passnote",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 2,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 0
-        },
-        {
-          "d": "09-25",
-          "s": 0
-        },
-        {
-          "d": "09-26",
-          "s": 0
-        },
-        {
-          "d": "09-27",
-          "s": 0
-        },
-        {
-          "d": "09-28",
-          "s": 0
-        },
-        {
-          "d": "09-29",
-          "s": 0
-        },
-        {
-          "d": "09-30",
-          "s": 0
-        },
-        {
-          "d": "10-01",
-          "s": 0
-        },
-        {
-          "d": "10-02",
-          "s": 0
-        },
-        {
-          "d": "10-03",
-          "s": 0
-        },
-        {
-          "d": "10-04",
-          "s": 0
-        },
-        {
-          "d": "10-05",
-          "s": 0
-        },
-        {
-          "d": "10-06",
-          "s": 0
-        },
-        {
-          "d": "10-07",
-          "s": 0
-        },
-        {
-          "d": "10-08",
-          "s": 0
-        },
-        {
-          "d": "10-09",
-          "s": 0
-        },
-        {
-          "d": "10-10",
-          "s": 0
-        },
-        {
-          "d": "10-11",
-          "s": 0
-        },
-        {
-          "d": "10-12",
-          "s": 0
-        },
-        {
-          "d": "10-13",
-          "s": 0
-        },
-        {
-          "d": "10-14",
-          "s": 0
-        },
-        {
-          "d": "10-15",
-          "s": 0
-        },
-        {
-          "d": "10-16",
-          "s": 0
-        },
-        {
-          "d": "10-17",
-          "s": 2
-        },
-        {
-          "d": "10-18",
-          "s": 44
-        },
-        {
-          "d": "10-19",
-          "s": 130
-        },
-        {
-          "d": "10-20",
-          "s": 177
-        },
-        {
-          "d": "10-21",
-          "s": 193
-        },
-        {
-          "d": "10-22",
-          "s": 199
-        },
-        {
-          "d": "10-23",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 59.4,
-      "breakdown": {
-        "vel": 100,
-        "acc": 99,
-        "health": 71,
-        "fresh": 98,
-        "signal": 40
-      },
-      "stage": "saturated",
-      "stage_multiplier": 0.7,
-      "confidence": 1.0,
-      "base_score": 84.85,
-      "explanation": "claude-passnote 是 Python 方向的开源项目；增长已饱和，本周涨速 28 star/天，涨速在加快；社区健康（fork/star 比 5.0%，0 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "urzeye",
-      "name": "ophel",
-      "full_name": "urzeye/ophel",
-      "description": "Turn AI conversations into organized, reusable workflows — across major AI platforms. | 把 AI 对话转化为可组织、可复用的工作流，适用于主流 AI 平台",
-      "stars": 994,
-      "forks": 61,
-      "open_issues": 29,
-      "created_at": "2025-12-30T12:09:25+00:00",
-      "pushed_at": "2026-10-22T11:17:45+00:00",
-      "updated_at": "2026-10-23T08:51:12+00:00",
+      "created_at": "2026-09-11T23:08:16+00:00",
+      "pushed_at": "2026-10-19T11:05:57+00:00",
+      "updated_at": "2026-10-24T09:02:38+00:00",
       "topics": [
-        "ai-assistant",
-        "ai-chat",
-        "ai-studio",
-        "ai-workflow",
-        "browser-extension",
-        "chatgpt",
-        "chrome-extension",
-        "claude",
-        "deepseek-harness",
-        "gemini",
-        "grok",
-        "hotswap",
-        "long-conversation",
-        "minimap",
-        "outline",
-        "plugin",
-        "productivity",
-        "prompt",
-        "prompt-management",
-        "timeline"
+        "active-directory",
+        "ai-security-tool",
+        "cve-2026-54121",
+        "privilege-escalation",
+        "red-team"
       ],
-      "language": "TypeScript",
-      "license": "GPL-3.0",
-      "homepage": "https://ophel.app",
-      "html_url": "https://github.com/urzeye/ophel",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 984,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 984
-        },
-        {
-          "d": "09-25",
-          "s": 984
-        },
-        {
-          "d": "09-26",
-          "s": 984
-        },
-        {
-          "d": "09-27",
-          "s": 984
-        },
-        {
-          "d": "09-28",
-          "s": 984
-        },
-        {
-          "d": "09-29",
-          "s": 984
-        },
-        {
-          "d": "09-30",
-          "s": 984
-        },
-        {
-          "d": "10-01",
-          "s": 984
-        },
-        {
-          "d": "10-02",
-          "s": 984
-        },
-        {
-          "d": "10-03",
-          "s": 984
-        },
-        {
-          "d": "10-04",
-          "s": 984
-        },
-        {
-          "d": "10-05",
-          "s": 984
-        },
-        {
-          "d": "10-06",
-          "s": 984
-        },
-        {
-          "d": "10-07",
-          "s": 984
-        },
-        {
-          "d": "10-08",
-          "s": 984
-        },
-        {
-          "d": "10-09",
-          "s": 984
-        },
-        {
-          "d": "10-10",
-          "s": 984
-        },
-        {
-          "d": "10-11",
-          "s": 984
-        },
-        {
-          "d": "10-12",
-          "s": 984
-        },
-        {
-          "d": "10-13",
-          "s": 984
-        },
-        {
-          "d": "10-14",
-          "s": 984
-        },
-        {
-          "d": "10-15",
-          "s": 984
-        },
-        {
-          "d": "10-16",
-          "s": 984
-        },
-        {
-          "d": "10-17",
-          "s": 984
-        },
-        {
-          "d": "10-18",
-          "s": 984
-        },
-        {
-          "d": "10-19",
-          "s": 984
-        },
-        {
-          "d": "10-20",
-          "s": 984
-        },
-        {
-          "d": "10-21",
-          "s": 987
-        },
-        {
-          "d": "10-22",
-          "s": 992
-        },
-        {
-          "d": "10-23",
-          "s": 994
-        }
-      ]
-    },
-    "score": {
-      "score": 51.1,
-      "breakdown": {
-        "vel": 27,
-        "acc": 81,
-        "health": 73,
-        "fresh": 19,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 46.46,
-      "explanation": "ophel 是 TypeScript 开源项目，主打「Turn AI conversations into organized, reusable workflows — across major AI platforms. | 把 AI 对话转化为可组织、可复用的工作流，适用于主流 AI 平台」；处于中早期增长，涨速在加快；社区健康（fork/star 比 6.1%，29 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "1y0n",
-      "name": "oktos",
-      "full_name": "1y0n/oktos",
-      "description": "Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用了模块化设计，支持 BOF 动态加载、多信道异步通信与内存免杀，内置的 AI 助手可辅助编排或自动执行后渗透任务，为红队提供隐蔽、高效、智能的作战能力。",
-      "stars": 200,
-      "forks": 17,
-      "open_issues": 5,
-      "created_at": "2026-07-26T15:08:12+00:00",
-      "pushed_at": "2026-10-17T14:44:58+00:00",
-      "updated_at": "2026-10-22T09:36:17+00:00",
-      "topics": [],
       "language": null,
       "license": null,
       "homepage": null,
-      "html_url": "https://github.com/1y0n/oktos",
+      "html_url": "https://github.com/ZeroDayEvil/CVE-2026-54121-Certighost",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 194,
+      "stars_7d_ago": 78,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 171
-        },
-        {
           "d": "09-25",
-          "s": 173
+          "s": 73
         },
         {
           "d": "09-26",
-          "s": 173
+          "s": 73
         },
         {
           "d": "09-27",
-          "s": 173
+          "s": 74
         },
         {
           "d": "09-28",
-          "s": 174
+          "s": 76
         },
         {
           "d": "09-29",
-          "s": 176
+          "s": 76
         },
         {
           "d": "09-30",
-          "s": 178
+          "s": 76
         },
         {
           "d": "10-01",
-          "s": 178
+          "s": 78
         },
         {
           "d": "10-02",
-          "s": 178
+          "s": 78
         },
         {
           "d": "10-03",
-          "s": 179
+          "s": 78
         },
         {
           "d": "10-04",
-          "s": 180
+          "s": 78
         },
         {
           "d": "10-05",
-          "s": 180
+          "s": 78
         },
         {
           "d": "10-06",
-          "s": 181
+          "s": 78
         },
         {
           "d": "10-07",
-          "s": 182
+          "s": 78
         },
         {
           "d": "10-08",
-          "s": 182
+          "s": 78
         },
         {
           "d": "10-09",
-          "s": 182
+          "s": 78
         },
         {
           "d": "10-10",
-          "s": 186
+          "s": 78
         },
         {
           "d": "10-11",
-          "s": 188
+          "s": 78
         },
         {
           "d": "10-12",
-          "s": 189
+          "s": 78
         },
         {
           "d": "10-13",
-          "s": 193
+          "s": 78
         },
         {
           "d": "10-14",
-          "s": 193
+          "s": 78
         },
         {
           "d": "10-15",
-          "s": 194
+          "s": 78
         },
         {
           "d": "10-16",
-          "s": 194
+          "s": 78
         },
         {
           "d": "10-17",
-          "s": 194
+          "s": 78
         },
         {
           "d": "10-18",
-          "s": 195
+          "s": 78
         },
         {
           "d": "10-19",
-          "s": 197
+          "s": 101
         },
         {
           "d": "10-20",
-          "s": 197
+          "s": 122
         },
         {
           "d": "10-21",
-          "s": 198
+          "s": 146
         },
         {
           "d": "10-22",
-          "s": 200
+          "s": 170
         },
         {
           "d": "10-23",
+          "s": 197
+        },
+        {
+          "d": "10-24",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 49.08,
+      "score": 92.57,
       "breakdown": {
-        "vel": 19,
-        "acc": 44,
-        "health": 78,
-        "fresh": 76,
-        "signal": 35
+        "vel": 80,
+        "acc": 99,
+        "health": 60,
+        "fresh": 88,
+        "signal": 50
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 40.9,
-      "explanation": "oktos 是 未知语言 开源项目，主打「Oktos 是一款红队后渗透平台，作为 XRED.TEAM 的一部分。它采用了模块化设计，支持 BOF 动态加载、多信道异步通信与内存免杀，内置的 AI 助手可辅助编排或自动执行后渗透任务，为红队提供隐蔽、高效、智能的作战能力。」；处于增长早期；社区健康（fork/star 比 8.5%，5 个 open issue）、开发活跃。"
+      "base_score": 77.14,
+      "explanation": "CVE-2026-54121-Certighost 是 未知语言 开源项目，主打「🛡 Official AI Security Tool module for CVE-2026-54121 (Certighost): AD CS certificate abuse deep-dive, defensive audit workflows, and safe in-app console execution for authorized Active Directory security testing.」；处于增长早期，本周涨速 17 star/天，涨速在加快；开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "40RTY-ai",
-      "name": "shopify-admin-skills",
-      "full_name": "40RTY-ai/shopify-admin-skills",
-      "description": "Community-maintained AI agent skills for operating Shopify stores — workflows, optimization, reports and more",
+      "owner": "nniiovoo",
+      "name": "encrypted-note",
+      "full_name": "nniiovoo/encrypted-note",
+      "description": "Offline, encrypted vault for seed phrases, private keys, passwords and API keys. macOS and Windows.",
       "stars": 200,
-      "forks": 22,
-      "open_issues": 1,
-      "created_at": "2026-04-11T06:34:20+00:00",
-      "pushed_at": "2026-10-18T17:48:43+00:00",
-      "updated_at": "2026-10-22T20:13:29+00:00",
-      "topics": [],
-      "language": "Astro",
+      "forks": 26,
+      "open_issues": 12,
+      "created_at": "2026-09-24T05:33:10+00:00",
+      "pushed_at": "2026-10-22T21:40:33+00:00",
+      "updated_at": "2026-10-24T09:47:34+00:00",
+      "topics": [
+        "desktop-app",
+        "encryption",
+        "offline-first",
+        "password-manager",
+        "privacy",
+        "rust",
+        "seed-phrase",
+        "tauri"
+      ],
+      "language": "Rust",
       "license": "MIT",
-      "homepage": "http://skills.40rty.ai",
-      "html_url": "https://github.com/40RTY-ai/shopify-admin-skills",
+      "homepage": null,
+      "html_url": "https://github.com/nniiovoo/encrypted-note",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 196,
+      "stars_7d_ago": 156,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 188
-        },
-        {
           "d": "09-25",
-          "s": 190
+          "s": 156
         },
         {
           "d": "09-26",
-          "s": 190
+          "s": 156
         },
         {
           "d": "09-27",
-          "s": 190
+          "s": 156
         },
         {
           "d": "09-28",
-          "s": 190
+          "s": 156
         },
         {
           "d": "09-29",
-          "s": 190
+          "s": 156
         },
         {
           "d": "09-30",
-          "s": 190
+          "s": 156
         },
         {
           "d": "10-01",
-          "s": 191
+          "s": 156
         },
         {
           "d": "10-02",
-          "s": 191
+          "s": 156
         },
         {
           "d": "10-03",
-          "s": 191
+          "s": 156
         },
         {
           "d": "10-04",
-          "s": 191
+          "s": 156
         },
         {
           "d": "10-05",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-06",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-07",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-08",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-09",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-10",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-11",
-          "s": 192
+          "s": 156
         },
         {
           "d": "10-12",
-          "s": 193
+          "s": 156
         },
         {
           "d": "10-13",
-          "s": 193
+          "s": 156
         },
         {
           "d": "10-14",
-          "s": 194
+          "s": 156
         },
         {
           "d": "10-15",
-          "s": 195
+          "s": 156
         },
         {
           "d": "10-16",
-          "s": 195
+          "s": 156
         },
         {
           "d": "10-17",
-          "s": 196
+          "s": 156
         },
         {
           "d": "10-18",
-          "s": 197
+          "s": 156
         },
         {
           "d": "10-19",
-          "s": 198
+          "s": 156
         },
         {
           "d": "10-20",
-          "s": 198
+          "s": 156
         },
         {
           "d": "10-21",
-          "s": 199
+          "s": 169
         },
         {
           "d": "10-22",
-          "s": 200
+          "s": 186
         },
         {
           "d": "10-23",
+          "s": 196
+        },
+        {
+          "d": "10-24",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 47.37,
+      "score": 92.15,
       "breakdown": {
-        "vel": 14,
-        "acc": 50,
-        "health": 89,
-        "fresh": 47,
+        "vel": 54,
+        "acc": 99,
+        "health": 86,
+        "fresh": 92,
         "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 39.48,
-      "explanation": "shopify-admin-skills 是 Astro 开源项目，主打「Community-maintained AI agent skills for operating Shopify stores — workflows, optimization, reports and more」；处于增长早期；社区健康（fork/star 比 11.0%，1 个 open issue）。"
+      "base_score": 76.8,
+      "explanation": "encrypted-note 是 Rust 开源项目，主打「Offline, encrypted vault for seed phrases, private keys, passwords and API keys. macOS and Windows.」；处于增长早期，本周涨速 6.3 star/天，涨速在加快；社区健康（fork/star 比 13.0%，12 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "iQingshan",
+      "name": "Toshell",
+      "full_name": "iQingshan/Toshell",
+      "description": "ToShell 是一个轻量 C2 框架，由 服务端（Team Server）+ Web 控制台 + 多平台植入端 组成，覆盖「生成载荷 → 会话管理 → 任务执行」的完整链路。单二进制即可部署整套服务，开箱即用。",
+      "stars": 200,
+      "forks": 53,
+      "open_issues": 0,
+      "created_at": "2026-08-27T12:26:59+00:00",
+      "pushed_at": "2026-10-24T08:50:32+00:00",
+      "updated_at": "2026-10-24T08:50:35+00:00",
+      "topics": [],
+      "language": "Go",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/iQingshan/Toshell",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 185,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 159
+        },
+        {
+          "d": "09-26",
+          "s": 160
+        },
+        {
+          "d": "09-27",
+          "s": 160
+        },
+        {
+          "d": "09-28",
+          "s": 162
+        },
+        {
+          "d": "09-29",
+          "s": 162
+        },
+        {
+          "d": "09-30",
+          "s": 164
+        },
+        {
+          "d": "10-01",
+          "s": 164
+        },
+        {
+          "d": "10-02",
+          "s": 164
+        },
+        {
+          "d": "10-03",
+          "s": 164
+        },
+        {
+          "d": "10-04",
+          "s": 165
+        },
+        {
+          "d": "10-05",
+          "s": 166
+        },
+        {
+          "d": "10-06",
+          "s": 166
+        },
+        {
+          "d": "10-07",
+          "s": 167
+        },
+        {
+          "d": "10-08",
+          "s": 176
+        },
+        {
+          "d": "10-09",
+          "s": 180
+        },
+        {
+          "d": "10-10",
+          "s": 182
+        },
+        {
+          "d": "10-11",
+          "s": 182
+        },
+        {
+          "d": "10-12",
+          "s": 183
+        },
+        {
+          "d": "10-13",
+          "s": 183
+        },
+        {
+          "d": "10-14",
+          "s": 184
+        },
+        {
+          "d": "10-15",
+          "s": 185
+        },
+        {
+          "d": "10-16",
+          "s": 185
+        },
+        {
+          "d": "10-17",
+          "s": 185
+        },
+        {
+          "d": "10-18",
+          "s": 185
+        },
+        {
+          "d": "10-19",
+          "s": 188
+        },
+        {
+          "d": "10-20",
+          "s": 193
+        },
+        {
+          "d": "10-21",
+          "s": 194
+        },
+        {
+          "d": "10-22",
+          "s": 196
+        },
+        {
+          "d": "10-23",
+          "s": 199
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 74.76,
+      "breakdown": {
+        "vel": 31,
+        "acc": 85,
+        "health": 100,
+        "fresh": 84,
+        "signal": 55
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 62.3,
+      "explanation": "Toshell 是 Go 开源项目，主打「ToShell 是一个轻量 C2 框架，由 服务端（Team Server）+ Web 控制台 + 多平台植入端 组成，覆盖「生成载荷 → 会话管理 → 任务执行」的完整链路。单二进制即可部署整套服务，开箱即用。」；处于增长早期，涨速在加快；社区健康（fork/star 比 26.5%，0 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "colinvkim",
+      "name": "Radix",
+      "full_name": "colinvkim/Radix",
+      "description": "Modern, extremely fast macOS disk space analyzer.",
+      "stars": 997,
+      "forks": 27,
+      "open_issues": 1,
+      "created_at": "2026-04-02T08:58:24+00:00",
+      "pushed_at": "2026-10-20T19:30:13+00:00",
+      "updated_at": "2026-10-23T20:29:03+00:00",
+      "topics": [],
+      "language": "Swift",
+      "license": "MIT",
+      "homepage": "https://tryradix.app",
+      "html_url": "https://github.com/colinvkim/Radix",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 967,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 960
+        },
+        {
+          "d": "09-26",
+          "s": 960
+        },
+        {
+          "d": "09-27",
+          "s": 960
+        },
+        {
+          "d": "09-28",
+          "s": 960
+        },
+        {
+          "d": "09-29",
+          "s": 960
+        },
+        {
+          "d": "09-30",
+          "s": 960
+        },
+        {
+          "d": "10-01",
+          "s": 960
+        },
+        {
+          "d": "10-02",
+          "s": 960
+        },
+        {
+          "d": "10-03",
+          "s": 960
+        },
+        {
+          "d": "10-04",
+          "s": 960
+        },
+        {
+          "d": "10-05",
+          "s": 960
+        },
+        {
+          "d": "10-06",
+          "s": 960
+        },
+        {
+          "d": "10-07",
+          "s": 960
+        },
+        {
+          "d": "10-08",
+          "s": 960
+        },
+        {
+          "d": "10-09",
+          "s": 960
+        },
+        {
+          "d": "10-10",
+          "s": 960
+        },
+        {
+          "d": "10-11",
+          "s": 960
+        },
+        {
+          "d": "10-12",
+          "s": 960
+        },
+        {
+          "d": "10-13",
+          "s": 960
+        },
+        {
+          "d": "10-14",
+          "s": 960
+        },
+        {
+          "d": "10-15",
+          "s": 960
+        },
+        {
+          "d": "10-16",
+          "s": 960
+        },
+        {
+          "d": "10-17",
+          "s": 965
+        },
+        {
+          "d": "10-18",
+          "s": 967
+        },
+        {
+          "d": "10-19",
+          "s": 974
+        },
+        {
+          "d": "10-20",
+          "s": 978
+        },
+        {
+          "d": "10-21",
+          "s": 980
+        },
+        {
+          "d": "10-22",
+          "s": 985
+        },
+        {
+          "d": "10-23",
+          "s": 997
+        },
+        {
+          "d": "10-24",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 67.87,
+      "breakdown": {
+        "vel": 45,
+        "acc": 96,
+        "health": 67,
+        "fresh": 44,
+        "signal": 70
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 61.7,
+      "explanation": "Radix 是 Swift 开源项目，主打「Modern, extremely fast macOS disk space analyzer.」；处于中早期增长，本周涨速 4.3 star/天，涨速在加快。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "nichochar",
+      "name": "ari",
+      "full_name": "nichochar/ari",
+      "description": "learn stuff with pen + paper + AI",
+      "stars": 200,
+      "forks": 17,
+      "open_issues": 0,
+      "created_at": "2026-10-18T15:46:49+00:00",
+      "pushed_at": "2026-10-21T15:40:10+00:00",
+      "updated_at": "2026-10-24T08:40:50+00:00",
+      "topics": [
+        "ai-tutor",
+        "education",
+        "local-first"
+      ],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/nichochar/ari",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 11,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 0
+        },
+        {
+          "d": "09-26",
+          "s": 0
+        },
+        {
+          "d": "09-27",
+          "s": 0
+        },
+        {
+          "d": "09-28",
+          "s": 0
+        },
+        {
+          "d": "09-29",
+          "s": 0
+        },
+        {
+          "d": "09-30",
+          "s": 0
+        },
+        {
+          "d": "10-01",
+          "s": 0
+        },
+        {
+          "d": "10-02",
+          "s": 0
+        },
+        {
+          "d": "10-03",
+          "s": 0
+        },
+        {
+          "d": "10-04",
+          "s": 0
+        },
+        {
+          "d": "10-05",
+          "s": 0
+        },
+        {
+          "d": "10-06",
+          "s": 0
+        },
+        {
+          "d": "10-07",
+          "s": 0
+        },
+        {
+          "d": "10-08",
+          "s": 0
+        },
+        {
+          "d": "10-09",
+          "s": 0
+        },
+        {
+          "d": "10-10",
+          "s": 0
+        },
+        {
+          "d": "10-11",
+          "s": 0
+        },
+        {
+          "d": "10-12",
+          "s": 0
+        },
+        {
+          "d": "10-13",
+          "s": 0
+        },
+        {
+          "d": "10-14",
+          "s": 0
+        },
+        {
+          "d": "10-15",
+          "s": 0
+        },
+        {
+          "d": "10-16",
+          "s": 0
+        },
+        {
+          "d": "10-17",
+          "s": 0
+        },
+        {
+          "d": "10-18",
+          "s": 11
+        },
+        {
+          "d": "10-19",
+          "s": 154
+        },
+        {
+          "d": "10-20",
+          "s": 160
+        },
+        {
+          "d": "10-21",
+          "s": 177
+        },
+        {
+          "d": "10-22",
+          "s": 192
+        },
+        {
+          "d": "10-23",
+          "s": 198
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 62.81,
+      "breakdown": {
+        "vel": 91,
+        "acc": 99,
+        "health": 81,
+        "fresh": 99,
+        "signal": 70
+      },
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
+      "confidence": 1.0,
+      "base_score": 89.73,
+      "explanation": "ari 是 TypeScript 开源项目，主打「learn stuff with pen + paper + AI」；增长已饱和，本周涨速 27 star/天，涨速在加快；社区健康（fork/star 比 8.5%，0 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "cloudflare",
+      "name": "mcp",
+      "full_name": "cloudflare/mcp",
+      "description": "MCP server for the Cloudflare API",
+      "stars": 994,
+      "forks": 147,
+      "open_issues": 38,
+      "created_at": "2026-01-29T15:10:49+00:00",
+      "pushed_at": "2026-10-24T06:54:47+00:00",
+      "updated_at": "2026-10-24T04:15:11+00:00",
+      "topics": [
+        "cloudflare",
+        "cloudflare-workers",
+        "mcp",
+        "mcp-server"
+      ],
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "homepage": "https://mcp.cloudflare.com/mcp",
+      "html_url": "https://github.com/cloudflare/mcp",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 968,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 944
+        },
+        {
+          "d": "09-26",
+          "s": 944
+        },
+        {
+          "d": "09-27",
+          "s": 944
+        },
+        {
+          "d": "09-28",
+          "s": 944
+        },
+        {
+          "d": "09-29",
+          "s": 944
+        },
+        {
+          "d": "09-30",
+          "s": 944
+        },
+        {
+          "d": "10-01",
+          "s": 944
+        },
+        {
+          "d": "10-02",
+          "s": 944
+        },
+        {
+          "d": "10-03",
+          "s": 944
+        },
+        {
+          "d": "10-04",
+          "s": 944
+        },
+        {
+          "d": "10-05",
+          "s": 944
+        },
+        {
+          "d": "10-06",
+          "s": 944
+        },
+        {
+          "d": "10-07",
+          "s": 944
+        },
+        {
+          "d": "10-08",
+          "s": 944
+        },
+        {
+          "d": "10-09",
+          "s": 944
+        },
+        {
+          "d": "10-10",
+          "s": 944
+        },
+        {
+          "d": "10-11",
+          "s": 944
+        },
+        {
+          "d": "10-12",
+          "s": 944
+        },
+        {
+          "d": "10-13",
+          "s": 944
+        },
+        {
+          "d": "10-14",
+          "s": 950
+        },
+        {
+          "d": "10-15",
+          "s": 959
+        },
+        {
+          "d": "10-16",
+          "s": 961
+        },
+        {
+          "d": "10-17",
+          "s": 965
+        },
+        {
+          "d": "10-18",
+          "s": 968
+        },
+        {
+          "d": "10-19",
+          "s": 971
+        },
+        {
+          "d": "10-20",
+          "s": 972
+        },
+        {
+          "d": "10-21",
+          "s": 975
+        },
+        {
+          "d": "10-22",
+          "s": 983
+        },
+        {
+          "d": "10-23",
+          "s": 991
+        },
+        {
+          "d": "10-24",
+          "s": 994
+        }
+      ]
+    },
+    "score": {
+      "score": 62.64,
+      "breakdown": {
+        "vel": 42,
+        "acc": 52,
+        "health": 92,
+        "fresh": 27,
+        "signal": 85
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 52.2,
+      "explanation": "mcp 是 TypeScript 开源项目，主打「MCP server for the Cloudflare API」；处于增长早期，本周涨速 3.7 star/天；社区健康（fork/star 比 14.8%，38 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "mzzvxm",
+      "name": "LARecomp",
+      "full_name": "mzzvxm/LARecomp",
+      "description": null,
+      "stars": 200,
+      "forks": 17,
+      "open_issues": 10,
+      "created_at": "2026-02-28T00:38:06+00:00",
+      "pushed_at": "2026-10-21T14:18:09+00:00",
+      "updated_at": "2026-10-23T23:32:49+00:00",
+      "topics": [],
+      "language": "C++",
+      "license": null,
+      "homepage": null,
+      "html_url": "https://github.com/mzzvxm/LARecomp",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 161,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 58
+        },
+        {
+          "d": "09-26",
+          "s": 58
+        },
+        {
+          "d": "09-27",
+          "s": 58
+        },
+        {
+          "d": "09-28",
+          "s": 59
+        },
+        {
+          "d": "09-29",
+          "s": 60
+        },
+        {
+          "d": "09-30",
+          "s": 60
+        },
+        {
+          "d": "10-01",
+          "s": 61
+        },
+        {
+          "d": "10-02",
+          "s": 62
+        },
+        {
+          "d": "10-03",
+          "s": 67
+        },
+        {
+          "d": "10-04",
+          "s": 68
+        },
+        {
+          "d": "10-05",
+          "s": 70
+        },
+        {
+          "d": "10-06",
+          "s": 72
+        },
+        {
+          "d": "10-07",
+          "s": 73
+        },
+        {
+          "d": "10-08",
+          "s": 73
+        },
+        {
+          "d": "10-09",
+          "s": 75
+        },
+        {
+          "d": "10-10",
+          "s": 77
+        },
+        {
+          "d": "10-11",
+          "s": 79
+        },
+        {
+          "d": "10-12",
+          "s": 82
+        },
+        {
+          "d": "10-13",
+          "s": 85
+        },
+        {
+          "d": "10-14",
+          "s": 90
+        },
+        {
+          "d": "10-15",
+          "s": 95
+        },
+        {
+          "d": "10-16",
+          "s": 98
+        },
+        {
+          "d": "10-17",
+          "s": 146
+        },
+        {
+          "d": "10-18",
+          "s": 161
+        },
+        {
+          "d": "10-19",
+          "s": 172
+        },
+        {
+          "d": "10-20",
+          "s": 182
+        },
+        {
+          "d": "10-21",
+          "s": 191
+        },
+        {
+          "d": "10-22",
+          "s": 194
+        },
+        {
+          "d": "10-23",
+          "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 52.51,
+      "breakdown": {
+        "vel": 51,
+        "acc": 37,
+        "health": 73,
+        "fresh": 35,
+        "signal": 20
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 43.76,
+      "explanation": "LARecomp 是 C++ 方向的开源项目；处于增长早期，本周涨速 5.6 star/天；社区健康（fork/star 比 8.5%，10 个 open issue）。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "mitkox",
+      "name": "esf",
+      "full_name": "mitkox/esf",
+      "description": "Engineering Software Factory - open source, self-hosted, local AI first",
+      "stars": 200,
+      "forks": 33,
+      "open_issues": 4,
+      "created_at": "2026-09-19T16:07:54+00:00",
+      "pushed_at": "2026-10-19T21:55:39+00:00",
+      "updated_at": "2026-10-23T13:23:08+00:00",
+      "topics": [
+        "claude-code",
+        "codex",
+        "cubesandbox",
+        "esf",
+        "machinist",
+        "opencode",
+        "pi",
+        "software-factory",
+        "temporal",
+        "unreal-agent"
+      ],
+      "language": "Go",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/mitkox/esf",
+      "default_branch": "master",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 196,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 178
+        },
+        {
+          "d": "09-26",
+          "s": 178
+        },
+        {
+          "d": "09-27",
+          "s": 178
+        },
+        {
+          "d": "09-28",
+          "s": 178
+        },
+        {
+          "d": "09-29",
+          "s": 179
+        },
+        {
+          "d": "09-30",
+          "s": 180
+        },
+        {
+          "d": "10-01",
+          "s": 182
+        },
+        {
+          "d": "10-02",
+          "s": 184
+        },
+        {
+          "d": "10-03",
+          "s": 184
+        },
+        {
+          "d": "10-04",
+          "s": 184
+        },
+        {
+          "d": "10-05",
+          "s": 186
+        },
+        {
+          "d": "10-06",
+          "s": 186
+        },
+        {
+          "d": "10-07",
+          "s": 187
+        },
+        {
+          "d": "10-08",
+          "s": 189
+        },
+        {
+          "d": "10-09",
+          "s": 189
+        },
+        {
+          "d": "10-10",
+          "s": 189
+        },
+        {
+          "d": "10-11",
+          "s": 190
+        },
+        {
+          "d": "10-12",
+          "s": 190
+        },
+        {
+          "d": "10-13",
+          "s": 190
+        },
+        {
+          "d": "10-14",
+          "s": 191
+        },
+        {
+          "d": "10-15",
+          "s": 191
+        },
+        {
+          "d": "10-16",
+          "s": 192
+        },
+        {
+          "d": "10-17",
+          "s": 194
+        },
+        {
+          "d": "10-18",
+          "s": 196
+        },
+        {
+          "d": "10-19",
+          "s": 199
+        },
+        {
+          "d": "10-20",
+          "s": 199
+        },
+        {
+          "d": "10-21",
+          "s": 199
+        },
+        {
+          "d": "10-22",
+          "s": 199
+        },
+        {
+          "d": "10-23",
+          "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 49.59,
+      "breakdown": {
+        "vel": 12,
+        "acc": 43,
+        "health": 98,
+        "fresh": 91,
+        "signal": 70
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 41.32,
+      "explanation": "esf 是 Go 开源项目，主打「Engineering Software Factory - open source, self-hosted, local AI first」；处于增长早期；社区健康（fork/star 比 16.5%，4 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "LUCKYS1NGHH",
+      "name": "ChillPill-Shell",
+      "full_name": "LUCKYS1NGHH/ChillPill-Shell",
+      "description": "A Lightweight and feature-rich dynamic pill bar made for No Dedicated GPU machines for Hyprland",
+      "stars": 200,
+      "forks": 20,
+      "open_issues": 3,
+      "created_at": "2026-07-12T09:30:15+00:00",
+      "pushed_at": "2026-10-24T07:19:05+00:00",
+      "updated_at": "2026-10-24T07:19:08+00:00",
+      "topics": [
+        "chillpill",
+        "dynamic-island",
+        "eye-candy",
+        "hyprland",
+        "lightweight-app",
+        "linux",
+        "quickshell",
+        "wayland"
+      ],
+      "language": "QML",
+      "license": "GPL-3.0",
+      "homepage": null,
+      "html_url": "https://github.com/LUCKYS1NGHH/ChillPill-Shell",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 185,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 156
+        },
+        {
+          "d": "09-26",
+          "s": 156
+        },
+        {
+          "d": "09-27",
+          "s": 157
+        },
+        {
+          "d": "09-28",
+          "s": 157
+        },
+        {
+          "d": "09-29",
+          "s": 167
+        },
+        {
+          "d": "09-30",
+          "s": 172
+        },
+        {
+          "d": "10-01",
+          "s": 174
+        },
+        {
+          "d": "10-02",
+          "s": 176
+        },
+        {
+          "d": "10-03",
+          "s": 177
+        },
+        {
+          "d": "10-04",
+          "s": 179
+        },
+        {
+          "d": "10-05",
+          "s": 180
+        },
+        {
+          "d": "10-06",
+          "s": 180
+        },
+        {
+          "d": "10-07",
+          "s": 181
+        },
+        {
+          "d": "10-08",
+          "s": 181
+        },
+        {
+          "d": "10-09",
+          "s": 182
+        },
+        {
+          "d": "10-10",
+          "s": 182
+        },
+        {
+          "d": "10-11",
+          "s": 182
+        },
+        {
+          "d": "10-12",
+          "s": 183
+        },
+        {
+          "d": "10-13",
+          "s": 184
+        },
+        {
+          "d": "10-14",
+          "s": 184
+        },
+        {
+          "d": "10-15",
+          "s": 184
+        },
+        {
+          "d": "10-16",
+          "s": 184
+        },
+        {
+          "d": "10-17",
+          "s": 184
+        },
+        {
+          "d": "10-18",
+          "s": 185
+        },
+        {
+          "d": "10-19",
+          "s": 185
+        },
+        {
+          "d": "10-20",
+          "s": 188
+        },
+        {
+          "d": "10-21",
+          "s": 196
+        },
+        {
+          "d": "10-22",
+          "s": 199
+        },
+        {
+          "d": "10-23",
+          "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 42.15,
+      "breakdown": {
+        "vel": 31,
+        "acc": 85,
+        "health": 85,
+        "fresh": 72,
+        "signal": 70
+      },
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
+      "confidence": 1.0,
+      "base_score": 60.21,
+      "explanation": "ChillPill-Shell 是 QML 开源项目，主打「A Lightweight and feature-rich dynamic pill bar made for No Dedicated GPU machines for Hyprland」；增长已饱和，涨速在加快；社区健康（fork/star 比 10.0%，3 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "ChatbotXIO",
+      "name": "ChatbotX",
+      "full_name": "ChatbotXIO/ChatbotX",
+      "description": "Open-source ManyChat alternative, built for AI. Omnichannel marketing across WhatsApp, TikTok, Facebook, Instagram, Telegram, Zalo, Email, API, and Webchat 🤖",
+      "stars": 997,
+      "forks": 276,
+      "open_issues": 49,
+      "created_at": "2024-12-09T03:44:58+00:00",
+      "pushed_at": "2026-10-24T09:21:28+00:00",
+      "updated_at": "2026-10-24T08:59:45+00:00",
+      "topics": [
+        "agentic-ai",
+        "agentic-chat-marketing",
+        "agentic-marketing",
+        "chatbot",
+        "hacktoberfest",
+        "manychat-alternative",
+        "marketing",
+        "marketing-automation",
+        "nextjs",
+        "omnichannel",
+        "open-source",
+        "oss",
+        "postgresql",
+        "redis",
+        "sales",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "homepage": "https://chatbotx.io/docs",
+      "html_url": "https://github.com/ChatbotXIO/ChatbotX",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 968,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 968
+        },
+        {
+          "d": "09-26",
+          "s": 968
+        },
+        {
+          "d": "09-27",
+          "s": 968
+        },
+        {
+          "d": "09-28",
+          "s": 968
+        },
+        {
+          "d": "09-29",
+          "s": 968
+        },
+        {
+          "d": "09-30",
+          "s": 968
+        },
+        {
+          "d": "10-01",
+          "s": 968
+        },
+        {
+          "d": "10-02",
+          "s": 968
+        },
+        {
+          "d": "10-03",
+          "s": 968
+        },
+        {
+          "d": "10-04",
+          "s": 968
+        },
+        {
+          "d": "10-05",
+          "s": 968
+        },
+        {
+          "d": "10-06",
+          "s": 968
+        },
+        {
+          "d": "10-07",
+          "s": 968
+        },
+        {
+          "d": "10-08",
+          "s": 968
+        },
+        {
+          "d": "10-09",
+          "s": 968
+        },
+        {
+          "d": "10-10",
+          "s": 968
+        },
+        {
+          "d": "10-11",
+          "s": 968
+        },
+        {
+          "d": "10-12",
+          "s": 968
+        },
+        {
+          "d": "10-13",
+          "s": 968
+        },
+        {
+          "d": "10-14",
+          "s": 968
+        },
+        {
+          "d": "10-15",
+          "s": 968
+        },
+        {
+          "d": "10-16",
+          "s": 968
+        },
+        {
+          "d": "10-17",
+          "s": 968
+        },
+        {
+          "d": "10-18",
+          "s": 968
+        },
+        {
+          "d": "10-19",
+          "s": 974
+        },
+        {
+          "d": "10-20",
+          "s": 984
+        },
+        {
+          "d": "10-21",
+          "s": 986
+        },
+        {
+          "d": "10-22",
+          "s": 989
+        },
+        {
+          "d": "10-23",
+          "s": 996
+        },
+        {
+          "d": "10-24",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 41.55,
+      "breakdown": {
+        "vel": 45,
+        "acc": 98,
+        "health": 89,
+        "fresh": 0,
+        "signal": 100
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 37.78,
+      "explanation": "ChatbotX 是 TypeScript 开源项目，主打「Open-source ManyChat alternative, built for AI. Omnichannel marketing across WhatsApp, TikTok, Facebook, Instagram, Telegram, Zalo, Email, API, and Webchat 🤖」；处于中早期增长，本周涨速 4.1 star/天，涨速在加快；社区健康（fork/star 比 27.7%，49 个 open issue）、项目元数据完整。"
     }
   },
   {
@@ -1715,10 +2021,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 991,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 977
-        },
         {
           "d": "09-25",
           "s": 977
@@ -1834,14 +2136,18 @@
         {
           "d": "10-23",
           "s": 995
+        },
+        {
+          "d": "10-24",
+          "s": 995
         }
       ]
     },
     "score": {
-      "score": 40.12,
+      "score": 39.48,
       "breakdown": {
-        "vel": 14,
-        "acc": 43,
+        "vel": 12,
+        "acc": 46,
         "health": 84,
         "fresh": 45,
         "signal": 55
@@ -1849,144 +2155,279 @@
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 36.47,
+      "base_score": 35.89,
       "explanation": "awesome-design-md-jp 是 HTML 开源项目，主打「日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format with CJK typography.」；处于中早期增长；社区健康（fork/star 比 7.4%，1 个 open issue）。"
     }
   },
   {
     "repo": {
-      "owner": "kdlbs",
-      "name": "kandev",
-      "full_name": "kdlbs/kandev",
-      "description": "AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.",
-      "stars": 994,
-      "forks": 162,
-      "open_issues": 174,
-      "created_at": "2026-01-09T23:26:53+00:00",
-      "pushed_at": "2026-10-23T09:39:24+00:00",
-      "updated_at": "2026-10-23T09:07:43+00:00",
-      "topics": [
-        "acp",
-        "agent-orchestration",
-        "agentic-ai",
-        "agentic-development-environment",
-        "ai-agents",
-        "claude-code",
-        "code-review",
-        "coding-agents",
-        "developer-tools",
-        "github-copilot",
-        "golang",
-        "kanban",
-        "nextjs",
-        "open-source",
-        "self-hosted",
-        "task-manager",
-        "tui",
-        "vibe-coding",
-        "workflow-automation",
-        "worktrees"
-      ],
-      "language": "Go",
-      "license": "AGPL-3.0",
-      "homepage": "https://kandev.ai",
-      "html_url": "https://github.com/kdlbs/kandev",
-      "default_branch": "main",
+      "owner": "johnsoncodehk",
+      "name": "monogram",
+      "full_name": "johnsoncodehk/monogram",
+      "description": "Define syntax once, generate lexer, parser, TextMate, tree-sitter",
+      "stars": 200,
+      "forks": 7,
+      "open_issues": 4,
+      "created_at": "2026-05-27T06:02:26+00:00",
+      "pushed_at": "2026-10-22T13:29:07+00:00",
+      "updated_at": "2026-10-23T22:07:20+00:00",
+      "topics": [],
+      "language": "TypeScript",
+      "license": null,
+      "homepage": null,
+      "html_url": "https://github.com/johnsoncodehk/monogram",
+      "default_branch": "master",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 990,
+      "stars_7d_ago": 198,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 990
-        },
-        {
           "d": "09-25",
-          "s": 990
+          "s": 197
         },
         {
           "d": "09-26",
-          "s": 990
+          "s": 197
         },
         {
           "d": "09-27",
-          "s": 990
+          "s": 197
         },
         {
           "d": "09-28",
-          "s": 990
+          "s": 197
         },
         {
           "d": "09-29",
-          "s": 990
+          "s": 198
         },
         {
           "d": "09-30",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-01",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-02",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-03",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-04",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-05",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-06",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-07",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-08",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-09",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-10",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-11",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-12",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-13",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-14",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-15",
-          "s": 990
+          "s": 198
         },
         {
           "d": "10-16",
-          "s": 990
+          "s": 198
+        },
+        {
+          "d": "10-17",
+          "s": 198
+        },
+        {
+          "d": "10-18",
+          "s": 198
+        },
+        {
+          "d": "10-19",
+          "s": 198
+        },
+        {
+          "d": "10-20",
+          "s": 199
+        },
+        {
+          "d": "10-21",
+          "s": 199
+        },
+        {
+          "d": "10-22",
+          "s": 199
+        },
+        {
+          "d": "10-23",
+          "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 33.31,
+      "breakdown": {
+        "vel": 7,
+        "acc": 57,
+        "health": 64,
+        "fresh": 59,
+        "signal": 35
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 30.28,
+      "explanation": "monogram 是 TypeScript 开源项目，主打「Define syntax once, generate lexer, parser, TextMate, tree-sitter」；处于中早期增长。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "xiaotianfotos",
+      "name": "homerail",
+      "full_name": "xiaotianfotos/homerail",
+      "description": "Voice-first local agent orchestration runtime for auditable DAG workflows.",
+      "stars": 998,
+      "forks": 226,
+      "open_issues": 19,
+      "created_at": "2026-07-07T12:11:18+00:00",
+      "pushed_at": "2026-10-24T07:25:47+00:00",
+      "updated_at": "2026-10-24T07:25:54+00:00",
+      "topics": [],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/xiaotianfotos/homerail",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 992,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 962
+        },
+        {
+          "d": "09-26",
+          "s": 967
+        },
+        {
+          "d": "09-27",
+          "s": 969
+        },
+        {
+          "d": "09-28",
+          "s": 973
+        },
+        {
+          "d": "09-29",
+          "s": 973
+        },
+        {
+          "d": "09-30",
+          "s": 975
+        },
+        {
+          "d": "10-01",
+          "s": 975
+        },
+        {
+          "d": "10-02",
+          "s": 975
+        },
+        {
+          "d": "10-03",
+          "s": 979
+        },
+        {
+          "d": "10-04",
+          "s": 980
+        },
+        {
+          "d": "10-05",
+          "s": 983
+        },
+        {
+          "d": "10-06",
+          "s": 983
+        },
+        {
+          "d": "10-07",
+          "s": 985
+        },
+        {
+          "d": "10-08",
+          "s": 985
+        },
+        {
+          "d": "10-09",
+          "s": 987
+        },
+        {
+          "d": "10-10",
+          "s": 988
+        },
+        {
+          "d": "10-11",
+          "s": 988
+        },
+        {
+          "d": "10-12",
+          "s": 988
+        },
+        {
+          "d": "10-13",
+          "s": 989
+        },
+        {
+          "d": "10-14",
+          "s": 989
+        },
+        {
+          "d": "10-15",
+          "s": 989
+        },
+        {
+          "d": "10-16",
+          "s": 989
         },
         {
           "d": "10-17",
@@ -1994,44 +2435,48 @@
         },
         {
           "d": "10-18",
-          "s": 990
+          "s": 992
         },
         {
           "d": "10-19",
-          "s": 990
+          "s": 993
         },
         {
           "d": "10-20",
-          "s": 990
+          "s": 993
         },
         {
           "d": "10-21",
-          "s": 990
+          "s": 994
         },
         {
           "d": "10-22",
-          "s": 991
+          "s": 995
         },
         {
           "d": "10-23",
-          "s": 994
+          "s": 997
+        },
+        {
+          "d": "10-24",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 36.37,
+      "score": 31.86,
       "breakdown": {
-        "vel": 14,
-        "acc": 64,
-        "health": 70,
-        "fresh": 22,
-        "signal": 85
+        "vel": 17,
+        "acc": 57,
+        "health": 96,
+        "fresh": 70,
+        "signal": 55
       },
-      "stage": "mid_late",
-      "stage_multiplier": 1.0,
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
       "confidence": 1.0,
-      "base_score": 36.37,
-      "explanation": "kandev 是 Go 开源项目，主打「AI Kanban & Development Environment. Orchestrate multiple agents, review changes, open PRs. Multi-provider, self-hostable, no telemetry.」；处于中后期增长；项目元数据完整。"
+      "base_score": 45.51,
+      "explanation": "homerail 是 TypeScript 开源项目，主打「Voice-first local agent orchestration runtime for auditable DAG workflows.」；增长已饱和；社区健康（fork/star 比 22.6%，19 个 open issue）、开发活跃。"
     }
   },
   {
@@ -2044,8 +2489,8 @@
       "forks": 97,
       "open_issues": 1,
       "created_at": "2025-09-22T10:00:51+00:00",
-      "pushed_at": "2026-10-22T17:38:59+00:00",
-      "updated_at": "2026-10-23T05:12:56+00:00",
+      "pushed_at": "2026-10-23T20:14:32+00:00",
+      "updated_at": "2026-10-24T09:37:53+00:00",
       "topics": [
         "compose",
         "compose-multiplatform",
@@ -2063,135 +2508,135 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 979,
+      "stars_7d_ago": 981,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 945
-        },
-        {
           "d": "09-25",
-          "s": 945
+          "s": 946
         },
         {
           "d": "09-26",
-          "s": 945
+          "s": 946
         },
         {
           "d": "09-27",
-          "s": 945
+          "s": 946
         },
         {
           "d": "09-28",
-          "s": 945
+          "s": 946
         },
         {
           "d": "09-29",
-          "s": 945
+          "s": 946
         },
         {
           "d": "09-30",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-01",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-02",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-03",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-04",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-05",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-06",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-07",
-          "s": 945
+          "s": 946
         },
         {
           "d": "10-08",
-          "s": 949
+          "s": 948
         },
         {
           "d": "10-09",
-          "s": 953
+          "s": 952
         },
         {
           "d": "10-10",
-          "s": 954
+          "s": 953
         },
         {
           "d": "10-11",
-          "s": 958
+          "s": 957
         },
         {
           "d": "10-12",
-          "s": 961
+          "s": 960
         },
         {
           "d": "10-13",
-          "s": 964
+          "s": 963
         },
         {
           "d": "10-14",
-          "s": 971
+          "s": 970
         },
         {
           "d": "10-15",
-          "s": 976
+          "s": 975
         },
         {
           "d": "10-16",
-          "s": 977
+          "s": 976
         },
         {
           "d": "10-17",
-          "s": 979
+          "s": 978
         },
         {
           "d": "10-18",
-          "s": 982
+          "s": 981
         },
         {
           "d": "10-19",
-          "s": 984
+          "s": 983
         },
         {
           "d": "10-20",
-          "s": 988
+          "s": 987
         },
         {
           "d": "10-21",
-          "s": 991
+          "s": 990
         },
         {
           "d": "10-22",
-          "s": 995
+          "s": 994
         },
         {
           "d": "10-23",
+          "s": 995
+        },
+        {
+          "d": "10-24",
           "s": 996
         }
       ]
     },
     "score": {
-      "score": 33.81,
+      "score": 31.61,
       "breakdown": {
-        "vel": 38,
-        "acc": 42,
+        "vel": 31,
+        "acc": 41,
         "health": 92,
         "fresh": 0,
         "signal": 70
@@ -2199,7 +2644,7 @@
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 28.17,
+      "base_score": 26.34,
       "explanation": "shiguangschedule 是 Kotlin 开源项目，主打「一款开源、无广告、极简的课程表 APP，支持教务导入」；处于增长早期；社区健康（fork/star 比 9.7%，1 个 open issue）。"
     }
   },
@@ -2213,7 +2658,7 @@
       "forks": 149,
       "open_issues": 22,
       "created_at": "2025-07-24T22:36:32+00:00",
-      "pushed_at": "2026-10-21T05:38:52+00:00",
+      "pushed_at": "2026-10-23T16:26:12+00:00",
       "updated_at": "2026-10-22T07:22:54+00:00",
       "topics": [],
       "language": "Makefile",
@@ -2223,12 +2668,8 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 987,
+      "stars_7d_ago": 989,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 958
-        },
         {
           "d": "09-25",
           "s": 959
@@ -2344,14 +2785,18 @@
         {
           "d": "10-23",
           "s": 997
+        },
+        {
+          "d": "10-24",
+          "s": 997
         }
       ]
     },
     "score": {
-      "score": 33.21,
+      "score": 29.27,
       "breakdown": {
-        "vel": 27,
-        "acc": 56,
+        "vel": 21,
+        "acc": 47,
         "health": 96,
         "fresh": 0,
         "signal": 70
@@ -2359,168 +2804,8 @@
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 27.68,
+      "base_score": 24.39,
       "explanation": "agentics 是 Makefile 开源项目，主打「A sample pack of GitHub Agentic Workflows!」；处于增长早期；社区健康（fork/star 比 14.9%，22 个 open issue）。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "linlb",
-      "name": "THSAutoTrader",
-      "full_name": "linlb/THSAutoTrader",
-      "description": "基于同花顺（THS）客户端的自动化交易工具，采用闪电下单模式，并提供可视化交互界面与API接口",
-      "stars": 200,
-      "forks": 69,
-      "open_issues": 9,
-      "created_at": "2025-05-10T03:23:17+00:00",
-      "pushed_at": "2026-10-17T16:00:04+00:00",
-      "updated_at": "2026-10-21T23:08:54+00:00",
-      "topics": [],
-      "language": "HTML",
-      "license": "Apache-2.0",
-      "homepage": null,
-      "html_url": "https://github.com/linlb/THSAutoTrader",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 190,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 171
-        },
-        {
-          "d": "09-25",
-          "s": 171
-        },
-        {
-          "d": "09-26",
-          "s": 171
-        },
-        {
-          "d": "09-27",
-          "s": 172
-        },
-        {
-          "d": "09-28",
-          "s": 172
-        },
-        {
-          "d": "09-29",
-          "s": 173
-        },
-        {
-          "d": "09-30",
-          "s": 174
-        },
-        {
-          "d": "10-01",
-          "s": 175
-        },
-        {
-          "d": "10-02",
-          "s": 177
-        },
-        {
-          "d": "10-03",
-          "s": 177
-        },
-        {
-          "d": "10-04",
-          "s": 177
-        },
-        {
-          "d": "10-05",
-          "s": 178
-        },
-        {
-          "d": "10-06",
-          "s": 178
-        },
-        {
-          "d": "10-07",
-          "s": 178
-        },
-        {
-          "d": "10-08",
-          "s": 178
-        },
-        {
-          "d": "10-09",
-          "s": 179
-        },
-        {
-          "d": "10-10",
-          "s": 182
-        },
-        {
-          "d": "10-11",
-          "s": 184
-        },
-        {
-          "d": "10-12",
-          "s": 185
-        },
-        {
-          "d": "10-13",
-          "s": 185
-        },
-        {
-          "d": "10-14",
-          "s": 185
-        },
-        {
-          "d": "10-15",
-          "s": 185
-        },
-        {
-          "d": "10-16",
-          "s": 187
-        },
-        {
-          "d": "10-17",
-          "s": 190
-        },
-        {
-          "d": "10-18",
-          "s": 192
-        },
-        {
-          "d": "10-19",
-          "s": 196
-        },
-        {
-          "d": "10-20",
-          "s": 197
-        },
-        {
-          "d": "10-21",
-          "s": 200
-        },
-        {
-          "d": "10-22",
-          "s": 200
-        },
-        {
-          "d": "10-23",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 32.21,
-      "breakdown": {
-        "vel": 27,
-        "acc": 56,
-        "health": 93,
-        "fresh": 0,
-        "signal": 55
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 26.84,
-      "explanation": "THSAutoTrader 是 HTML 开源项目，主打「基于同花顺（THS）客户端的自动化交易工具，采用闪电下单模式，并提供可视化交互界面与API接口」；处于增长早期；社区健康（fork/star 比 34.5%，9 个 open issue）。"
     }
   },
   {
@@ -2533,8 +2818,8 @@
       "forks": 6,
       "open_issues": 16,
       "created_at": "2025-06-08T16:33:48+00:00",
-      "pushed_at": "2026-10-22T20:42:05+00:00",
-      "updated_at": "2026-10-23T07:50:57+00:00",
+      "pushed_at": "2026-10-24T03:45:11+00:00",
+      "updated_at": "2026-10-24T04:38:48+00:00",
       "topics": [],
       "language": "Rust",
       "license": "MIT",
@@ -2543,135 +2828,135 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 189,
+      "stars_7d_ago": 191,
       "star_series": [
         {
-          "d": "09-24",
-          "s": 183
-        },
-        {
           "d": "09-25",
-          "s": 183
+          "s": 182
         },
         {
           "d": "09-26",
-          "s": 183
+          "s": 182
         },
         {
           "d": "09-27",
-          "s": 183
+          "s": 182
         },
         {
           "d": "09-28",
-          "s": 183
+          "s": 182
         },
         {
           "d": "09-29",
-          "s": 183
+          "s": 182
         },
         {
           "d": "09-30",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-01",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-02",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-03",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-04",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-05",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-06",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-07",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-08",
-          "s": 183
+          "s": 182
         },
         {
           "d": "10-09",
-          "s": 184
+          "s": 183
         },
         {
           "d": "10-10",
-          "s": 185
+          "s": 184
         },
         {
           "d": "10-11",
-          "s": 185
+          "s": 184
         },
         {
           "d": "10-12",
-          "s": 185
+          "s": 184
         },
         {
           "d": "10-13",
-          "s": 185
+          "s": 184
         },
         {
           "d": "10-14",
-          "s": 185
+          "s": 184
         },
         {
           "d": "10-15",
-          "s": 186
+          "s": 185
         },
         {
           "d": "10-16",
-          "s": 187
+          "s": 186
         },
         {
           "d": "10-17",
-          "s": 189
+          "s": 188
         },
         {
           "d": "10-18",
-          "s": 192
+          "s": 191
         },
         {
           "d": "10-19",
-          "s": 193
+          "s": 192
         },
         {
           "d": "10-20",
-          "s": 195
+          "s": 194
         },
         {
           "d": "10-21",
-          "s": 197
+          "s": 196
         },
         {
           "d": "10-22",
-          "s": 198
+          "s": 197
         },
         {
           "d": "10-23",
+          "s": 199
+        },
+        {
+          "d": "10-24",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 31.77,
+      "score": 27.62,
       "breakdown": {
-        "vel": 29,
-        "acc": 73,
+        "vel": 23,
+        "acc": 57,
         "health": 51,
         "fresh": 0,
         "signal": 70
@@ -2679,8 +2964,522 @@
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 26.48,
-      "explanation": "MagicNet 是 Rust 开源项目，主打「Consciously set all groups to block」；处于增长早期，涨速在加快。"
+      "base_score": 23.01,
+      "explanation": "MagicNet 是 Rust 开源项目，主打「Consciously set all groups to block」；处于增长早期。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "awesomezun",
+      "name": "claude-statusline",
+      "full_name": "awesomezun/claude-statusline",
+      "description": "An aesthetic statusline for Claude Code by awesomezun",
+      "stars": 200,
+      "forks": 18,
+      "open_issues": 0,
+      "created_at": "2026-01-18T11:45:31+00:00",
+      "pushed_at": "2026-10-18T00:42:53+00:00",
+      "updated_at": "2026-10-23T13:35:35+00:00",
+      "topics": [
+        "anthropic",
+        "awesome",
+        "catppuccin",
+        "claude",
+        "claude-code",
+        "cli-tools",
+        "developer-tools",
+        "plugin",
+        "productivity",
+        "statusline",
+        "terminal"
+      ],
+      "language": "Shell",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/awesomezun/claude-statusline",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 198,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 186
+        },
+        {
+          "d": "09-26",
+          "s": 187
+        },
+        {
+          "d": "09-27",
+          "s": 187
+        },
+        {
+          "d": "09-28",
+          "s": 187
+        },
+        {
+          "d": "09-29",
+          "s": 188
+        },
+        {
+          "d": "09-30",
+          "s": 189
+        },
+        {
+          "d": "10-01",
+          "s": 190
+        },
+        {
+          "d": "10-02",
+          "s": 190
+        },
+        {
+          "d": "10-03",
+          "s": 190
+        },
+        {
+          "d": "10-04",
+          "s": 191
+        },
+        {
+          "d": "10-05",
+          "s": 191
+        },
+        {
+          "d": "10-06",
+          "s": 192
+        },
+        {
+          "d": "10-07",
+          "s": 192
+        },
+        {
+          "d": "10-08",
+          "s": 192
+        },
+        {
+          "d": "10-09",
+          "s": 193
+        },
+        {
+          "d": "10-10",
+          "s": 193
+        },
+        {
+          "d": "10-11",
+          "s": 193
+        },
+        {
+          "d": "10-12",
+          "s": 194
+        },
+        {
+          "d": "10-13",
+          "s": 194
+        },
+        {
+          "d": "10-14",
+          "s": 197
+        },
+        {
+          "d": "10-15",
+          "s": 197
+        },
+        {
+          "d": "10-16",
+          "s": 197
+        },
+        {
+          "d": "10-17",
+          "s": 197
+        },
+        {
+          "d": "10-18",
+          "s": 198
+        },
+        {
+          "d": "10-19",
+          "s": 198
+        },
+        {
+          "d": "10-20",
+          "s": 199
+        },
+        {
+          "d": "10-21",
+          "s": 199
+        },
+        {
+          "d": "10-22",
+          "s": 199
+        },
+        {
+          "d": "10-23",
+          "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 27.17,
+      "breakdown": {
+        "vel": 7,
+        "acc": 39,
+        "health": 83,
+        "fresh": 24,
+        "signal": 70
+      },
+      "stage": "mid_late",
+      "stage_multiplier": 1.0,
+      "confidence": 1.0,
+      "base_score": 27.17,
+      "explanation": "claude-statusline 是 Shell 开源项目，主打「An aesthetic statusline for Claude Code by awesomezun」；处于中后期增长；社区健康（fork/star 比 9.0%，0 个 open issue）。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "qiz029",
+      "name": "dscode",
+      "full_name": "qiz029/dscode",
+      "description": "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry",
+      "stars": 997,
+      "forks": 5,
+      "open_issues": 1,
+      "created_at": "2026-09-11T09:40:02+00:00",
+      "pushed_at": "2026-10-24T04:12:56+00:00",
+      "updated_at": "2026-10-24T04:12:53+00:00",
+      "topics": [
+        "agentic",
+        "ai-agent",
+        "cli",
+        "code-review",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "jev",
+        "llm",
+        "macos",
+        "mcp",
+        "nodejs",
+        "terminal",
+        "tui"
+      ],
+      "language": "JavaScript",
+      "license": "MIT",
+      "homepage": "https://www.npmjs.com/package/@toddzheng024/dscode",
+      "html_url": "https://github.com/qiz029/dscode",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 994,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 831
+        },
+        {
+          "d": "09-26",
+          "s": 831
+        },
+        {
+          "d": "09-27",
+          "s": 831
+        },
+        {
+          "d": "09-28",
+          "s": 831
+        },
+        {
+          "d": "09-29",
+          "s": 837
+        },
+        {
+          "d": "09-30",
+          "s": 971
+        },
+        {
+          "d": "10-01",
+          "s": 975
+        },
+        {
+          "d": "10-02",
+          "s": 977
+        },
+        {
+          "d": "10-03",
+          "s": 977
+        },
+        {
+          "d": "10-04",
+          "s": 982
+        },
+        {
+          "d": "10-05",
+          "s": 982
+        },
+        {
+          "d": "10-06",
+          "s": 983
+        },
+        {
+          "d": "10-07",
+          "s": 984
+        },
+        {
+          "d": "10-08",
+          "s": 986
+        },
+        {
+          "d": "10-09",
+          "s": 988
+        },
+        {
+          "d": "10-10",
+          "s": 990
+        },
+        {
+          "d": "10-11",
+          "s": 990
+        },
+        {
+          "d": "10-12",
+          "s": 991
+        },
+        {
+          "d": "10-13",
+          "s": 991
+        },
+        {
+          "d": "10-14",
+          "s": 991
+        },
+        {
+          "d": "10-15",
+          "s": 991
+        },
+        {
+          "d": "10-16",
+          "s": 993
+        },
+        {
+          "d": "10-17",
+          "s": 993
+        },
+        {
+          "d": "10-18",
+          "s": 994
+        },
+        {
+          "d": "10-19",
+          "s": 995
+        },
+        {
+          "d": "10-20",
+          "s": 996
+        },
+        {
+          "d": "10-21",
+          "s": 997
+        },
+        {
+          "d": "10-22",
+          "s": 997
+        },
+        {
+          "d": "10-23",
+          "s": 997
+        },
+        {
+          "d": "10-24",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 25.46,
+      "breakdown": {
+        "vel": 10,
+        "acc": 46,
+        "health": 61,
+        "fresh": 88,
+        "signal": 85
+      },
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
+      "confidence": 1.0,
+      "base_score": 36.38,
+      "explanation": "dscode 是 JavaScript 开源项目，主打「A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry」；增长已饱和；项目元数据完整、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "langwatch",
+      "name": "scenario",
+      "full_name": "langwatch/scenario",
+      "description": "Agentic testing for agentic codebases",
+      "stars": 999,
+      "forks": 89,
+      "open_issues": 198,
+      "created_at": "2025-04-04T14:23:33+00:00",
+      "pushed_at": "2026-10-23T06:17:37+00:00",
+      "updated_at": "2026-10-23T09:23:59+00:00",
+      "topics": [
+        "agent-simulations",
+        "agent-testing",
+        "ai-testing",
+        "javascript-library",
+        "python-library"
+      ],
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "homepage": "https://scenario.langwatch.ai",
+      "html_url": "https://github.com/langwatch/scenario",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 992,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 987
+        },
+        {
+          "d": "09-26",
+          "s": 987
+        },
+        {
+          "d": "09-27",
+          "s": 987
+        },
+        {
+          "d": "09-28",
+          "s": 987
+        },
+        {
+          "d": "09-29",
+          "s": 987
+        },
+        {
+          "d": "09-30",
+          "s": 987
+        },
+        {
+          "d": "10-01",
+          "s": 987
+        },
+        {
+          "d": "10-02",
+          "s": 987
+        },
+        {
+          "d": "10-03",
+          "s": 987
+        },
+        {
+          "d": "10-04",
+          "s": 987
+        },
+        {
+          "d": "10-05",
+          "s": 987
+        },
+        {
+          "d": "10-06",
+          "s": 987
+        },
+        {
+          "d": "10-07",
+          "s": 987
+        },
+        {
+          "d": "10-08",
+          "s": 987
+        },
+        {
+          "d": "10-09",
+          "s": 987
+        },
+        {
+          "d": "10-10",
+          "s": 987
+        },
+        {
+          "d": "10-11",
+          "s": 987
+        },
+        {
+          "d": "10-12",
+          "s": 987
+        },
+        {
+          "d": "10-13",
+          "s": 987
+        },
+        {
+          "d": "10-14",
+          "s": 988
+        },
+        {
+          "d": "10-15",
+          "s": 992
+        },
+        {
+          "d": "10-16",
+          "s": 992
+        },
+        {
+          "d": "10-17",
+          "s": 992
+        },
+        {
+          "d": "10-18",
+          "s": 992
+        },
+        {
+          "d": "10-19",
+          "s": 993
+        },
+        {
+          "d": "10-20",
+          "s": 994
+        },
+        {
+          "d": "10-21",
+          "s": 995
+        },
+        {
+          "d": "10-22",
+          "s": 996
+        },
+        {
+          "d": "10-23",
+          "s": 999
+        },
+        {
+          "d": "10-24",
+          "s": 999
+        }
+      ]
+    },
+    "score": {
+      "score": 25.31,
+      "breakdown": {
+        "vel": 19,
+        "acc": 57,
+        "health": 59,
+        "fresh": 0,
+        "signal": 85
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 23.0,
+      "explanation": "scenario 是 TypeScript 开源项目，主打「Agentic testing for agentic codebases」；处于中早期增长；项目元数据完整。"
     }
   },
   {
@@ -2708,12 +3507,8 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 981,
+      "stars_7d_ago": 987,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 964
-        },
         {
           "d": "09-25",
           "s": 964
@@ -2829,14 +3624,18 @@
         {
           "d": "10-23",
           "s": 995
+        },
+        {
+          "d": "10-24",
+          "s": 995
         }
       ]
     },
     "score": {
-      "score": 29.43,
+      "score": 23.62,
       "breakdown": {
-        "vel": 34,
-        "acc": 46,
+        "vel": 21,
+        "acc": 34,
         "health": 64,
         "fresh": 0,
         "signal": 100
@@ -2844,845 +3643,8 @@
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 26.75,
+      "base_score": 21.48,
       "explanation": "safebucket 是 Go 开源项目，主打「On-prem file sharing made simple, fast and safe.」；处于中早期增长；项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "qiz029",
-      "name": "dscode",
-      "full_name": "qiz029/dscode",
-      "description": "A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry",
-      "stars": 998,
-      "forks": 5,
-      "open_issues": 1,
-      "created_at": "2026-09-11T09:40:02+00:00",
-      "pushed_at": "2026-10-23T07:49:28+00:00",
-      "updated_at": "2026-10-23T07:49:32+00:00",
-      "topics": [
-        "agentic",
-        "ai-agent",
-        "cli",
-        "code-review",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "developer-tools",
-        "jev",
-        "llm",
-        "macos",
-        "mcp",
-        "nodejs",
-        "terminal",
-        "tui"
-      ],
-      "language": "JavaScript",
-      "license": "MIT",
-      "homepage": "https://www.npmjs.com/package/@toddzheng024/dscode",
-      "html_url": "https://github.com/qiz029/dscode",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 994,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 824
-        },
-        {
-          "d": "09-25",
-          "s": 824
-        },
-        {
-          "d": "09-26",
-          "s": 824
-        },
-        {
-          "d": "09-27",
-          "s": 824
-        },
-        {
-          "d": "09-28",
-          "s": 824
-        },
-        {
-          "d": "09-29",
-          "s": 838
-        },
-        {
-          "d": "09-30",
-          "s": 972
-        },
-        {
-          "d": "10-01",
-          "s": 976
-        },
-        {
-          "d": "10-02",
-          "s": 978
-        },
-        {
-          "d": "10-03",
-          "s": 978
-        },
-        {
-          "d": "10-04",
-          "s": 983
-        },
-        {
-          "d": "10-05",
-          "s": 983
-        },
-        {
-          "d": "10-06",
-          "s": 984
-        },
-        {
-          "d": "10-07",
-          "s": 985
-        },
-        {
-          "d": "10-08",
-          "s": 987
-        },
-        {
-          "d": "10-09",
-          "s": 989
-        },
-        {
-          "d": "10-10",
-          "s": 991
-        },
-        {
-          "d": "10-11",
-          "s": 991
-        },
-        {
-          "d": "10-12",
-          "s": 992
-        },
-        {
-          "d": "10-13",
-          "s": 992
-        },
-        {
-          "d": "10-14",
-          "s": 992
-        },
-        {
-          "d": "10-15",
-          "s": 992
-        },
-        {
-          "d": "10-16",
-          "s": 994
-        },
-        {
-          "d": "10-17",
-          "s": 994
-        },
-        {
-          "d": "10-18",
-          "s": 995
-        },
-        {
-          "d": "10-19",
-          "s": 996
-        },
-        {
-          "d": "10-20",
-          "s": 997
-        },
-        {
-          "d": "10-21",
-          "s": 998
-        },
-        {
-          "d": "10-22",
-          "s": 998
-        },
-        {
-          "d": "10-23",
-          "s": 998
-        }
-      ]
-    },
-    "score": {
-      "score": 29.24,
-      "breakdown": {
-        "vel": 14,
-        "acc": 54,
-        "health": 61,
-        "fresh": 88,
-        "signal": 85
-      },
-      "stage": "saturated",
-      "stage_multiplier": 0.7,
-      "confidence": 1.0,
-      "base_score": 41.77,
-      "explanation": "dscode 是 JavaScript 开源项目，主打「A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry」；增长已饱和；项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "langwatch",
-      "name": "scenario",
-      "full_name": "langwatch/scenario",
-      "description": "Agentic testing for agentic codebases",
-      "stars": 999,
-      "forks": 88,
-      "open_issues": 196,
-      "created_at": "2025-04-04T14:23:33+00:00",
-      "pushed_at": "2026-10-23T06:17:37+00:00",
-      "updated_at": "2026-10-23T09:23:59+00:00",
-      "topics": [
-        "agent-simulations",
-        "agent-testing",
-        "ai-testing",
-        "javascript-library",
-        "python-library"
-      ],
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "homepage": "https://scenario.langwatch.ai",
-      "html_url": "https://github.com/langwatch/scenario",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 992,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 987
-        },
-        {
-          "d": "09-25",
-          "s": 987
-        },
-        {
-          "d": "09-26",
-          "s": 987
-        },
-        {
-          "d": "09-27",
-          "s": 987
-        },
-        {
-          "d": "09-28",
-          "s": 987
-        },
-        {
-          "d": "09-29",
-          "s": 987
-        },
-        {
-          "d": "09-30",
-          "s": 987
-        },
-        {
-          "d": "10-01",
-          "s": 987
-        },
-        {
-          "d": "10-02",
-          "s": 987
-        },
-        {
-          "d": "10-03",
-          "s": 987
-        },
-        {
-          "d": "10-04",
-          "s": 987
-        },
-        {
-          "d": "10-05",
-          "s": 987
-        },
-        {
-          "d": "10-06",
-          "s": 987
-        },
-        {
-          "d": "10-07",
-          "s": 987
-        },
-        {
-          "d": "10-08",
-          "s": 987
-        },
-        {
-          "d": "10-09",
-          "s": 987
-        },
-        {
-          "d": "10-10",
-          "s": 987
-        },
-        {
-          "d": "10-11",
-          "s": 987
-        },
-        {
-          "d": "10-12",
-          "s": 987
-        },
-        {
-          "d": "10-13",
-          "s": 987
-        },
-        {
-          "d": "10-14",
-          "s": 988
-        },
-        {
-          "d": "10-15",
-          "s": 992
-        },
-        {
-          "d": "10-16",
-          "s": 992
-        },
-        {
-          "d": "10-17",
-          "s": 992
-        },
-        {
-          "d": "10-18",
-          "s": 992
-        },
-        {
-          "d": "10-19",
-          "s": 993
-        },
-        {
-          "d": "10-20",
-          "s": 994
-        },
-        {
-          "d": "10-21",
-          "s": 995
-        },
-        {
-          "d": "10-22",
-          "s": 996
-        },
-        {
-          "d": "10-23",
-          "s": 999
-        }
-      ]
-    },
-    "score": {
-      "score": 26.21,
-      "breakdown": {
-        "vel": 21,
-        "acc": 57,
-        "health": 59,
-        "fresh": 0,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 23.83,
-      "explanation": "scenario 是 TypeScript 开源项目，主打「Agentic testing for agentic codebases」；处于中早期增长；项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "techiescamp",
-      "name": "cka-certification-guide",
-      "full_name": "techiescamp/cka-certification-guide",
-      "description": "This comprehensive CKA learning path repo equips aspiring Kubernetes administrators with all the knowledge and resources to ace the CKA exam on the first try.  Includes in-depth explanations, hands-on labs, and valuable study materials.  Pass the CKA and unlock your Kubernetes potential today!",
-      "stars": 1000,
-      "forks": 308,
-      "open_issues": 0,
-      "created_at": "2024-04-15T11:00:36+00:00",
-      "pushed_at": "2026-10-22T05:52:13+00:00",
-      "updated_at": "2026-10-22T05:52:18+00:00",
-      "topics": [
-        "cka",
-        "cka-exam",
-        "kubernetes"
-      ],
-      "language": "Java",
-      "license": "NOASSERTION",
-      "homepage": "https://courses.devopscube.com/p/cka-complete-prep-course-practice-tests",
-      "html_url": "https://github.com/techiescamp/cka-certification-guide",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 989,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 942
-        },
-        {
-          "d": "09-25",
-          "s": 944
-        },
-        {
-          "d": "09-26",
-          "s": 944
-        },
-        {
-          "d": "09-27",
-          "s": 945
-        },
-        {
-          "d": "09-28",
-          "s": 947
-        },
-        {
-          "d": "09-29",
-          "s": 948
-        },
-        {
-          "d": "09-30",
-          "s": 948
-        },
-        {
-          "d": "10-01",
-          "s": 951
-        },
-        {
-          "d": "10-02",
-          "s": 954
-        },
-        {
-          "d": "10-03",
-          "s": 954
-        },
-        {
-          "d": "10-04",
-          "s": 955
-        },
-        {
-          "d": "10-05",
-          "s": 956
-        },
-        {
-          "d": "10-06",
-          "s": 967
-        },
-        {
-          "d": "10-07",
-          "s": 972
-        },
-        {
-          "d": "10-08",
-          "s": 975
-        },
-        {
-          "d": "10-09",
-          "s": 976
-        },
-        {
-          "d": "10-10",
-          "s": 978
-        },
-        {
-          "d": "10-11",
-          "s": 978
-        },
-        {
-          "d": "10-12",
-          "s": 982
-        },
-        {
-          "d": "10-13",
-          "s": 984
-        },
-        {
-          "d": "10-14",
-          "s": 988
-        },
-        {
-          "d": "10-15",
-          "s": 988
-        },
-        {
-          "d": "10-16",
-          "s": 989
-        },
-        {
-          "d": "10-17",
-          "s": 989
-        },
-        {
-          "d": "10-18",
-          "s": 990
-        },
-        {
-          "d": "10-19",
-          "s": 992
-        },
-        {
-          "d": "10-20",
-          "s": 993
-        },
-        {
-          "d": "10-21",
-          "s": 1000
-        },
-        {
-          "d": "10-22",
-          "s": 1000
-        },
-        {
-          "d": "10-23",
-          "s": 1000
-        }
-      ]
-    },
-    "score": {
-      "score": 24.35,
-      "breakdown": {
-        "vel": 29,
-        "acc": 50,
-        "health": 100,
-        "fresh": 0,
-        "signal": 100
-      },
-      "stage": "late",
-      "stage_multiplier": 0.85,
-      "confidence": 1.0,
-      "base_score": 28.65,
-      "explanation": "cka-certification-guide 是 Java 开源项目，主打「This comprehensive CKA learning path repo equips aspiring Kubernetes administrators with all the knowledge and resources to ace the CKA exam on the first try.  Includes in-depth explanations, hands-on labs, and valuable study materials.  Pass the CKA and unlock your Kubernetes potential today!」；接近增长天花板；社区健康（fork/star 比 30.8%，0 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "dimastatz",
-      "name": "whisper-flow",
-      "full_name": "dimastatz/whisper-flow",
-      "description": "Whisper-Flow is a framework designed to enable real-time transcription of audio content using OpenAI’s Whisper model. Rather than processing entire files after upload (“batch mode”), Whisper-Flow accepts a continuous stream of audio chunks and produces incremental transcripts immediately.",
-      "stars": 996,
-      "forks": 137,
-      "open_issues": 1,
-      "created_at": "2024-06-03T12:13:05+00:00",
-      "pushed_at": "2026-10-22T03:45:48+00:00",
-      "updated_at": "2026-10-22T03:42:25+00:00",
-      "topics": [
-        "pypi-package",
-        "python",
-        "speech-to-text",
-        "transcription",
-        "whisper"
-      ],
-      "language": "Python",
-      "license": "MIT",
-      "homepage": "https://github.com/dimastatz/whisper-flow",
-      "html_url": "https://github.com/dimastatz/whisper-flow",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 992,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 966
-        },
-        {
-          "d": "09-25",
-          "s": 966
-        },
-        {
-          "d": "09-26",
-          "s": 966
-        },
-        {
-          "d": "09-27",
-          "s": 966
-        },
-        {
-          "d": "09-28",
-          "s": 966
-        },
-        {
-          "d": "09-29",
-          "s": 967
-        },
-        {
-          "d": "09-30",
-          "s": 967
-        },
-        {
-          "d": "10-01",
-          "s": 967
-        },
-        {
-          "d": "10-02",
-          "s": 971
-        },
-        {
-          "d": "10-03",
-          "s": 974
-        },
-        {
-          "d": "10-04",
-          "s": 976
-        },
-        {
-          "d": "10-05",
-          "s": 976
-        },
-        {
-          "d": "10-06",
-          "s": 977
-        },
-        {
-          "d": "10-07",
-          "s": 978
-        },
-        {
-          "d": "10-08",
-          "s": 980
-        },
-        {
-          "d": "10-09",
-          "s": 982
-        },
-        {
-          "d": "10-10",
-          "s": 983
-        },
-        {
-          "d": "10-11",
-          "s": 984
-        },
-        {
-          "d": "10-12",
-          "s": 984
-        },
-        {
-          "d": "10-13",
-          "s": 984
-        },
-        {
-          "d": "10-14",
-          "s": 987
-        },
-        {
-          "d": "10-15",
-          "s": 989
-        },
-        {
-          "d": "10-16",
-          "s": 990
-        },
-        {
-          "d": "10-17",
-          "s": 992
-        },
-        {
-          "d": "10-18",
-          "s": 993
-        },
-        {
-          "d": "10-19",
-          "s": 993
-        },
-        {
-          "d": "10-20",
-          "s": 996
-        },
-        {
-          "d": "10-21",
-          "s": 996
-        },
-        {
-          "d": "10-22",
-          "s": 996
-        },
-        {
-          "d": "10-23",
-          "s": 996
-        }
-      ]
-    },
-    "score": {
-      "score": 22.97,
-      "breakdown": {
-        "vel": 14,
-        "acc": 36,
-        "health": 100,
-        "fresh": 0,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 20.88,
-      "explanation": "whisper-flow 是 Python 开源项目，主打「Whisper-Flow is a framework designed to enable real-time transcription of audio content using OpenAI’s Whisper model. Rather than processing entire files after upload (“batch mode”), Whisper-Flow accepts a continuous stream of audio chunks and produces incremental transcripts immediately.」；处于中早期增长；社区健康（fork/star 比 13.8%，1 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "mrusse",
-      "name": "soularr",
-      "full_name": "mrusse/soularr",
-      "description": "A Python script that connects Lidarr with Soulseek! ",
-      "stars": 1000,
-      "forks": 62,
-      "open_issues": 20,
-      "created_at": "2024-09-21T17:52:03+00:00",
-      "pushed_at": "2026-10-22T19:18:17+00:00",
-      "updated_at": "2026-10-23T04:08:45+00:00",
-      "topics": [
-        "lidarr",
-        "slskd",
-        "soularr",
-        "soulseek"
-      ],
-      "language": "Python",
-      "license": "GPL-3.0",
-      "homepage": "https://soularr.net",
-      "html_url": "https://github.com/mrusse/soularr",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 995,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 971
-        },
-        {
-          "d": "09-25",
-          "s": 972
-        },
-        {
-          "d": "09-26",
-          "s": 973
-        },
-        {
-          "d": "09-27",
-          "s": 975
-        },
-        {
-          "d": "09-28",
-          "s": 976
-        },
-        {
-          "d": "09-29",
-          "s": 977
-        },
-        {
-          "d": "09-30",
-          "s": 977
-        },
-        {
-          "d": "10-01",
-          "s": 977
-        },
-        {
-          "d": "10-02",
-          "s": 978
-        },
-        {
-          "d": "10-03",
-          "s": 978
-        },
-        {
-          "d": "10-04",
-          "s": 978
-        },
-        {
-          "d": "10-05",
-          "s": 979
-        },
-        {
-          "d": "10-06",
-          "s": 979
-        },
-        {
-          "d": "10-07",
-          "s": 979
-        },
-        {
-          "d": "10-08",
-          "s": 980
-        },
-        {
-          "d": "10-09",
-          "s": 982
-        },
-        {
-          "d": "10-10",
-          "s": 984
-        },
-        {
-          "d": "10-11",
-          "s": 985
-        },
-        {
-          "d": "10-12",
-          "s": 986
-        },
-        {
-          "d": "10-13",
-          "s": 988
-        },
-        {
-          "d": "10-14",
-          "s": 989
-        },
-        {
-          "d": "10-15",
-          "s": 990
-        },
-        {
-          "d": "10-16",
-          "s": 993
-        },
-        {
-          "d": "10-17",
-          "s": 995
-        },
-        {
-          "d": "10-18",
-          "s": 996
-        },
-        {
-          "d": "10-19",
-          "s": 997
-        },
-        {
-          "d": "10-20",
-          "s": 999
-        },
-        {
-          "d": "10-21",
-          "s": 999
-        },
-        {
-          "d": "10-22",
-          "s": 999
-        },
-        {
-          "d": "10-23",
-          "s": 1000
-        }
-      ]
-    },
-    "score": {
-      "score": 22.87,
-      "breakdown": {
-        "vel": 17,
-        "acc": 37,
-        "health": 76,
-        "fresh": 0,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 20.79,
-      "explanation": "soularr 是 Python 开源项目，主打「A Python script that connects Lidarr with Soulseek!」；处于中早期增长；社区健康（fork/star 比 6.2%，20 个 open issue）、项目元数据完整。"
     }
   },
   {
@@ -3691,12 +3653,12 @@
       "name": "tickets_hunter",
       "full_name": "bouob/tickets_hunter",
       "description": "Tickets Hunter (獵票機器人) - automated ticket purchasing. 科技決定你搶票的速度！ Previously named tixcraft_bot",
-      "stars": 993,
+      "stars": 997,
       "forks": 280,
-      "open_issues": 51,
+      "open_issues": 52,
       "created_at": "2025-09-08T18:19:05+00:00",
       "pushed_at": "2026-10-19T04:19:26+00:00",
-      "updated_at": "2026-10-23T09:06:50+00:00",
+      "updated_at": "2026-10-24T09:17:50+00:00",
       "topics": [
         "claude-code",
         "ddddocr",
@@ -3709,12 +3671,8 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 982,
+      "stars_7d_ago": 986,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 936
-        },
         {
           "d": "09-25",
           "s": 937
@@ -3829,15 +3787,19 @@
         },
         {
           "d": "10-23",
-          "s": 993
+          "s": 994
+        },
+        {
+          "d": "10-24",
+          "s": 997
         }
       ]
     },
     "score": {
-      "score": 22.24,
+      "score": 21.0,
       "breakdown": {
-        "vel": 29,
-        "acc": 45,
+        "vel": 26,
+        "acc": 41,
         "health": 88,
         "fresh": 0,
         "signal": 70
@@ -3845,8 +3807,174 @@
       "stage": "late",
       "stage_multiplier": 0.85,
       "confidence": 1.0,
-      "base_score": 26.16,
-      "explanation": "tickets_hunter 是 Python 开源项目，主打「Tickets Hunter (獵票機器人) - automated ticket purchasing. 科技決定你搶票的速度！ Previously named tixcraft_bot」；接近增长天花板；社区健康（fork/star 比 28.2%，51 个 open issue）。"
+      "base_score": 24.7,
+      "explanation": "tickets_hunter 是 Python 开源项目，主打「Tickets Hunter (獵票機器人) - automated ticket purchasing. 科技決定你搶票的速度！ Previously named tixcraft_bot」；接近增长天花板；社区健康（fork/star 比 28.1%，52 个 open issue）。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "dimastatz",
+      "name": "whisper-flow",
+      "full_name": "dimastatz/whisper-flow",
+      "description": "Whisper-Flow is a framework designed to enable real-time transcription of audio content using OpenAI’s Whisper model. Rather than processing entire files after upload (“batch mode”), Whisper-Flow accepts a continuous stream of audio chunks and produces incremental transcripts immediately.",
+      "stars": 997,
+      "forks": 137,
+      "open_issues": 1,
+      "created_at": "2024-06-03T12:13:05+00:00",
+      "pushed_at": "2026-10-22T03:45:48+00:00",
+      "updated_at": "2026-10-23T19:55:23+00:00",
+      "topics": [
+        "pypi-package",
+        "python",
+        "speech-to-text",
+        "transcription",
+        "whisper"
+      ],
+      "language": "Python",
+      "license": "MIT",
+      "homepage": "https://github.com/dimastatz/whisper-flow",
+      "html_url": "https://github.com/dimastatz/whisper-flow",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 993,
+      "star_series": [
+        {
+          "d": "09-25",
+          "s": 966
+        },
+        {
+          "d": "09-26",
+          "s": 966
+        },
+        {
+          "d": "09-27",
+          "s": 966
+        },
+        {
+          "d": "09-28",
+          "s": 966
+        },
+        {
+          "d": "09-29",
+          "s": 967
+        },
+        {
+          "d": "09-30",
+          "s": 967
+        },
+        {
+          "d": "10-01",
+          "s": 967
+        },
+        {
+          "d": "10-02",
+          "s": 971
+        },
+        {
+          "d": "10-03",
+          "s": 974
+        },
+        {
+          "d": "10-04",
+          "s": 976
+        },
+        {
+          "d": "10-05",
+          "s": 976
+        },
+        {
+          "d": "10-06",
+          "s": 977
+        },
+        {
+          "d": "10-07",
+          "s": 978
+        },
+        {
+          "d": "10-08",
+          "s": 980
+        },
+        {
+          "d": "10-09",
+          "s": 982
+        },
+        {
+          "d": "10-10",
+          "s": 983
+        },
+        {
+          "d": "10-11",
+          "s": 984
+        },
+        {
+          "d": "10-12",
+          "s": 984
+        },
+        {
+          "d": "10-13",
+          "s": 984
+        },
+        {
+          "d": "10-14",
+          "s": 987
+        },
+        {
+          "d": "10-15",
+          "s": 989
+        },
+        {
+          "d": "10-16",
+          "s": 990
+        },
+        {
+          "d": "10-17",
+          "s": 992
+        },
+        {
+          "d": "10-18",
+          "s": 993
+        },
+        {
+          "d": "10-19",
+          "s": 993
+        },
+        {
+          "d": "10-20",
+          "s": 996
+        },
+        {
+          "d": "10-21",
+          "s": 996
+        },
+        {
+          "d": "10-22",
+          "s": 996
+        },
+        {
+          "d": "10-23",
+          "s": 997
+        },
+        {
+          "d": "10-24",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 17.13,
+      "breakdown": {
+        "vel": 12,
+        "acc": 36,
+        "health": 100,
+        "fresh": 0,
+        "signal": 85
+      },
+      "stage": "late",
+      "stage_multiplier": 0.85,
+      "confidence": 1.0,
+      "base_score": 20.15,
+      "explanation": "whisper-flow 是 Python 开源项目，主打「Whisper-Flow is a framework designed to enable real-time transcription of audio content using OpenAI’s Whisper model. Rather than processing entire files after upload (“batch mode”), Whisper-Flow accepts a continuous stream of audio chunks and produces incremental transcripts immediately.」；接近增长天花板；社区健康（fork/star 比 13.7%，1 个 open issue）、项目元数据完整。"
     }
   },
   {
@@ -3871,10 +3999,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 199,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 197
-        },
         {
           "d": "09-25",
           "s": 197
@@ -3990,11 +4114,15 @@
         {
           "d": "10-23",
           "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 17.09,
+      "score": 16.57,
       "breakdown": {
         "vel": 4,
         "acc": 50,
@@ -4005,7 +4133,7 @@
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 15.54,
+      "base_score": 15.06,
       "explanation": "sqlgen 是 C++ 开源项目，主打「sqlgen is a reflection-based ORM and SQL query generator for C++-20, similar to Python's SQLAlchemy/SQLModel or Rust's Diesel.」；处于中早期增长；社区健康（fork/star 比 11.0%，8 个 open issue）、项目元数据完整。"
     }
   },
@@ -4036,10 +4164,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 995,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 984
-        },
         {
           "d": "09-25",
           "s": 987
@@ -4155,11 +4279,15 @@
         {
           "d": "10-23",
           "s": 996
+        },
+        {
+          "d": "10-24",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 10.54,
+      "score": 14.59,
       "breakdown": {
         "vel": 4,
         "acc": 46,
@@ -4167,192 +4295,11 @@
         "fresh": 0,
         "signal": 100
       },
-      "stage": "saturated",
-      "stage_multiplier": 0.7,
+      "stage": "mid_late",
+      "stage_multiplier": 1.0,
       "confidence": 1.0,
-      "base_score": 15.06,
-      "explanation": "astal 是 Vala 开源项目，主打「Building blocks for creating custom desktop shells」；增长已饱和；社区健康（fork/star 比 10.7%，94 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "DrKJeff16",
-      "name": "project.nvim",
-      "full_name": "DrKJeff16/project.nvim",
-      "description": "Actively maintained fork of ahmedkhalf/project.nvim. Detects and chdirs to the project root, with its own UI, provides lualine component, supports oil.nvim, includes pickers for telescope, snacks, fzf-lua, and picker.nvim.",
-      "stars": 200,
-      "forks": 13,
-      "open_issues": 2,
-      "created_at": "2024-06-29T21:10:23+00:00",
-      "pushed_at": "2026-10-21T17:48:16+00:00",
-      "updated_at": "2026-10-21T17:48:20+00:00",
-      "topics": [
-        "fzf-lua",
-        "lualine",
-        "lualine-components",
-        "mini-starter",
-        "neovim",
-        "neovim-plugin",
-        "neovim-project",
-        "neovim-project-management",
-        "nvim-lua",
-        "nvim-lualine",
-        "nvim-oil",
-        "nvim-plugin",
-        "nvim-project",
-        "nvim-project-management",
-        "nvim-telescope",
-        "oil-nvim",
-        "picker-nvim",
-        "project-management",
-        "snacks-nvim",
-        "telescope-extension"
-      ],
-      "language": "Lua",
-      "license": "GPL-2.0",
-      "homepage": "https://luarocks.org/modules/drkjeff16/project.nvim",
-      "html_url": "https://github.com/DrKJeff16/project.nvim",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 200,
-      "star_series": [
-        {
-          "d": "09-24",
-          "s": 199
-        },
-        {
-          "d": "09-25",
-          "s": 199
-        },
-        {
-          "d": "09-26",
-          "s": 199
-        },
-        {
-          "d": "09-27",
-          "s": 199
-        },
-        {
-          "d": "09-28",
-          "s": 199
-        },
-        {
-          "d": "09-29",
-          "s": 199
-        },
-        {
-          "d": "09-30",
-          "s": 199
-        },
-        {
-          "d": "10-01",
-          "s": 199
-        },
-        {
-          "d": "10-02",
-          "s": 199
-        },
-        {
-          "d": "10-03",
-          "s": 199
-        },
-        {
-          "d": "10-04",
-          "s": 199
-        },
-        {
-          "d": "10-05",
-          "s": 199
-        },
-        {
-          "d": "10-06",
-          "s": 199
-        },
-        {
-          "d": "10-07",
-          "s": 199
-        },
-        {
-          "d": "10-08",
-          "s": 200
-        },
-        {
-          "d": "10-09",
-          "s": 200
-        },
-        {
-          "d": "10-10",
-          "s": 200
-        },
-        {
-          "d": "10-11",
-          "s": 200
-        },
-        {
-          "d": "10-12",
-          "s": 200
-        },
-        {
-          "d": "10-13",
-          "s": 200
-        },
-        {
-          "d": "10-14",
-          "s": 200
-        },
-        {
-          "d": "10-15",
-          "s": 200
-        },
-        {
-          "d": "10-16",
-          "s": 200
-        },
-        {
-          "d": "10-17",
-          "s": 200
-        },
-        {
-          "d": "10-18",
-          "s": 200
-        },
-        {
-          "d": "10-19",
-          "s": 200
-        },
-        {
-          "d": "10-20",
-          "s": 200
-        },
-        {
-          "d": "10-21",
-          "s": 200
-        },
-        {
-          "d": "10-22",
-          "s": 200
-        },
-        {
-          "d": "10-23",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 9.8,
-      "breakdown": {
-        "vel": 0,
-        "acc": 50,
-        "health": 75,
-        "fresh": 0,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 8.91,
-      "explanation": "project.nvim 是 Lua 开源项目，主打「Actively maintained fork of ahmedkhalf/project.nvim. Detects and chdirs to the project root, with its own UI, provides lualine component, supports oil.nvim, includes pickers for telescope, snacks, fzf-lua, and picker.nvim.」；处于中早期增长；社区健康（fork/star 比 6.5%，2 个 open issue）、项目元数据完整。"
+      "base_score": 14.59,
+      "explanation": "astal 是 Vala 开源项目，主打「Building blocks for creating custom desktop shells」；处于中后期增长；社区健康（fork/star 比 10.7%，94 个 open issue）、项目元数据完整。"
     }
   },
   {
@@ -4383,17 +4330,17 @@
       "stars_7d_ago": 200,
       "star_series": [
         {
-          "d": "10-16",
+          "d": "10-17",
           "s": 200
         },
         {
-          "d": "10-23",
+          "d": "10-24",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 8.38,
+      "score": 8.37,
       "breakdown": {
         "vel": 0,
         "acc": 50,
@@ -4404,7 +4351,7 @@
       "stage": "mid_late",
       "stage_multiplier": 1.0,
       "confidence": 0.5,
-      "base_score": 16.76,
+      "base_score": 16.74,
       "explanation": "frona 是 Rust 开源项目，主打「Frona is a personal AI assistant. You create autonomous agents, give them tools, and talk to them through a chat interface. Agents act on their own. They browse the web, run code, develop applications, search the internet, make phone calls, and delegate work to each other. You give them a task and they figure out how to get it done.」；处于中后期增长；社区健康（fork/star 比 10.0%，0 个 open issue）、项目元数据完整。"
     }
   },
@@ -4430,10 +4377,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 200,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 197
-        },
         {
           "d": "09-25",
           "s": 197
@@ -4548,6 +4491,10 @@
         },
         {
           "d": "10-23",
+          "s": 200
+        },
+        {
+          "d": "10-24",
           "s": 200
         }
       ]
@@ -4590,10 +4537,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 200,
       "star_series": [
-        {
-          "d": "09-24",
-          "s": 191
-        },
         {
           "d": "09-25",
           "s": 191
@@ -4709,6 +4652,10 @@
         {
           "d": "10-23",
           "s": 200
+        },
+        {
+          "d": "10-24",
+          "s": 200
         }
       ]
     },
@@ -4736,10 +4683,10 @@
       "description": "Home Manager Modules for integrated Podman Stacks",
       "stars": 200,
       "forks": 16,
-      "open_issues": 14,
+      "open_issues": 12,
       "created_at": "2025-06-27T08:34:38+00:00",
-      "pushed_at": "2026-10-23T07:15:37+00:00",
-      "updated_at": "2026-10-23T07:15:40+00:00",
+      "pushed_at": "2026-10-24T06:19:27+00:00",
+      "updated_at": "2026-10-24T06:19:31+00:00",
       "topics": [
         "containers",
         "home-manager",
@@ -4760,28 +4707,28 @@
       "stars_7d_ago": 200,
       "star_series": [
         {
-          "d": "10-16",
+          "d": "10-17",
           "s": 200
         },
         {
-          "d": "10-23",
+          "d": "10-24",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 3.77,
+      "score": 3.8,
       "breakdown": {
         "vel": 0,
         "acc": 50,
-        "health": 67,
+        "health": 70,
         "fresh": 0,
         "signal": 100
       },
       "stage": "late",
       "stage_multiplier": 0.85,
       "confidence": 0.5,
-      "base_score": 8.87,
+      "base_score": 8.93,
       "explanation": "nix-podman-stacks 是 Nix 开源项目，主打「Home Manager Modules for integrated Podman Stacks」；接近增长天花板；项目元数据完整。"
     }
   }
