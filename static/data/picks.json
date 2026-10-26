@@ -1,768 +1,600 @@
 [
   {
     "repo": {
-      "owner": "Ayzzz123",
-      "name": "mcd-coupon-strategist",
-      "full_name": "Ayzzz123/mcd-coupon-strategist",
-      "description": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
-      "stars": 995,
-      "forks": 21,
-      "open_issues": 0,
-      "created_at": "2026-10-10T12:59:19+00:00",
-      "pushed_at": "2026-10-21T14:03:59+00:00",
-      "updated_at": "2026-10-25T09:41:02+00:00",
+      "owner": "morganlinton",
+      "name": "BeautifulRust",
+      "full_name": "morganlinton/BeautifulRust",
+      "description": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+      "stars": 996,
+      "forks": 44,
+      "open_issues": 2,
+      "created_at": "2026-10-23T03:01:11+00:00",
+      "pushed_at": "2026-10-26T02:27:21+00:00",
+      "updated_at": "2026-10-26T11:35:45+00:00",
       "topics": [
-        "agent",
-        "cost-optimization",
-        "coupon",
-        "llm",
-        "mcd-mcp",
-        "mcdonalds",
-        "mcp",
-        "python",
-        "skill",
-        "workbuddy"
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "coding-agent",
+        "rust",
+        "style-guide"
       ],
       "language": "Python",
       "license": "MIT",
-      "homepage": "https://github.com/Ayzzz123/mcd-coupon-strategist/blob/main/MCP_INTEGRATION.md",
-      "html_url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 699,
-      "star_series": [
-        {
-          "d": "09-26",
-          "s": 699
-        },
-        {
-          "d": "09-27",
-          "s": 699
-        },
-        {
-          "d": "09-28",
-          "s": 699
-        },
-        {
-          "d": "09-29",
-          "s": 699
-        },
-        {
-          "d": "09-30",
-          "s": 699
-        },
-        {
-          "d": "10-01",
-          "s": 699
-        },
-        {
-          "d": "10-02",
-          "s": 699
-        },
-        {
-          "d": "10-03",
-          "s": 699
-        },
-        {
-          "d": "10-04",
-          "s": 699
-        },
-        {
-          "d": "10-05",
-          "s": 699
-        },
-        {
-          "d": "10-06",
-          "s": 699
-        },
-        {
-          "d": "10-07",
-          "s": 699
-        },
-        {
-          "d": "10-08",
-          "s": 699
-        },
-        {
-          "d": "10-09",
-          "s": 699
-        },
-        {
-          "d": "10-10",
-          "s": 699
-        },
-        {
-          "d": "10-11",
-          "s": 699
-        },
-        {
-          "d": "10-12",
-          "s": 699
-        },
-        {
-          "d": "10-13",
-          "s": 699
-        },
-        {
-          "d": "10-14",
-          "s": 699
-        },
-        {
-          "d": "10-15",
-          "s": 699
-        },
-        {
-          "d": "10-16",
-          "s": 699
-        },
-        {
-          "d": "10-17",
-          "s": 699
-        },
-        {
-          "d": "10-18",
-          "s": 699
-        },
-        {
-          "d": "10-19",
-          "s": 699
-        },
-        {
-          "d": "10-20",
-          "s": 699
-        },
-        {
-          "d": "10-21",
-          "s": 796
-        },
-        {
-          "d": "10-22",
-          "s": 866
-        },
-        {
-          "d": "10-23",
-          "s": 985
-        },
-        {
-          "d": "10-24",
-          "s": 995
-        },
-        {
-          "d": "10-25",
-          "s": 995
-        }
-      ]
-    },
-    "score": {
-      "score": 100.0,
-      "breakdown": {
-        "vel": 100,
-        "acc": 99,
-        "health": 66,
-        "fresh": 96,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 89.75,
-      "explanation": "mcd-coupon-strategist 是 Python 开源项目，主打「麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。」；处于增长早期，本周涨速 42 star/天，涨速在加快；项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "feder-cr",
-      "name": "git-ai",
-      "full_name": "feder-cr/git-ai",
-      "description": "Git designed for AI agents.",
-      "stars": 995,
-      "forks": 97,
-      "open_issues": 1,
-      "created_at": "2026-10-15T13:12:02+00:00",
-      "pushed_at": "2026-10-23T11:12:35+00:00",
-      "updated_at": "2026-10-25T09:42:03+00:00",
-      "topics": [
-        "ai-agents",
-        "coding-agents",
-        "git",
-        "golang",
-        "scion",
-        "version-control"
-      ],
-      "language": "Go",
-      "license": "NOASSERTION",
-      "homepage": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "html_url": "https://github.com/feder-cr/git-ai",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 768,
-      "star_series": [
-        {
-          "d": "09-26",
-          "s": 768
-        },
-        {
-          "d": "09-27",
-          "s": 768
-        },
-        {
-          "d": "09-28",
-          "s": 768
-        },
-        {
-          "d": "09-29",
-          "s": 768
-        },
-        {
-          "d": "09-30",
-          "s": 768
-        },
-        {
-          "d": "10-01",
-          "s": 768
-        },
-        {
-          "d": "10-02",
-          "s": 768
-        },
-        {
-          "d": "10-03",
-          "s": 768
-        },
-        {
-          "d": "10-04",
-          "s": 768
-        },
-        {
-          "d": "10-05",
-          "s": 768
-        },
-        {
-          "d": "10-06",
-          "s": 768
-        },
-        {
-          "d": "10-07",
-          "s": 768
-        },
-        {
-          "d": "10-08",
-          "s": 768
-        },
-        {
-          "d": "10-09",
-          "s": 768
-        },
-        {
-          "d": "10-10",
-          "s": 768
-        },
-        {
-          "d": "10-11",
-          "s": 768
-        },
-        {
-          "d": "10-12",
-          "s": 768
-        },
-        {
-          "d": "10-13",
-          "s": 768
-        },
-        {
-          "d": "10-14",
-          "s": 768
-        },
-        {
-          "d": "10-15",
-          "s": 768
-        },
-        {
-          "d": "10-16",
-          "s": 768
-        },
-        {
-          "d": "10-17",
-          "s": 768
-        },
-        {
-          "d": "10-18",
-          "s": 768
-        },
-        {
-          "d": "10-19",
-          "s": 768
-        },
-        {
-          "d": "10-20",
-          "s": 851
-        },
-        {
-          "d": "10-21",
-          "s": 916
-        },
-        {
-          "d": "10-22",
-          "s": 966
-        },
-        {
-          "d": "10-23",
-          "s": 980
-        },
-        {
-          "d": "10-24",
-          "s": 990
-        },
-        {
-          "d": "10-25",
-          "s": 995
-        }
-      ]
-    },
-    "score": {
-      "score": 100.0,
-      "breakdown": {
-        "vel": 95,
-        "acc": 99,
-        "health": 92,
-        "fresh": 98,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 94.76,
-      "explanation": "git-ai 是 Go 开源项目，主打「Git designed for AI agents.」；处于增长早期，本周涨速 32 star/天，涨速在加快；社区健康（fork/star 比 9.7%，1 个 open issue）、项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "hang-jin",
-      "name": "editaplot",
-      "full_name": "hang-jin/editaplot",
-      "description": "AI-guided editable scientific figures with Codex and local Origin/OriginPro",
-      "stars": 999,
-      "forks": 35,
-      "open_issues": 13,
-      "created_at": "2026-07-21T08:57:13+00:00",
-      "pushed_at": "2026-10-25T06:10:48+00:00",
-      "updated_at": "2026-10-25T09:41:44+00:00",
-      "topics": [
-        "codex-skill",
-        "editable-figures",
-        "research",
-        "scientific-visualization",
-        "windows",
-        "xps",
-        "xrd"
-      ],
-      "language": "Python",
-      "license": "Apache-2.0",
       "homepage": null,
-      "html_url": "https://github.com/hang-jin/editaplot",
+      "html_url": "https://github.com/morganlinton/BeautifulRust",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 958,
+      "stars_7d_ago": 804,
       "star_series": [
         {
-          "d": "09-26",
-          "s": 763
-        },
-        {
           "d": "09-27",
-          "s": 768
+          "s": 804
         },
         {
           "d": "09-28",
-          "s": 784
+          "s": 804
         },
         {
           "d": "09-29",
-          "s": 793
+          "s": 804
         },
         {
           "d": "09-30",
-          "s": 803
+          "s": 804
         },
         {
           "d": "10-01",
-          "s": 808
+          "s": 804
         },
         {
           "d": "10-02",
-          "s": 812
+          "s": 804
         },
         {
           "d": "10-03",
-          "s": 816
+          "s": 804
         },
         {
           "d": "10-04",
-          "s": 822
+          "s": 804
         },
         {
           "d": "10-05",
-          "s": 827
+          "s": 804
         },
         {
           "d": "10-06",
-          "s": 833
+          "s": 804
         },
         {
           "d": "10-07",
-          "s": 841
+          "s": 804
         },
         {
           "d": "10-08",
-          "s": 849
+          "s": 804
         },
         {
           "d": "10-09",
-          "s": 860
+          "s": 804
         },
         {
           "d": "10-10",
-          "s": 874
+          "s": 804
         },
         {
           "d": "10-11",
-          "s": 881
+          "s": 804
         },
         {
           "d": "10-12",
-          "s": 897
+          "s": 804
         },
         {
           "d": "10-13",
-          "s": 912
+          "s": 804
         },
         {
           "d": "10-14",
-          "s": 920
+          "s": 804
         },
         {
           "d": "10-15",
-          "s": 930
+          "s": 804
         },
         {
           "d": "10-16",
-          "s": 942
+          "s": 804
         },
         {
           "d": "10-17",
-          "s": 948
+          "s": 804
         },
         {
           "d": "10-18",
-          "s": 953
+          "s": 804
         },
         {
           "d": "10-19",
-          "s": 958
+          "s": 804
         },
         {
           "d": "10-20",
-          "s": 969
+          "s": 804
         },
         {
           "d": "10-21",
-          "s": 977
+          "s": 804
         },
         {
           "d": "10-22",
-          "s": 983
+          "s": 804
         },
         {
           "d": "10-23",
-          "s": 988
+          "s": 804
         },
         {
           "d": "10-24",
-          "s": 995
+          "s": 804
         },
         {
           "d": "10-25",
-          "s": 999
+          "s": 804
+        },
+        {
+          "d": "10-26",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 62.07,
+      "score": 99.16,
       "breakdown": {
-        "vel": 52,
-        "acc": 42,
-        "health": 68,
-        "fresh": 74,
+        "vel": 99,
+        "acc": 99,
+        "health": 73,
+        "fresh": 99,
         "signal": 70
       },
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 56.43,
-      "explanation": "editaplot 是 Python 开源项目，主打「AI-guided editable scientific figures with Codex and local Origin/OriginPro」；处于中早期增长，本周涨速 5.9 star/天；开发活跃。"
+      "base_score": 90.15,
+      "explanation": "BeautifulRust 是 Python 开源项目，主打「A Claude Code plugin that teaches Claude to write idiomatic, robust Rust」；处于中早期增长，本周涨速 27 star/天，涨速在加快；社区健康（fork/star 比 4.4%，2 个 open issue）、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "cloudflare",
-      "name": "mcp",
-      "full_name": "cloudflare/mcp",
-      "description": "MCP server for the Cloudflare API",
-      "stars": 996,
-      "forks": 147,
-      "open_issues": 39,
-      "created_at": "2026-01-29T15:10:49+00:00",
-      "pushed_at": "2026-10-25T06:54:39+00:00",
-      "updated_at": "2026-10-24T23:00:42+00:00",
+      "owner": "cosmictaserdev-creator",
+      "name": "Convx",
+      "full_name": "cosmictaserdev-creator/Convx",
+      "description": "A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.",
+      "stars": 997,
+      "forks": 52,
+      "open_issues": 44,
+      "created_at": "2026-07-23T08:19:17+00:00",
+      "pushed_at": "2026-10-26T10:29:04+00:00",
+      "updated_at": "2026-10-26T09:44:19+00:00",
       "topics": [
-        "cloudflare",
-        "cloudflare-workers",
-        "mcp",
-        "mcp-server"
+        "android",
+        "android-app",
+        "automix",
+        "exoplayer",
+        "ios-design",
+        "jetpack-compose",
+        "kotlin",
+        "liquid-glass",
+        "lyrics",
+        "media3",
+        "music-player",
+        "open-source",
+        "streaming",
+        "youtube-music"
       ],
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "homepage": "https://mcp.cloudflare.com/mcp",
-      "html_url": "https://github.com/cloudflare/mcp",
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "homepage": "https://cosmictaser.de5.net",
+      "html_url": "https://github.com/cosmictaserdev-creator/Convx",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 971,
+      "stars_7d_ago": 926,
       "star_series": [
         {
-          "d": "09-26",
-          "s": 948
-        },
-        {
           "d": "09-27",
-          "s": 948
+          "s": 926
         },
         {
           "d": "09-28",
-          "s": 948
+          "s": 926
         },
         {
           "d": "09-29",
-          "s": 948
+          "s": 926
         },
         {
           "d": "09-30",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-01",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-02",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-03",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-04",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-05",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-06",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-07",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-08",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-09",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-10",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-11",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-12",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-13",
-          "s": 948
+          "s": 926
         },
         {
           "d": "10-14",
-          "s": 950
+          "s": 926
         },
         {
           "d": "10-15",
-          "s": 959
+          "s": 926
         },
         {
           "d": "10-16",
-          "s": 961
+          "s": 926
         },
         {
           "d": "10-17",
-          "s": 965
+          "s": 926
         },
         {
           "d": "10-18",
-          "s": 968
+          "s": 926
         },
         {
           "d": "10-19",
-          "s": 971
+          "s": 926
         },
         {
           "d": "10-20",
-          "s": 972
+          "s": 926
         },
         {
           "d": "10-21",
-          "s": 975
+          "s": 926
         },
         {
           "d": "10-22",
-          "s": 983
+          "s": 926
         },
         {
           "d": "10-23",
-          "s": 991
+          "s": 926
         },
         {
           "d": "10-24",
-          "s": 996
+          "s": 958
         },
         {
           "d": "10-25",
-          "s": 996
+          "s": 989
+        },
+        {
+          "d": "10-26",
+          "s": 997
         }
       ]
     },
     "score": {
-      "score": 61.96,
+      "score": 85.94,
       "breakdown": {
-        "vel": 41,
-        "acc": 52,
-        "health": 91,
-        "fresh": 27,
+        "vel": 71,
+        "acc": 99,
+        "health": 66,
+        "fresh": 74,
         "signal": 85
       },
-      "stage": "early",
-      "stage_multiplier": 1.2,
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 51.64,
-      "explanation": "mcp 是 TypeScript 开源项目，主打「MCP server for the Cloudflare API」；处于增长早期，本周涨速 3.6 star/天；社区健康（fork/star 比 14.8%，39 个 open issue）、项目元数据完整。"
+      "base_score": 78.13,
+      "explanation": "Convx 是 Kotlin 开源项目，主打「A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.」；处于中早期增长，本周涨速 10 star/天，涨速在加快；项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "img2threejs",
-      "name": "img2threejs-showcase",
-      "full_name": "img2threejs/img2threejs-showcase",
-      "description": "Live demo gallery for img2threejs: procedural Three.js models rebuilt from a single reference image.",
+      "owner": "Gxj230958",
+      "name": "TritonAscendBench",
+      "full_name": "Gxj230958/TritonAscendBench",
+      "description": "A migration benchmark that measures whether production GPU Triton kernels — extracted from vLLM and SGLang inference paths — can be ported to the Huawei Ascend 910B (Atlas A2) via `triton-ascend` without losing correctness or performance.",
       "stars": 200,
-      "forks": 39,
-      "open_issues": 11,
-      "created_at": "2026-07-16T14:34:17+00:00",
-      "pushed_at": "2026-10-25T09:11:20+00:00",
-      "updated_at": "2026-10-25T09:11:24+00:00",
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-09-16T12:33:24+00:00",
+      "pushed_at": "2026-10-20T14:24:44+00:00",
+      "updated_at": "2026-10-26T00:41:18+00:00",
       "topics": [],
-      "language": "TypeScript",
-      "license": null,
-      "homepage": "https://img2threejs.io",
-      "html_url": "https://github.com/img2threejs/img2threejs-showcase",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "homepage": null,
+      "html_url": "https://github.com/Gxj230958/TritonAscendBench",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 145,
+      "star_series": [
+        {
+          "d": "09-27",
+          "s": 40
+        },
+        {
+          "d": "09-28",
+          "s": 48
+        },
+        {
+          "d": "09-29",
+          "s": 58
+        },
+        {
+          "d": "09-30",
+          "s": 71
+        },
+        {
+          "d": "10-01",
+          "s": 77
+        },
+        {
+          "d": "10-02",
+          "s": 79
+        },
+        {
+          "d": "10-03",
+          "s": 79
+        },
+        {
+          "d": "10-04",
+          "s": 79
+        },
+        {
+          "d": "10-05",
+          "s": 79
+        },
+        {
+          "d": "10-06",
+          "s": 79
+        },
+        {
+          "d": "10-07",
+          "s": 79
+        },
+        {
+          "d": "10-08",
+          "s": 79
+        },
+        {
+          "d": "10-09",
+          "s": 79
+        },
+        {
+          "d": "10-10",
+          "s": 79
+        },
+        {
+          "d": "10-11",
+          "s": 79
+        },
+        {
+          "d": "10-12",
+          "s": 84
+        },
+        {
+          "d": "10-13",
+          "s": 92
+        },
+        {
+          "d": "10-14",
+          "s": 99
+        },
+        {
+          "d": "10-15",
+          "s": 102
+        },
+        {
+          "d": "10-16",
+          "s": 111
+        },
+        {
+          "d": "10-17",
+          "s": 116
+        },
+        {
+          "d": "10-18",
+          "s": 128
+        },
+        {
+          "d": "10-19",
+          "s": 137
+        },
+        {
+          "d": "10-20",
+          "s": 145
+        },
+        {
+          "d": "10-21",
+          "s": 159
+        },
+        {
+          "d": "10-22",
+          "s": 173
+        },
+        {
+          "d": "10-23",
+          "s": 178
+        },
+        {
+          "d": "10-24",
+          "s": 184
+        },
+        {
+          "d": "10-25",
+          "s": 198
+        },
+        {
+          "d": "10-26",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 74.38,
+      "breakdown": {
+        "vel": 65,
+        "acc": 51,
+        "health": 60,
+        "fresh": 89,
+        "signal": 55
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 61.99,
+      "explanation": "TritonAscendBench 是 Python 开源项目，主打「A migration benchmark that measures whether production GPU Triton kernels — extracted from vLLM and SGLang inference paths — can be ported to the Huawei Ascend 910B (Atlas A2) via `triton-ascend` without losing correctness or performance.」；处于增长早期，本周涨速 7.9 star/天；开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "netmojo-systems",
+      "name": "omdrop-plugin",
+      "full_name": "netmojo-systems/omdrop-plugin",
+      "description": "Send and receive files with nearby Apple devices over AirDrop. Made for Omarchy Linux",
+      "stars": 200,
+      "forks": 27,
+      "open_issues": 18,
+      "created_at": "2026-09-15T07:16:47+00:00",
+      "pushed_at": "2026-10-23T17:29:19+00:00",
+      "updated_at": "2026-10-26T02:45:57+00:00",
+      "topics": [
+        "airdrop",
+        "omarchy",
+        "omarchy-bar",
+        "omarchy-plugin"
+      ],
+      "language": "Rust",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/netmojo-systems/omdrop-plugin",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
       "stars_7d_ago": 191,
       "star_series": [
         {
-          "d": "09-26",
-          "s": 164
-        },
-        {
           "d": "09-27",
-          "s": 165
+          "s": 186
         },
         {
           "d": "09-28",
-          "s": 166
+          "s": 186
         },
         {
           "d": "09-29",
-          "s": 167
+          "s": 186
         },
         {
           "d": "09-30",
-          "s": 167
+          "s": 186
         },
         {
           "d": "10-01",
-          "s": 167
+          "s": 186
         },
         {
           "d": "10-02",
-          "s": 169
+          "s": 186
         },
         {
           "d": "10-03",
-          "s": 170
+          "s": 186
         },
         {
           "d": "10-04",
-          "s": 171
+          "s": 186
         },
         {
           "d": "10-05",
-          "s": 172
+          "s": 186
         },
         {
           "d": "10-06",
-          "s": 174
+          "s": 186
         },
         {
           "d": "10-07",
-          "s": 174
+          "s": 186
         },
         {
           "d": "10-08",
-          "s": 176
+          "s": 186
         },
         {
           "d": "10-09",
-          "s": 178
+          "s": 186
         },
         {
           "d": "10-10",
-          "s": 179
+          "s": 186
         },
         {
           "d": "10-11",
-          "s": 181
+          "s": 186
         },
         {
           "d": "10-12",
-          "s": 183
+          "s": 186
         },
         {
           "d": "10-13",
-          "s": 185
+          "s": 186
         },
         {
           "d": "10-14",
@@ -770,64 +602,249 @@
         },
         {
           "d": "10-15",
-          "s": 187
+          "s": 186
         },
         {
           "d": "10-16",
-          "s": 188
+          "s": 186
         },
         {
           "d": "10-17",
-          "s": 188
+          "s": 187
         },
         {
           "d": "10-18",
-          "s": 190
+          "s": 188
         },
         {
           "d": "10-19",
-          "s": 191
+          "s": 189
         },
         {
           "d": "10-20",
-          "s": 192
+          "s": 191
         },
         {
           "d": "10-21",
-          "s": 196
+          "s": 192
         },
         {
           "d": "10-22",
-          "s": 198
+          "s": 193
         },
         {
           "d": "10-23",
-          "s": 199
+          "s": 195
         },
         {
           "d": "10-24",
-          "s": 199
+          "s": 195
         },
         {
           "d": "10-25",
+          "s": 199
+        },
+        {
+          "d": "10-26",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 58.7,
+      "score": 64.03,
       "breakdown": {
-        "vel": 22,
-        "acc": 53,
-        "health": 91,
-        "fresh": 73,
-        "signal": 65
+        "vel": 24,
+        "acc": 64,
+        "health": 80,
+        "fresh": 89,
+        "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 48.92,
-      "explanation": "img2threejs-showcase 是 TypeScript 开源项目，主打「Live demo gallery for img2threejs: procedural Three.js models rebuilt from a single reference image.」；处于增长早期；社区健康（fork/star 比 19.5%，11 个 open issue）、开发活跃。"
+      "base_score": 53.36,
+      "explanation": "omdrop-plugin 是 Rust 开源项目，主打「Send and receive files with nearby Apple devices over AirDrop. Made for Omarchy Linux」；处于增长早期；社区健康（fork/star 比 13.5%，18 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "urzeye",
+      "name": "ophel",
+      "full_name": "urzeye/ophel",
+      "description": "Turn AI conversations into organized, reusable workflows — across major AI platforms. | 把 AI 对话转化为可组织、可复用的工作流，适用于主流 AI 平台",
+      "stars": 997,
+      "forks": 61,
+      "open_issues": 29,
+      "created_at": "2025-12-30T12:09:25+00:00",
+      "pushed_at": "2026-10-26T04:48:35+00:00",
+      "updated_at": "2026-10-26T09:29:45+00:00",
+      "topics": [
+        "ai-assistant",
+        "ai-chat",
+        "ai-studio",
+        "ai-workflow",
+        "browser-extension",
+        "chatgpt",
+        "chrome-extension",
+        "claude",
+        "deepseek-harness",
+        "gemini",
+        "grok",
+        "hotswap",
+        "long-conversation",
+        "minimap",
+        "outline",
+        "plugin",
+        "productivity",
+        "prompt",
+        "prompt-management",
+        "timeline"
+      ],
+      "language": "TypeScript",
+      "license": "GPL-3.0",
+      "homepage": "https://ophel.app",
+      "html_url": "https://github.com/urzeye/ophel",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 983,
+      "star_series": [
+        {
+          "d": "09-27",
+          "s": 983
+        },
+        {
+          "d": "09-28",
+          "s": 983
+        },
+        {
+          "d": "09-29",
+          "s": 983
+        },
+        {
+          "d": "09-30",
+          "s": 983
+        },
+        {
+          "d": "10-01",
+          "s": 983
+        },
+        {
+          "d": "10-02",
+          "s": 983
+        },
+        {
+          "d": "10-03",
+          "s": 983
+        },
+        {
+          "d": "10-04",
+          "s": 983
+        },
+        {
+          "d": "10-05",
+          "s": 983
+        },
+        {
+          "d": "10-06",
+          "s": 983
+        },
+        {
+          "d": "10-07",
+          "s": 983
+        },
+        {
+          "d": "10-08",
+          "s": 983
+        },
+        {
+          "d": "10-09",
+          "s": 983
+        },
+        {
+          "d": "10-10",
+          "s": 983
+        },
+        {
+          "d": "10-11",
+          "s": 983
+        },
+        {
+          "d": "10-12",
+          "s": 983
+        },
+        {
+          "d": "10-13",
+          "s": 983
+        },
+        {
+          "d": "10-14",
+          "s": 983
+        },
+        {
+          "d": "10-15",
+          "s": 983
+        },
+        {
+          "d": "10-16",
+          "s": 983
+        },
+        {
+          "d": "10-17",
+          "s": 983
+        },
+        {
+          "d": "10-18",
+          "s": 983
+        },
+        {
+          "d": "10-19",
+          "s": 983
+        },
+        {
+          "d": "10-20",
+          "s": 983
+        },
+        {
+          "d": "10-21",
+          "s": 986
+        },
+        {
+          "d": "10-22",
+          "s": 991
+        },
+        {
+          "d": "10-23",
+          "s": 993
+        },
+        {
+          "d": "10-24",
+          "s": 993
+        },
+        {
+          "d": "10-25",
+          "s": 995
+        },
+        {
+          "d": "10-26",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 54.62,
+      "breakdown": {
+        "vel": 33,
+        "acc": 88,
+        "health": 73,
+        "fresh": 18,
+        "signal": 85
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 49.65,
+      "explanation": "ophel 是 TypeScript 开源项目，主打「Turn AI conversations into organized, reusable workflows — across major AI platforms. | 把 AI 对话转化为可组织、可复用的工作流，适用于主流 AI 平台」；处于中早期增长，涨速在加快；社区健康（fork/star 比 6.1%，29 个 open issue）、项目元数据完整。"
     }
   }
 ]
