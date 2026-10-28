@@ -1,162 +1,175 @@
 [
   {
     "repo": {
-      "owner": "Snapintosh",
-      "name": "Snapintosh",
-      "full_name": "Snapintosh/Snapintosh",
-      "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
-      "stars": 997,
-      "forks": 58,
-      "open_issues": 10,
-      "created_at": "2026-10-22T01:40:05+00:00",
-      "pushed_at": "2026-10-25T05:05:43+00:00",
-      "updated_at": "2026-10-27T11:05:43+00:00",
-      "topics": [],
-      "language": "Python",
-      "license": "NOASSERTION",
+      "owner": "juliobsz",
+      "name": "skills",
+      "full_name": "juliobsz/skills",
+      "description": "An agent skill that builds award-caliber websites from one line",
+      "stars": 996,
+      "forks": 41,
+      "open_issues": 0,
+      "created_at": "2026-10-12T00:07:32+00:00",
+      "pushed_at": "2026-10-26T15:35:41+00:00",
+      "updated_at": "2026-10-28T10:43:32+00:00",
+      "topics": [
+        "agent-skills",
+        "astro",
+        "awwwards",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "creative-coding",
+        "frontend",
+        "gsap",
+        "nextjs",
+        "web-design",
+        "webgl"
+      ],
+      "language": "JavaScript",
+      "license": "MIT",
       "homepage": null,
-      "html_url": "https://github.com/Snapintosh/Snapintosh",
+      "html_url": "https://github.com/juliobsz/skills",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 915,
+      "stars_7d_ago": 913,
       "star_series": [
         {
-          "d": "09-28",
-          "s": 915
-        },
-        {
           "d": "09-29",
-          "s": 915
+          "s": 913
         },
         {
           "d": "09-30",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-01",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-02",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-03",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-04",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-05",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-06",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-07",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-08",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-09",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-10",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-11",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-12",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-13",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-14",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-15",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-16",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-17",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-18",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-19",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-20",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-21",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-22",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-23",
-          "s": 915
+          "s": 913
         },
         {
           "d": "10-24",
-          "s": 915
+          "s": 934
         },
         {
           "d": "10-25",
-          "s": 939
+          "s": 949
         },
         {
           "d": "10-26",
-          "s": 977
+          "s": 967
         },
         {
           "d": "10-27",
-          "s": 997
+          "s": 983
+        },
+        {
+          "d": "10-28",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 91.14,
+      "score": 100.0,
       "breakdown": {
-        "vel": 79,
+        "vel": 88,
         "acc": 99,
-        "health": 76,
-        "fresh": 99,
-        "signal": 55
+        "health": 72,
+        "fresh": 96,
+        "signal": 70
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "early",
+      "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 82.85,
-      "explanation": "Snapintosh 是 Python 开源项目，主打「EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack」；处于中早期增长，本周涨速 12 star/天，涨速在加快；社区健康（fork/star 比 5.8%，10 个 open issue）、开发活跃。"
+      "base_score": 86.28,
+      "explanation": "skills 是 JavaScript 开源项目，主打「An agent skill that builds award-caliber websites from one line」；处于增长早期，本周涨速 12 star/天，涨速在加快；社区健康（fork/star 比 4.1%，0 个 open issue）、开发活跃。"
     }
   },
   {
@@ -167,10 +180,10 @@
       "description": "Local-first AI teammate workspace. Bring your own models and keep project conversations, tool approvals, and results together.",
       "stars": 996,
       "forks": 114,
-      "open_issues": 1,
+      "open_issues": 4,
       "created_at": "2026-05-20T04:49:54+00:00",
-      "pushed_at": "2026-10-27T09:50:38+00:00",
-      "updated_at": "2026-10-27T09:50:41+00:00",
+      "pushed_at": "2026-10-28T10:53:31+00:00",
+      "updated_at": "2026-10-28T10:53:34+00:00",
       "topics": [
         "agent",
         "agent-orchestration",
@@ -199,115 +212,111 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 931,
+      "stars_7d_ago": 967,
       "star_series": [
         {
-          "d": "09-28",
-          "s": 931
-        },
-        {
           "d": "09-29",
-          "s": 931
+          "s": 967
         },
         {
           "d": "09-30",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-01",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-02",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-03",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-04",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-05",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-06",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-07",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-08",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-09",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-10",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-11",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-12",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-13",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-14",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-15",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-16",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-17",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-18",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-19",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-20",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-21",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-22",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-23",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-24",
-          "s": 931
+          "s": 967
         },
         {
           "d": "10-25",
@@ -320,14 +329,18 @@
         {
           "d": "10-27",
           "s": 996
+        },
+        {
+          "d": "10-28",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 87.92,
+      "score": 81.31,
       "breakdown": {
-        "vel": 72,
-        "acc": 99,
+        "vel": 56,
+        "acc": 98,
         "health": 98,
         "fresh": 56,
         "signal": 70
@@ -335,153 +348,318 @@
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 79.93,
-      "explanation": "ling-stack 是 TypeScript 开源项目，主打「Local-first AI teammate workspace. Bring your own models and keep project conversations, tool approvals, and results together.」；处于中早期增长，本周涨速 9.3 star/天，涨速在加快；社区健康（fork/star 比 11.4%，1 个 open issue）。"
+      "base_score": 73.92,
+      "explanation": "ling-stack 是 TypeScript 开源项目，主打「Local-first AI teammate workspace. Bring your own models and keep project conversations, tool approvals, and results together.」；处于中早期增长，本周涨速 4.1 star/天，涨速在加快；社区健康（fork/star 比 11.4%，4 个 open issue）。"
     }
   },
   {
     "repo": {
-      "owner": "MuwMx",
-      "name": "YumaPlayer",
-      "full_name": "MuwMx/YumaPlayer",
-      "description": "🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫",
-      "stars": 1000,
-      "forks": 39,
-      "open_issues": 31,
-      "created_at": "2026-07-24T15:53:08+00:00",
-      "pushed_at": "2026-10-26T23:56:31+00:00",
-      "updated_at": "2026-10-27T09:17:49+00:00",
+      "owner": "Duskriver",
+      "name": "dsh-opencode-go",
+      "full_name": "Duskriver/dsh-opencode-go",
+      "description": "opencode-go订阅用户最佳DSH插件",
+      "stars": 200,
+      "forks": 16,
+      "open_issues": 7,
+      "created_at": "2026-09-15T14:48:57+00:00",
+      "pushed_at": "2026-10-23T20:49:13+00:00",
+      "updated_at": "2026-10-28T07:43:27+00:00",
       "topics": [
-        "android",
-        "android-ui",
-        "audiophile",
-        "flac",
-        "glassmorphism",
-        "jetpack-compose",
-        "kotlin",
-        "lossless-audio",
-        "lyrics",
-        "material3",
-        "music-player",
-        "spotify",
-        "youtube-music"
+        "dsh-plugin"
       ],
-      "language": "Kotlin",
-      "license": "GPL-3.0",
+      "language": "TypeScript",
+      "license": "MIT",
       "homepage": null,
-      "html_url": "https://github.com/MuwMx/YumaPlayer",
+      "html_url": "https://github.com/Duskriver/dsh-opencode-go",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 941,
+      "stars_7d_ago": 170,
       "star_series": [
         {
-          "d": "09-28",
-          "s": 941
-        },
-        {
           "d": "09-29",
-          "s": 941
+          "s": 150
         },
         {
           "d": "09-30",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-01",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-02",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-03",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-04",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-05",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-06",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-07",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-08",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-09",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-10",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-11",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-12",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-13",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-14",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-15",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-16",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-17",
-          "s": 941
+          "s": 150
         },
         {
           "d": "10-18",
-          "s": 941
+          "s": 152
         },
         {
           "d": "10-19",
-          "s": 941
+          "s": 159
         },
         {
           "d": "10-20",
-          "s": 941
+          "s": 163
         },
         {
           "d": "10-21",
-          "s": 941
+          "s": 167
         },
         {
           "d": "10-22",
-          "s": 946
+          "s": 170
         },
         {
           "d": "10-23",
-          "s": 961
+          "s": 177
         },
         {
           "d": "10-24",
-          "s": 972
+          "s": 181
+        },
+        {
+          "d": "10-25",
+          "s": 184
+        },
+        {
+          "d": "10-26",
+          "s": 192
+        },
+        {
+          "d": "10-27",
+          "s": 198
+        },
+        {
+          "d": "10-28",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 80.67,
+      "breakdown": {
+        "vel": 57,
+        "acc": 62,
+        "health": 75,
+        "fresh": 88,
+        "signal": 70
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 67.22,
+      "explanation": "dsh-opencode-go 是 TypeScript 开源项目，主打「opencode-go订阅用户最佳DSH插件」；处于增长早期，本周涨速 4.3 star/天；社区健康（fork/star 比 8.0%，7 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "borghei",
+      "name": "Claude-Skills",
+      "full_name": "borghei/Claude-Skills",
+      "description": "385 AI skills, 76 expert agents, and 906 stdlib Python tools for every team: engineering, PM, marketing, C-level, compliance, business ops, research, and a LinkedIn toolkit. Installs on Claude Code, Cursor, Codex, Gemini, Copilot, and 6 other AI assistants.",
+      "stars": 996,
+      "forks": 191,
+      "open_issues": 1,
+      "created_at": "2026-01-13T16:15:31+00:00",
+      "pushed_at": "2026-10-23T14:53:46+00:00",
+      "updated_at": "2026-10-28T07:57:30+00:00",
+      "topics": [
+        "agentic-coding",
+        "agile",
+        "ai-agents",
+        "ai-skills",
+        "business-operations",
+        "claude-code",
+        "claude-skills",
+        "compliance-automation",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "github-copilot",
+        "jira",
+        "marketing",
+        "mcp-server",
+        "notion",
+        "product-management",
+        "project-management",
+        "research-ops",
+        "technical-writing"
+      ],
+      "language": "HTML",
+      "license": "NOASSERTION",
+      "homepage": "https://borghei.github.io/Claude-Skills",
+      "html_url": "https://github.com/borghei/Claude-Skills",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 965,
+      "star_series": [
+        {
+          "d": "09-29",
+          "s": 833
+        },
+        {
+          "d": "09-30",
+          "s": 838
+        },
+        {
+          "d": "10-01",
+          "s": 840
+        },
+        {
+          "d": "10-02",
+          "s": 846
+        },
+        {
+          "d": "10-03",
+          "s": 852
+        },
+        {
+          "d": "10-04",
+          "s": 856
+        },
+        {
+          "d": "10-05",
+          "s": 858
+        },
+        {
+          "d": "10-06",
+          "s": 867
+        },
+        {
+          "d": "10-07",
+          "s": 873
+        },
+        {
+          "d": "10-08",
+          "s": 879
+        },
+        {
+          "d": "10-09",
+          "s": 885
+        },
+        {
+          "d": "10-10",
+          "s": 887
+        },
+        {
+          "d": "10-11",
+          "s": 890
+        },
+        {
+          "d": "10-12",
+          "s": 896
+        },
+        {
+          "d": "10-13",
+          "s": 901
+        },
+        {
+          "d": "10-14",
+          "s": 907
+        },
+        {
+          "d": "10-15",
+          "s": 918
+        },
+        {
+          "d": "10-16",
+          "s": 927
+        },
+        {
+          "d": "10-17",
+          "s": 937
+        },
+        {
+          "d": "10-18",
+          "s": 945
+        },
+        {
+          "d": "10-19",
+          "s": 948
+        },
+        {
+          "d": "10-20",
+          "s": 955
+        },
+        {
+          "d": "10-21",
+          "s": 961
+        },
+        {
+          "d": "10-22",
+          "s": 965
+        },
+        {
+          "d": "10-23",
+          "s": 969
+        },
+        {
+          "d": "10-24",
+          "s": 976
         },
         {
           "d": "10-25",
@@ -489,166 +667,163 @@
         },
         {
           "d": "10-26",
-          "s": 993
+          "s": 987
         },
         {
           "d": "10-27",
-          "s": 1000
+          "s": 993
+        },
+        {
+          "d": "10-28",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 83.39,
+      "score": 65.18,
       "breakdown": {
-        "vel": 70,
-        "acc": 99,
-        "health": 65,
-        "fresh": 74,
-        "signal": 70
+        "vel": 58,
+        "acc": 42,
+        "health": 100,
+        "fresh": 21,
+        "signal": 100
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "early",
+      "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 75.81,
-      "explanation": "YumaPlayer 是 Kotlin 开源项目，主打「🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫」；处于中早期增长，本周涨速 8.4 star/天，涨速在加快；开发活跃。"
+      "base_score": 54.31,
+      "explanation": "Claude-Skills 是 HTML 开源项目，主打「385 AI skills, 76 expert agents, and 906 stdlib Python tools for every team: engineering, PM, marketing, C-level, compliance, business ops, research, and a LinkedIn toolkit. Installs on Claude Code, Cursor, Codex, Gemini, Copilot, and 6 other AI assistants.」；处于增长早期，本周涨速 4.4 star/天；社区健康（fork/star 比 19.2%，1 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "rampstackco",
-      "name": "claude-skills",
-      "full_name": "rampstackco/claude-skills",
-      "description": "Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Build, ship, audit, optimize.",
-      "stars": 1000,
-      "forks": 134,
-      "open_issues": 6,
-      "created_at": "2026-04-28T22:33:51+00:00",
-      "pushed_at": "2026-10-27T00:02:48+00:00",
-      "updated_at": "2026-10-26T23:27:35+00:00",
+      "owner": "opentabs-dev",
+      "name": "opentabs",
+      "full_name": "opentabs-dev/opentabs",
+      "description": "Browser automation clicks buttons. OpenTabs calls APIs.",
+      "stars": 999,
+      "forks": 102,
+      "open_issues": 12,
+      "created_at": "2026-02-09T06:17:27+00:00",
+      "pushed_at": "2026-10-24T04:46:24+00:00",
+      "updated_at": "2026-10-28T00:09:22+00:00",
       "topics": [
-        "agent-skills",
         "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-ai",
+        "browser-automation",
+        "chrome",
+        "chrome-extension",
         "claude-code",
-        "claude-skills",
         "mcp",
-        "product-management",
-        "rampstack",
-        "seo",
-        "skills-collection",
-        "web-design",
-        "web-development"
+        "mcp-server",
+        "open-source",
+        "opencode",
+        "plugins",
+        "typescript"
       ],
-      "language": "JavaScript",
+      "language": "TypeScript",
       "license": "MIT",
-      "homepage": "https://rampstack.co",
-      "html_url": "https://github.com/rampstackco/claude-skills",
+      "homepage": "https://opentabs.dev",
+      "html_url": "https://github.com/opentabs-dev/opentabs",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 983,
+      "stars_7d_ago": 989,
       "star_series": [
         {
-          "d": "09-28",
-          "s": 905
-        },
-        {
           "d": "09-29",
-          "s": 909
-        },
-        {
-          "d": "09-30",
-          "s": 912
-        },
-        {
-          "d": "10-01",
-          "s": 915
-        },
-        {
-          "d": "10-02",
-          "s": 919
-        },
-        {
-          "d": "10-03",
-          "s": 922
-        },
-        {
-          "d": "10-04",
-          "s": 925
-        },
-        {
-          "d": "10-05",
-          "s": 928
-        },
-        {
-          "d": "10-06",
-          "s": 930
-        },
-        {
-          "d": "10-07",
-          "s": 935
-        },
-        {
-          "d": "10-08",
-          "s": 936
-        },
-        {
-          "d": "10-09",
-          "s": 939
-        },
-        {
-          "d": "10-10",
-          "s": 940
-        },
-        {
-          "d": "10-11",
-          "s": 946
-        },
-        {
-          "d": "10-12",
-          "s": 948
-        },
-        {
-          "d": "10-13",
-          "s": 955
-        },
-        {
-          "d": "10-14",
-          "s": 960
-        },
-        {
-          "d": "10-15",
           "s": 961
         },
         {
-          "d": "10-16",
+          "d": "09-30",
+          "s": 961
+        },
+        {
+          "d": "10-01",
+          "s": 961
+        },
+        {
+          "d": "10-02",
+          "s": 961
+        },
+        {
+          "d": "10-03",
+          "s": 961
+        },
+        {
+          "d": "10-04",
+          "s": 961
+        },
+        {
+          "d": "10-05",
+          "s": 963
+        },
+        {
+          "d": "10-06",
+          "s": 963
+        },
+        {
+          "d": "10-07",
+          "s": 963
+        },
+        {
+          "d": "10-08",
           "s": 964
         },
         {
-          "d": "10-17",
-          "s": 967
+          "d": "10-09",
+          "s": 965
         },
         {
-          "d": "10-18",
+          "d": "10-10",
           "s": 969
         },
         {
-          "d": "10-19",
+          "d": "10-11",
           "s": 973
         },
         {
-          "d": "10-20",
+          "d": "10-12",
           "s": 975
         },
         {
-          "d": "10-21",
+          "d": "10-13",
+          "s": 975
+        },
+        {
+          "d": "10-14",
+          "s": 982
+        },
+        {
+          "d": "10-15",
           "s": 983
         },
         {
-          "d": "10-22",
+          "d": "10-16",
           "s": 985
+        },
+        {
+          "d": "10-17",
+          "s": 986
+        },
+        {
+          "d": "10-18",
+          "s": 986
+        },
+        {
+          "d": "10-19",
+          "s": 987
+        },
+        {
+          "d": "10-20",
+          "s": 987
+        },
+        {
+          "d": "10-21",
+          "s": 988
+        },
+        {
+          "d": "10-22",
+          "s": 989
         },
         {
           "d": "10-23",
@@ -656,7 +831,7 @@
         },
         {
           "d": "10-24",
-          "s": 992
+          "s": 993
         },
         {
           "d": "10-25",
@@ -664,188 +839,32 @@
         },
         {
           "d": "10-26",
-          "s": 1000
+          "s": 997
         },
         {
           "d": "10-27",
-          "s": 1000
+          "s": 998
+        },
+        {
+          "d": "10-28",
+          "s": 999
         }
       ]
     },
     "score": {
-      "score": 64.82,
+      "score": 61.38,
       "breakdown": {
-        "vel": 38,
-        "acc": 44,
-        "health": 99,
-        "fresh": 50,
-        "signal": 85
+        "vel": 31,
+        "acc": 64,
+        "health": 92,
+        "fresh": 28,
+        "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 54.01,
-      "explanation": "claude-skills 是 JavaScript 开源项目，主打「Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Build, ship, audit, optimize.」；处于增长早期；社区健康（fork/star 比 13.4%，6 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "evanbaker315",
-      "name": "AttentionOS",
-      "full_name": "evanbaker315/AttentionOS",
-      "description": "Star the repo to help support! The open source operating system for creating viral content on social media. ",
-      "stars": 200,
-      "forks": 21,
-      "open_issues": 3,
-      "created_at": "2026-10-15T00:27:59+00:00",
-      "pushed_at": "2026-10-22T06:29:20+00:00",
-      "updated_at": "2026-10-27T11:00:36+00:00",
-      "topics": [],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/evanbaker315/AttentionOS",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 108,
-      "star_series": [
-        {
-          "d": "09-28",
-          "s": 0
-        },
-        {
-          "d": "09-29",
-          "s": 0
-        },
-        {
-          "d": "09-30",
-          "s": 0
-        },
-        {
-          "d": "10-01",
-          "s": 0
-        },
-        {
-          "d": "10-02",
-          "s": 0
-        },
-        {
-          "d": "10-03",
-          "s": 0
-        },
-        {
-          "d": "10-04",
-          "s": 0
-        },
-        {
-          "d": "10-05",
-          "s": 0
-        },
-        {
-          "d": "10-06",
-          "s": 0
-        },
-        {
-          "d": "10-07",
-          "s": 0
-        },
-        {
-          "d": "10-08",
-          "s": 0
-        },
-        {
-          "d": "10-09",
-          "s": 0
-        },
-        {
-          "d": "10-10",
-          "s": 0
-        },
-        {
-          "d": "10-11",
-          "s": 0
-        },
-        {
-          "d": "10-12",
-          "s": 0
-        },
-        {
-          "d": "10-13",
-          "s": 0
-        },
-        {
-          "d": "10-14",
-          "s": 0
-        },
-        {
-          "d": "10-15",
-          "s": 0
-        },
-        {
-          "d": "10-16",
-          "s": 17
-        },
-        {
-          "d": "10-17",
-          "s": 53
-        },
-        {
-          "d": "10-18",
-          "s": 81
-        },
-        {
-          "d": "10-19",
-          "s": 97
-        },
-        {
-          "d": "10-20",
-          "s": 100
-        },
-        {
-          "d": "10-21",
-          "s": 108
-        },
-        {
-          "d": "10-22",
-          "s": 124
-        },
-        {
-          "d": "10-23",
-          "s": 134
-        },
-        {
-          "d": "10-24",
-          "s": 151
-        },
-        {
-          "d": "10-25",
-          "s": 163
-        },
-        {
-          "d": "10-26",
-          "s": 190
-        },
-        {
-          "d": "10-27",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 60.21,
-      "breakdown": {
-        "vel": 82,
-        "acc": 46,
-        "health": 86,
-        "fresh": 97,
-        "signal": 55
-      },
-      "stage": "late",
-      "stage_multiplier": 0.85,
-      "confidence": 1.0,
-      "base_score": 70.83,
-      "explanation": "AttentionOS 是 TypeScript 开源项目，主打「Star the repo to help support! The open source operating system for creating viral content on social media.」；接近增长天花板，本周涨速 13 star/天；社区健康（fork/star 比 10.5%，3 个 open issue）、开发活跃。"
+      "base_score": 51.15,
+      "explanation": "opentabs 是 TypeScript 开源项目，主打「Browser automation clicks buttons. OpenTabs calls APIs.」；处于增长早期；社区健康（fork/star 比 10.2%，12 个 open issue）、项目元数据完整。"
     }
   }
 ]
