@@ -1,870 +1,859 @@
 [
   {
     "repo": {
-      "owner": "juliobsz",
-      "name": "skills",
-      "full_name": "juliobsz/skills",
-      "description": "An agent skill that builds award-caliber websites from one line",
-      "stars": 996,
-      "forks": 41,
-      "open_issues": 0,
-      "created_at": "2026-10-12T00:07:32+00:00",
-      "pushed_at": "2026-10-26T15:35:41+00:00",
-      "updated_at": "2026-10-28T10:43:32+00:00",
+      "owner": "harry0703",
+      "name": "MangoDisk",
+      "full_name": "harry0703/MangoDisk",
+      "description": "Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.",
+      "stars": 4993,
+      "forks": 340,
+      "open_issues": 12,
+      "created_at": "2026-08-01T03:00:29+00:00",
+      "pushed_at": "2026-10-27T09:34:48+00:00",
+      "updated_at": "2026-10-29T11:40:41+00:00",
       "topics": [
-        "agent-skills",
-        "astro",
-        "awwwards",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "creative-coding",
-        "frontend",
-        "gsap",
-        "nextjs",
-        "web-design",
-        "webgl"
+        "app-uninstaller",
+        "cache-cleaner",
+        "cross-platform",
+        "desktop-app",
+        "disk-cleaner",
+        "disk-cleanup",
+        "disk-space-analyzer",
+        "duplicate-files",
+        "duplicate-finder",
+        "large-files",
+        "linux",
+        "macos",
+        "rust",
+        "startup-manager",
+        "system-cleaner",
+        "system-optimization",
+        "tauri",
+        "treemap",
+        "uninstaller",
+        "windows"
       ],
-      "language": "JavaScript",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/juliobsz/skills",
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "homepage": "https://mangodisk.app/",
+      "html_url": "https://github.com/harry0703/MangoDisk",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 913,
+      "stars_7d_ago": 4734,
       "star_series": [
         {
-          "d": "09-29",
-          "s": 913
-        },
-        {
           "d": "09-30",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-01",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-02",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-03",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-04",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-05",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-06",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-07",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-08",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-09",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-10",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-11",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-12",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-13",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-14",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-15",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-16",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-17",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-18",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-19",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-20",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-21",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-22",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-23",
-          "s": 913
+          "s": 4734
         },
         {
           "d": "10-24",
-          "s": 934
+          "s": 4734
         },
         {
           "d": "10-25",
-          "s": 949
+          "s": 4772
         },
         {
           "d": "10-26",
-          "s": 967
+          "s": 4845
         },
         {
           "d": "10-27",
-          "s": 983
+          "s": 4916
         },
         {
           "d": "10-28",
-          "s": 996
+          "s": 4968
+        },
+        {
+          "d": "10-29",
+          "s": 4993
         }
       ]
     },
     "score": {
       "score": 100.0,
       "breakdown": {
-        "vel": 88,
+        "vel": 100,
         "acc": 99,
-        "health": 72,
-        "fresh": 96,
-        "signal": 70
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 86.28,
-      "explanation": "skills 是 JavaScript 开源项目，主打「An agent skill that builds award-caliber websites from one line」；处于增长早期，本周涨速 12 star/天，涨速在加快；社区健康（fork/star 比 4.1%，0 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "ling-stack-org",
-      "name": "ling-stack",
-      "full_name": "ling-stack-org/ling-stack",
-      "description": "Local-first AI teammate workspace. Bring your own models and keep project conversations, tool approvals, and results together.",
-      "stars": 996,
-      "forks": 114,
-      "open_issues": 4,
-      "created_at": "2026-05-20T04:49:54+00:00",
-      "pushed_at": "2026-10-28T10:53:31+00:00",
-      "updated_at": "2026-10-28T10:53:34+00:00",
-      "topics": [
-        "agent",
-        "agent-orchestration",
-        "agent-skills",
-        "agentic-ai",
-        "ai",
-        "ai-agents",
-        "ai-teammates",
-        "ai-workspace",
-        "anthropic",
-        "developer-tools",
-        "electron",
-        "llm",
-        "local-first",
-        "mcp",
-        "multi-agent",
-        "multi-model",
-        "openai",
-        "self-hosted",
-        "typescript"
-      ],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/ling-stack-org/ling-stack",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 967,
-      "star_series": [
-        {
-          "d": "09-29",
-          "s": 967
-        },
-        {
-          "d": "09-30",
-          "s": 967
-        },
-        {
-          "d": "10-01",
-          "s": 967
-        },
-        {
-          "d": "10-02",
-          "s": 967
-        },
-        {
-          "d": "10-03",
-          "s": 967
-        },
-        {
-          "d": "10-04",
-          "s": 967
-        },
-        {
-          "d": "10-05",
-          "s": 967
-        },
-        {
-          "d": "10-06",
-          "s": 967
-        },
-        {
-          "d": "10-07",
-          "s": 967
-        },
-        {
-          "d": "10-08",
-          "s": 967
-        },
-        {
-          "d": "10-09",
-          "s": 967
-        },
-        {
-          "d": "10-10",
-          "s": 967
-        },
-        {
-          "d": "10-11",
-          "s": 967
-        },
-        {
-          "d": "10-12",
-          "s": 967
-        },
-        {
-          "d": "10-13",
-          "s": 967
-        },
-        {
-          "d": "10-14",
-          "s": 967
-        },
-        {
-          "d": "10-15",
-          "s": 967
-        },
-        {
-          "d": "10-16",
-          "s": 967
-        },
-        {
-          "d": "10-17",
-          "s": 967
-        },
-        {
-          "d": "10-18",
-          "s": 967
-        },
-        {
-          "d": "10-19",
-          "s": 967
-        },
-        {
-          "d": "10-20",
-          "s": 967
-        },
-        {
-          "d": "10-21",
-          "s": 967
-        },
-        {
-          "d": "10-22",
-          "s": 967
-        },
-        {
-          "d": "10-23",
-          "s": 967
-        },
-        {
-          "d": "10-24",
-          "s": 967
-        },
-        {
-          "d": "10-25",
-          "s": 967
-        },
-        {
-          "d": "10-26",
-          "s": 996
-        },
-        {
-          "d": "10-27",
-          "s": 996
-        },
-        {
-          "d": "10-28",
-          "s": 996
-        }
-      ]
-    },
-    "score": {
-      "score": 81.31,
-      "breakdown": {
-        "vel": 56,
-        "acc": 98,
-        "health": 98,
-        "fresh": 56,
-        "signal": 70
+        "health": 84,
+        "fresh": 76,
+        "signal": 85
       },
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 73.92,
-      "explanation": "ling-stack 是 TypeScript 开源项目，主打「Local-first AI teammate workspace. Bring your own models and keep project conversations, tool approvals, and results together.」；处于中早期增长，本周涨速 4.1 star/天，涨速在加快；社区健康（fork/star 比 11.4%，4 个 open issue）。"
+      "base_score": 91.0,
+      "explanation": "MangoDisk 是 Rust 开源项目，主打「Safety-first disk cleaner and space analyzer for macOS, Windows and Linux, with duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.」；处于中早期增长，本周涨速 37 star/天，涨速在加快；社区健康（fork/star 比 6.8%，12 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "Duskriver",
-      "name": "dsh-opencode-go",
-      "full_name": "Duskriver/dsh-opencode-go",
-      "description": "opencode-go订阅用户最佳DSH插件",
-      "stars": 200,
-      "forks": 16,
-      "open_issues": 7,
-      "created_at": "2026-09-15T14:48:57+00:00",
-      "pushed_at": "2026-10-23T20:49:13+00:00",
-      "updated_at": "2026-10-28T07:43:27+00:00",
+      "owner": "beenuar",
+      "name": "AiSOC",
+      "full_name": "beenuar/AiSOC",
+      "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+      "stars": 4999,
+      "forks": 538,
+      "open_issues": 3,
+      "created_at": "2026-05-02T03:30:19+00:00",
+      "pushed_at": "2026-10-29T00:27:24+00:00",
+      "updated_at": "2026-10-29T11:49:26+00:00",
       "topics": [
-        "dsh-plugin"
+        "agentic-ai",
+        "ai-security",
+        "alert-triage",
+        "blue-team",
+        "cybersecurity",
+        "detection-engineering",
+        "incident-response",
+        "langgraph",
+        "llm-agents",
+        "mcp",
+        "mitre-attack",
+        "model-context-protocol",
+        "purple-team",
+        "security-operations",
+        "self-hosted",
+        "siem",
+        "soar",
+        "soc",
+        "threat-detection",
+        "threat-intelligence"
       ],
-      "language": "TypeScript",
+      "language": "Python",
       "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/Duskriver/dsh-opencode-go",
+      "homepage": "https://beenuar.github.io/AiSOC/",
+      "html_url": "https://github.com/beenuar/AiSOC",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 170,
+      "stars_7d_ago": 4762,
       "star_series": [
         {
-          "d": "09-29",
-          "s": 150
-        },
-        {
           "d": "09-30",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-01",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-02",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-03",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-04",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-05",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-06",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-07",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-08",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-09",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-10",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-11",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-12",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-13",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-14",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-15",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-16",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-17",
-          "s": 150
+          "s": 4762
         },
         {
           "d": "10-18",
-          "s": 152
+          "s": 4762
         },
         {
           "d": "10-19",
-          "s": 159
+          "s": 4762
         },
         {
           "d": "10-20",
-          "s": 163
+          "s": 4762
         },
         {
           "d": "10-21",
-          "s": 167
+          "s": 4762
         },
         {
           "d": "10-22",
-          "s": 170
+          "s": 4762
         },
         {
           "d": "10-23",
-          "s": 177
+          "s": 4762
         },
         {
           "d": "10-24",
-          "s": 181
+          "s": 4762
         },
         {
           "d": "10-25",
-          "s": 184
+          "s": 4762
         },
         {
           "d": "10-26",
-          "s": 192
+          "s": 4762
         },
         {
           "d": "10-27",
-          "s": 198
+          "s": 4762
         },
         {
           "d": "10-28",
+          "s": 4839
+        },
+        {
+          "d": "10-29",
+          "s": 4999
+        }
+      ]
+    },
+    "score": {
+      "score": 98.63,
+      "breakdown": {
+        "vel": 98,
+        "acc": 99,
+        "health": 100,
+        "fresh": 51,
+        "signal": 100
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 89.66,
+      "explanation": "AiSOC 是 Python 开源项目，主打「Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.」；处于中早期增长，本周涨速 34 star/天，涨速在加快；社区健康（fork/star 比 10.8%，3 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "ai-boost",
+      "name": "awesome-harness-engineering",
+      "full_name": "ai-boost/awesome-harness-engineering",
+      "description": "Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration.",
+      "stars": 4996,
+      "forks": 704,
+      "open_issues": 277,
+      "created_at": "2026-03-29T15:39:49+00:00",
+      "pushed_at": "2026-10-29T09:22:24+00:00",
+      "updated_at": "2026-10-29T09:36:11+00:00",
+      "topics": [
+        "agent-harness",
+        "agent-memory",
+        "agent-orchestration",
+        "ai-agent-harness",
+        "ai-agents",
+        "awesome-list",
+        "context-engineering",
+        "harness-engineering",
+        "mcp"
+      ],
+      "language": "Python",
+      "license": "NOASSERTION",
+      "homepage": "https://github.com/ai-boost/awesome-harness-engineering",
+      "html_url": "https://github.com/ai-boost/awesome-harness-engineering",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 4931,
+      "star_series": [
+        {
+          "d": "09-30",
+          "s": 4846
+        },
+        {
+          "d": "10-01",
+          "s": 4846
+        },
+        {
+          "d": "10-02",
+          "s": 4846
+        },
+        {
+          "d": "10-03",
+          "s": 4846
+        },
+        {
+          "d": "10-04",
+          "s": 4846
+        },
+        {
+          "d": "10-05",
+          "s": 4846
+        },
+        {
+          "d": "10-06",
+          "s": 4846
+        },
+        {
+          "d": "10-07",
+          "s": 4846
+        },
+        {
+          "d": "10-08",
+          "s": 4846
+        },
+        {
+          "d": "10-09",
+          "s": 4846
+        },
+        {
+          "d": "10-10",
+          "s": 4846
+        },
+        {
+          "d": "10-11",
+          "s": 4846
+        },
+        {
+          "d": "10-12",
+          "s": 4846
+        },
+        {
+          "d": "10-13",
+          "s": 4846
+        },
+        {
+          "d": "10-14",
+          "s": 4846
+        },
+        {
+          "d": "10-15",
+          "s": 4846
+        },
+        {
+          "d": "10-16",
+          "s": 4846
+        },
+        {
+          "d": "10-17",
+          "s": 4853
+        },
+        {
+          "d": "10-18",
+          "s": 4866
+        },
+        {
+          "d": "10-19",
+          "s": 4879
+        },
+        {
+          "d": "10-20",
+          "s": 4894
+        },
+        {
+          "d": "10-21",
+          "s": 4910
+        },
+        {
+          "d": "10-22",
+          "s": 4921
+        },
+        {
+          "d": "10-23",
+          "s": 4931
+        },
+        {
+          "d": "10-24",
+          "s": 4942
+        },
+        {
+          "d": "10-25",
+          "s": 4955
+        },
+        {
+          "d": "10-26",
+          "s": 4967
+        },
+        {
+          "d": "10-27",
+          "s": 4979
+        },
+        {
+          "d": "10-28",
+          "s": 4992
+        },
+        {
+          "d": "10-29",
+          "s": 4996
+        }
+      ]
+    },
+    "score": {
+      "score": 65.72,
+      "breakdown": {
+        "vel": 65,
+        "acc": 44,
+        "health": 85,
+        "fresh": 42,
+        "signal": 85
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 59.75,
+      "explanation": "awesome-harness-engineering 是 Python 开源项目，主打「Awesome list for AI agent harness engineering: tools, patterns, evals, memory, MCP, permissions, observability, and orchestration.」；处于中早期增长，本周涨速 9.3 star/天；社区健康（fork/star 比 14.1%，277 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "CNWU16",
+      "name": "vedic-astro-skills",
+      "full_name": "CNWU16/vedic-astro-skills",
+      "description": "🔱 Vedic/Jyotish AI analysis toolkit | 吠陀占星AI分析工具包——从排盘开始，到以后的长期追问。支持所有可以挂载Skill的平台。感谢大家的支持。",
+      "stars": 1000,
+      "forks": 107,
+      "open_issues": 4,
+      "created_at": "2026-04-17T19:45:01+00:00",
+      "pushed_at": "2026-10-29T08:05:52+00:00",
+      "updated_at": "2026-10-29T10:28:02+00:00",
+      "topics": [],
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "homepage": null,
+      "html_url": "https://github.com/CNWU16/vedic-astro-skills",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 980,
+      "star_series": [
+        {
+          "d": "09-30",
+          "s": 907
+        },
+        {
+          "d": "10-01",
+          "s": 907
+        },
+        {
+          "d": "10-02",
+          "s": 911
+        },
+        {
+          "d": "10-03",
+          "s": 919
+        },
+        {
+          "d": "10-04",
+          "s": 929
+        },
+        {
+          "d": "10-05",
+          "s": 932
+        },
+        {
+          "d": "10-06",
+          "s": 935
+        },
+        {
+          "d": "10-07",
+          "s": 935
+        },
+        {
+          "d": "10-08",
+          "s": 936
+        },
+        {
+          "d": "10-09",
+          "s": 944
+        },
+        {
+          "d": "10-10",
+          "s": 947
+        },
+        {
+          "d": "10-11",
+          "s": 950
+        },
+        {
+          "d": "10-12",
+          "s": 952
+        },
+        {
+          "d": "10-13",
+          "s": 952
+        },
+        {
+          "d": "10-14",
+          "s": 952
+        },
+        {
+          "d": "10-15",
+          "s": 955
+        },
+        {
+          "d": "10-16",
+          "s": 961
+        },
+        {
+          "d": "10-17",
+          "s": 962
+        },
+        {
+          "d": "10-18",
+          "s": 965
+        },
+        {
+          "d": "10-19",
+          "s": 973
+        },
+        {
+          "d": "10-20",
+          "s": 974
+        },
+        {
+          "d": "10-21",
+          "s": 976
+        },
+        {
+          "d": "10-22",
+          "s": 978
+        },
+        {
+          "d": "10-23",
+          "s": 980
+        },
+        {
+          "d": "10-24",
+          "s": 986
+        },
+        {
+          "d": "10-25",
+          "s": 989
+        },
+        {
+          "d": "10-26",
+          "s": 993
+        },
+        {
+          "d": "10-27",
+          "s": 995
+        },
+        {
+          "d": "10-28",
+          "s": 996
+        },
+        {
+          "d": "10-29",
+          "s": 1000
+        }
+      ]
+    },
+    "score": {
+      "score": 44.62,
+      "breakdown": {
+        "vel": 37,
+        "acc": 51,
+        "health": 95,
+        "fresh": 47,
+        "signal": 55
+      },
+      "stage": "late",
+      "stage_multiplier": 0.85,
+      "confidence": 1.0,
+      "base_score": 52.49,
+      "explanation": "vedic-astro-skills 是 Python 开源项目，主打「🔱 Vedic/Jyotish AI analysis toolkit | 吠陀占星AI分析工具包——从排盘开始，到以后的长期追问。支持所有可以挂载Skill的平台。感谢大家的支持。」；接近增长天花板；社区健康（fork/star 比 10.7%，4 个 open issue）。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "SMS2Email",
+      "name": "SMS2Email",
+      "full_name": "SMS2Email/SMS2Email",
+      "description": "Android app that forwards SMS messages to SMTP (Email) server",
+      "stars": 200,
+      "forks": 30,
+      "open_issues": 27,
+      "created_at": "2025-12-23T12:11:30+00:00",
+      "pushed_at": "2026-10-28T17:52:44+00:00",
+      "updated_at": "2026-10-28T12:05:58+00:00",
+      "topics": [
+        "android",
+        "email",
+        "sms",
+        "smtp"
+      ],
+      "language": "Kotlin",
+      "license": "Apache-2.0",
+      "homepage": null,
+      "html_url": "https://github.com/SMS2Email/SMS2Email",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 196,
+      "star_series": [
+        {
+          "d": "09-30",
+          "s": 192
+        },
+        {
+          "d": "10-01",
+          "s": 192
+        },
+        {
+          "d": "10-02",
+          "s": 193
+        },
+        {
+          "d": "10-03",
+          "s": 194
+        },
+        {
+          "d": "10-04",
+          "s": 195
+        },
+        {
+          "d": "10-05",
+          "s": 195
+        },
+        {
+          "d": "10-06",
+          "s": 195
+        },
+        {
+          "d": "10-07",
+          "s": 195
+        },
+        {
+          "d": "10-08",
+          "s": 195
+        },
+        {
+          "d": "10-09",
+          "s": 195
+        },
+        {
+          "d": "10-10",
+          "s": 195
+        },
+        {
+          "d": "10-11",
+          "s": 196
+        },
+        {
+          "d": "10-12",
+          "s": 196
+        },
+        {
+          "d": "10-13",
+          "s": 196
+        },
+        {
+          "d": "10-14",
+          "s": 196
+        },
+        {
+          "d": "10-15",
+          "s": 196
+        },
+        {
+          "d": "10-16",
+          "s": 196
+        },
+        {
+          "d": "10-17",
+          "s": 196
+        },
+        {
+          "d": "10-18",
+          "s": 196
+        },
+        {
+          "d": "10-19",
+          "s": 196
+        },
+        {
+          "d": "10-20",
+          "s": 196
+        },
+        {
+          "d": "10-21",
+          "s": 196
+        },
+        {
+          "d": "10-22",
+          "s": 196
+        },
+        {
+          "d": "10-23",
+          "s": 196
+        },
+        {
+          "d": "10-24",
+          "s": 197
+        },
+        {
+          "d": "10-25",
+          "s": 197
+        },
+        {
+          "d": "10-26",
+          "s": 198
+        },
+        {
+          "d": "10-27",
+          "s": 199
+        },
+        {
+          "d": "10-28",
+          "s": 200
+        },
+        {
+          "d": "10-29",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 80.67,
+      "score": 36.31,
       "breakdown": {
-        "vel": 57,
-        "acc": 62,
-        "health": 75,
-        "fresh": 88,
+        "vel": 13,
+        "acc": 64,
+        "health": 72,
+        "fresh": 15,
         "signal": 70
       },
-      "stage": "early",
-      "stage_multiplier": 1.2,
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 67.22,
-      "explanation": "dsh-opencode-go 是 TypeScript 开源项目，主打「opencode-go订阅用户最佳DSH插件」；处于增长早期，本周涨速 4.3 star/天；社区健康（fork/star 比 8.0%，7 个 open issue）、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "borghei",
-      "name": "Claude-Skills",
-      "full_name": "borghei/Claude-Skills",
-      "description": "385 AI skills, 76 expert agents, and 906 stdlib Python tools for every team: engineering, PM, marketing, C-level, compliance, business ops, research, and a LinkedIn toolkit. Installs on Claude Code, Cursor, Codex, Gemini, Copilot, and 6 other AI assistants.",
-      "stars": 996,
-      "forks": 191,
-      "open_issues": 1,
-      "created_at": "2026-01-13T16:15:31+00:00",
-      "pushed_at": "2026-10-23T14:53:46+00:00",
-      "updated_at": "2026-10-28T07:57:30+00:00",
-      "topics": [
-        "agentic-coding",
-        "agile",
-        "ai-agents",
-        "ai-skills",
-        "business-operations",
-        "claude-code",
-        "claude-skills",
-        "compliance-automation",
-        "cursor",
-        "developer-tools",
-        "gemini-cli",
-        "github-copilot",
-        "jira",
-        "marketing",
-        "mcp-server",
-        "notion",
-        "product-management",
-        "project-management",
-        "research-ops",
-        "technical-writing"
-      ],
-      "language": "HTML",
-      "license": "NOASSERTION",
-      "homepage": "https://borghei.github.io/Claude-Skills",
-      "html_url": "https://github.com/borghei/Claude-Skills",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 965,
-      "star_series": [
-        {
-          "d": "09-29",
-          "s": 833
-        },
-        {
-          "d": "09-30",
-          "s": 838
-        },
-        {
-          "d": "10-01",
-          "s": 840
-        },
-        {
-          "d": "10-02",
-          "s": 846
-        },
-        {
-          "d": "10-03",
-          "s": 852
-        },
-        {
-          "d": "10-04",
-          "s": 856
-        },
-        {
-          "d": "10-05",
-          "s": 858
-        },
-        {
-          "d": "10-06",
-          "s": 867
-        },
-        {
-          "d": "10-07",
-          "s": 873
-        },
-        {
-          "d": "10-08",
-          "s": 879
-        },
-        {
-          "d": "10-09",
-          "s": 885
-        },
-        {
-          "d": "10-10",
-          "s": 887
-        },
-        {
-          "d": "10-11",
-          "s": 890
-        },
-        {
-          "d": "10-12",
-          "s": 896
-        },
-        {
-          "d": "10-13",
-          "s": 901
-        },
-        {
-          "d": "10-14",
-          "s": 907
-        },
-        {
-          "d": "10-15",
-          "s": 918
-        },
-        {
-          "d": "10-16",
-          "s": 927
-        },
-        {
-          "d": "10-17",
-          "s": 937
-        },
-        {
-          "d": "10-18",
-          "s": 945
-        },
-        {
-          "d": "10-19",
-          "s": 948
-        },
-        {
-          "d": "10-20",
-          "s": 955
-        },
-        {
-          "d": "10-21",
-          "s": 961
-        },
-        {
-          "d": "10-22",
-          "s": 965
-        },
-        {
-          "d": "10-23",
-          "s": 969
-        },
-        {
-          "d": "10-24",
-          "s": 976
-        },
-        {
-          "d": "10-25",
-          "s": 980
-        },
-        {
-          "d": "10-26",
-          "s": 987
-        },
-        {
-          "d": "10-27",
-          "s": 993
-        },
-        {
-          "d": "10-28",
-          "s": 996
-        }
-      ]
-    },
-    "score": {
-      "score": 65.18,
-      "breakdown": {
-        "vel": 58,
-        "acc": 42,
-        "health": 100,
-        "fresh": 21,
-        "signal": 100
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 54.31,
-      "explanation": "Claude-Skills 是 HTML 开源项目，主打「385 AI skills, 76 expert agents, and 906 stdlib Python tools for every team: engineering, PM, marketing, C-level, compliance, business ops, research, and a LinkedIn toolkit. Installs on Claude Code, Cursor, Codex, Gemini, Copilot, and 6 other AI assistants.」；处于增长早期，本周涨速 4.4 star/天；社区健康（fork/star 比 19.2%，1 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "opentabs-dev",
-      "name": "opentabs",
-      "full_name": "opentabs-dev/opentabs",
-      "description": "Browser automation clicks buttons. OpenTabs calls APIs.",
-      "stars": 999,
-      "forks": 102,
-      "open_issues": 12,
-      "created_at": "2026-02-09T06:17:27+00:00",
-      "pushed_at": "2026-10-24T04:46:24+00:00",
-      "updated_at": "2026-10-28T00:09:22+00:00",
-      "topics": [
-        "ai-agents",
-        "browser-automation",
-        "chrome",
-        "chrome-extension",
-        "claude-code",
-        "mcp",
-        "mcp-server",
-        "open-source",
-        "opencode",
-        "plugins",
-        "typescript"
-      ],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": "https://opentabs.dev",
-      "html_url": "https://github.com/opentabs-dev/opentabs",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 989,
-      "star_series": [
-        {
-          "d": "09-29",
-          "s": 961
-        },
-        {
-          "d": "09-30",
-          "s": 961
-        },
-        {
-          "d": "10-01",
-          "s": 961
-        },
-        {
-          "d": "10-02",
-          "s": 961
-        },
-        {
-          "d": "10-03",
-          "s": 961
-        },
-        {
-          "d": "10-04",
-          "s": 961
-        },
-        {
-          "d": "10-05",
-          "s": 963
-        },
-        {
-          "d": "10-06",
-          "s": 963
-        },
-        {
-          "d": "10-07",
-          "s": 963
-        },
-        {
-          "d": "10-08",
-          "s": 964
-        },
-        {
-          "d": "10-09",
-          "s": 965
-        },
-        {
-          "d": "10-10",
-          "s": 969
-        },
-        {
-          "d": "10-11",
-          "s": 973
-        },
-        {
-          "d": "10-12",
-          "s": 975
-        },
-        {
-          "d": "10-13",
-          "s": 975
-        },
-        {
-          "d": "10-14",
-          "s": 982
-        },
-        {
-          "d": "10-15",
-          "s": 983
-        },
-        {
-          "d": "10-16",
-          "s": 985
-        },
-        {
-          "d": "10-17",
-          "s": 986
-        },
-        {
-          "d": "10-18",
-          "s": 986
-        },
-        {
-          "d": "10-19",
-          "s": 987
-        },
-        {
-          "d": "10-20",
-          "s": 987
-        },
-        {
-          "d": "10-21",
-          "s": 988
-        },
-        {
-          "d": "10-22",
-          "s": 989
-        },
-        {
-          "d": "10-23",
-          "s": 990
-        },
-        {
-          "d": "10-24",
-          "s": 993
-        },
-        {
-          "d": "10-25",
-          "s": 995
-        },
-        {
-          "d": "10-26",
-          "s": 997
-        },
-        {
-          "d": "10-27",
-          "s": 998
-        },
-        {
-          "d": "10-28",
-          "s": 999
-        }
-      ]
-    },
-    "score": {
-      "score": 61.38,
-      "breakdown": {
-        "vel": 31,
-        "acc": 64,
-        "health": 92,
-        "fresh": 28,
-        "signal": 100
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 51.15,
-      "explanation": "opentabs 是 TypeScript 开源项目，主打「Browser automation clicks buttons. OpenTabs calls APIs.」；处于增长早期；社区健康（fork/star 比 10.2%，12 个 open issue）、项目元数据完整。"
+      "base_score": 33.01,
+      "explanation": "SMS2Email 是 Kotlin 开源项目，主打「Android app that forwards SMS messages to SMTP (Email) server」；处于中早期增长；社区健康（fork/star 比 15.0%，27 个 open issue）。"
     }
   }
 ]
