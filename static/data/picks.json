@@ -1,522 +1,707 @@
 [
   {
     "repo": {
-      "owner": "slow-stack",
-      "name": "mneme",
-      "full_name": "slow-stack/mneme",
-      "description": "🧠 The memory that dreams — cross-session memory for DeepSeek Harness. Local SQLite + Markdown mirrors, autoDream consolidation, 4-way recall (keyword/vector/BM25/entity), and a memory panel. 10 model tools, MCP server, CLI.",
-      "stars": 200,
-      "forks": 22,
-      "open_issues": 19,
-      "created_at": "2026-08-13T15:18:08+00:00",
-      "pushed_at": "2026-10-30T08:36:02+00:00",
-      "updated_at": "2026-10-30T11:19:35+00:00",
+      "owner": "daveebbelaar",
+      "name": "bama",
+      "full_name": "daveebbelaar/bama",
+      "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+      "stars": 1000,
+      "forks": 140,
+      "open_issues": 1,
+      "created_at": "2026-10-24T08:44:36+00:00",
+      "pushed_at": "2026-10-29T13:05:44+00:00",
+      "updated_at": "2026-10-31T11:14:16+00:00",
       "topics": [
-        "agent-memory",
-        "agent-memory-system",
-        "agentic-ai",
-        "autodream",
-        "claude",
+        "agent-skills",
+        "ai-agents",
+        "app-clone",
+        "claude-code",
+        "claude-code-plugin",
         "codex",
-        "deepseek-harness",
-        "dsh-plugin",
-        "knowledge-management",
-        "llm",
-        "long-term-memory",
-        "mcp",
-        "mcp-server",
-        "memory-consolidation",
-        "model-context-protocol",
-        "persistent-memory",
-        "rag",
-        "semantic-search",
-        "vector-search"
+        "computer-use",
+        "liquid-glass",
+        "macos",
+        "macos-app",
+        "native-apps",
+        "skills",
+        "swift",
+        "swiftdata",
+        "swiftui"
       ],
-      "language": "JavaScript",
+      "language": "Swift",
       "license": "MIT",
-      "homepage": "https://www.npmjs.com/package/@modusensus/dsh-mneme",
-      "html_url": "https://github.com/slow-stack/mneme",
+      "homepage": null,
+      "html_url": "https://github.com/daveebbelaar/bama",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 174,
+      "stars_7d_ago": 736,
       "star_series": [
         {
-          "d": "10-01",
-          "s": 170
-        },
-        {
           "d": "10-02",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-03",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-04",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-05",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-06",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-07",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-08",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-09",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-10",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-11",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-12",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-13",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-14",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-15",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-16",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-17",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-18",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-19",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-20",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-21",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-22",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-23",
-          "s": 170
+          "s": 736
         },
         {
           "d": "10-24",
-          "s": 174
+          "s": 736
         },
         {
           "d": "10-25",
-          "s": 177
+          "s": 736
         },
         {
           "d": "10-26",
-          "s": 181
+          "s": 736
         },
         {
           "d": "10-27",
-          "s": 187
+          "s": 736
         },
         {
           "d": "10-28",
-          "s": 196
+          "s": 736
         },
         {
           "d": "10-29",
-          "s": 199
+          "s": 776
         },
         {
           "d": "10-30",
-          "s": 200
+          "s": 937
+        },
+        {
+          "d": "10-31",
+          "s": 1000
         }
       ]
     },
     "score": {
       "score": 100.0,
       "breakdown": {
-        "vel": 96,
-        "acc": 96,
-        "health": 71,
-        "fresh": 79,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 86.71,
-      "explanation": "mneme 是 JavaScript 开源项目，主打「🧠 The memory that dreams — cross-session memory for DeepSeek Harness. Local SQLite + Markdown mirrors, autoDream consolidation, 4-way recall (keyword/vector/BM25/entity), and a memory panel. 10 model tools, MCP server, CLI.」；处于增长早期，本周涨速 3.7 star/天，涨速在加快；社区健康（fork/star 比 11.0%，19 个 open issue）、项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "SubBoost",
-      "name": "subboost",
-      "full_name": "SubBoost/subboost",
-      "description": "Clash/Mihomo subscription conversion, enhancement, and management tool. Clash/Mihomo 订阅转换、增强和管理工具。通过 UI 可视化，一键实现链式代理、精确分流、防 DNS 泄露和多订阅聚合等高级功能。",
-      "stars": 1000,
-      "forks": 180,
-      "open_issues": 7,
-      "created_at": "2026-06-15T19:22:32+00:00",
-      "pushed_at": "2026-10-29T10:13:44+00:00",
-      "updated_at": "2026-10-30T11:18:32+00:00",
-      "topics": [
-        "clash",
-        "dns-leak-protection",
-        "mihomo",
-        "mihomo-config",
-        "mihomo-rules",
-        "proxy",
-        "subscription-converter"
-      ],
-      "language": "TypeScript",
-      "license": "AGPL-3.0",
-      "homepage": "https://subboost.org",
-      "html_url": "https://github.com/SubBoost/subboost",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 971,
-      "star_series": [
-        {
-          "d": "10-01",
-          "s": 898
-        },
-        {
-          "d": "10-02",
-          "s": 901
-        },
-        {
-          "d": "10-03",
-          "s": 904
-        },
-        {
-          "d": "10-04",
-          "s": 906
-        },
-        {
-          "d": "10-05",
-          "s": 907
-        },
-        {
-          "d": "10-06",
-          "s": 907
-        },
-        {
-          "d": "10-07",
-          "s": 908
-        },
-        {
-          "d": "10-08",
-          "s": 911
-        },
-        {
-          "d": "10-09",
-          "s": 913
-        },
-        {
-          "d": "10-10",
-          "s": 917
-        },
-        {
-          "d": "10-11",
-          "s": 921
-        },
-        {
-          "d": "10-12",
-          "s": 926
-        },
-        {
-          "d": "10-13",
-          "s": 930
-        },
-        {
-          "d": "10-14",
-          "s": 934
-        },
-        {
-          "d": "10-15",
-          "s": 937
-        },
-        {
-          "d": "10-16",
-          "s": 941
-        },
-        {
-          "d": "10-17",
-          "s": 945
-        },
-        {
-          "d": "10-18",
-          "s": 949
-        },
-        {
-          "d": "10-19",
-          "s": 954
-        },
-        {
-          "d": "10-20",
-          "s": 956
-        },
-        {
-          "d": "10-21",
-          "s": 958
-        },
-        {
-          "d": "10-22",
-          "s": 960
-        },
-        {
-          "d": "10-23",
-          "s": 964
-        },
-        {
-          "d": "10-24",
-          "s": 971
-        },
-        {
-          "d": "10-25",
-          "s": 975
-        },
-        {
-          "d": "10-26",
-          "s": 981
-        },
-        {
-          "d": "10-27",
-          "s": 989
-        },
-        {
-          "d": "10-28",
-          "s": 992
-        },
-        {
-          "d": "10-29",
-          "s": 996
-        },
-        {
-          "d": "10-30",
-          "s": 1000
-        }
-      ]
-    },
-    "score": {
-      "score": 93.74,
-      "breakdown": {
         "vel": 100,
-        "acc": 53,
-        "health": 99,
-        "fresh": 63,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 78.11,
-      "explanation": "subboost 是 TypeScript 开源项目，主打「Clash/Mihomo subscription conversion, enhancement, and management tool. Clash/Mihomo 订阅转换、增强和管理工具。通过 UI 可视化，一键实现链式代理、精确分流、防 DNS 泄露和多订阅聚合等高级功能。」；处于增长早期，本周涨速 4.1 star/天；社区健康（fork/star 比 18.0%，7 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "alibaba",
-      "name": "atrex-kernel-agent",
-      "full_name": "alibaba/atrex-kernel-agent",
-      "description": "An end-to-end agent project for GPU kernel implementation, analysis, profiling, and iterative optimization. It helps an agent turn PyTorch logic or an existing kernel into a high-performance GPU kernel through a structured, profile-driven workflow.",
-      "stars": 200,
-      "forks": 39,
-      "open_issues": 4,
-      "created_at": "2026-06-23T04:15:02+00:00",
-      "pushed_at": "2026-10-30T07:42:32+00:00",
-      "updated_at": "2026-10-30T07:42:37+00:00",
-      "topics": [
-        "agent",
-        "agentic-workflow",
-        "amd-gpu",
-        "autoresearch",
-        "gpu",
-        "gpu-kernel",
-        "gpu-programming",
-        "kernel-generation",
-        "nvidia-gpu",
-        "self-improving-agent",
-        "skills"
-      ],
-      "language": "Python",
-      "license": "Apache-2.0",
-      "homepage": null,
-      "html_url": "https://github.com/alibaba/atrex-kernel-agent",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 190,
-      "star_series": [
-        {
-          "d": "10-01",
-          "s": 184
-        },
-        {
-          "d": "10-02",
-          "s": 184
-        },
-        {
-          "d": "10-03",
-          "s": 184
-        },
-        {
-          "d": "10-04",
-          "s": 184
-        },
-        {
-          "d": "10-05",
-          "s": 184
-        },
-        {
-          "d": "10-06",
-          "s": 184
-        },
-        {
-          "d": "10-07",
-          "s": 184
-        },
-        {
-          "d": "10-08",
-          "s": 184
-        },
-        {
-          "d": "10-09",
-          "s": 184
-        },
-        {
-          "d": "10-10",
-          "s": 184
-        },
-        {
-          "d": "10-11",
-          "s": 184
-        },
-        {
-          "d": "10-12",
-          "s": 184
-        },
-        {
-          "d": "10-13",
-          "s": 184
-        },
-        {
-          "d": "10-14",
-          "s": 184
-        },
-        {
-          "d": "10-15",
-          "s": 184
-        },
-        {
-          "d": "10-16",
-          "s": 184
-        },
-        {
-          "d": "10-17",
-          "s": 184
-        },
-        {
-          "d": "10-18",
-          "s": 184
-        },
-        {
-          "d": "10-19",
-          "s": 184
-        },
-        {
-          "d": "10-20",
-          "s": 185
-        },
-        {
-          "d": "10-21",
-          "s": 185
-        },
-        {
-          "d": "10-22",
-          "s": 187
-        },
-        {
-          "d": "10-23",
-          "s": 189
-        },
-        {
-          "d": "10-24",
-          "s": 190
-        },
-        {
-          "d": "10-25",
-          "s": 190
-        },
-        {
-          "d": "10-26",
-          "s": 194
-        },
-        {
-          "d": "10-27",
-          "s": 195
-        },
-        {
-          "d": "10-28",
-          "s": 198
-        },
-        {
-          "d": "10-29",
-          "s": 200
-        },
-        {
-          "d": "10-30",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 80.7,
-      "breakdown": {
-        "vel": 55,
-        "acc": 64,
-        "health": 98,
-        "fresh": 65,
+        "acc": 99,
+        "health": 100,
+        "fresh": 98,
         "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 67.25,
-      "explanation": "atrex-kernel-agent 是 Python 开源项目，主打「An end-to-end agent project for GPU kernel implementation, analysis, profiling, and iterative optimization. It helps an agent turn PyTorch logic or an existing kernel into a high-performance GPU kernel through a structured, profile-driven workflow.」；处于增长早期，本周涨速 1.4 star/天；社区健康（fork/star 比 19.5%，4 个 open issue）。"
+      "base_score": 96.05,
+      "explanation": "bama 是 Swift 开源项目，主打「BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.」；处于增长早期，本周涨速 38 star/天，涨速在加快；社区健康（fork/star 比 14.0%，1 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "accomplish07zrh-eng",
+      "name": "dsh-aurabot-qq",
+      "full_name": "accomplish07zrh-eng/dsh-aurabot-qq",
+      "description": "让 DeepSeek Harness 里的 AI 以「大肥鱼」住进 QQ：会聊天、发表情、发语音、记事、发空间、刷 B 站、唱歌。功能都是模块，能开关、能自己写，还能从模块市场装更多（SnowLuma / OneBot v11）。",
+      "stars": 200,
+      "forks": 28,
+      "open_issues": 32,
+      "created_at": "2026-10-24T06:43:38+00:00",
+      "pushed_at": "2026-10-31T09:51:00+00:00",
+      "updated_at": "2026-10-31T11:06:07+00:00",
+      "topics": [
+        "chatbot",
+        "deepseek",
+        "dsh-plugin",
+        "onebot",
+        "plugin-system",
+        "qq"
+      ],
+      "language": "JavaScript",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/accomplish07zrh-eng/dsh-aurabot-qq",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 150,
+      "star_series": [
+        {
+          "d": "10-02",
+          "s": 150
+        },
+        {
+          "d": "10-03",
+          "s": 150
+        },
+        {
+          "d": "10-04",
+          "s": 150
+        },
+        {
+          "d": "10-05",
+          "s": 150
+        },
+        {
+          "d": "10-06",
+          "s": 150
+        },
+        {
+          "d": "10-07",
+          "s": 150
+        },
+        {
+          "d": "10-08",
+          "s": 150
+        },
+        {
+          "d": "10-09",
+          "s": 150
+        },
+        {
+          "d": "10-10",
+          "s": 150
+        },
+        {
+          "d": "10-11",
+          "s": 150
+        },
+        {
+          "d": "10-12",
+          "s": 150
+        },
+        {
+          "d": "10-13",
+          "s": 150
+        },
+        {
+          "d": "10-14",
+          "s": 150
+        },
+        {
+          "d": "10-15",
+          "s": 150
+        },
+        {
+          "d": "10-16",
+          "s": 150
+        },
+        {
+          "d": "10-17",
+          "s": 150
+        },
+        {
+          "d": "10-18",
+          "s": 150
+        },
+        {
+          "d": "10-19",
+          "s": 150
+        },
+        {
+          "d": "10-20",
+          "s": 150
+        },
+        {
+          "d": "10-21",
+          "s": 150
+        },
+        {
+          "d": "10-22",
+          "s": 150
+        },
+        {
+          "d": "10-23",
+          "s": 150
+        },
+        {
+          "d": "10-24",
+          "s": 150
+        },
+        {
+          "d": "10-25",
+          "s": 150
+        },
+        {
+          "d": "10-26",
+          "s": 150
+        },
+        {
+          "d": "10-27",
+          "s": 150
+        },
+        {
+          "d": "10-28",
+          "s": 150
+        },
+        {
+          "d": "10-29",
+          "s": 150
+        },
+        {
+          "d": "10-30",
+          "s": 186
+        },
+        {
+          "d": "10-31",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 92.63,
+      "breakdown": {
+        "vel": 61,
+        "acc": 99,
+        "health": 69,
+        "fresh": 98,
+        "signal": 70
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 77.19,
+      "explanation": "dsh-aurabot-qq 是 JavaScript 开源项目，主打「让 DeepSeek Harness 里的 AI 以「大肥鱼」住进 QQ：会聊天、发表情、发语音、记事、发空间、刷 B 站、唱歌。功能都是模块，能开关、能自己写，还能从模块市场装更多（SnowLuma / OneBot v11）。」；处于增长早期，本周涨速 7.1 star/天，涨速在加快；开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "eugenioenko",
+      "name": "ttt",
+      "full_name": "eugenioenko/ttt",
+      "description": "TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.",
+      "stars": 996,
+      "forks": 112,
+      "open_issues": 94,
+      "created_at": "2026-01-16T06:21:11+00:00",
+      "pushed_at": "2026-10-30T01:27:32+00:00",
+      "updated_at": "2026-10-31T09:33:25+00:00",
+      "topics": [
+        "cli",
+        "code-editor",
+        "developer-tools",
+        "diff",
+        "editor",
+        "git-integration",
+        "go",
+        "golang",
+        "herdr-plugin",
+        "ide",
+        "lsp",
+        "syntax-highlighting",
+        "tcell",
+        "terminal",
+        "terminal-emulator",
+        "text",
+        "text-editor",
+        "ttt",
+        "tui",
+        "vscode-alternative"
+      ],
+      "language": "Go",
+      "license": "MIT",
+      "homepage": "http://tttedit.dev/",
+      "html_url": "https://github.com/eugenioenko/ttt",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 940,
+      "star_series": [
+        {
+          "d": "10-02",
+          "s": 940
+        },
+        {
+          "d": "10-03",
+          "s": 940
+        },
+        {
+          "d": "10-04",
+          "s": 940
+        },
+        {
+          "d": "10-05",
+          "s": 940
+        },
+        {
+          "d": "10-06",
+          "s": 940
+        },
+        {
+          "d": "10-07",
+          "s": 940
+        },
+        {
+          "d": "10-08",
+          "s": 940
+        },
+        {
+          "d": "10-09",
+          "s": 940
+        },
+        {
+          "d": "10-10",
+          "s": 940
+        },
+        {
+          "d": "10-11",
+          "s": 940
+        },
+        {
+          "d": "10-12",
+          "s": 940
+        },
+        {
+          "d": "10-13",
+          "s": 940
+        },
+        {
+          "d": "10-14",
+          "s": 940
+        },
+        {
+          "d": "10-15",
+          "s": 940
+        },
+        {
+          "d": "10-16",
+          "s": 940
+        },
+        {
+          "d": "10-17",
+          "s": 940
+        },
+        {
+          "d": "10-18",
+          "s": 940
+        },
+        {
+          "d": "10-19",
+          "s": 940
+        },
+        {
+          "d": "10-20",
+          "s": 940
+        },
+        {
+          "d": "10-21",
+          "s": 940
+        },
+        {
+          "d": "10-22",
+          "s": 940
+        },
+        {
+          "d": "10-23",
+          "s": 940
+        },
+        {
+          "d": "10-24",
+          "s": 940
+        },
+        {
+          "d": "10-25",
+          "s": 940
+        },
+        {
+          "d": "10-26",
+          "s": 940
+        },
+        {
+          "d": "10-27",
+          "s": 940
+        },
+        {
+          "d": "10-28",
+          "s": 942
+        },
+        {
+          "d": "10-29",
+          "s": 965
+        },
+        {
+          "d": "10-30",
+          "s": 988
+        },
+        {
+          "d": "10-31",
+          "s": 996
+        }
+      ]
+    },
+    "score": {
+      "score": 72.0,
+      "breakdown": {
+        "vel": 64,
+        "acc": 99,
+        "health": 74,
+        "fresh": 21,
+        "signal": 100
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 65.46,
+      "explanation": "ttt 是 Go 开源项目，主打「TTT Editor (Terminal Text Tool): A real alternative to VS Code, Zed, and Sublime that runs in your terminal. A TUI that feels like GUI. Single binary, zero config.」；处于中早期增长，本周涨速 8.0 star/天，涨速在加快；社区健康（fork/star 比 11.2%，94 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "Marvae",
+      "name": "douban-cli",
+      "full_name": "Marvae/douban-cli",
+      "description": "豆瓣命令行工具 + AI Agent Skill：查电影、剧集、图书和 Top250，导出备份豆瓣观影/读书记录，让 AI 放心地标记评分 | Douban CLI for movies, books & your ratings",
+      "stars": 200,
+      "forks": 9,
+      "open_issues": 1,
+      "created_at": "2026-03-14T15:16:18+00:00",
+      "pushed_at": "2026-10-30T08:01:51+00:00",
+      "updated_at": "2026-10-30T17:27:39+00:00",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "ai-tools",
+        "backup",
+        "books",
+        "chinese",
+        "cli",
+        "command-line-tool",
+        "douban",
+        "douban-api",
+        "douban-book",
+        "douban-cli",
+        "douban-movie",
+        "export",
+        "llm",
+        "movies",
+        "nodejs",
+        "terminal",
+        "top250",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": "https://www.npmjs.com/package/@marvae24/douban-cli",
+      "html_url": "https://github.com/Marvae/douban-cli",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 138,
+      "star_series": [
+        {
+          "d": "10-02",
+          "s": 29
+        },
+        {
+          "d": "10-03",
+          "s": 29
+        },
+        {
+          "d": "10-04",
+          "s": 30
+        },
+        {
+          "d": "10-05",
+          "s": 30
+        },
+        {
+          "d": "10-06",
+          "s": 30
+        },
+        {
+          "d": "10-07",
+          "s": 30
+        },
+        {
+          "d": "10-08",
+          "s": 30
+        },
+        {
+          "d": "10-09",
+          "s": 30
+        },
+        {
+          "d": "10-10",
+          "s": 30
+        },
+        {
+          "d": "10-11",
+          "s": 30
+        },
+        {
+          "d": "10-12",
+          "s": 30
+        },
+        {
+          "d": "10-13",
+          "s": 30
+        },
+        {
+          "d": "10-14",
+          "s": 30
+        },
+        {
+          "d": "10-15",
+          "s": 30
+        },
+        {
+          "d": "10-16",
+          "s": 30
+        },
+        {
+          "d": "10-17",
+          "s": 30
+        },
+        {
+          "d": "10-18",
+          "s": 31
+        },
+        {
+          "d": "10-19",
+          "s": 31
+        },
+        {
+          "d": "10-20",
+          "s": 31
+        },
+        {
+          "d": "10-21",
+          "s": 35
+        },
+        {
+          "d": "10-22",
+          "s": 35
+        },
+        {
+          "d": "10-23",
+          "s": 116
+        },
+        {
+          "d": "10-24",
+          "s": 133
+        },
+        {
+          "d": "10-25",
+          "s": 138
+        },
+        {
+          "d": "10-26",
+          "s": 152
+        },
+        {
+          "d": "10-27",
+          "s": 182
+        },
+        {
+          "d": "10-28",
+          "s": 190
+        },
+        {
+          "d": "10-29",
+          "s": 194
+        },
+        {
+          "d": "10-30",
+          "s": 200
+        },
+        {
+          "d": "10-31",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 66.57,
+      "breakdown": {
+        "vel": 67,
+        "acc": 40,
+        "health": 69,
+        "fresh": 37,
+        "signal": 85
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 55.47,
+      "explanation": "douban-cli 是 TypeScript 开源项目，主打「豆瓣命令行工具 + AI Agent Skill：查电影、剧集、图书和 Top250，导出备份豆瓣观影/读书记录，让 AI 放心地标记评分 | Douban CLI for movies, books & your ratings」；处于增长早期，本周涨速 8.9 star/天；项目元数据完整。"
     }
   },
   {
@@ -525,12 +710,12 @@
       "name": "aimock",
       "full_name": "CopilotKit/aimock",
       "description": "Mock everything your AI app talks to — LLM APIs, MCP, A2A, AG-UI, vector DBs, search. One package, one port, zero dependencies.",
-      "stars": 997,
-      "forks": 83,
-      "open_issues": 2,
+      "stars": 999,
+      "forks": 82,
+      "open_issues": 1,
       "created_at": "2026-03-03T02:40:16+00:00",
-      "pushed_at": "2026-10-29T23:10:57+00:00",
-      "updated_at": "2026-10-29T23:11:01+00:00",
+      "pushed_at": "2026-10-30T17:26:31+00:00",
+      "updated_at": "2026-10-30T23:29:48+00:00",
       "topics": [
         "ai-testing",
         "aimock",
@@ -546,107 +731,103 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 985,
+      "stars_7d_ago": 987,
       "star_series": [
         {
-          "d": "10-01",
-          "s": 983
-        },
-        {
           "d": "10-02",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-03",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-04",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-05",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-06",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-07",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-08",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-09",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-10",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-11",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-12",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-13",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-14",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-15",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-16",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-17",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-18",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-19",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-20",
-          "s": 983
+          "s": 987
         },
         {
           "d": "10-21",
-          "s": 984
+          "s": 987
         },
         {
           "d": "10-22",
-          "s": 984
+          "s": 987
         },
         {
           "d": "10-23",
-          "s": 984
+          "s": 987
         },
         {
           "d": "10-24",
-          "s": 985
+          "s": 987
         },
         {
           "d": "10-25",
-          "s": 986
+          "s": 987
         },
         {
           "d": "10-26",
@@ -666,15 +847,19 @@
         },
         {
           "d": "10-30",
-          "s": 997
+          "s": 999
+        },
+        {
+          "d": "10-31",
+          "s": 999
         }
       ]
     },
     "score": {
-      "score": 74.72,
+      "score": 60.41,
       "breakdown": {
-        "vel": 62,
-        "acc": 81,
+        "vel": 29,
+        "acc": 85,
         "health": 87,
         "fresh": 34,
         "signal": 100
@@ -682,187 +867,8 @@
       "stage": "mid_early",
       "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 67.93,
-      "explanation": "aimock 是 TypeScript 开源项目，主打「Mock everything your AI app talks to — LLM APIs, MCP, A2A, AG-UI, vector DBs, search. One package, one port, zero dependencies.」；处于中早期增长，本周涨速 1.7 star/天，涨速在加快；社区健康（fork/star 比 8.3%，2 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "JakobAIOdev",
-      "name": "Vintrack-Vinted-Monitor",
-      "full_name": "JakobAIOdev/Vintrack-Vinted-Monitor",
-      "description": "Real-time Vinted monitor with instant Discord alerts, proxy rotation & a beautiful dashboard. Self-hosted with Docker. Built with Next.js 16 + Go.",
-      "stars": 200,
-      "forks": 24,
-      "open_issues": 3,
-      "created_at": "2026-02-09T19:21:53+00:00",
-      "pushed_at": "2026-10-29T21:53:43+00:00",
-      "updated_at": "2026-10-29T21:49:48+00:00",
-      "topics": [
-        "discord-bot",
-        "go",
-        "golang",
-        "monitor",
-        "nextjs",
-        "real-time",
-        "reselling",
-        "self-hosted",
-        "vinted",
-        "vinted-api",
-        "vinted-bot",
-        "vinted-go",
-        "vinted-monitor",
-        "vinted-scraper",
-        "vintedbot",
-        "web-scraping",
-        "web-scraping-api",
-        "web-scraping-go"
-      ],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": "https://vintrack.jakobaio.dev/",
-      "html_url": "https://github.com/JakobAIOdev/Vintrack-Vinted-Monitor",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 189,
-      "star_series": [
-        {
-          "d": "10-01",
-          "s": 157
-        },
-        {
-          "d": "10-02",
-          "s": 157
-        },
-        {
-          "d": "10-03",
-          "s": 157
-        },
-        {
-          "d": "10-04",
-          "s": 157
-        },
-        {
-          "d": "10-05",
-          "s": 157
-        },
-        {
-          "d": "10-06",
-          "s": 157
-        },
-        {
-          "d": "10-07",
-          "s": 157
-        },
-        {
-          "d": "10-08",
-          "s": 157
-        },
-        {
-          "d": "10-09",
-          "s": 157
-        },
-        {
-          "d": "10-10",
-          "s": 157
-        },
-        {
-          "d": "10-11",
-          "s": 157
-        },
-        {
-          "d": "10-12",
-          "s": 159
-        },
-        {
-          "d": "10-13",
-          "s": 162
-        },
-        {
-          "d": "10-14",
-          "s": 164
-        },
-        {
-          "d": "10-15",
-          "s": 169
-        },
-        {
-          "d": "10-16",
-          "s": 173
-        },
-        {
-          "d": "10-17",
-          "s": 177
-        },
-        {
-          "d": "10-18",
-          "s": 179
-        },
-        {
-          "d": "10-19",
-          "s": 180
-        },
-        {
-          "d": "10-20",
-          "s": 182
-        },
-        {
-          "d": "10-21",
-          "s": 183
-        },
-        {
-          "d": "10-22",
-          "s": 185
-        },
-        {
-          "d": "10-23",
-          "s": 188
-        },
-        {
-          "d": "10-24",
-          "s": 189
-        },
-        {
-          "d": "10-25",
-          "s": 191
-        },
-        {
-          "d": "10-26",
-          "s": 194
-        },
-        {
-          "d": "10-27",
-          "s": 196
-        },
-        {
-          "d": "10-28",
-          "s": 198
-        },
-        {
-          "d": "10-29",
-          "s": 200
-        },
-        {
-          "d": "10-30",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 69.15,
-      "breakdown": {
-        "vel": 59,
-        "acc": 48,
-        "health": 91,
-        "fresh": 28,
-        "signal": 100
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 57.63,
-      "explanation": "Vintrack-Vinted-Monitor 是 TypeScript 开源项目，主打「Real-time Vinted monitor with instant Discord alerts, proxy rotation & a beautiful dashboard. Self-hosted with Docker. Built with Next.js 16 + Go.」；处于增长早期，本周涨速 1.6 star/天；社区健康（fork/star 比 12.0%，3 个 open issue）、项目元数据完整。"
+      "base_score": 54.91,
+      "explanation": "aimock 是 TypeScript 开源项目，主打「Mock everything your AI app talks to — LLM APIs, MCP, A2A, AG-UI, vector DBs, search. One package, one port, zero dependencies.」；处于中早期增长，涨速在加快；社区健康（fork/star 比 8.2%，1 个 open issue）、项目元数据完整。"
     }
   }
 ]
