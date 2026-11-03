@@ -1,30 +1,47 @@
 [
   {
     "repo": {
-      "owner": "bd-dxg",
-      "name": "airsnip",
-      "full_name": "bd-dxg/airsnip",
-      "description": "AirSnip 轻截：1 MB 的 Windows 截图标注工具（Rust，纯 CPU 渲染，待机 0% CPU）",
+      "owner": "petastarfishrear",
+      "name": "axie-infinity-bot",
+      "full_name": "petastarfishrear/axie-infinity-bot",
+      "description": "Complete standalone setup for Axie Infinity Bot 2026. Ready-to-run desktop installation with all features pre-activated.",
       "stars": 200,
-      "forks": 20,
-      "open_issues": 10,
-      "created_at": "2026-10-05T02:46:12+00:00",
-      "pushed_at": "2026-11-02T07:32:23+00:00",
-      "updated_at": "2026-11-02T13:50:23+00:00",
-      "topics": [],
-      "language": "Rust",
-      "license": "GPL-3.0",
-      "homepage": "https://airsnip.bddxg.top",
-      "html_url": "https://github.com/bd-dxg/airsnip",
+      "forks": 1,
+      "open_issues": 0,
+      "created_at": "2026-11-02T10:11:20+00:00",
+      "pushed_at": "2026-11-02T10:11:27+00:00",
+      "updated_at": "2026-11-03T11:19:54+00:00",
+      "topics": [
+        "auto-battle-bot",
+        "automation",
+        "axie-auto",
+        "axie-auto-2026",
+        "axie-automation-tool",
+        "axie-bot",
+        "axie-bot-2026",
+        "axie-infinity",
+        "axie-infinity-2026",
+        "axie-infinity-bot-auto",
+        "axie-infinity-crack",
+        "axie-infinity-mod",
+        "axie-infinity-top",
+        "axie-infinity-top-bot",
+        "developer-tools",
+        "open-source",
+        "python",
+        "scripts",
+        "software-engineering",
+        "web3-game"
+      ],
+      "language": null,
+      "license": null,
+      "homepage": null,
+      "html_url": "https://github.com/petastarfishrear/axie-infinity-bot",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
       "stars_7d_ago": 0,
       "star_series": [
-        {
-          "d": "10-04",
-          "s": 0
-        },
         {
           "d": "10-05",
           "s": 0
@@ -135,10 +152,14 @@
         },
         {
           "d": "11-01",
-          "s": 138
+          "s": 0
         },
         {
           "d": "11-02",
+          "s": 100
+        },
+        {
+          "d": "11-03",
           "s": 200
         }
       ]
@@ -148,704 +169,694 @@
       "breakdown": {
         "vel": 100,
         "acc": 99,
-        "health": 78,
-        "fresh": 92,
-        "signal": 70
+        "health": 60,
+        "fresh": 100,
+        "signal": 50
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 90.59,
-      "explanation": "airsnip 是 Rust 开源项目，主打「AirSnip 轻截：1 MB 的 Windows 截图标注工具（Rust，纯 CPU 渲染，待机 0% CPU）」；处于增长早期，本周涨速 29 star/天，涨速在加快；社区健康（fork/star 比 10.0%，10 个 open issue）、开发活跃。"
+      "base_score": 84.2,
+      "explanation": "axie-infinity-bot 是 未知语言 开源项目，主打「Complete standalone setup for Axie Infinity Bot 2026. Ready-to-run desktop installation with all features pre-activated.」；处于增长早期，本周涨速 29 star/天，涨速在加快；开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "aicodeking",
-      "name": "pandacode",
-      "full_name": "aicodeking/pandacode",
-      "description": "PandaCode: a calm desktop workspace for coding agents",
-      "stars": 1000,
-      "forks": 179,
-      "open_issues": 87,
-      "created_at": "2026-10-18T02:21:29+00:00",
-      "pushed_at": "2026-11-02T09:04:44+00:00",
-      "updated_at": "2026-11-02T13:14:39+00:00",
-      "topics": [],
-      "language": "Rust",
-      "license": "NOASSERTION",
+      "owner": "CeilingGeneral",
+      "name": "landr-plugin-bundle",
+      "full_name": "CeilingGeneral/landr-plugin-bundle",
+      "description": "Landr Plugin Bundle 2026, complete standalone setup ready to run. All plugins pre-installed and activated for immediate use.",
+      "stars": 200,
+      "forks": 0,
+      "open_issues": 0,
+      "created_at": "2026-11-02T10:13:23+00:00",
+      "pushed_at": "2026-11-02T10:13:30+00:00",
+      "updated_at": "2026-11-03T11:25:16+00:00",
+      "topics": [
+        "developer-tools",
+        "how-to-install-landr",
+        "how-to-install-landr-mastering",
+        "landr-desktop-2026",
+        "landr-desktop-package",
+        "landr-mastering",
+        "landr-setup-failed-fix",
+        "landr-studio",
+        "landr-windows",
+        "loudness-optimization",
+        "loudness-targets",
+        "mastering-tools",
+        "mix-assist",
+        "mix-processing",
+        "music-mastering",
+        "music-utility",
+        "online-mastering",
+        "open-source",
+        "python",
+        "software-engineering"
+      ],
+      "language": null,
+      "license": null,
       "homepage": null,
-      "html_url": "https://github.com/aicodeking/pandacode",
+      "html_url": "https://github.com/CeilingGeneral/landr-plugin-bundle",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 868,
+      "stars_7d_ago": 0,
       "star_series": [
         {
-          "d": "10-04",
-          "s": 868
-        },
-        {
           "d": "10-05",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-06",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-07",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-08",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-09",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-10",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-11",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-12",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-13",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-14",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-15",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-16",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-17",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-18",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-19",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-20",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-21",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-22",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-23",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-24",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-25",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-26",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-27",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-28",
-          "s": 868
+          "s": 0
         },
         {
           "d": "10-29",
-          "s": 871
+          "s": 0
         },
         {
           "d": "10-30",
-          "s": 911
+          "s": 0
         },
         {
           "d": "10-31",
-          "s": 943
+          "s": 0
         },
         {
           "d": "11-01",
-          "s": 979
+          "s": 0
         },
         {
           "d": "11-02",
-          "s": 1000
+          "s": 100
+        },
+        {
+          "d": "11-03",
+          "s": 200
         }
       ]
     },
     "score": {
       "score": 100.0,
       "breakdown": {
-        "vel": 91,
+        "vel": 100,
         "acc": 99,
-        "health": 79,
-        "fresh": 96,
-        "signal": 55
+        "health": 60,
+        "fresh": 100,
+        "signal": 50
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 86.58,
-      "explanation": "pandacode 是 Rust 开源项目，主打「PandaCode: a calm desktop workspace for coding agents」；处于增长早期，本周涨速 19 star/天，涨速在加快；社区健康（fork/star 比 17.9%，87 个 open issue）、开发活跃。"
+      "base_score": 84.1,
+      "explanation": "landr-plugin-bundle 是 未知语言 开源项目，主打「Landr Plugin Bundle 2026, complete standalone setup ready to run. All plugins pre-installed and activated for immediate use.」；处于增长早期，本周涨速 29 star/天，涨速在加快；开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "z91772524-ai",
-      "name": "pojia-next",
-      "full_name": "z91772524-ai/pojia-next",
-      "description": "十五个 AI 客户端的内置提示词一键替换：双击即用、可自证、改前备份、一键还原。v8.26：一键破甲全程托管（自动结束进程+注入+自动拉起）、注入步骤实时提示、写后自检回滚、托盘常驻。免装 Python 单文件 exe，完全免费开源。",
-      "stars": 998,
-      "forks": 272,
-      "open_issues": 19,
-      "created_at": "2026-09-17T12:36:10+00:00",
-      "pushed_at": "2026-11-01T02:15:27+00:00",
-      "updated_at": "2026-11-02T13:32:33+00:00",
+      "owner": "ADWMC",
+      "name": "helm-d",
+      "full_name": "ADWMC/helm-d",
+      "description": "DeepSeek Harness 破甲一体化安全分析插件：Android · Web · Native · Protocol · Malware · AI-Security 全领域聚合（9 bundle + 1 preset）",
+      "stars": 999,
+      "forks": 95,
+      "open_issues": 2,
+      "created_at": "2026-08-14T15:09:38+00:00",
+      "pushed_at": "2026-11-02T15:41:34+00:00",
+      "updated_at": "2026-11-03T11:30:00+00:00",
       "topics": [
-        "ai-agent",
-        "automation",
-        "claude-code",
-        "codex",
-        "cursor",
+        "cordis",
         "deepseek-harness",
         "dsh",
-        "exe",
-        "glm",
-        "no-dependencies",
-        "one-click",
-        "persona",
-        "prompt-injection",
-        "python",
-        "security-audit",
-        "self-check",
-        "standalone",
-        "unlock",
-        "windows",
-        "workbuddy"
+        "dsh-plugin",
+        "frida",
+        "jailbreak",
+        "llm-jailbreak",
+        "reverse-engineering",
+        "security"
       ],
       "language": "Python",
-      "license": "MIT",
-      "homepage": "https://aaaa.yiye.pw/",
-      "html_url": "https://github.com/z91772524-ai/pojia-next",
+      "license": "AGPL-3.0",
+      "homepage": null,
+      "html_url": "https://github.com/ADWMC/helm-d",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 939,
+      "stars_7d_ago": 819,
       "star_series": [
         {
-          "d": "10-04",
-          "s": 939
-        },
-        {
           "d": "10-05",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-06",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-07",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-08",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-09",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-10",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-11",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-12",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-13",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-14",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-15",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-16",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-17",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-18",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-19",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-20",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-21",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-22",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-23",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-24",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-25",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-26",
-          "s": 939
+          "s": 748
         },
         {
           "d": "10-27",
-          "s": 939
+          "s": 773
         },
         {
           "d": "10-28",
-          "s": 939
+          "s": 819
         },
         {
           "d": "10-29",
-          "s": 939
+          "s": 854
         },
         {
           "d": "10-30",
+          "s": 895
+        },
+        {
+          "d": "10-31",
+          "s": 921
+        },
+        {
+          "d": "11-01",
           "s": 950
         },
         {
-          "d": "10-31",
-          "s": 965
-        },
-        {
-          "d": "11-01",
-          "s": 980
-        },
-        {
           "d": "11-02",
-          "s": 998
+          "s": 984
+        },
+        {
+          "d": "11-03",
+          "s": 999
         }
       ]
     },
     "score": {
-      "score": 93.74,
+      "score": 100.0,
       "breakdown": {
-        "vel": 68,
-        "acc": 99,
-        "health": 96,
-        "fresh": 87,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 85.22,
-      "explanation": "pojia-next 是 Python 开源项目，主打「十五个 AI 客户端的内置提示词一键替换：双击即用、可自证、改前备份、一键还原。v8.26：一键破甲全程托管（自动结束进程+注入+自动拉起）、注入步骤实时提示、写后自检回滚、托盘常驻。免装 Python 单文件 exe，完全免费开源。」；处于中早期增长，本周涨速 8.4 star/天，涨速在加快；社区健康（fork/star 比 27.3%，19 个 open issue）、项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "ys-ll",
-      "name": "uniterm",
-      "full_name": "ys-ll/uniterm",
-      "description": "All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.",
-      "stars": 1000,
-      "forks": 160,
-      "open_issues": 53,
-      "created_at": "2026-05-11T10:59:23+00:00",
-      "pushed_at": "2026-11-02T13:41:48+00:00",
-      "updated_at": "2026-11-02T13:41:54+00:00",
-      "topics": [
-        "ai-agent",
-        "containerd",
-        "cross-platform",
-        "database-client",
-        "docker",
-        "elasticsearch",
-        "kubernetes",
-        "mosh",
-        "nerdctl",
-        "podman",
-        "rdp",
-        "sftp",
-        "spice",
-        "ssh",
-        "telnet",
-        "terminal",
-        "vnc",
-        "wails",
-        "xterm",
-        "zmodem"
-      ],
-      "language": "Go",
-      "license": "Apache-2.0",
-      "homepage": "https://uniterm.net",
-      "html_url": "https://github.com/ys-ll/uniterm",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 956,
-      "star_series": [
-        {
-          "d": "10-04",
-          "s": 956
-        },
-        {
-          "d": "10-05",
-          "s": 956
-        },
-        {
-          "d": "10-06",
-          "s": 956
-        },
-        {
-          "d": "10-07",
-          "s": 956
-        },
-        {
-          "d": "10-08",
-          "s": 956
-        },
-        {
-          "d": "10-09",
-          "s": 956
-        },
-        {
-          "d": "10-10",
-          "s": 956
-        },
-        {
-          "d": "10-11",
-          "s": 956
-        },
-        {
-          "d": "10-12",
-          "s": 956
-        },
-        {
-          "d": "10-13",
-          "s": 956
-        },
-        {
-          "d": "10-14",
-          "s": 956
-        },
-        {
-          "d": "10-15",
-          "s": 956
-        },
-        {
-          "d": "10-16",
-          "s": 956
-        },
-        {
-          "d": "10-17",
-          "s": 956
-        },
-        {
-          "d": "10-18",
-          "s": 956
-        },
-        {
-          "d": "10-19",
-          "s": 956
-        },
-        {
-          "d": "10-20",
-          "s": 956
-        },
-        {
-          "d": "10-21",
-          "s": 956
-        },
-        {
-          "d": "10-22",
-          "s": 956
-        },
-        {
-          "d": "10-23",
-          "s": 956
-        },
-        {
-          "d": "10-24",
-          "s": 956
-        },
-        {
-          "d": "10-25",
-          "s": 956
-        },
-        {
-          "d": "10-26",
-          "s": 956
-        },
-        {
-          "d": "10-27",
-          "s": 956
-        },
-        {
-          "d": "10-28",
-          "s": 965
-        },
-        {
-          "d": "10-29",
-          "s": 976
-        },
-        {
-          "d": "10-30",
-          "s": 982
-        },
-        {
-          "d": "10-31",
-          "s": 988
-        },
-        {
-          "d": "11-01",
-          "s": 991
-        },
-        {
-          "d": "11-02",
-          "s": 1000
-        }
-      ]
-    },
-    "score": {
-      "score": 82.09,
-      "breakdown": {
-        "vel": 60,
-        "acc": 99,
-        "health": 88,
-        "fresh": 52,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 74.63,
-      "explanation": "uniterm 是 Go 开源项目，主打「All-in-one terminal covering 30+ protocols — SSH, RDP, SFTP, databases, Kubernetes and more. With a built-in AI Agent that runs multi-turn shell commands autonomously.」；处于中早期增长，本周涨速 6.3 star/天，涨速在加快；社区健康（fork/star 比 16.0%，53 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "Zennmn",
-      "name": "AM-plus-plus",
-      "full_name": "Zennmn/AM-plus-plus",
-      "description": "Apple Music 增强模块",
-      "stars": 200,
-      "forks": 14,
-      "open_issues": 14,
-      "created_at": "2026-07-28T05:21:32+00:00",
-      "pushed_at": "2026-11-01T04:09:04+00:00",
-      "updated_at": "2026-11-02T13:54:58+00:00",
-      "topics": [
-        "android",
-        "apple-music",
-        "kotlin",
-        "libxposed",
-        "lsposed",
-        "xposed"
-      ],
-      "language": "Kotlin",
-      "license": "GPL-3.0",
-      "homepage": null,
-      "html_url": "https://github.com/Zennmn/AM-plus-plus",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 150,
-      "star_series": [
-        {
-          "d": "10-04",
-          "s": 109
-        },
-        {
-          "d": "10-05",
-          "s": 109
-        },
-        {
-          "d": "10-06",
-          "s": 109
-        },
-        {
-          "d": "10-07",
-          "s": 109
-        },
-        {
-          "d": "10-08",
-          "s": 109
-        },
-        {
-          "d": "10-09",
-          "s": 109
-        },
-        {
-          "d": "10-10",
-          "s": 109
-        },
-        {
-          "d": "10-11",
-          "s": 109
-        },
-        {
-          "d": "10-12",
-          "s": 109
-        },
-        {
-          "d": "10-13",
-          "s": 109
-        },
-        {
-          "d": "10-14",
-          "s": 109
-        },
-        {
-          "d": "10-15",
-          "s": 109
-        },
-        {
-          "d": "10-16",
-          "s": 109
-        },
-        {
-          "d": "10-17",
-          "s": 114
-        },
-        {
-          "d": "10-18",
-          "s": 119
-        },
-        {
-          "d": "10-19",
-          "s": 124
-        },
-        {
-          "d": "10-20",
-          "s": 125
-        },
-        {
-          "d": "10-21",
-          "s": 127
-        },
-        {
-          "d": "10-22",
-          "s": 130
-        },
-        {
-          "d": "10-23",
-          "s": 133
-        },
-        {
-          "d": "10-24",
-          "s": 137
-        },
-        {
-          "d": "10-25",
-          "s": 144
-        },
-        {
-          "d": "10-26",
-          "s": 147
-        },
-        {
-          "d": "10-27",
-          "s": 150
-        },
-        {
-          "d": "10-28",
-          "s": 154
-        },
-        {
-          "d": "10-29",
-          "s": 156
-        },
-        {
-          "d": "10-30",
-          "s": 157
-        },
-        {
-          "d": "10-31",
-          "s": 162
-        },
-        {
-          "d": "11-01",
-          "s": 184
-        },
-        {
-          "d": "11-02",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 81.76,
-      "breakdown": {
-        "vel": 64,
-        "acc": 73,
-        "health": 64,
-        "fresh": 73,
+        "vel": 97,
+        "acc": 82,
+        "health": 91,
+        "fresh": 78,
         "signal": 70
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 68.14,
-      "explanation": "AM-plus-plus 是 Kotlin 开源项目，主打「Apple Music 增强模块」；处于增长早期，本周涨速 7.1 star/天，涨速在加快；开发活跃。"
+      "base_score": 86.15,
+      "explanation": "helm-d 是 Python 开源项目，主打「DeepSeek Harness 破甲一体化安全分析插件：Android · Web · Native · Protocol · Malware · AI-Security 全领域聚合（9 bundle + 1 preset）」；处于增长早期，本周涨速 26 star/天，涨速在加快；社区健康（fork/star 比 9.5%，2 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "Tencent-Hunyuan",
+      "name": "Hyra-results",
+      "full_name": "Tencent-Hunyuan/Hyra-results",
+      "description": "Research artifacts from Hyra (/ˈhaɪ.rɑː/)",
+      "stars": 200,
+      "forks": 11,
+      "open_issues": 2,
+      "created_at": "2026-07-17T02:27:25+00:00",
+      "pushed_at": "2026-11-02T14:19:08+00:00",
+      "updated_at": "2026-11-03T11:31:04+00:00",
+      "topics": [
+        "agent",
+        "ai-for-science",
+        "ai4science",
+        "autoresearch",
+        "coding",
+        "llm",
+        "recursive-self-improvement"
+      ],
+      "language": "Python",
+      "license": "NOASSERTION",
+      "homepage": "https://hy.tencent.com/research/hyra",
+      "html_url": "https://github.com/Tencent-Hunyuan/Hyra-results",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 164,
+      "star_series": [
+        {
+          "d": "10-05",
+          "s": 157
+        },
+        {
+          "d": "10-06",
+          "s": 157
+        },
+        {
+          "d": "10-07",
+          "s": 157
+        },
+        {
+          "d": "10-08",
+          "s": 157
+        },
+        {
+          "d": "10-09",
+          "s": 158
+        },
+        {
+          "d": "10-10",
+          "s": 159
+        },
+        {
+          "d": "10-11",
+          "s": 159
+        },
+        {
+          "d": "10-12",
+          "s": 160
+        },
+        {
+          "d": "10-13",
+          "s": 161
+        },
+        {
+          "d": "10-14",
+          "s": 162
+        },
+        {
+          "d": "10-15",
+          "s": 162
+        },
+        {
+          "d": "10-16",
+          "s": 162
+        },
+        {
+          "d": "10-17",
+          "s": 162
+        },
+        {
+          "d": "10-18",
+          "s": 162
+        },
+        {
+          "d": "10-19",
+          "s": 163
+        },
+        {
+          "d": "10-20",
+          "s": 163
+        },
+        {
+          "d": "10-21",
+          "s": 163
+        },
+        {
+          "d": "10-22",
+          "s": 163
+        },
+        {
+          "d": "10-23",
+          "s": 163
+        },
+        {
+          "d": "10-24",
+          "s": 163
+        },
+        {
+          "d": "10-25",
+          "s": 164
+        },
+        {
+          "d": "10-26",
+          "s": 164
+        },
+        {
+          "d": "10-27",
+          "s": 164
+        },
+        {
+          "d": "10-28",
+          "s": 164
+        },
+        {
+          "d": "10-29",
+          "s": 164
+        },
+        {
+          "d": "10-30",
+          "s": 164
+        },
+        {
+          "d": "10-31",
+          "s": 164
+        },
+        {
+          "d": "11-01",
+          "s": 164
+        },
+        {
+          "d": "11-02",
+          "s": 184
+        },
+        {
+          "d": "11-03",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 86.72,
+      "breakdown": {
+        "vel": 54,
+        "acc": 99,
+        "health": 72,
+        "fresh": 70,
+        "signal": 85
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 72.27,
+      "explanation": "Hyra-results 是 Python 开源项目，主打「Research artifacts from Hyra (/ˈhaɪ.rɑː/)」；处于增长早期，本周涨速 5.1 star/天，涨速在加快；社区健康（fork/star 比 5.5%，2 个 open issue）、项目元数据完整、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "kevintngo",
+      "name": "statechart-art",
+      "full_name": "kevintngo/statechart-art",
+      "description": "Four statecharts about running a boba shop, drawn by hand in code.",
+      "stars": 200,
+      "forks": 16,
+      "open_issues": 0,
+      "created_at": "2026-10-30T20:00:46+00:00",
+      "pushed_at": "2026-10-31T16:58:05+00:00",
+      "updated_at": "2026-11-03T11:25:36+00:00",
+      "topics": [],
+      "language": "JavaScript",
+      "license": "MIT",
+      "homepage": "https://kevintngo.github.io/statechart-art/",
+      "html_url": "https://github.com/kevintngo/statechart-art",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 0,
+      "star_series": [
+        {
+          "d": "10-05",
+          "s": 0
+        },
+        {
+          "d": "10-06",
+          "s": 0
+        },
+        {
+          "d": "10-07",
+          "s": 0
+        },
+        {
+          "d": "10-08",
+          "s": 0
+        },
+        {
+          "d": "10-09",
+          "s": 0
+        },
+        {
+          "d": "10-10",
+          "s": 0
+        },
+        {
+          "d": "10-11",
+          "s": 0
+        },
+        {
+          "d": "10-12",
+          "s": 0
+        },
+        {
+          "d": "10-13",
+          "s": 0
+        },
+        {
+          "d": "10-14",
+          "s": 0
+        },
+        {
+          "d": "10-15",
+          "s": 0
+        },
+        {
+          "d": "10-16",
+          "s": 0
+        },
+        {
+          "d": "10-17",
+          "s": 0
+        },
+        {
+          "d": "10-18",
+          "s": 0
+        },
+        {
+          "d": "10-19",
+          "s": 0
+        },
+        {
+          "d": "10-20",
+          "s": 0
+        },
+        {
+          "d": "10-21",
+          "s": 0
+        },
+        {
+          "d": "10-22",
+          "s": 0
+        },
+        {
+          "d": "10-23",
+          "s": 0
+        },
+        {
+          "d": "10-24",
+          "s": 0
+        },
+        {
+          "d": "10-25",
+          "s": 0
+        },
+        {
+          "d": "10-26",
+          "s": 0
+        },
+        {
+          "d": "10-27",
+          "s": 0
+        },
+        {
+          "d": "10-28",
+          "s": 0
+        },
+        {
+          "d": "10-29",
+          "s": 0
+        },
+        {
+          "d": "10-30",
+          "s": 12
+        },
+        {
+          "d": "10-31",
+          "s": 77
+        },
+        {
+          "d": "11-01",
+          "s": 107
+        },
+        {
+          "d": "11-02",
+          "s": 174
+        },
+        {
+          "d": "11-03",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 79.74,
+      "breakdown": {
+        "vel": 100,
+        "acc": 99,
+        "health": 80,
+        "fresh": 99,
+        "signal": 85
+      },
+      "stage": "late",
+      "stage_multiplier": 0.85,
+      "confidence": 1.0,
+      "base_score": 93.81,
+      "explanation": "statechart-art 是 JavaScript 开源项目，主打「Four statecharts about running a boba shop, drawn by hand in code.」；接近增长天花板，本周涨速 29 star/天，涨速在加快；社区健康（fork/star 比 8.0%，0 个 open issue）、项目元数据完整、开发活跃。"
     }
   }
 ]
