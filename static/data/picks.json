@@ -1,157 +1,159 @@
 [
   {
     "repo": {
-      "owner": "pulseaiclub",
-      "name": "phi",
-      "full_name": "pulseaiclub/phi",
-      "description": "A fast coding agent, rpc plugin, sub-agents, sloppy edits, and mcp",
-      "stars": 997,
-      "forks": 37,
-      "open_issues": 9,
-      "created_at": "2026-08-03T03:16:48+00:00",
-      "pushed_at": "2026-11-10T09:04:19+00:00",
-      "updated_at": "2026-11-10T13:35:26+00:00",
+      "owner": "AienTech",
+      "name": "dossier",
+      "full_name": "AienTech/dossier",
+      "description": "A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.",
+      "stars": 4998,
+      "forks": 1036,
+      "open_issues": 25,
+      "created_at": "2026-10-03T21:26:15+00:00",
+      "pushed_at": "2026-11-08T13:29:38+00:00",
+      "updated_at": "2026-11-11T12:57:41+00:00",
       "topics": [
-        "ai-agent",
-        "cli",
-        "codex",
-        "coding-agent",
-        "dsh-plugin",
-        "go",
-        "oh-my-pi",
-        "omp",
-        "pi",
-        "terminal",
-        "tui"
+        "caprover",
+        "cover-letter",
+        "docker",
+        "job-application-tracker",
+        "job-search",
+        "llm",
+        "local-llm",
+        "nextjs",
+        "ollama",
+        "postgresql",
+        "resume",
+        "self-hosted",
+        "typescript"
       ],
-      "language": "Go",
-      "license": "MIT",
-      "homepage": "https://pulseaiclub.github.io/",
-      "html_url": "https://github.com/pulseaiclub/phi",
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "homepage": "https://dossier.aien.me",
+      "html_url": "https://github.com/AienTech/dossier",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 866,
+      "stars_7d_ago": 4816,
       "star_series": [
         {
-          "d": "10-12",
-          "s": 866
-        },
-        {
           "d": "10-13",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-14",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-15",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-16",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-17",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-18",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-19",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-20",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-21",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-22",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-23",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-24",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-25",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-26",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-27",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-28",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-29",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-30",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "10-31",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "11-01",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "11-02",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "11-03",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "11-04",
-          "s": 866
+          "s": 4816
         },
         {
           "d": "11-05",
-          "s": 882
+          "s": 4816
         },
         {
           "d": "11-06",
-          "s": 907
+          "s": 4816
         },
         {
           "d": "11-07",
-          "s": 934
+          "s": 4816
         },
         {
           "d": "11-08",
-          "s": 956
+          "s": 4850
         },
         {
           "d": "11-09",
-          "s": 974
+          "s": 4910
         },
         {
           "d": "11-10",
-          "s": 997
+          "s": 4963
+        },
+        {
+          "d": "11-11",
+          "s": 4998
         }
       ]
     },
@@ -160,677 +162,311 @@
       "breakdown": {
         "vel": 100,
         "acc": 99,
-        "health": 69,
-        "fresh": 73,
-        "signal": 100
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 88.51,
-      "explanation": "phi 是 Go 开源项目，主打「A fast coding agent, rpc plugin, sub-agents, sloppy edits, and mcp」；处于增长早期，本周涨速 19 star/天，涨速在加快；项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "rootSunc",
-      "name": "CNEquity",
-      "full_name": "rootSunc/CNEquity",
-      "description": "开源中国股市（A股）本地数据湖：沪深股票行情、A股股票数据与金融数据，面向量化研究、量化交易与回测，含财务数据、期货数据、资金流向、公告、指数行业与宏观。86个日更数据集，复权与历史成分内置，行级溯源、PIT，MCP原生。免注册、免 Token，自托管。Open-source China stock market data lake for quant research, backtesting and AI agents.",
-      "stars": 997,
-      "forks": 109,
-      "open_issues": 3,
-      "created_at": "2026-06-28T14:21:03+00:00",
-      "pushed_at": "2026-11-06T22:59:01+00:00",
-      "updated_at": "2026-11-10T13:32:44+00:00",
-      "topics": [
-        "a-share",
-        "a-shares",
-        "a-stock",
-        "ai-agent",
-        "akshare",
-        "ashare",
-        "astock",
-        "backtesting",
-        "baostock",
-        "china-stock-market",
-        "data-lake",
-        "financial-data",
-        "market-data",
-        "mcp",
-        "parquet",
-        "python",
-        "quant",
-        "quantitative-finance",
-        "stock-market",
-        "tushare"
-      ],
-      "language": "Python",
-      "license": "Apache-2.0",
-      "homepage": "https://rootsunc.github.io/CNEquity/",
-      "html_url": "https://github.com/rootSunc/CNEquity",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 946,
-      "star_series": [
-        {
-          "d": "10-12",
-          "s": 920
-        },
-        {
-          "d": "10-13",
-          "s": 920
-        },
-        {
-          "d": "10-14",
-          "s": 920
-        },
-        {
-          "d": "10-15",
-          "s": 920
-        },
-        {
-          "d": "10-16",
-          "s": 920
-        },
-        {
-          "d": "10-17",
-          "s": 920
-        },
-        {
-          "d": "10-18",
-          "s": 920
-        },
-        {
-          "d": "10-19",
-          "s": 920
-        },
-        {
-          "d": "10-20",
-          "s": 920
-        },
-        {
-          "d": "10-21",
-          "s": 920
-        },
-        {
-          "d": "10-22",
-          "s": 920
-        },
-        {
-          "d": "10-23",
-          "s": 920
-        },
-        {
-          "d": "10-24",
-          "s": 920
-        },
-        {
-          "d": "10-25",
-          "s": 920
-        },
-        {
-          "d": "10-26",
-          "s": 920
-        },
-        {
-          "d": "10-27",
-          "s": 920
-        },
-        {
-          "d": "10-28",
-          "s": 920
-        },
-        {
-          "d": "10-29",
-          "s": 920
-        },
-        {
-          "d": "10-30",
-          "s": 920
-        },
-        {
-          "d": "10-31",
-          "s": 920
-        },
-        {
-          "d": "11-01",
-          "s": 920
-        },
-        {
-          "d": "11-02",
-          "s": 920
-        },
-        {
-          "d": "11-03",
-          "s": 930
-        },
-        {
-          "d": "11-04",
-          "s": 946
-        },
-        {
-          "d": "11-05",
-          "s": 956
-        },
-        {
-          "d": "11-06",
-          "s": 966
-        },
-        {
-          "d": "11-07",
-          "s": 973
-        },
-        {
-          "d": "11-08",
-          "s": 977
-        },
-        {
-          "d": "11-09",
-          "s": 984
-        },
-        {
-          "d": "11-10",
-          "s": 997
-        }
-      ]
-    },
-    "score": {
-      "score": 93.49,
-      "breakdown": {
-        "vel": 73,
-        "acc": 72,
-        "health": 96,
-        "fresh": 63,
-        "signal": 100
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 77.91,
-      "explanation": "CNEquity 是 Python 开源项目，主打「开源中国股市（A股）本地数据湖：沪深股票行情、A股股票数据与金融数据，面向量化研究、量化交易与回测，含财务数据、期货数据、资金流向、公告、指数行业与宏观。86个日更数据集，复权与历史成分内置，行级溯源、PIT，MCP原生。免注册、免 Token，自托管。Open-source China stock market data lake for quant research, backtesting and AI agents.」；处于增长早期，本周涨速 7.3 star/天，涨速在加快；社区健康（fork/star 比 10.9%，3 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "brycewang-stanford",
-      "name": "Auto-Empirical-Research-Skills",
-      "full_name": "brycewang-stanford/Auto-Empirical-Research-Skills",
-      "description": "🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
-      "stars": 4983,
-      "forks": 573,
-      "open_issues": 0,
-      "created_at": "2026-04-03T06:31:20+00:00",
-      "pushed_at": "2026-11-09T13:27:49+00:00",
-      "updated_at": "2026-11-10T13:38:26+00:00",
-      "topics": [
-        "academic-research",
-        "agent-skills",
-        "ai-agent",
-        "awesome-list",
-        "communication",
-        "copaper",
-        "economics",
-        "education",
-        "empirical-research",
-        "international-relations",
-        "political-science",
-        "psychology",
-        "public-administration",
-        "reproducible-research",
-        "skills-library",
-        "social-science",
-        "sociology"
-      ],
-      "language": "Stata",
-      "license": "NOASSERTION",
-      "homepage": "https://copaper.ai",
-      "html_url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 4917,
-      "star_series": [
-        {
-          "d": "10-12",
-          "s": 4722
-        },
-        {
-          "d": "10-13",
-          "s": 4722
-        },
-        {
-          "d": "10-14",
-          "s": 4722
-        },
-        {
-          "d": "10-15",
-          "s": 4722
-        },
-        {
-          "d": "10-16",
-          "s": 4722
-        },
-        {
-          "d": "10-17",
-          "s": 4722
-        },
-        {
-          "d": "10-18",
-          "s": 4722
-        },
-        {
-          "d": "10-19",
-          "s": 4722
-        },
-        {
-          "d": "10-20",
-          "s": 4722
-        },
-        {
-          "d": "10-21",
-          "s": 4722
-        },
-        {
-          "d": "10-22",
-          "s": 4722
-        },
-        {
-          "d": "10-23",
-          "s": 4732
-        },
-        {
-          "d": "10-24",
-          "s": 4745
-        },
-        {
-          "d": "10-25",
-          "s": 4765
-        },
-        {
-          "d": "10-26",
-          "s": 4778
-        },
-        {
-          "d": "10-27",
-          "s": 4787
-        },
-        {
-          "d": "10-28",
-          "s": 4801
-        },
-        {
-          "d": "10-29",
-          "s": 4825
-        },
-        {
-          "d": "10-30",
-          "s": 4836
-        },
-        {
-          "d": "10-31",
-          "s": 4846
-        },
-        {
-          "d": "11-01",
-          "s": 4865
-        },
-        {
-          "d": "11-02",
-          "s": 4884
-        },
-        {
-          "d": "11-03",
-          "s": 4908
-        },
-        {
-          "d": "11-04",
-          "s": 4917
-        },
-        {
-          "d": "11-05",
-          "s": 4927
-        },
-        {
-          "d": "11-06",
-          "s": 4936
-        },
-        {
-          "d": "11-07",
-          "s": 4945
-        },
-        {
-          "d": "11-08",
-          "s": 4953
-        },
-        {
-          "d": "11-09",
-          "s": 4961
-        },
-        {
-          "d": "11-10",
-          "s": 4983
-        }
-      ]
-    },
-    "score": {
-      "score": 76.59,
-      "breakdown": {
-        "vel": 81,
-        "acc": 39,
-        "health": 100,
-        "fresh": 39,
+        "health": 99,
+        "fresh": 90,
         "signal": 85
       },
-      "stage": "early",
-      "stage_multiplier": 1.2,
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 63.82,
-      "explanation": "Auto-Empirical-Research-Skills 是 Stata 开源项目，主打「🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.」；处于增长早期，本周涨速 9.4 star/天；社区健康（fork/star 比 11.5%，0 个 open issue）、项目元数据完整。"
+      "base_score": 96.42,
+      "explanation": "dossier 是 TypeScript 开源项目，主打「A self-hosted job search and resume builder app that writes tailored resumes and cover letters from your profile.」；处于中早期增长，本周涨速 26 star/天，涨速在加快；社区健康（fork/star 比 20.7%，25 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "andrefetch",
-      "name": "postal",
-      "full_name": "andrefetch/postal",
-      "description": "An open-source, terminal-based AI coding agent that reads your code, calls tools, and helps you build.",
+      "owner": "imsai-sh",
+      "name": "fish-pocket",
+      "full_name": "imsai-sh/fish-pocket",
+      "description": "DSH iOS 移动版：在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生，不连电脑和服务器。Run DSH (DeepSeek Harness) natively on iPhone and iPad: no computer, no server.",
       "stars": 200,
-      "forks": 34,
-      "open_issues": 0,
-      "created_at": "2026-06-26T02:37:41+00:00",
-      "pushed_at": "2026-11-06T14:18:13+00:00",
-      "updated_at": "2026-11-10T10:30:50+00:00",
+      "forks": 19,
+      "open_issues": 26,
+      "created_at": "2026-11-05T01:10:38+00:00",
+      "pushed_at": "2026-11-10T23:43:05+00:00",
+      "updated_at": "2026-11-11T10:50:47+00:00",
       "topics": [
-        "agentic-ai",
-        "ai",
-        "cli",
+        "ai-agent",
         "coding-agent",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "open-source",
-        "openrouter",
-        "python",
-        "tui-app"
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-ios",
+        "dsh-ipad",
+        "dsh-mobile",
+        "dsh-mobile-app",
+        "fish-pocket",
+        "ios",
+        "ipad",
+        "nodejs-mobile",
+        "on-device",
+        "swiftui"
       ],
-      "language": "Python",
-      "license": "GPL-3.0",
-      "homepage": "https://postalcli.vercel.app",
-      "html_url": "https://github.com/andrefetch/postal",
+      "language": "Swift",
+      "license": "NOASSERTION",
+      "homepage": "https://fish.deepseek1024.com",
+      "html_url": "https://github.com/imsai-sh/fish-pocket",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 176,
+      "stars_7d_ago": 116,
       "star_series": [
         {
-          "d": "10-12",
-          "s": 124
-        },
-        {
           "d": "10-13",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-14",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-15",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-16",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-17",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-18",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-19",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-20",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-21",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-22",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-23",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-24",
-          "s": 124
+          "s": 116
         },
         {
           "d": "10-25",
-          "s": 129
+          "s": 116
         },
         {
           "d": "10-26",
-          "s": 132
+          "s": 116
         },
         {
           "d": "10-27",
-          "s": 137
+          "s": 116
         },
         {
           "d": "10-28",
-          "s": 142
+          "s": 116
         },
         {
           "d": "10-29",
-          "s": 149
+          "s": 116
         },
         {
           "d": "10-30",
-          "s": 155
+          "s": 116
         },
         {
           "d": "10-31",
-          "s": 158
+          "s": 116
         },
         {
           "d": "11-01",
-          "s": 166
+          "s": 116
         },
         {
           "d": "11-02",
-          "s": 169
+          "s": 116
         },
         {
           "d": "11-03",
-          "s": 173
+          "s": 116
         },
         {
           "d": "11-04",
-          "s": 176
+          "s": 116
         },
         {
           "d": "11-05",
-          "s": 176
+          "s": 116
         },
         {
           "d": "11-06",
-          "s": 179
+          "s": 116
         },
         {
           "d": "11-07",
-          "s": 188
+          "s": 123
         },
         {
           "d": "11-08",
-          "s": 196
+          "s": 151
         },
         {
           "d": "11-09",
-          "s": 199
+          "s": 170
         },
         {
           "d": "11-10",
+          "s": 187
+        },
+        {
+          "d": "11-11",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 73.01,
+      "score": 97.96,
       "breakdown": {
-        "vel": 52,
-        "acc": 43,
-        "health": 100,
-        "fresh": 62,
+        "vel": 79,
+        "acc": 99,
+        "health": 58,
+        "fresh": 98,
         "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 60.84,
-      "explanation": "postal 是 Python 开源项目，主打「An open-source, terminal-based AI coding agent that reads your code, calls tools, and helps you build.」；处于增长早期，本周涨速 3.4 star/天；社区健康（fork/star 比 17.0%，0 个 open issue）、项目元数据完整。"
+      "base_score": 81.63,
+      "explanation": "fish-pocket 是 Swift 开源项目，主打「DSH iOS 移动版：在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生，不连电脑和服务器。Run DSH (DeepSeek Harness) natively on iPhone and iPad: no computer, no server.」；处于增长早期，本周涨速 12 star/天，涨速在加快；项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "chriswritescode-dev",
-      "name": "opencode-manager",
-      "full_name": "chriswritescode-dev/opencode-manager",
-      "description": "A self-hosted command center for OpenCode. Sessions, git, terminal, and schedules in one web app, from your phone or desktop. ",
+      "owner": "chenxiachan",
+      "name": "textfold",
+      "full_name": "chenxiachan/textfold",
+      "description": "Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.",
       "stars": 997,
-      "forks": 126,
-      "open_issues": 16,
-      "created_at": "2025-11-24T03:17:21+00:00",
-      "pushed_at": "2026-11-09T04:09:16+00:00",
-      "updated_at": "2026-11-10T13:21:08+00:00",
+      "forks": 88,
+      "open_issues": 9,
+      "created_at": "2026-10-04T22:19:52+00:00",
+      "pushed_at": "2026-11-09T15:34:05+00:00",
+      "updated_at": "2026-11-11T11:47:15+00:00",
       "topics": [
-        "agent",
-        "ai-agents",
-        "ai-coding",
-        "coding-agent",
-        "developer-tools",
-        "docker",
+        "arxiv",
         "llm",
-        "mobile",
-        "opencode",
-        "pwa",
-        "react",
-        "remote-development",
-        "self-hosted",
-        "terminal",
-        "web"
+        "local-first",
+        "open-source",
+        "paper-reader",
+        "research-papers",
+        "semantic-zoom",
+        "translation"
       ],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": "https://opencodemanager.app",
-      "html_url": "https://github.com/chriswritescode-dev/opencode-manager",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "homepage": "https://chenxiachan.github.io/textfold/",
+      "html_url": "https://github.com/chenxiachan/textfold",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 912,
+      "stars_7d_ago": 920,
       "star_series": [
         {
-          "d": "10-12",
-          "s": 907
-        },
-        {
           "d": "10-13",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-14",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-15",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-16",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-17",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-18",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-19",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-20",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-21",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-22",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-23",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-24",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-25",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-26",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-27",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-28",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-29",
-          "s": 907
+          "s": 875
         },
         {
           "d": "10-30",
-          "s": 910
+          "s": 875
         },
         {
           "d": "10-31",
-          "s": 911
+          "s": 875
         },
         {
           "d": "11-01",
-          "s": 911
+          "s": 875
         },
         {
           "d": "11-02",
-          "s": 912
+          "s": 875
         },
         {
           "d": "11-03",
-          "s": 912
+          "s": 889
         },
         {
           "d": "11-04",
@@ -838,44 +474,394 @@
         },
         {
           "d": "11-05",
-          "s": 914
+          "s": 920
         },
         {
           "d": "11-06",
-          "s": 915
+          "s": 929
         },
         {
           "d": "11-07",
-          "s": 928
+          "s": 945
         },
         {
           "d": "11-08",
-          "s": 954
+          "s": 958
         },
         {
           "d": "11-09",
-          "s": 991
+          "s": 974
         },
         {
           "d": "11-10",
+          "s": 986
+        },
+        {
+          "d": "11-11",
           "s": 997
         }
       ]
     },
     "score": {
-      "score": 71.39,
+      "score": 95.87,
       "breakdown": {
-        "vel": 89,
-        "acc": 99,
-        "health": 97,
-        "fresh": 4,
-        "signal": 85
+        "vel": 76,
+        "acc": 67,
+        "health": 87,
+        "fresh": 90,
+        "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 59.49,
-      "explanation": "opencode-manager 是 TypeScript 开源项目，主打「A self-hosted command center for OpenCode. Sessions, git, terminal, and schedules in one web app, from your phone or desktop.」；处于增长早期，本周涨速 12 star/天，涨速在加快；社区健康（fork/star 比 12.6%，16 个 open issue）、项目元数据完整。"
+      "base_score": 79.89,
+      "explanation": "textfold 是 Python 开源项目，主打「Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.」；处于增长早期，本周涨速 11 star/天；社区健康（fork/star 比 8.8%，9 个 open issue）、项目元数据完整、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "Kizzuwatnaa",
+      "name": "DLSS5-Autopilot",
+      "full_name": "Kizzuwatnaa/DLSS5-Autopilot",
+      "description": "Puts DLSS 5 neural rendering into games that never shipped it, and brings the game's own DLSS up to date - super resolution, ray reconstruction, frame generation. Scans your library, picks one of eight routes, fetches every part from its publisher at run time, then says what happened. One exe, no admin; uninstall puts the game back.",
+      "stars": 997,
+      "forks": 44,
+      "open_issues": 31,
+      "created_at": "2026-08-31T17:09:10+00:00",
+      "pushed_at": "2026-11-11T11:52:53+00:00",
+      "updated_at": "2026-11-11T12:52:58+00:00",
+      "topics": [
+        "dlaa",
+        "dll-swap",
+        "dlss",
+        "dlss5",
+        "dxvk",
+        "frame-generation",
+        "game-modding",
+        "neural-rendering",
+        "nvidia",
+        "nvngx",
+        "optiscaler",
+        "ray-reconstruction",
+        "reshade",
+        "rtx",
+        "rtx-remix",
+        "super-resolution",
+        "upscaling",
+        "video-upscaling",
+        "windows"
+      ],
+      "language": "Python",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/Kizzuwatnaa/DLSS5-Autopilot",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 977,
+      "star_series": [
+        {
+          "d": "10-13",
+          "s": 970
+        },
+        {
+          "d": "10-14",
+          "s": 970
+        },
+        {
+          "d": "10-15",
+          "s": 970
+        },
+        {
+          "d": "10-16",
+          "s": 970
+        },
+        {
+          "d": "10-17",
+          "s": 970
+        },
+        {
+          "d": "10-18",
+          "s": 970
+        },
+        {
+          "d": "10-19",
+          "s": 970
+        },
+        {
+          "d": "10-20",
+          "s": 970
+        },
+        {
+          "d": "10-21",
+          "s": 970
+        },
+        {
+          "d": "10-22",
+          "s": 970
+        },
+        {
+          "d": "10-23",
+          "s": 970
+        },
+        {
+          "d": "10-24",
+          "s": 970
+        },
+        {
+          "d": "10-25",
+          "s": 970
+        },
+        {
+          "d": "10-26",
+          "s": 970
+        },
+        {
+          "d": "10-27",
+          "s": 970
+        },
+        {
+          "d": "10-28",
+          "s": 970
+        },
+        {
+          "d": "10-29",
+          "s": 970
+        },
+        {
+          "d": "10-30",
+          "s": 970
+        },
+        {
+          "d": "10-31",
+          "s": 970
+        },
+        {
+          "d": "11-01",
+          "s": 970
+        },
+        {
+          "d": "11-02",
+          "s": 971
+        },
+        {
+          "d": "11-03",
+          "s": 973
+        },
+        {
+          "d": "11-04",
+          "s": 973
+        },
+        {
+          "d": "11-05",
+          "s": 977
+        },
+        {
+          "d": "11-06",
+          "s": 979
+        },
+        {
+          "d": "11-07",
+          "s": 987
+        },
+        {
+          "d": "11-08",
+          "s": 991
+        },
+        {
+          "d": "11-09",
+          "s": 993
+        },
+        {
+          "d": "11-10",
+          "s": 994
+        },
+        {
+          "d": "11-11",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 70.15,
+      "breakdown": {
+        "vel": 41,
+        "acc": 86,
+        "health": 67,
+        "fresh": 81,
+        "signal": 70
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 63.77,
+      "explanation": "DLSS5-Autopilot 是 Python 开源项目，主打「Puts DLSS 5 neural rendering into games that never shipped it, and brings the game's own DLSS up to date - super resolution, ray reconstruction, frame generation. Scans your library, picks one of eight routes, fetches every part from its publisher at run time, then says what happened. One exe, no admin; uninstall puts the game back.」；处于中早期增长，本周涨速 2.9 star/天，涨速在加快；开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "aa1143",
+      "name": "NamiDSH",
+      "full_name": "aa1143/NamiDSH",
+      "description": "对照 DeepSeek Harness 的迷你学习项目：迷你版 Cordis + 迷你版 DSH + 网页端 Agent",
+      "stars": 200,
+      "forks": 30,
+      "open_issues": 0,
+      "created_at": "2026-11-05T06:10:10+00:00",
+      "pushed_at": "2026-11-05T13:03:00+00:00",
+      "updated_at": "2026-11-11T12:36:06+00:00",
+      "topics": [
+        "agent",
+        "cordis",
+        "deepseek-harness",
+        "plugin-architecture",
+        "typescript"
+      ],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": "https://namiai.tech/dsh/",
+      "html_url": "https://github.com/aa1143/NamiDSH",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 38,
+      "star_series": [
+        {
+          "d": "10-13",
+          "s": 0
+        },
+        {
+          "d": "10-14",
+          "s": 0
+        },
+        {
+          "d": "10-15",
+          "s": 0
+        },
+        {
+          "d": "10-16",
+          "s": 0
+        },
+        {
+          "d": "10-17",
+          "s": 0
+        },
+        {
+          "d": "10-18",
+          "s": 0
+        },
+        {
+          "d": "10-19",
+          "s": 0
+        },
+        {
+          "d": "10-20",
+          "s": 0
+        },
+        {
+          "d": "10-21",
+          "s": 0
+        },
+        {
+          "d": "10-22",
+          "s": 0
+        },
+        {
+          "d": "10-23",
+          "s": 0
+        },
+        {
+          "d": "10-24",
+          "s": 0
+        },
+        {
+          "d": "10-25",
+          "s": 0
+        },
+        {
+          "d": "10-26",
+          "s": 0
+        },
+        {
+          "d": "10-27",
+          "s": 0
+        },
+        {
+          "d": "10-28",
+          "s": 0
+        },
+        {
+          "d": "10-29",
+          "s": 0
+        },
+        {
+          "d": "10-30",
+          "s": 0
+        },
+        {
+          "d": "10-31",
+          "s": 0
+        },
+        {
+          "d": "11-01",
+          "s": 0
+        },
+        {
+          "d": "11-02",
+          "s": 0
+        },
+        {
+          "d": "11-03",
+          "s": 0
+        },
+        {
+          "d": "11-04",
+          "s": 0
+        },
+        {
+          "d": "11-05",
+          "s": 38
+        },
+        {
+          "d": "11-06",
+          "s": 154
+        },
+        {
+          "d": "11-07",
+          "s": 168
+        },
+        {
+          "d": "11-08",
+          "s": 178
+        },
+        {
+          "d": "11-09",
+          "s": 189
+        },
+        {
+          "d": "11-10",
+          "s": 196
+        },
+        {
+          "d": "11-11",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 67.55,
+      "breakdown": {
+        "vel": 98,
+        "acc": 96,
+        "health": 100,
+        "fresh": 98,
+        "signal": 85
+      },
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
+      "confidence": 1.0,
+      "base_score": 96.5,
+      "explanation": "NamiDSH 是 TypeScript 开源项目，主打「对照 DeepSeek Harness 的迷你学习项目：迷你版 Cordis + 迷你版 DSH + 网页端 Agent」；增长已饱和，本周涨速 23 star/天，涨速在加快；社区健康（fork/star 比 15.0%，0 个 open issue）、项目元数据完整、开发活跃。"
     }
   }
 ]
