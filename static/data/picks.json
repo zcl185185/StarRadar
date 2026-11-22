@@ -1,189 +1,16 @@
 [
   {
     "repo": {
-      "owner": "simpsoka",
-      "name": "zigzag",
-      "full_name": "simpsoka/zigzag",
-      "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
-      "stars": 1000,
-      "forks": 70,
-      "open_issues": 10,
-      "created_at": "2026-10-30T01:53:39+00:00",
-      "pushed_at": "2026-11-21T00:27:45+00:00",
-      "updated_at": "2026-11-21T13:37:15+00:00",
-      "topics": [
-        "brother-skitch",
-        "embroidery",
-        "embroidery-digitizing",
-        "embroidery-software",
-        "machine-embroidery",
-        "macos",
-        "mcp",
-        "model-context-protocol",
-        "rust",
-        "svg",
-        "vector-editor",
-        "windows"
-      ],
-      "language": "Rust",
-      "license": "Apache-2.0",
-      "homepage": "https://zigzag.diy/",
-      "html_url": "https://github.com/simpsoka/zigzag",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 955,
-      "star_series": [
-        {
-          "d": "10-23",
-          "s": 955
-        },
-        {
-          "d": "10-24",
-          "s": 955
-        },
-        {
-          "d": "10-25",
-          "s": 955
-        },
-        {
-          "d": "10-26",
-          "s": 955
-        },
-        {
-          "d": "10-27",
-          "s": 955
-        },
-        {
-          "d": "10-28",
-          "s": 955
-        },
-        {
-          "d": "10-29",
-          "s": 955
-        },
-        {
-          "d": "10-30",
-          "s": 955
-        },
-        {
-          "d": "10-31",
-          "s": 955
-        },
-        {
-          "d": "11-01",
-          "s": 955
-        },
-        {
-          "d": "11-02",
-          "s": 955
-        },
-        {
-          "d": "11-03",
-          "s": 955
-        },
-        {
-          "d": "11-04",
-          "s": 955
-        },
-        {
-          "d": "11-05",
-          "s": 955
-        },
-        {
-          "d": "11-06",
-          "s": 955
-        },
-        {
-          "d": "11-07",
-          "s": 955
-        },
-        {
-          "d": "11-08",
-          "s": 955
-        },
-        {
-          "d": "11-09",
-          "s": 955
-        },
-        {
-          "d": "11-10",
-          "s": 955
-        },
-        {
-          "d": "11-11",
-          "s": 955
-        },
-        {
-          "d": "11-12",
-          "s": 955
-        },
-        {
-          "d": "11-13",
-          "s": 955
-        },
-        {
-          "d": "11-14",
-          "s": 955
-        },
-        {
-          "d": "11-15",
-          "s": 955
-        },
-        {
-          "d": "11-16",
-          "s": 955
-        },
-        {
-          "d": "11-17",
-          "s": 955
-        },
-        {
-          "d": "11-18",
-          "s": 955
-        },
-        {
-          "d": "11-19",
-          "s": 973
-        },
-        {
-          "d": "11-20",
-          "s": 993
-        },
-        {
-          "d": "11-21",
-          "s": 1000
-        }
-      ]
-    },
-    "score": {
-      "score": 87.31,
-      "breakdown": {
-        "vel": 58,
-        "acc": 99,
-        "health": 81,
-        "fresh": 94,
-        "signal": 85
-      },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
-      "confidence": 1.0,
-      "base_score": 79.37,
-      "explanation": "zigzag 是 Rust 开源项目，主打「Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.」；处于中早期增长，本周涨速 6.4 star/天，涨速在加快；社区健康（fork/star 比 7.0%，10 个 open issue）、项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
       "owner": "skymanbp",
       "name": "autoshade",
       "full_name": "skymanbp/autoshade",
       "description": "AI-assisted RAW photo developer.",
-      "stars": 998,
+      "stars": 997,
       "forks": 44,
       "open_issues": 2,
       "created_at": "2026-06-26T18:55:41+00:00",
       "pushed_at": "2026-11-21T03:03:11+00:00",
-      "updated_at": "2026-11-21T09:11:38+00:00",
+      "updated_at": "2026-11-21T16:18:08+00:00",
       "topics": [
         "ai-photo-editing",
         "camera-raw",
@@ -205,463 +32,271 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 947,
+      "stars_7d_ago": 946,
       "star_series": [
         {
-          "d": "10-23",
-          "s": 861
-        },
-        {
           "d": "10-24",
-          "s": 863
+          "s": 862
         },
         {
           "d": "10-25",
-          "s": 864
+          "s": 863
         },
         {
           "d": "10-26",
-          "s": 866
+          "s": 865
         },
         {
           "d": "10-27",
-          "s": 870
+          "s": 869
         },
         {
           "d": "10-28",
-          "s": 872
+          "s": 871
         },
         {
           "d": "10-29",
-          "s": 873
+          "s": 872
         },
         {
           "d": "10-30",
-          "s": 876
+          "s": 875
         },
         {
           "d": "10-31",
-          "s": 879
+          "s": 878
         },
         {
           "d": "11-01",
-          "s": 880
+          "s": 879
         },
         {
           "d": "11-02",
-          "s": 880
+          "s": 879
         },
         {
           "d": "11-03",
-          "s": 883
+          "s": 882
         },
         {
           "d": "11-04",
-          "s": 884
+          "s": 883
         },
         {
           "d": "11-05",
-          "s": 888
+          "s": 887
         },
         {
           "d": "11-06",
-          "s": 888
+          "s": 887
         },
         {
           "d": "11-07",
-          "s": 895
+          "s": 894
         },
         {
           "d": "11-08",
-          "s": 919
+          "s": 918
         },
         {
           "d": "11-09",
-          "s": 939
+          "s": 938
         },
         {
           "d": "11-10",
-          "s": 939
+          "s": 938
         },
         {
           "d": "11-11",
-          "s": 940
+          "s": 939
         },
         {
           "d": "11-12",
-          "s": 943
+          "s": 942
         },
         {
           "d": "11-13",
-          "s": 946
+          "s": 945
         },
         {
           "d": "11-14",
-          "s": 947
+          "s": 946
         },
         {
           "d": "11-15",
-          "s": 947
+          "s": 946
         },
         {
           "d": "11-16",
-          "s": 947
+          "s": 946
         },
         {
           "d": "11-17",
-          "s": 948
+          "s": 947
         },
         {
           "d": "11-18",
-          "s": 948
+          "s": 947
         },
         {
           "d": "11-19",
-          "s": 948
+          "s": 947
         },
         {
           "d": "11-20",
-          "s": 997
+          "s": 996
         },
         {
           "d": "11-21",
-          "s": 998
+          "s": 997
+        },
+        {
+          "d": "11-22",
+          "s": 997
         }
       ]
     },
     "score": {
-      "score": 82.36,
+      "score": 90.51,
       "breakdown": {
-        "vel": 62,
-        "acc": 69,
+        "vel": 63,
+        "acc": 99,
         "health": 73,
-        "fresh": 60,
+        "fresh": 59,
         "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 68.63,
-      "explanation": "autoshade 是 Rust 开源项目，主打「AI-assisted RAW photo developer.」；处于增长早期，本周涨速 7.3 star/天；社区健康（fork/star 比 4.4%，2 个 open issue）、项目元数据完整。"
+      "base_score": 75.43,
+      "explanation": "autoshade 是 Rust 开源项目，主打「AI-assisted RAW photo developer.」；处于增长早期，本周涨速 7.3 star/天，涨速在加快；社区健康（fork/star 比 4.4%，2 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "wzc520pyfm",
-      "name": "gen-ai-pose-image",
-      "full_name": "wzc520pyfm/gen-ai-pose-image",
-      "description": "澜姿：从姿势线稿和衣装集给社区鲸鱼娘大肥鱼模特出图，调整姿势加变装，也可装进 DeepSeek Harness。Lanpose generates images of the community whale-girl Dafeiyu from pose sketches and costumes, and installs into DeepSeek Harness.",
-      "stars": 995,
-      "forks": 76,
-      "open_issues": 3,
-      "created_at": "2026-10-29T08:20:20+00:00",
-      "pushed_at": "2026-11-15T06:19:05+00:00",
-      "updated_at": "2026-11-21T10:10:18+00:00",
-      "topics": [
-        "deepseek",
-        "genai",
-        "generic",
-        "gpt",
-        "image",
-        "pose"
-      ],
-      "language": "JavaScript",
-      "license": "NOASSERTION",
-      "homepage": "https://gen-ai-pose-image.vercel.app/",
-      "html_url": "https://github.com/wzc520pyfm/gen-ai-pose-image",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 924,
-      "star_series": [
-        {
-          "d": "10-23",
-          "s": 743
-        },
-        {
-          "d": "10-24",
-          "s": 743
-        },
-        {
-          "d": "10-25",
-          "s": 743
-        },
-        {
-          "d": "10-26",
-          "s": 743
-        },
-        {
-          "d": "10-27",
-          "s": 743
-        },
-        {
-          "d": "10-28",
-          "s": 743
-        },
-        {
-          "d": "10-29",
-          "s": 743
-        },
-        {
-          "d": "10-30",
-          "s": 743
-        },
-        {
-          "d": "10-31",
-          "s": 743
-        },
-        {
-          "d": "11-01",
-          "s": 743
-        },
-        {
-          "d": "11-02",
-          "s": 743
-        },
-        {
-          "d": "11-03",
-          "s": 743
-        },
-        {
-          "d": "11-04",
-          "s": 743
-        },
-        {
-          "d": "11-05",
-          "s": 743
-        },
-        {
-          "d": "11-06",
-          "s": 743
-        },
-        {
-          "d": "11-07",
-          "s": 743
-        },
-        {
-          "d": "11-08",
-          "s": 743
-        },
-        {
-          "d": "11-09",
-          "s": 812
-        },
-        {
-          "d": "11-10",
-          "s": 840
-        },
-        {
-          "d": "11-11",
-          "s": 857
-        },
-        {
-          "d": "11-12",
-          "s": 881
-        },
-        {
-          "d": "11-13",
-          "s": 906
-        },
-        {
-          "d": "11-14",
-          "s": 918
-        },
-        {
-          "d": "11-15",
-          "s": 924
-        },
-        {
-          "d": "11-16",
-          "s": 947
-        },
-        {
-          "d": "11-17",
-          "s": 963
-        },
-        {
-          "d": "11-18",
-          "s": 973
-        },
-        {
-          "d": "11-19",
-          "s": 986
-        },
-        {
-          "d": "11-20",
-          "s": 992
-        },
-        {
-          "d": "11-21",
-          "s": 995
-        }
-      ]
-    },
-    "score": {
-      "score": 78.41,
-      "breakdown": {
-        "vel": 70,
-        "acc": 35,
-        "health": 84,
-        "fresh": 94,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 65.34,
-      "explanation": "gen-ai-pose-image 是 JavaScript 开源项目，主打「澜姿：从姿势线稿和衣装集给社区鲸鱼娘大肥鱼模特出图，调整姿势加变装，也可装进 DeepSeek Harness。Lanpose generates images of the community whale-girl Dafeiyu from pose sketches and costumes, and installs into DeepSeek Harness.」；处于增长早期，本周涨速 10 star/天；社区健康（fork/star 比 7.6%，3 个 open issue）、项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "prapaa-ai",
-      "name": "agav",
-      "full_name": "prapaa-ai/agav",
-      "description": "Terminal-native AI coding assistant for real repositories. Inspect code, edit files, run tests, and verify changes from the CLI.",
+      "owner": "magnuslab-sudo",
+      "name": "Orwell",
+      "full_name": "magnuslab-sudo/Orwell",
+      "description": "Chat and calls for communities, end-to-end encrypted. Maximizing privacy.",
       "stars": 200,
-      "forks": 84,
-      "open_issues": 234,
-      "created_at": "2026-07-31T13:08:53+00:00",
-      "pushed_at": "2026-11-21T12:51:49+00:00",
-      "updated_at": "2026-11-21T11:02:07+00:00",
-      "topics": [
-        "ai-agent",
-        "ai-coding-assistant",
-        "anthropic",
-        "claude-code",
-        "cli",
-        "codex",
-        "coding-agent",
-        "command-line",
-        "devtools",
-        "harness",
-        "hermes",
-        "llm",
-        "mcp",
-        "ollama",
-        "openai",
-        "productivity",
-        "shell",
-        "terminal",
-        "tui",
-        "typescript"
-      ],
+      "forks": 8,
+      "open_issues": 4,
+      "created_at": "2026-11-09T18:04:18+00:00",
+      "pushed_at": "2026-11-22T13:06:06+00:00",
+      "updated_at": "2026-11-21T18:19:00+00:00",
+      "topics": [],
       "language": "TypeScript",
-      "license": "Apache-2.0",
-      "homepage": "https://agav.dev",
-      "html_url": "https://github.com/prapaa-ai/agav",
+      "license": "AGPL-3.0",
+      "homepage": "https://orwell.pt",
+      "html_url": "https://github.com/magnuslab-sudo/Orwell",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 188,
+      "stars_7d_ago": 167,
       "star_series": [
         {
-          "d": "10-23",
-          "s": 188
-        },
-        {
           "d": "10-24",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-25",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-26",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-27",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-28",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-29",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-30",
-          "s": 188
+          "s": 138
         },
         {
           "d": "10-31",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-01",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-02",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-03",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-04",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-05",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-06",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-07",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-08",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-09",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-10",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-11",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-12",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-13",
-          "s": 188
+          "s": 138
         },
         {
           "d": "11-14",
-          "s": 188
+          "s": 146
         },
         {
           "d": "11-15",
-          "s": 188
+          "s": 159
         },
         {
           "d": "11-16",
-          "s": 188
+          "s": 167
         },
         {
           "d": "11-17",
-          "s": 188
+          "s": 182
         },
         {
           "d": "11-18",
-          "s": 188
+          "s": 192
         },
         {
           "d": "11-19",
@@ -669,209 +304,552 @@
         },
         {
           "d": "11-20",
-          "s": 198
+          "s": 196
         },
         {
           "d": "11-21",
+          "s": 200
+        },
+        {
+          "d": "11-22",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 62.21,
+      "score": 74.37,
       "breakdown": {
-        "vel": 29,
-        "acc": 85,
-        "health": 59,
-        "fresh": 69,
-        "signal": 100
+        "vel": 52,
+        "acc": 53,
+        "health": 66,
+        "fresh": 97,
+        "signal": 70
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "early",
+      "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 56.56,
-      "explanation": "agav 是 TypeScript 开源项目，主打「Terminal-native AI coding assistant for real repositories. Inspect code, edit files, run tests, and verify changes from the CLI.」；处于中早期增长，涨速在加快；项目元数据完整。"
+      "base_score": 61.98,
+      "explanation": "Orwell 是 TypeScript 开源项目，主打「Chat and calls for communities, end-to-end encrypted. Maximizing privacy.」；处于增长早期，本周涨速 4.7 star/天；开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "iamahsanmehmood",
-      "name": "openskp",
-      "full_name": "iamahsanmehmood/openskp",
-      "description": "Open-source SketchUp (.skp) reader, writer, and converter - parse, create, and edit .skp files; export to GLB, OBJ, STL, PLY, DXF, IFC4, and Fragments. Python, TypeScript, .NET, Dart, and C++.",
-      "stars": 200,
-      "forks": 62,
-      "open_issues": 9,
-      "created_at": "2026-06-18T06:04:59+00:00",
-      "pushed_at": "2026-11-20T14:39:54+00:00",
-      "updated_at": "2026-11-20T16:05:25+00:00",
+      "owner": "Blizaine",
+      "name": "Maestro",
+      "full_name": "Blizaine/Maestro",
+      "description": "An all-in-one, 100% local AI video, image, and music studio. Director mode plans full music videos and short films from a single prompt. Built on the WanGP pipeline. Install via Pinokio.",
+      "stars": 996,
+      "forks": 189,
+      "open_issues": 99,
+      "created_at": "2026-07-08T12:02:05+00:00",
+      "pushed_at": "2026-11-22T10:45:40+00:00",
+      "updated_at": "2026-11-22T13:39:28+00:00",
       "topics": [
-        "3d",
-        "autocad",
-        "bim",
-        "cad",
-        "cpp",
-        "csharp",
-        "dart",
-        "dotnet",
-        "dxf",
-        "glb",
-        "gltf",
-        "ifc",
-        "nuget",
-        "open-source",
-        "parser",
-        "python",
-        "reverse-engineering",
-        "sketchup",
-        "skp",
-        "typescript"
+        "ai",
+        "ai-video",
+        "image-generation",
+        "local-ai",
+        "ltx-video",
+        "music-generation",
+        "pinokio",
+        "text-to-video",
+        "video-generation",
+        "wan"
       ],
       "language": "Python",
-      "license": "MIT",
-      "homepage": "https://openskp.com",
-      "html_url": "https://github.com/iamahsanmehmood/openskp",
+      "license": "NOASSERTION",
+      "homepage": "https://pinokio.computer",
+      "html_url": "https://github.com/Blizaine/Maestro",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 193,
+      "stars_7d_ago": 968,
       "star_series": [
         {
-          "d": "10-23",
-          "s": 169
-        },
-        {
           "d": "10-24",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-25",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-26",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-27",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-28",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-29",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-30",
-          "s": 169
+          "s": 942
         },
         {
           "d": "10-31",
-          "s": 169
+          "s": 942
         },
         {
           "d": "11-01",
-          "s": 169
+          "s": 942
         },
         {
           "d": "11-02",
-          "s": 169
+          "s": 942
         },
         {
           "d": "11-03",
-          "s": 169
+          "s": 942
         },
         {
           "d": "11-04",
-          "s": 170
+          "s": 942
         },
         {
           "d": "11-05",
-          "s": 173
+          "s": 942
         },
         {
           "d": "11-06",
-          "s": 175
+          "s": 942
         },
         {
           "d": "11-07",
-          "s": 177
+          "s": 942
         },
         {
           "d": "11-08",
-          "s": 177
+          "s": 942
         },
         {
           "d": "11-09",
-          "s": 179
+          "s": 942
         },
         {
           "d": "11-10",
-          "s": 184
+          "s": 942
         },
         {
           "d": "11-11",
-          "s": 187
+          "s": 943
         },
         {
           "d": "11-12",
-          "s": 191
+          "s": 948
         },
         {
           "d": "11-13",
-          "s": 192
+          "s": 950
         },
         {
           "d": "11-14",
-          "s": 193
+          "s": 953
         },
         {
           "d": "11-15",
-          "s": 193
+          "s": 960
         },
         {
           "d": "11-16",
-          "s": 193
+          "s": 968
         },
         {
           "d": "11-17",
-          "s": 196
+          "s": 972
         },
         {
           "d": "11-18",
-          "s": 197
+          "s": 978
         },
         {
           "d": "11-19",
-          "s": 199
+          "s": 985
         },
         {
           "d": "11-20",
-          "s": 200
+          "s": 989
         },
         {
           "d": "11-21",
-          "s": 200
+          "s": 991
+        },
+        {
+          "d": "11-22",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 51.61,
+      "score": 70.72,
       "breakdown": {
-        "vel": 20,
-        "acc": 36,
-        "health": 93,
-        "fresh": 57,
+        "vel": 48,
+        "acc": 52,
+        "health": 75,
+        "fresh": 62,
         "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 43.01,
-      "explanation": "openskp 是 Python 开源项目，主打「Open-source SketchUp (.skp) reader, writer, and converter - parse, create, and edit .skp files; export to GLB, OBJ, STL, PLY, DXF, IFC4, and Fragments. Python, TypeScript, .NET, Dart, and C++.」；处于增长早期；社区健康（fork/star 比 31.0%，9 个 open issue）、项目元数据完整。"
+      "base_score": 58.93,
+      "explanation": "Maestro 是 Python 开源项目，主打「An all-in-one, 100% local AI video, image, and music studio. Director mode plans full music videos and short films from a single prompt. Built on the WanGP pipeline. Install via Pinokio.」；处于增长早期，本周涨速 4.0 star/天；社区健康（fork/star 比 19.0%，99 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "ispointer",
+      "name": "RePairip",
+      "full_name": "ispointer/RePairip",
+      "description": "RePairip is a Google加固 reverse engineering tool that can dump all VMRunner snapshots and fully repack Android applications, removing protection layers completely",
+      "stars": 200,
+      "forks": 40,
+      "open_issues": 0,
+      "created_at": "2026-06-08T23:09:37+00:00",
+      "pushed_at": "2026-11-16T03:03:19+00:00",
+      "updated_at": "2026-11-22T13:41:05+00:00",
+      "topics": [
+        "google-pairip",
+        "google-pairip-bypass",
+        "pairip",
+        "pairip-bypass",
+        "pairip-dumper",
+        "reverse-engineering",
+        "vmrunner"
+      ],
+      "language": "Java",
+      "license": null,
+      "homepage": null,
+      "html_url": "https://github.com/ispointer/RePairip",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 192,
+      "star_series": [
+        {
+          "d": "10-24",
+          "s": 165
+        },
+        {
+          "d": "10-25",
+          "s": 165
+        },
+        {
+          "d": "10-26",
+          "s": 165
+        },
+        {
+          "d": "10-27",
+          "s": 165
+        },
+        {
+          "d": "10-28",
+          "s": 165
+        },
+        {
+          "d": "10-29",
+          "s": 165
+        },
+        {
+          "d": "10-30",
+          "s": 165
+        },
+        {
+          "d": "10-31",
+          "s": 165
+        },
+        {
+          "d": "11-01",
+          "s": 165
+        },
+        {
+          "d": "11-02",
+          "s": 165
+        },
+        {
+          "d": "11-03",
+          "s": 166
+        },
+        {
+          "d": "11-04",
+          "s": 167
+        },
+        {
+          "d": "11-05",
+          "s": 168
+        },
+        {
+          "d": "11-06",
+          "s": 171
+        },
+        {
+          "d": "11-07",
+          "s": 173
+        },
+        {
+          "d": "11-08",
+          "s": 175
+        },
+        {
+          "d": "11-09",
+          "s": 175
+        },
+        {
+          "d": "11-10",
+          "s": 176
+        },
+        {
+          "d": "11-11",
+          "s": 182
+        },
+        {
+          "d": "11-12",
+          "s": 184
+        },
+        {
+          "d": "11-13",
+          "s": 186
+        },
+        {
+          "d": "11-14",
+          "s": 188
+        },
+        {
+          "d": "11-15",
+          "s": 190
+        },
+        {
+          "d": "11-16",
+          "s": 192
+        },
+        {
+          "d": "11-17",
+          "s": 193
+        },
+        {
+          "d": "11-18",
+          "s": 193
+        },
+        {
+          "d": "11-19",
+          "s": 194
+        },
+        {
+          "d": "11-20",
+          "s": 195
+        },
+        {
+          "d": "11-21",
+          "s": 197
+        },
+        {
+          "d": "11-22",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 51.23,
+      "breakdown": {
+        "vel": 23,
+        "acc": 37,
+        "health": 100,
+        "fresh": 55,
+        "signal": 50
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 42.69,
+      "explanation": "RePairip 是 Java 开源项目，主打「RePairip is a Google加固 reverse engineering tool that can dump all VMRunner snapshots and fully repack Android applications, removing protection layers completely」；处于增长早期；社区健康（fork/star 比 20.0%，0 个 open issue）。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "wenxuanzhang1209-cyber",
+      "name": "meetdo",
+      "full_name": "wenxuanzhang1209-cyber/meetdo",
+      "description": "MeetDo — open-source Meeting-to-Action AI by 筑听 · JKinco Listen. Self-hosted live meetings, local ASR/LLM, structured minutes, DOCX/PDF.",
+      "stars": 200,
+      "forks": 4,
+      "open_issues": 8,
+      "created_at": "2026-08-21T04:49:17+00:00",
+      "pushed_at": "2026-11-21T01:53:58+00:00",
+      "updated_at": "2026-11-22T04:55:18+00:00",
+      "topics": [
+        "ai-meeting-assistant",
+        "audio-transcription",
+        "docker",
+        "fastapi",
+        "funasr",
+        "livekit",
+        "local-first",
+        "local-llm",
+        "meeting-intelligence",
+        "meeting-minutes",
+        "meeting-to-action",
+        "offline-first",
+        "ollama",
+        "open-source",
+        "personal-agent",
+        "privacy-first",
+        "real-time-transcription",
+        "self-hosted",
+        "speech-to-text",
+        "webrtc"
+      ],
+      "language": "Python",
+      "license": "MIT",
+      "homepage": "https://jkincolisten.cloud",
+      "html_url": "https://github.com/wenxuanzhang1209-cyber/meetdo",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 158,
+      "star_series": [
+        {
+          "d": "10-24",
+          "s": 0
+        },
+        {
+          "d": "10-25",
+          "s": 0
+        },
+        {
+          "d": "10-26",
+          "s": 0
+        },
+        {
+          "d": "10-27",
+          "s": 0
+        },
+        {
+          "d": "10-28",
+          "s": 0
+        },
+        {
+          "d": "10-29",
+          "s": 27
+        },
+        {
+          "d": "10-30",
+          "s": 78
+        },
+        {
+          "d": "10-31",
+          "s": 124
+        },
+        {
+          "d": "11-01",
+          "s": 127
+        },
+        {
+          "d": "11-02",
+          "s": 127
+        },
+        {
+          "d": "11-03",
+          "s": 127
+        },
+        {
+          "d": "11-04",
+          "s": 127
+        },
+        {
+          "d": "11-05",
+          "s": 157
+        },
+        {
+          "d": "11-06",
+          "s": 157
+        },
+        {
+          "d": "11-07",
+          "s": 157
+        },
+        {
+          "d": "11-08",
+          "s": 157
+        },
+        {
+          "d": "11-09",
+          "s": 157
+        },
+        {
+          "d": "11-10",
+          "s": 157
+        },
+        {
+          "d": "11-11",
+          "s": 157
+        },
+        {
+          "d": "11-12",
+          "s": 157
+        },
+        {
+          "d": "11-13",
+          "s": 157
+        },
+        {
+          "d": "11-14",
+          "s": 158
+        },
+        {
+          "d": "11-15",
+          "s": 158
+        },
+        {
+          "d": "11-16",
+          "s": 158
+        },
+        {
+          "d": "11-17",
+          "s": 158
+        },
+        {
+          "d": "11-18",
+          "s": 158
+        },
+        {
+          "d": "11-19",
+          "s": 158
+        },
+        {
+          "d": "11-20",
+          "s": 158
+        },
+        {
+          "d": "11-21",
+          "s": 168
+        },
+        {
+          "d": "11-22",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 49.88,
+      "breakdown": {
+        "vel": 58,
+        "acc": 99,
+        "health": 57,
+        "fresh": 75,
+        "signal": 85
+      },
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
+      "confidence": 1.0,
+      "base_score": 71.26,
+      "explanation": "meetdo 是 Python 开源项目，主打「MeetDo — open-source Meeting-to-Action AI by 筑听 · JKinco Listen. Self-hosted live meetings, local ASR/LLM, structured minutes, DOCX/PDF.」；增长已饱和，本周涨速 6.0 star/天，涨速在加快；项目元数据完整、开发活跃。"
     }
   }
 ]
