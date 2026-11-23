@@ -5,12 +5,12 @@
       "name": "autoshade",
       "full_name": "skymanbp/autoshade",
       "description": "AI-assisted RAW photo developer.",
-      "stars": 997,
+      "stars": 998,
       "forks": 44,
       "open_issues": 2,
       "created_at": "2026-06-26T18:55:41+00:00",
       "pushed_at": "2026-11-21T03:03:11+00:00",
-      "updated_at": "2026-11-21T16:18:08+00:00",
+      "updated_at": "2026-11-23T09:52:23+00:00",
       "topics": [
         "ai-photo-editing",
         "camera-raw",
@@ -32,12 +32,8 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 946,
+      "stars_7d_ago": 947,
       "star_series": [
-        {
-          "d": "10-24",
-          "s": 862
-        },
         {
           "d": "10-25",
           "s": 863
@@ -153,13 +149,17 @@
         {
           "d": "11-22",
           "s": 997
+        },
+        {
+          "d": "11-23",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 90.51,
+      "score": 92.13,
       "breakdown": {
-        "vel": 63,
+        "vel": 67,
         "acc": 99,
         "health": 73,
         "fresh": 59,
@@ -168,131 +168,127 @@
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 75.43,
+      "base_score": 76.78,
       "explanation": "autoshade 是 Rust 开源项目，主打「AI-assisted RAW photo developer.」；处于增长早期，本周涨速 7.3 star/天，涨速在加快；社区健康（fork/star 比 4.4%，2 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "magnuslab-sudo",
-      "name": "Orwell",
-      "full_name": "magnuslab-sudo/Orwell",
-      "description": "Chat and calls for communities, end-to-end encrypted. Maximizing privacy.",
+      "owner": "KadoBOT",
+      "name": "ComfyUI-H3-Continuity-Studio",
+      "full_name": "KadoBOT/ComfyUI-H3-Continuity-Studio",
+      "description": "ComfyUI Timeline Studio for MiniMax H3: multi-shot video, visual memory across scenes and angles, and local or cloud Story writing.",
       "stars": 200,
-      "forks": 8,
-      "open_issues": 4,
-      "created_at": "2026-11-09T18:04:18+00:00",
-      "pushed_at": "2026-11-22T13:06:06+00:00",
-      "updated_at": "2026-11-21T18:19:00+00:00",
+      "forks": 24,
+      "open_issues": 2,
+      "created_at": "2026-11-02T00:15:59+00:00",
+      "pushed_at": "2026-11-19T08:27:10+00:00",
+      "updated_at": "2026-11-23T14:08:59+00:00",
       "topics": [],
-      "language": "TypeScript",
-      "license": "AGPL-3.0",
-      "homepage": "https://orwell.pt",
-      "html_url": "https://github.com/magnuslab-sudo/Orwell",
+      "language": "Python",
+      "license": "MIT",
+      "homepage": "https://kadobot.github.io/ComfyUI-H3-Continuity-Studio/",
+      "html_url": "https://github.com/KadoBOT/ComfyUI-H3-Continuity-Studio",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 167,
+      "stars_7d_ago": 190,
       "star_series": [
         {
-          "d": "10-24",
-          "s": 138
-        },
-        {
           "d": "10-25",
-          "s": 138
+          "s": 143
         },
         {
           "d": "10-26",
-          "s": 138
+          "s": 143
         },
         {
           "d": "10-27",
-          "s": 138
+          "s": 143
         },
         {
           "d": "10-28",
-          "s": 138
+          "s": 143
         },
         {
           "d": "10-29",
-          "s": 138
+          "s": 143
         },
         {
           "d": "10-30",
-          "s": 138
+          "s": 143
         },
         {
           "d": "10-31",
-          "s": 138
+          "s": 143
         },
         {
           "d": "11-01",
-          "s": 138
+          "s": 143
         },
         {
           "d": "11-02",
-          "s": 138
+          "s": 143
         },
         {
           "d": "11-03",
-          "s": 138
+          "s": 143
         },
         {
           "d": "11-04",
-          "s": 138
+          "s": 143
         },
         {
           "d": "11-05",
-          "s": 138
+          "s": 143
         },
         {
           "d": "11-06",
-          "s": 138
-        },
-        {
-          "d": "11-07",
-          "s": 138
-        },
-        {
-          "d": "11-08",
-          "s": 138
-        },
-        {
-          "d": "11-09",
-          "s": 138
-        },
-        {
-          "d": "11-10",
-          "s": 138
-        },
-        {
-          "d": "11-11",
-          "s": 138
-        },
-        {
-          "d": "11-12",
-          "s": 138
-        },
-        {
-          "d": "11-13",
-          "s": 138
-        },
-        {
-          "d": "11-14",
           "s": 146
         },
         {
-          "d": "11-15",
+          "d": "11-07",
+          "s": 152
+        },
+        {
+          "d": "11-08",
+          "s": 156
+        },
+        {
+          "d": "11-09",
           "s": 159
         },
         {
+          "d": "11-10",
+          "s": 160
+        },
+        {
+          "d": "11-11",
+          "s": 162
+        },
+        {
+          "d": "11-12",
+          "s": 162
+        },
+        {
+          "d": "11-13",
+          "s": 165
+        },
+        {
+          "d": "11-14",
+          "s": 166
+        },
+        {
+          "d": "11-15",
+          "s": 181
+        },
+        {
           "d": "11-16",
-          "s": 167
+          "s": 188
         },
         {
           "d": "11-17",
-          "s": 182
+          "s": 190
         },
         {
           "d": "11-18",
@@ -300,178 +296,495 @@
         },
         {
           "d": "11-19",
-          "s": 194
-        },
-        {
-          "d": "11-20",
           "s": 196
         },
         {
+          "d": "11-20",
+          "s": 197
+        },
+        {
           "d": "11-21",
-          "s": 200
+          "s": 198
         },
         {
           "d": "11-22",
+          "s": 199
+        },
+        {
+          "d": "11-23",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 74.37,
+      "score": 60.17,
       "breakdown": {
-        "vel": 52,
-        "acc": 53,
-        "health": 66,
-        "fresh": 97,
-        "signal": 70
+        "vel": 28,
+        "acc": 34,
+        "health": 92,
+        "fresh": 94,
+        "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 61.98,
-      "explanation": "Orwell 是 TypeScript 开源项目，主打「Chat and calls for communities, end-to-end encrypted. Maximizing privacy.」；处于增长早期，本周涨速 4.7 star/天；开发活跃。"
+      "base_score": 50.14,
+      "explanation": "ComfyUI-H3-Continuity-Studio 是 Python 开源项目，主打「ComfyUI Timeline Studio for MiniMax H3: multi-shot video, visual memory across scenes and angles, and local or cloud Story writing.」；处于增长早期；社区健康（fork/star 比 12.0%，2 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "Blizaine",
-      "name": "Maestro",
-      "full_name": "Blizaine/Maestro",
-      "description": "An all-in-one, 100% local AI video, image, and music studio. Director mode plans full music videos and short films from a single prompt. Built on the WanGP pipeline. Install via Pinokio.",
-      "stars": 996,
-      "forks": 189,
-      "open_issues": 99,
-      "created_at": "2026-07-08T12:02:05+00:00",
-      "pushed_at": "2026-11-22T10:45:40+00:00",
-      "updated_at": "2026-11-22T13:39:28+00:00",
+      "owner": "vercel-labs",
+      "name": "issue-graph",
+      "full_name": "vercel-labs/issue-graph",
+      "description": "Find related issues, competing changes, and unresolved follow-ups before you start work.",
+      "stars": 200,
+      "forks": 16,
+      "open_issues": 3,
+      "created_at": "2026-07-26T17:42:48+00:00",
+      "pushed_at": "2026-11-20T21:35:34+00:00",
+      "updated_at": "2026-11-23T16:27:54+00:00",
       "topics": [
-        "ai",
-        "ai-video",
-        "image-generation",
-        "local-ai",
-        "ltx-video",
-        "music-generation",
-        "pinokio",
-        "text-to-video",
-        "video-generation",
-        "wan"
+        "cli",
+        "coding-agents",
+        "github",
+        "issue-triage",
+        "pull-requests",
+        "reference-graph",
+        "software-factory"
       ],
-      "language": "Python",
-      "license": "NOASSERTION",
-      "homepage": "https://pinokio.computer",
-      "html_url": "https://github.com/Blizaine/Maestro",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "homepage": "https://issue-graph.dev",
+      "html_url": "https://github.com/vercel-labs/issue-graph",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 968,
+      "stars_7d_ago": 194,
       "star_series": [
         {
-          "d": "10-24",
-          "s": 942
-        },
-        {
           "d": "10-25",
-          "s": 942
+          "s": 194
         },
         {
           "d": "10-26",
-          "s": 942
+          "s": 194
         },
         {
           "d": "10-27",
-          "s": 942
+          "s": 194
         },
         {
           "d": "10-28",
-          "s": 942
+          "s": 194
         },
         {
           "d": "10-29",
-          "s": 942
+          "s": 194
         },
         {
           "d": "10-30",
-          "s": 942
+          "s": 194
         },
         {
           "d": "10-31",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-01",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-02",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-03",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-04",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-05",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-06",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-07",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-08",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-09",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-10",
-          "s": 942
+          "s": 194
         },
         {
           "d": "11-11",
-          "s": 943
+          "s": 194
         },
         {
           "d": "11-12",
-          "s": 948
+          "s": 194
         },
         {
           "d": "11-13",
-          "s": 950
+          "s": 194
         },
         {
           "d": "11-14",
-          "s": 953
+          "s": 194
         },
         {
           "d": "11-15",
-          "s": 960
+          "s": 194
         },
         {
           "d": "11-16",
-          "s": 968
+          "s": 194
         },
         {
           "d": "11-17",
-          "s": 972
+          "s": 194
         },
         {
           "d": "11-18",
-          "s": 978
+          "s": 195
         },
         {
           "d": "11-19",
-          "s": 985
+          "s": 196
+        },
+        {
+          "d": "11-20",
+          "s": 197
+        },
+        {
+          "d": "11-21",
+          "s": 198
+        },
+        {
+          "d": "11-22",
+          "s": 198
+        },
+        {
+          "d": "11-23",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 55.68,
+      "breakdown": {
+        "vel": 20,
+        "acc": 70,
+        "health": 78,
+        "fresh": 67,
+        "signal": 100
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 50.62,
+      "explanation": "issue-graph 是 TypeScript 开源项目，主打「Find related issues, competing changes, and unresolved follow-ups before you start work.」；处于中早期增长，涨速在加快；社区健康（fork/star 比 8.0%，3 个 open issue）、项目元数据完整。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "zedlanguage",
+      "name": "zed",
+      "full_name": "zedlanguage/zed",
+      "description": "A reactive dataflow programming language for the AI era, with automatic parallelization and very high standards of static verification",
+      "stars": 200,
+      "forks": 7,
+      "open_issues": 0,
+      "created_at": "2026-10-25T11:56:41+00:00",
+      "pushed_at": "2026-11-23T16:26:21+00:00",
+      "updated_at": "2026-11-23T06:49:06+00:00",
+      "topics": [],
+      "language": "Rust",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/zedlanguage/zed",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 193,
+      "star_series": [
+        {
+          "d": "10-25",
+          "s": 193
+        },
+        {
+          "d": "10-26",
+          "s": 193
+        },
+        {
+          "d": "10-27",
+          "s": 193
+        },
+        {
+          "d": "10-28",
+          "s": 193
+        },
+        {
+          "d": "10-29",
+          "s": 193
+        },
+        {
+          "d": "10-30",
+          "s": 193
+        },
+        {
+          "d": "10-31",
+          "s": 193
+        },
+        {
+          "d": "11-01",
+          "s": 193
+        },
+        {
+          "d": "11-02",
+          "s": 193
+        },
+        {
+          "d": "11-03",
+          "s": 193
+        },
+        {
+          "d": "11-04",
+          "s": 193
+        },
+        {
+          "d": "11-05",
+          "s": 193
+        },
+        {
+          "d": "11-06",
+          "s": 193
+        },
+        {
+          "d": "11-07",
+          "s": 193
+        },
+        {
+          "d": "11-08",
+          "s": 193
+        },
+        {
+          "d": "11-09",
+          "s": 193
+        },
+        {
+          "d": "11-10",
+          "s": 193
+        },
+        {
+          "d": "11-11",
+          "s": 193
+        },
+        {
+          "d": "11-12",
+          "s": 193
+        },
+        {
+          "d": "11-13",
+          "s": 193
+        },
+        {
+          "d": "11-14",
+          "s": 193
+        },
+        {
+          "d": "11-15",
+          "s": 193
+        },
+        {
+          "d": "11-16",
+          "s": 193
+        },
+        {
+          "d": "11-17",
+          "s": 193
+        },
+        {
+          "d": "11-18",
+          "s": 193
+        },
+        {
+          "d": "11-19",
+          "s": 193
+        },
+        {
+          "d": "11-20",
+          "s": 193
+        },
+        {
+          "d": "11-21",
+          "s": 193
+        },
+        {
+          "d": "11-22",
+          "s": 199
+        },
+        {
+          "d": "11-23",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 55.57,
+      "breakdown": {
+        "vel": 22,
+        "acc": 73,
+        "health": 67,
+        "fresh": 92,
+        "signal": 55
+      },
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
+      "confidence": 1.0,
+      "base_score": 50.52,
+      "explanation": "zed 是 Rust 开源项目，主打「A reactive dataflow programming language for the AI era, with automatic parallelization and very high standards of static verification」；处于中早期增长，涨速在加快；开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "antdv-next",
+      "name": "antdv-next",
+      "full_name": "antdv-next/antdv-next",
+      "description": "Ant Design for Vue",
+      "stars": 998,
+      "forks": 124,
+      "open_issues": 9,
+      "created_at": "2025-12-19T02:29:33+00:00",
+      "pushed_at": "2026-11-23T12:27:52+00:00",
+      "updated_at": "2026-11-23T10:21:44+00:00",
+      "topics": [],
+      "language": "TypeScript",
+      "license": "MIT",
+      "homepage": "https://www.antdv-next.com",
+      "html_url": "https://github.com/antdv-next/antdv-next",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 986,
+      "star_series": [
+        {
+          "d": "10-25",
+          "s": 986
+        },
+        {
+          "d": "10-26",
+          "s": 986
+        },
+        {
+          "d": "10-27",
+          "s": 986
+        },
+        {
+          "d": "10-28",
+          "s": 986
+        },
+        {
+          "d": "10-29",
+          "s": 986
+        },
+        {
+          "d": "10-30",
+          "s": 986
+        },
+        {
+          "d": "10-31",
+          "s": 986
+        },
+        {
+          "d": "11-01",
+          "s": 986
+        },
+        {
+          "d": "11-02",
+          "s": 986
+        },
+        {
+          "d": "11-03",
+          "s": 986
+        },
+        {
+          "d": "11-04",
+          "s": 986
+        },
+        {
+          "d": "11-05",
+          "s": 986
+        },
+        {
+          "d": "11-06",
+          "s": 986
+        },
+        {
+          "d": "11-07",
+          "s": 986
+        },
+        {
+          "d": "11-08",
+          "s": 986
+        },
+        {
+          "d": "11-09",
+          "s": 986
+        },
+        {
+          "d": "11-10",
+          "s": 986
+        },
+        {
+          "d": "11-11",
+          "s": 986
+        },
+        {
+          "d": "11-12",
+          "s": 986
+        },
+        {
+          "d": "11-13",
+          "s": 986
+        },
+        {
+          "d": "11-14",
+          "s": 986
+        },
+        {
+          "d": "11-15",
+          "s": 986
+        },
+        {
+          "d": "11-16",
+          "s": 986
+        },
+        {
+          "d": "11-17",
+          "s": 986
+        },
+        {
+          "d": "11-18",
+          "s": 986
+        },
+        {
+          "d": "11-19",
+          "s": 988
         },
         {
           "d": "11-20",
@@ -479,377 +792,32 @@
         },
         {
           "d": "11-21",
-          "s": 991
+          "s": 989
         },
         {
           "d": "11-22",
-          "s": 996
+          "s": 990
+        },
+        {
+          "d": "11-23",
+          "s": 998
         }
       ]
     },
     "score": {
-      "score": 70.72,
+      "score": 49.0,
       "breakdown": {
-        "vel": 48,
-        "acc": 52,
-        "health": 75,
-        "fresh": 62,
-        "signal": 85
+        "vel": 32,
+        "acc": 85,
+        "health": 99,
+        "fresh": 7,
+        "signal": 70
       },
-      "stage": "early",
-      "stage_multiplier": 1.2,
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 58.93,
-      "explanation": "Maestro 是 Python 开源项目，主打「An all-in-one, 100% local AI video, image, and music studio. Director mode plans full music videos and short films from a single prompt. Built on the WanGP pipeline. Install via Pinokio.」；处于增长早期，本周涨速 4.0 star/天；社区健康（fork/star 比 19.0%，99 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "ispointer",
-      "name": "RePairip",
-      "full_name": "ispointer/RePairip",
-      "description": "RePairip is a Google加固 reverse engineering tool that can dump all VMRunner snapshots and fully repack Android applications, removing protection layers completely",
-      "stars": 200,
-      "forks": 40,
-      "open_issues": 0,
-      "created_at": "2026-06-08T23:09:37+00:00",
-      "pushed_at": "2026-11-16T03:03:19+00:00",
-      "updated_at": "2026-11-22T13:41:05+00:00",
-      "topics": [
-        "google-pairip",
-        "google-pairip-bypass",
-        "pairip",
-        "pairip-bypass",
-        "pairip-dumper",
-        "reverse-engineering",
-        "vmrunner"
-      ],
-      "language": "Java",
-      "license": null,
-      "homepage": null,
-      "html_url": "https://github.com/ispointer/RePairip",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 192,
-      "star_series": [
-        {
-          "d": "10-24",
-          "s": 165
-        },
-        {
-          "d": "10-25",
-          "s": 165
-        },
-        {
-          "d": "10-26",
-          "s": 165
-        },
-        {
-          "d": "10-27",
-          "s": 165
-        },
-        {
-          "d": "10-28",
-          "s": 165
-        },
-        {
-          "d": "10-29",
-          "s": 165
-        },
-        {
-          "d": "10-30",
-          "s": 165
-        },
-        {
-          "d": "10-31",
-          "s": 165
-        },
-        {
-          "d": "11-01",
-          "s": 165
-        },
-        {
-          "d": "11-02",
-          "s": 165
-        },
-        {
-          "d": "11-03",
-          "s": 166
-        },
-        {
-          "d": "11-04",
-          "s": 167
-        },
-        {
-          "d": "11-05",
-          "s": 168
-        },
-        {
-          "d": "11-06",
-          "s": 171
-        },
-        {
-          "d": "11-07",
-          "s": 173
-        },
-        {
-          "d": "11-08",
-          "s": 175
-        },
-        {
-          "d": "11-09",
-          "s": 175
-        },
-        {
-          "d": "11-10",
-          "s": 176
-        },
-        {
-          "d": "11-11",
-          "s": 182
-        },
-        {
-          "d": "11-12",
-          "s": 184
-        },
-        {
-          "d": "11-13",
-          "s": 186
-        },
-        {
-          "d": "11-14",
-          "s": 188
-        },
-        {
-          "d": "11-15",
-          "s": 190
-        },
-        {
-          "d": "11-16",
-          "s": 192
-        },
-        {
-          "d": "11-17",
-          "s": 193
-        },
-        {
-          "d": "11-18",
-          "s": 193
-        },
-        {
-          "d": "11-19",
-          "s": 194
-        },
-        {
-          "d": "11-20",
-          "s": 195
-        },
-        {
-          "d": "11-21",
-          "s": 197
-        },
-        {
-          "d": "11-22",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 51.23,
-      "breakdown": {
-        "vel": 23,
-        "acc": 37,
-        "health": 100,
-        "fresh": 55,
-        "signal": 50
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 42.69,
-      "explanation": "RePairip 是 Java 开源项目，主打「RePairip is a Google加固 reverse engineering tool that can dump all VMRunner snapshots and fully repack Android applications, removing protection layers completely」；处于增长早期；社区健康（fork/star 比 20.0%，0 个 open issue）。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "wenxuanzhang1209-cyber",
-      "name": "meetdo",
-      "full_name": "wenxuanzhang1209-cyber/meetdo",
-      "description": "MeetDo — open-source Meeting-to-Action AI by 筑听 · JKinco Listen. Self-hosted live meetings, local ASR/LLM, structured minutes, DOCX/PDF.",
-      "stars": 200,
-      "forks": 4,
-      "open_issues": 8,
-      "created_at": "2026-08-21T04:49:17+00:00",
-      "pushed_at": "2026-11-21T01:53:58+00:00",
-      "updated_at": "2026-11-22T04:55:18+00:00",
-      "topics": [
-        "ai-meeting-assistant",
-        "audio-transcription",
-        "docker",
-        "fastapi",
-        "funasr",
-        "livekit",
-        "local-first",
-        "local-llm",
-        "meeting-intelligence",
-        "meeting-minutes",
-        "meeting-to-action",
-        "offline-first",
-        "ollama",
-        "open-source",
-        "personal-agent",
-        "privacy-first",
-        "real-time-transcription",
-        "self-hosted",
-        "speech-to-text",
-        "webrtc"
-      ],
-      "language": "Python",
-      "license": "MIT",
-      "homepage": "https://jkincolisten.cloud",
-      "html_url": "https://github.com/wenxuanzhang1209-cyber/meetdo",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 158,
-      "star_series": [
-        {
-          "d": "10-24",
-          "s": 0
-        },
-        {
-          "d": "10-25",
-          "s": 0
-        },
-        {
-          "d": "10-26",
-          "s": 0
-        },
-        {
-          "d": "10-27",
-          "s": 0
-        },
-        {
-          "d": "10-28",
-          "s": 0
-        },
-        {
-          "d": "10-29",
-          "s": 27
-        },
-        {
-          "d": "10-30",
-          "s": 78
-        },
-        {
-          "d": "10-31",
-          "s": 124
-        },
-        {
-          "d": "11-01",
-          "s": 127
-        },
-        {
-          "d": "11-02",
-          "s": 127
-        },
-        {
-          "d": "11-03",
-          "s": 127
-        },
-        {
-          "d": "11-04",
-          "s": 127
-        },
-        {
-          "d": "11-05",
-          "s": 157
-        },
-        {
-          "d": "11-06",
-          "s": 157
-        },
-        {
-          "d": "11-07",
-          "s": 157
-        },
-        {
-          "d": "11-08",
-          "s": 157
-        },
-        {
-          "d": "11-09",
-          "s": 157
-        },
-        {
-          "d": "11-10",
-          "s": 157
-        },
-        {
-          "d": "11-11",
-          "s": 157
-        },
-        {
-          "d": "11-12",
-          "s": 157
-        },
-        {
-          "d": "11-13",
-          "s": 157
-        },
-        {
-          "d": "11-14",
-          "s": 158
-        },
-        {
-          "d": "11-15",
-          "s": 158
-        },
-        {
-          "d": "11-16",
-          "s": 158
-        },
-        {
-          "d": "11-17",
-          "s": 158
-        },
-        {
-          "d": "11-18",
-          "s": 158
-        },
-        {
-          "d": "11-19",
-          "s": 158
-        },
-        {
-          "d": "11-20",
-          "s": 158
-        },
-        {
-          "d": "11-21",
-          "s": 168
-        },
-        {
-          "d": "11-22",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 49.88,
-      "breakdown": {
-        "vel": 58,
-        "acc": 99,
-        "health": 57,
-        "fresh": 75,
-        "signal": 85
-      },
-      "stage": "saturated",
-      "stage_multiplier": 0.7,
-      "confidence": 1.0,
-      "base_score": 71.26,
-      "explanation": "meetdo 是 Python 开源项目，主打「MeetDo — open-source Meeting-to-Action AI by 筑听 · JKinco Listen. Self-hosted live meetings, local ASR/LLM, structured minutes, DOCX/PDF.」；增长已饱和，本周涨速 6.0 star/天，涨速在加快；项目元数据完整、开发活跃。"
+      "base_score": 44.54,
+      "explanation": "antdv-next 是 TypeScript 开源项目，主打「Ant Design for Vue」；处于中早期增长，涨速在加快；社区健康（fork/star 比 12.4%，9 个 open issue）。"
     }
   }
 ]
