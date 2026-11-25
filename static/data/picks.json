@@ -5,12 +5,12 @@
       "name": "autoshade",
       "full_name": "skymanbp/autoshade",
       "description": "AI-assisted RAW photo developer.",
-      "stars": 996,
+      "stars": 995,
       "forks": 44,
       "open_issues": 2,
       "created_at": "2026-06-26T18:55:41+00:00",
       "pushed_at": "2026-11-21T03:03:11+00:00",
-      "updated_at": "2026-11-24T14:18:19+00:00",
+      "updated_at": "2026-11-25T04:21:24+00:00",
       "topics": [
         "ai-photo-editing",
         "camera-raw",
@@ -32,134 +32,134 @@
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 945,
+      "stars_7d_ago": 944,
       "star_series": [
         {
-          "d": "10-26",
-          "s": 863
-        },
-        {
           "d": "10-27",
-          "s": 867
+          "s": 866
         },
         {
           "d": "10-28",
-          "s": 869
+          "s": 868
         },
         {
           "d": "10-29",
-          "s": 870
+          "s": 869
         },
         {
           "d": "10-30",
-          "s": 873
+          "s": 872
         },
         {
           "d": "10-31",
-          "s": 876
+          "s": 875
         },
         {
           "d": "11-01",
-          "s": 877
+          "s": 876
         },
         {
           "d": "11-02",
-          "s": 877
+          "s": 876
         },
         {
           "d": "11-03",
-          "s": 880
+          "s": 879
         },
         {
           "d": "11-04",
-          "s": 881
+          "s": 880
         },
         {
           "d": "11-05",
-          "s": 885
+          "s": 884
         },
         {
           "d": "11-06",
-          "s": 885
+          "s": 884
         },
         {
           "d": "11-07",
-          "s": 892
+          "s": 891
         },
         {
           "d": "11-08",
-          "s": 916
+          "s": 915
         },
         {
           "d": "11-09",
-          "s": 936
+          "s": 935
         },
         {
           "d": "11-10",
-          "s": 936
+          "s": 935
         },
         {
           "d": "11-11",
-          "s": 937
+          "s": 936
         },
         {
           "d": "11-12",
-          "s": 940
+          "s": 939
         },
         {
           "d": "11-13",
-          "s": 943
+          "s": 942
         },
         {
           "d": "11-14",
-          "s": 944
+          "s": 943
         },
         {
           "d": "11-15",
-          "s": 944
+          "s": 943
         },
         {
           "d": "11-16",
-          "s": 944
+          "s": 943
         },
         {
           "d": "11-17",
-          "s": 945
+          "s": 944
         },
         {
           "d": "11-18",
-          "s": 945
+          "s": 944
         },
         {
           "d": "11-19",
-          "s": 945
+          "s": 944
         },
         {
           "d": "11-20",
-          "s": 994
+          "s": 993
         },
         {
           "d": "11-21",
-          "s": 995
+          "s": 994
         },
         {
           "d": "11-22",
-          "s": 995
+          "s": 994
         },
         {
           "d": "11-23",
-          "s": 996
+          "s": 995
         },
         {
           "d": "11-24",
-          "s": 996
+          "s": 995
+        },
+        {
+          "d": "11-25",
+          "s": 995
         }
       ]
     },
     "score": {
-      "score": 91.52,
+      "score": 92.84,
       "breakdown": {
-        "vel": 65,
+        "vel": 69,
         "acc": 99,
         "health": 73,
         "fresh": 59,
@@ -168,168 +168,8 @@
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 76.27,
+      "base_score": 77.37,
       "explanation": "autoshade 是 Rust 开源项目，主打「AI-assisted RAW photo developer.」；处于增长早期，本周涨速 7.3 star/天，涨速在加快；社区健康（fork/star 比 4.4%，2 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "xikhar",
-      "name": "papertrails",
-      "full_name": "xikhar/papertrails",
-      "description": "Explore an endless paper world",
-      "stars": 200,
-      "forks": 57,
-      "open_issues": 0,
-      "created_at": "2026-11-17T14:35:37+00:00",
-      "pushed_at": "2026-11-18T13:48:06+00:00",
-      "updated_at": "2026-11-24T15:37:42+00:00",
-      "topics": [],
-      "language": "JavaScript",
-      "license": "MIT",
-      "homepage": "https://xikhar.github.io/papertrails/",
-      "html_url": "https://github.com/xikhar/papertrails",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 80,
-      "star_series": [
-        {
-          "d": "10-26",
-          "s": 0
-        },
-        {
-          "d": "10-27",
-          "s": 0
-        },
-        {
-          "d": "10-28",
-          "s": 0
-        },
-        {
-          "d": "10-29",
-          "s": 0
-        },
-        {
-          "d": "10-30",
-          "s": 0
-        },
-        {
-          "d": "10-31",
-          "s": 0
-        },
-        {
-          "d": "11-01",
-          "s": 0
-        },
-        {
-          "d": "11-02",
-          "s": 0
-        },
-        {
-          "d": "11-03",
-          "s": 0
-        },
-        {
-          "d": "11-04",
-          "s": 0
-        },
-        {
-          "d": "11-05",
-          "s": 0
-        },
-        {
-          "d": "11-06",
-          "s": 0
-        },
-        {
-          "d": "11-07",
-          "s": 0
-        },
-        {
-          "d": "11-08",
-          "s": 0
-        },
-        {
-          "d": "11-09",
-          "s": 0
-        },
-        {
-          "d": "11-10",
-          "s": 0
-        },
-        {
-          "d": "11-11",
-          "s": 0
-        },
-        {
-          "d": "11-12",
-          "s": 0
-        },
-        {
-          "d": "11-13",
-          "s": 0
-        },
-        {
-          "d": "11-14",
-          "s": 0
-        },
-        {
-          "d": "11-15",
-          "s": 0
-        },
-        {
-          "d": "11-16",
-          "s": 0
-        },
-        {
-          "d": "11-17",
-          "s": 26
-        },
-        {
-          "d": "11-18",
-          "s": 80
-        },
-        {
-          "d": "11-19",
-          "s": 90
-        },
-        {
-          "d": "11-20",
-          "s": 117
-        },
-        {
-          "d": "11-21",
-          "s": 129
-        },
-        {
-          "d": "11-22",
-          "s": 144
-        },
-        {
-          "d": "11-23",
-          "s": 161
-        },
-        {
-          "d": "11-24",
-          "s": 200
-        }
-      ]
-    },
-    "score": {
-      "score": 59.04,
-      "breakdown": {
-        "vel": 90,
-        "acc": 62,
-        "health": 100,
-        "fresh": 98,
-        "signal": 85
-      },
-      "stage": "saturated",
-      "stage_multiplier": 0.7,
-      "confidence": 1.0,
-      "base_score": 84.35,
-      "explanation": "papertrails 是 JavaScript 开源项目，主打「Explore an endless paper world」；增长已饱和，本周涨速 17 star/天；社区健康（fork/star 比 28.5%，0 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
@@ -339,7 +179,7 @@
       "full_name": "emreturkmencom/antigravity-telegram-suite",
       "description": "Antigravity Telegram bot — remote-control your AI agent via Telegram. Chat, switch models, orchestrate multi-agent workflows, and manage workspaces from your phone.",
       "stars": 200,
-      "forks": 55,
+      "forks": 54,
       "open_issues": 0,
       "created_at": "2026-04-20T19:59:14+00:00",
       "pushed_at": "2026-11-19T09:21:01+00:00",
@@ -360,10 +200,6 @@
       "search_score": 1.0,
       "stars_7d_ago": 194,
       "star_series": [
-        {
-          "d": "10-26",
-          "s": 188
-        },
         {
           "d": "10-27",
           "s": 188
@@ -479,354 +315,539 @@
         {
           "d": "11-24",
           "s": 200
+        },
+        {
+          "d": "11-25",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 57.13,
+      "score": 57.91,
       "breakdown": {
-        "vel": 19,
+        "vel": 20,
         "acc": 67,
         "health": 100,
-        "fresh": 41,
+        "fresh": 40,
         "signal": 85
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 47.61,
-      "explanation": "antigravity-telegram-suite 是 JavaScript 开源项目，主打「Antigravity Telegram bot — remote-control your AI agent via Telegram. Chat, switch models, orchestrate multi-agent workflows, and manage workspaces from your phone.」；处于增长早期；社区健康（fork/star 比 27.5%，0 个 open issue）、项目元数据完整。"
+      "base_score": 48.26,
+      "explanation": "antigravity-telegram-suite 是 JavaScript 开源项目，主打「Antigravity Telegram bot — remote-control your AI agent via Telegram. Chat, switch models, orchestrate multi-agent workflows, and manage workspaces from your phone.」；处于增长早期；社区健康（fork/star 比 27.0%，0 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "monogram-android",
-      "name": "monogram",
-      "full_name": "monogram-android/monogram",
-      "description": " Telegram client for Android",
-      "stars": 996,
-      "forks": 69,
-      "open_issues": 27,
-      "created_at": "2026-03-04T15:52:02+00:00",
-      "pushed_at": "2026-11-24T11:42:48+00:00",
-      "updated_at": "2026-11-24T12:03:39+00:00",
-      "topics": [
-        "android",
-        "compose",
-        "decompose",
-        "kotlin",
-        "kotlin-android",
-        "monogram",
-        "mtproto",
-        "mvikotlin",
-        "rust",
-        "telegram"
-      ],
-      "language": "Kotlin",
-      "license": "GPL-3.0",
-      "homepage": "https://monogram.maki.su",
-      "html_url": "https://github.com/monogram-android/monogram",
-      "default_branch": "develop",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 990,
-      "star_series": [
-        {
-          "d": "10-26",
-          "s": 962
-        },
-        {
-          "d": "10-27",
-          "s": 964
-        },
-        {
-          "d": "10-28",
-          "s": 965
-        },
-        {
-          "d": "10-29",
-          "s": 965
-        },
-        {
-          "d": "10-30",
-          "s": 965
-        },
-        {
-          "d": "10-31",
-          "s": 966
-        },
-        {
-          "d": "11-01",
-          "s": 966
-        },
-        {
-          "d": "11-02",
-          "s": 966
-        },
-        {
-          "d": "11-03",
-          "s": 966
-        },
-        {
-          "d": "11-04",
-          "s": 967
-        },
-        {
-          "d": "11-05",
-          "s": 967
-        },
-        {
-          "d": "11-06",
-          "s": 969
-        },
-        {
-          "d": "11-07",
-          "s": 970
-        },
-        {
-          "d": "11-08",
-          "s": 972
-        },
-        {
-          "d": "11-09",
-          "s": 972
-        },
-        {
-          "d": "11-10",
-          "s": 976
-        },
-        {
-          "d": "11-11",
-          "s": 977
-        },
-        {
-          "d": "11-12",
-          "s": 982
-        },
-        {
-          "d": "11-13",
-          "s": 982
-        },
-        {
-          "d": "11-14",
-          "s": 984
-        },
-        {
-          "d": "11-15",
-          "s": 987
-        },
-        {
-          "d": "11-16",
-          "s": 988
-        },
-        {
-          "d": "11-17",
-          "s": 988
-        },
-        {
-          "d": "11-18",
-          "s": 990
-        },
-        {
-          "d": "11-19",
-          "s": 991
-        },
-        {
-          "d": "11-20",
-          "s": 993
-        },
-        {
-          "d": "11-21",
-          "s": 994
-        },
-        {
-          "d": "11-22",
-          "s": 994
-        },
-        {
-          "d": "11-23",
-          "s": 994
-        },
-        {
-          "d": "11-24",
-          "s": 996
-        }
-      ]
-    },
-    "score": {
-      "score": 43.9,
-      "breakdown": {
-        "vel": 19,
-        "acc": 37,
-        "health": 76,
-        "fresh": 27,
-        "signal": 85
-      },
-      "stage": "early",
-      "stage_multiplier": 1.2,
-      "confidence": 1.0,
-      "base_score": 36.59,
-      "explanation": "monogram 是 Kotlin 开源项目，主打「Telegram client for Android」；处于增长早期；社区健康（fork/star 比 6.9%，27 个 open issue）、项目元数据完整。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "zedlanguage",
-      "name": "zed",
-      "full_name": "zedlanguage/zed",
-      "description": "A reactive dataflow programming language for the AI era, with automatic parallelization and very high standards of static verification",
-      "stars": 200,
-      "forks": 7,
+      "owner": "agents-universe",
+      "name": "agents-universe",
+      "full_name": "agents-universe/agents-universe",
+      "description": "不是问答机器人，而是能真正干活的数字分身。共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中",
+      "stars": 1000,
+      "forks": 6,
       "open_issues": 0,
-      "created_at": "2026-10-25T11:56:41+00:00",
-      "pushed_at": "2026-11-24T16:32:52+00:00",
-      "updated_at": "2026-11-23T06:49:06+00:00",
-      "topics": [],
-      "language": "Rust",
-      "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/zedlanguage/zed",
+      "created_at": "2026-09-10T12:45:40+00:00",
+      "pushed_at": "2026-11-24T14:49:28+00:00",
+      "updated_at": "2026-11-25T16:03:28+00:00",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "agent-orchestration",
+        "agent-skill",
+        "agentic-ai",
+        "ai-agents",
+        "ai-governance",
+        "ai-tools",
+        "deepseek-harness",
+        "harness",
+        "harness-engineering",
+        "harness-framework",
+        "python",
+        "python3",
+        "vue3",
+        "vuejs",
+        "web-application",
+        "webapp",
+        "workbuddy",
+        "workbuddy-alternative"
+      ],
+      "language": "Python",
+      "license": "Apache-2.0",
+      "homepage": "https://agents-universe.com/",
+      "html_url": "https://github.com/agents-universe/agents-universe",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 197,
+      "stars_7d_ago": 962,
       "star_series": [
         {
-          "d": "10-26",
-          "s": 197
-        },
-        {
           "d": "10-27",
-          "s": 197
+          "s": 763
         },
         {
           "d": "10-28",
-          "s": 197
+          "s": 765
         },
         {
           "d": "10-29",
-          "s": 197
+          "s": 775
         },
         {
           "d": "10-30",
-          "s": 197
+          "s": 781
         },
         {
           "d": "10-31",
-          "s": 197
+          "s": 784
         },
         {
           "d": "11-01",
-          "s": 197
+          "s": 795
         },
         {
           "d": "11-02",
-          "s": 197
+          "s": 803
         },
         {
           "d": "11-03",
-          "s": 197
+          "s": 814
         },
         {
           "d": "11-04",
-          "s": 197
+          "s": 825
         },
         {
           "d": "11-05",
-          "s": 197
+          "s": 832
         },
         {
           "d": "11-06",
-          "s": 197
+          "s": 841
         },
         {
           "d": "11-07",
-          "s": 197
+          "s": 848
         },
         {
           "d": "11-08",
-          "s": 197
+          "s": 858
         },
         {
           "d": "11-09",
-          "s": 197
+          "s": 870
         },
         {
           "d": "11-10",
-          "s": 197
+          "s": 887
         },
         {
           "d": "11-11",
-          "s": 197
+          "s": 897
         },
         {
           "d": "11-12",
-          "s": 197
+          "s": 904
         },
         {
           "d": "11-13",
-          "s": 197
+          "s": 917
         },
         {
           "d": "11-14",
-          "s": 197
+          "s": 925
         },
         {
           "d": "11-15",
-          "s": 197
+          "s": 936
         },
         {
           "d": "11-16",
-          "s": 197
+          "s": 940
         },
         {
           "d": "11-17",
-          "s": 197
+          "s": 950
         },
         {
           "d": "11-18",
-          "s": 197
+          "s": 962
         },
         {
           "d": "11-19",
-          "s": 197
+          "s": 962
         },
         {
           "d": "11-20",
-          "s": 197
+          "s": 962
         },
         {
           "d": "11-21",
-          "s": 197
+          "s": 966
         },
         {
           "d": "11-22",
-          "s": 199
+          "s": 972
         },
         {
           "d": "11-23",
-          "s": 200
+          "s": 978
         },
         {
           "d": "11-24",
+          "s": 990
+        },
+        {
+          "d": "11-25",
+          "s": 1000
+        }
+      ]
+    },
+    "score": {
+      "score": 50.53,
+      "breakdown": {
+        "vel": 61,
+        "acc": 41,
+        "health": 61,
+        "fresh": 79,
+        "signal": 85
+      },
+      "stage": "late",
+      "stage_multiplier": 0.85,
+      "confidence": 1.0,
+      "base_score": 59.45,
+      "explanation": "agents-universe 是 Python 开源项目，主打「不是问答机器人，而是能真正干活的数字分身。共享智能体，共享项目上下文，让项目所有成员一起协同工作。同时智能体会像人一样通过资料或者工作抽象和总结经验到项目上下文中」；接近增长天花板，本周涨速 5.4 star/天；项目元数据完整、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "nforst",
+      "name": "fagus",
+      "full_name": "nforst/fagus",
+      "description": "HTML and CSS to PDF for PHP and Laravel, without a browser. Renders like Chrome prints, with PDF/A, PDF/UA and ZUGFeRD/Factur-X.",
+      "stars": 200,
+      "forks": 2,
+      "open_issues": 5,
+      "created_at": "2026-11-13T18:04:09+00:00",
+      "pushed_at": "2026-11-25T00:32:23+00:00",
+      "updated_at": "2026-11-24T23:06:11+00:00",
+      "topics": [
+        "css",
+        "factur-x",
+        "html-to-pdf",
+        "laravel",
+        "pdf",
+        "pdf-generation",
+        "pdfa",
+        "php",
+        "rust",
+        "zugferd"
+      ],
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "homepage": "https://fagus.niklasforst.de",
+      "html_url": "https://github.com/nforst/fagus",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 103,
+      "star_series": [
+        {
+          "d": "10-27",
+          "s": 0
+        },
+        {
+          "d": "10-28",
+          "s": 0
+        },
+        {
+          "d": "10-29",
+          "s": 0
+        },
+        {
+          "d": "10-30",
+          "s": 0
+        },
+        {
+          "d": "10-31",
+          "s": 0
+        },
+        {
+          "d": "11-01",
+          "s": 0
+        },
+        {
+          "d": "11-02",
+          "s": 0
+        },
+        {
+          "d": "11-03",
+          "s": 0
+        },
+        {
+          "d": "11-04",
+          "s": 0
+        },
+        {
+          "d": "11-05",
+          "s": 0
+        },
+        {
+          "d": "11-06",
+          "s": 0
+        },
+        {
+          "d": "11-07",
+          "s": 0
+        },
+        {
+          "d": "11-08",
+          "s": 0
+        },
+        {
+          "d": "11-09",
+          "s": 0
+        },
+        {
+          "d": "11-10",
+          "s": 0
+        },
+        {
+          "d": "11-11",
+          "s": 0
+        },
+        {
+          "d": "11-12",
+          "s": 0
+        },
+        {
+          "d": "11-13",
+          "s": 0
+        },
+        {
+          "d": "11-14",
+          "s": 0
+        },
+        {
+          "d": "11-15",
+          "s": 0
+        },
+        {
+          "d": "11-16",
+          "s": 0
+        },
+        {
+          "d": "11-17",
+          "s": 15
+        },
+        {
+          "d": "11-18",
+          "s": 59
+        },
+        {
+          "d": "11-19",
+          "s": 103
+        },
+        {
+          "d": "11-20",
+          "s": 146
+        },
+        {
+          "d": "11-21",
+          "s": 155
+        },
+        {
+          "d": "11-22",
+          "s": 159
+        },
+        {
+          "d": "11-23",
+          "s": 176
+        },
+        {
+          "d": "11-24",
+          "s": 200
+        },
+        {
+          "d": "11-25",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 43.47,
+      "score": 49.35,
       "breakdown": {
-        "vel": 11,
-        "acc": 61,
-        "health": 67,
-        "fresh": 92,
+        "vel": 88,
+        "acc": 49,
+        "health": 58,
+        "fresh": 97,
+        "signal": 85
+      },
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
+      "confidence": 1.0,
+      "base_score": 70.5,
+      "explanation": "fagus 是 Rust 开源项目，主打「HTML and CSS to PDF for PHP and Laravel, without a browser. Renders like Chrome prints, with PDF/A, PDF/UA and ZUGFeRD/Factur-X.」；增长已饱和，本周涨速 14 star/天；项目元数据完整、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "chuiziyao",
+      "name": "wushuang-iptv",
+      "full_name": "chuiziyao/wushuang-iptv",
+      "description": "无双IPTV",
+      "stars": 200,
+      "forks": 40,
+      "open_issues": 1,
+      "created_at": "2026-11-14T06:43:19+00:00",
+      "pushed_at": "2026-11-24T04:16:27+00:00",
+      "updated_at": "2026-11-25T12:56:11+00:00",
+      "topics": [],
+      "language": "Python",
+      "license": "MIT",
+      "homepage": null,
+      "html_url": "https://github.com/chuiziyao/wushuang-iptv",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 126,
+      "star_series": [
+        {
+          "d": "10-27",
+          "s": 0
+        },
+        {
+          "d": "10-28",
+          "s": 0
+        },
+        {
+          "d": "10-29",
+          "s": 0
+        },
+        {
+          "d": "10-30",
+          "s": 0
+        },
+        {
+          "d": "10-31",
+          "s": 0
+        },
+        {
+          "d": "11-01",
+          "s": 0
+        },
+        {
+          "d": "11-02",
+          "s": 0
+        },
+        {
+          "d": "11-03",
+          "s": 0
+        },
+        {
+          "d": "11-04",
+          "s": 0
+        },
+        {
+          "d": "11-05",
+          "s": 0
+        },
+        {
+          "d": "11-06",
+          "s": 0
+        },
+        {
+          "d": "11-07",
+          "s": 0
+        },
+        {
+          "d": "11-08",
+          "s": 0
+        },
+        {
+          "d": "11-09",
+          "s": 0
+        },
+        {
+          "d": "11-10",
+          "s": 0
+        },
+        {
+          "d": "11-11",
+          "s": 0
+        },
+        {
+          "d": "11-12",
+          "s": 0
+        },
+        {
+          "d": "11-13",
+          "s": 0
+        },
+        {
+          "d": "11-14",
+          "s": 10
+        },
+        {
+          "d": "11-15",
+          "s": 35
+        },
+        {
+          "d": "11-16",
+          "s": 59
+        },
+        {
+          "d": "11-17",
+          "s": 76
+        },
+        {
+          "d": "11-18",
+          "s": 87
+        },
+        {
+          "d": "11-19",
+          "s": 126
+        },
+        {
+          "d": "11-20",
+          "s": 140
+        },
+        {
+          "d": "11-21",
+          "s": 154
+        },
+        {
+          "d": "11-22",
+          "s": 168
+        },
+        {
+          "d": "11-23",
+          "s": 181
+        },
+        {
+          "d": "11-24",
+          "s": 195
+        },
+        {
+          "d": "11-25",
+          "s": 200
+        }
+      ]
+    },
+    "score": {
+      "score": 48.72,
+      "breakdown": {
+        "vel": 80,
+        "acc": 40,
+        "health": 100,
+        "fresh": 97,
         "signal": 55
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "saturated",
+      "stage_multiplier": 0.7,
       "confidence": 1.0,
-      "base_score": 39.52,
-      "explanation": "zed 是 Rust 开源项目，主打「A reactive dataflow programming language for the AI era, with automatic parallelization and very high standards of static verification」；处于中早期增长；开发活跃。"
+      "base_score": 69.6,
+      "explanation": "wushuang-iptv 是 Python 开源项目，主打「无双IPTV」；增长已饱和，本周涨速 11 star/天；社区健康（fork/star 比 20.0%，1 个 open issue）、开发活跃。"
     }
   }
 ]
