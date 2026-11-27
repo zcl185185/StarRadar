@@ -1,622 +1,627 @@
 [
   {
     "repo": {
-      "owner": "furyteamtop",
-      "name": "fury-antidetect-browser",
-      "full_name": "furyteamtop/fury-antidetect-browser",
-      "description": "Free, open-source anti-detect browser. A Chromium 158 fork that spoofs the fingerprint in C++ rather than with injected JavaScript, with per-profile personas and proxies, a built-in MCP server for AI assistants, and a self-hostable team server with per-project access. No seats, no per-profile pricing, no telemetry.",
-      "stars": 200,
-      "forks": 42,
-      "open_issues": 6,
-      "created_at": "2026-08-05T09:40:32+00:00",
-      "pushed_at": "2026-11-26T12:04:43+00:00",
-      "updated_at": "2026-11-26T10:56:04+00:00",
+      "owner": "Innei",
+      "name": "artideck",
+      "full_name": "Innei/artideck",
+      "description": "Artideck — Artifacts for coding agents, made to decide with you. Your agent draws artboards, design docs, whiteboards, decks, and verify reports; you pick, comment, and pass right on the page.",
+      "stars": 1000,
+      "forks": 47,
+      "open_issues": 12,
+      "created_at": "2026-10-19T10:05:43+00:00",
+      "pushed_at": "2026-11-27T15:25:01+00:00",
+      "updated_at": "2026-11-27T15:40:22+00:00",
       "topics": [
-        "anti-detect-browser",
-        "anti-fingerprinting",
-        "antidetect",
-        "antidetect-browser",
-        "browser-automation",
-        "browser-fingerprint",
-        "browser-fingerprinting",
-        "canvas-fingerprint",
-        "chromium",
-        "chromium-fork",
-        "devtools-protocol",
-        "fingerprint-spoofing",
-        "mcp-server",
-        "multi-accounting",
-        "privacy",
-        "proxy-manager",
-        "rust",
-        "self-hosted",
-        "tauri",
-        "webgl-fingerprint"
+        "agent-skills",
+        "ai-agents",
+        "artboard",
+        "artideck",
+        "artifacts",
+        "brainstorming",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "coding-agents",
+        "cursor",
+        "design-docs",
+        "design-review",
+        "developer-tools",
+        "gemini-cli-extension",
+        "human-in-the-loop",
+        "mockups",
+        "visual-review",
+        "whiteboard"
       ],
-      "language": "TypeScript",
-      "license": "AGPL-3.0",
-      "homepage": "https://furybrowser.dev",
-      "html_url": "https://github.com/furyteamtop/fury-antidetect-browser",
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "homepage": "https://artideck.dev",
+      "html_url": "https://github.com/Innei/artideck",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 183,
+      "stars_7d_ago": 843,
       "star_series": [
         {
-          "d": "10-28",
-          "s": 182
-        },
-        {
           "d": "10-29",
-          "s": 182
+          "s": 843
         },
         {
           "d": "10-30",
-          "s": 182
+          "s": 843
         },
         {
           "d": "10-31",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-01",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-02",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-03",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-04",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-05",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-06",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-07",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-08",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-09",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-10",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-11",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-12",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-13",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-14",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-15",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-16",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-17",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-18",
-          "s": 182
+          "s": 843
         },
         {
           "d": "11-19",
-          "s": 183
+          "s": 843
         },
         {
           "d": "11-20",
-          "s": 183
+          "s": 843
         },
         {
           "d": "11-21",
-          "s": 187
+          "s": 843
         },
         {
           "d": "11-22",
-          "s": 189
+          "s": 843
         },
         {
           "d": "11-23",
-          "s": 192
+          "s": 850
         },
         {
           "d": "11-24",
-          "s": 194
+          "s": 895
         },
         {
           "d": "11-25",
-          "s": 197
+          "s": 933
         },
         {
           "d": "11-26",
-          "s": 200
+          "s": 963
+        },
+        {
+          "d": "11-27",
+          "s": 1000
         }
       ]
     },
     "score": {
-      "score": 81.23,
+      "score": 100.0,
       "breakdown": {
-        "vel": 36,
-        "acc": 91,
-        "health": 96,
-        "fresh": 69,
+        "vel": 100,
+        "acc": 99,
+        "health": 72,
+        "fresh": 89,
         "signal": 100
       },
       "stage": "early",
       "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 67.7,
-      "explanation": "fury-antidetect-browser 是 TypeScript 开源项目，主打「Free, open-source anti-detect browser. A Chromium 158 fork that spoofs the fingerprint in C++ rather than with injected JavaScript, with per-profile personas and proxies, a built-in MCP server for AI assistants, and a self-hostable team server with per-project access. No seats, no per-profile pricing, no telemetry.」；处于增长早期，涨速在加快；社区健康（fork/star 比 21.0%，6 个 open issue）、项目元数据完整。"
+      "base_score": 91.96,
+      "explanation": "artideck 是 JavaScript 开源项目，主打「Artideck — Artifacts for coding agents, made to decide with you. Your agent draws artboards, design docs, whiteboards, decks, and verify reports; you pick, comment, and pass right on the page.」；处于增长早期，本周涨速 22 star/天，涨速在加快；社区健康（fork/star 比 4.7%，12 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "feder-cr",
-      "name": "git-ai",
-      "full_name": "feder-cr/git-ai",
-      "description": "Git designed for AI agents. Open-source, in the spirit of Anthropic's Scion and OpenAI's Pando. Not affiliated with either.",
-      "stars": 999,
-      "forks": 100,
-      "open_issues": 5,
-      "created_at": "2026-10-15T13:12:02+00:00",
-      "pushed_at": "2026-11-22T03:25:46+00:00",
-      "updated_at": "2026-11-26T15:44:42+00:00",
-      "topics": [
-        "ai-agents",
-        "coding-agents",
-        "git",
-        "golang",
-        "pando",
-        "scion",
-        "version-control"
-      ],
-      "language": "Go",
-      "license": "NOASSERTION",
-      "homepage": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "html_url": "https://github.com/feder-cr/git-ai",
-      "default_branch": "main",
-      "archived": false,
-      "search_score": 1.0,
-      "stars_7d_ago": 954,
-      "star_series": [
-        {
-          "d": "10-28",
-          "s": 868
-        },
-        {
-          "d": "10-29",
-          "s": 868
-        },
-        {
-          "d": "10-30",
-          "s": 887
-        },
-        {
-          "d": "10-31",
-          "s": 889
-        },
-        {
-          "d": "11-01",
-          "s": 899
-        },
-        {
-          "d": "11-02",
-          "s": 905
-        },
-        {
-          "d": "11-03",
-          "s": 906
-        },
-        {
-          "d": "11-04",
-          "s": 909
-        },
-        {
-          "d": "11-05",
-          "s": 912
-        },
-        {
-          "d": "11-06",
-          "s": 918
-        },
-        {
-          "d": "11-07",
-          "s": 926
-        },
-        {
-          "d": "11-08",
-          "s": 930
-        },
-        {
-          "d": "11-09",
-          "s": 936
-        },
-        {
-          "d": "11-10",
-          "s": 937
-        },
-        {
-          "d": "11-11",
-          "s": 939
-        },
-        {
-          "d": "11-12",
-          "s": 942
-        },
-        {
-          "d": "11-13",
-          "s": 944
-        },
-        {
-          "d": "11-14",
-          "s": 945
-        },
-        {
-          "d": "11-15",
-          "s": 948
-        },
-        {
-          "d": "11-16",
-          "s": 950
-        },
-        {
-          "d": "11-17",
-          "s": 952
-        },
-        {
-          "d": "11-18",
-          "s": 952
-        },
-        {
-          "d": "11-19",
-          "s": 953
-        },
-        {
-          "d": "11-20",
-          "s": 954
-        },
-        {
-          "d": "11-21",
-          "s": 956
-        },
-        {
-          "d": "11-22",
-          "s": 956
-        },
-        {
-          "d": "11-23",
-          "s": 957
-        },
-        {
-          "d": "11-24",
-          "s": 958
-        },
-        {
-          "d": "11-25",
-          "s": 971
-        },
-        {
-          "d": "11-26",
-          "s": 999
-        }
-      ]
-    },
-    "score": {
-      "score": 56.49,
-      "breakdown": {
-        "vel": 59,
-        "acc": 97,
-        "health": 93,
-        "fresh": 88,
-        "signal": 85
-      },
-      "stage": "saturated",
-      "stage_multiplier": 0.7,
-      "confidence": 1.0,
-      "base_score": 80.7,
-      "explanation": "git-ai 是 Go 开源项目，主打「Git designed for AI agents. Open-source, in the spirit of Anthropic's Scion and OpenAI's Pando. Not affiliated with either.」；增长已饱和，本周涨速 6.4 star/天，涨速在加快；社区健康（fork/star 比 10.0%，5 个 open issue）、项目元数据完整、开发活跃。"
-    }
-  },
-  {
-    "repo": {
-      "owner": "mizchi",
-      "name": "mutator",
-      "full_name": "mizchi/mutator",
-      "description": "Diff-driven mutation testing for Vitest (oxc instrumentation, result reuse)",
+      "owner": "Open-Industry-Project",
+      "name": "Open-Industry-Project",
+      "full_name": "Open-Industry-Project/Open-Industry-Project",
+      "description": "Browser-based industrial automation simulator: conveyors, sensors, PLCs (TypeScript, three.js, Jolt)",
       "stars": 200,
-      "forks": 7,
-      "open_issues": 4,
-      "created_at": "2026-10-09T07:18:59+00:00",
-      "pushed_at": "2026-11-24T12:59:08+00:00",
-      "updated_at": "2026-11-26T13:07:12+00:00",
-      "topics": [],
+      "forks": 68,
+      "open_issues": 2,
+      "created_at": "2026-10-19T12:55:52+00:00",
+      "pushed_at": "2026-11-27T03:08:36+00:00",
+      "updated_at": "2026-11-27T08:52:59+00:00",
+      "topics": [
+        "conveyor",
+        "digital-twin",
+        "iec-61131-3",
+        "industrial-automation",
+        "ladder-logic",
+        "material-handling",
+        "plc",
+        "plc-simulator",
+        "plc-training",
+        "simulator",
+        "structured-text",
+        "virtual-commissioning"
+      ],
       "language": "TypeScript",
       "license": "MIT",
-      "homepage": null,
-      "html_url": "https://github.com/mizchi/mutator",
+      "homepage": "https://www.openindustryproject.org",
+      "html_url": "https://github.com/Open-Industry-Project/Open-Industry-Project",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 192,
+      "stars_7d_ago": 163,
       "star_series": [
         {
-          "d": "10-28",
-          "s": 192
-        },
-        {
           "d": "10-29",
-          "s": 192
+          "s": 160
         },
         {
           "d": "10-30",
-          "s": 192
+          "s": 160
         },
         {
           "d": "10-31",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-01",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-02",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-03",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-04",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-05",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-06",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-07",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-08",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-09",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-10",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-11",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-12",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-13",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-14",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-15",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-16",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-17",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-18",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-19",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-20",
-          "s": 192
+          "s": 160
         },
         {
           "d": "11-21",
-          "s": 192
+          "s": 163
         },
         {
           "d": "11-22",
-          "s": 192
+          "s": 169
         },
         {
           "d": "11-23",
-          "s": 192
+          "s": 174
         },
         {
           "d": "11-24",
-          "s": 196
+          "s": 177
         },
         {
           "d": "11-25",
-          "s": 199
+          "s": 187
         },
         {
           "d": "11-26",
+          "s": 189
+        },
+        {
+          "d": "11-27",
           "s": 200
         }
       ]
     },
     "score": {
-      "score": 55.62,
+      "score": 99.59,
       "breakdown": {
-        "vel": 23,
-        "acc": 76,
-        "health": 64,
-        "fresh": 87,
-        "signal": 55
+        "vel": 61,
+        "acc": 99,
+        "health": 99,
+        "fresh": 89,
+        "signal": 85
       },
-      "stage": "mid_early",
-      "stage_multiplier": 1.1,
+      "stage": "early",
+      "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 50.56,
-      "explanation": "mutator 是 TypeScript 开源项目，主打「Diff-driven mutation testing for Vitest (oxc instrumentation, result reuse)」；处于中早期增长，涨速在加快；开发活跃。"
+      "base_score": 82.99,
+      "explanation": "Open-Industry-Project 是 TypeScript 开源项目，主打「Browser-based industrial automation simulator: conveyors, sensors, PLCs (TypeScript, three.js, Jolt)」；处于增长早期，本周涨速 5.3 star/天，涨速在加快；社区健康（fork/star 比 34.0%，2 个 open issue）、项目元数据完整、开发活跃。"
     }
   },
   {
     "repo": {
-      "owner": "lochie",
-      "name": "skullet",
-      "full_name": "lochie/skullet",
-      "description": "Smart skeleton states",
+      "owner": "failsafe-security",
+      "name": "artex",
+      "full_name": "failsafe-security/artex",
+      "description": "Source-built, locally bound FailSafe distribution of ARTEX (v0.3.15)",
       "stars": 997,
-      "forks": 26,
-      "open_issues": 29,
-      "created_at": "2026-10-19T18:56:04+00:00",
-      "pushed_at": "2026-11-26T15:41:38+00:00",
-      "updated_at": "2026-11-25T22:29:19+00:00",
+      "forks": 342,
+      "open_issues": 0,
+      "created_at": "2026-11-10T12:33:18+00:00",
+      "pushed_at": "2026-11-27T05:17:05+00:00",
+      "updated_at": "2026-11-27T10:18:06+00:00",
       "topics": [],
-      "language": "TypeScript",
-      "license": "MIT",
-      "homepage": "https://skullet.lochie.me",
-      "html_url": "https://github.com/lochie/skullet",
+      "language": "Go",
+      "license": "AGPL-3.0",
+      "homepage": null,
+      "html_url": "https://github.com/failsafe-security/artex",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 977,
+      "stars_7d_ago": 906,
       "star_series": [
         {
-          "d": "10-28",
-          "s": 765
-        },
-        {
           "d": "10-29",
-          "s": 765
+          "s": 815
         },
         {
           "d": "10-30",
-          "s": 765
+          "s": 815
         },
         {
           "d": "10-31",
-          "s": 765
+          "s": 815
         },
         {
           "d": "11-01",
-          "s": 765
+          "s": 815
         },
         {
           "d": "11-02",
-          "s": 765
+          "s": 815
         },
         {
           "d": "11-03",
-          "s": 765
+          "s": 815
         },
         {
           "d": "11-04",
-          "s": 765
+          "s": 815
         },
         {
           "d": "11-05",
-          "s": 765
+          "s": 815
         },
         {
           "d": "11-06",
-          "s": 797
+          "s": 815
         },
         {
           "d": "11-07",
-          "s": 828
+          "s": 815
         },
         {
           "d": "11-08",
-          "s": 847
+          "s": 815
         },
         {
           "d": "11-09",
-          "s": 866
+          "s": 815
         },
         {
           "d": "11-10",
-          "s": 896
+          "s": 815
         },
         {
           "d": "11-11",
-          "s": 911
+          "s": 815
         },
         {
           "d": "11-12",
-          "s": 921
+          "s": 815
         },
         {
           "d": "11-13",
-          "s": 925
+          "s": 815
         },
         {
           "d": "11-14",
-          "s": 936
+          "s": 815
         },
         {
           "d": "11-15",
-          "s": 941
+          "s": 815
         },
         {
           "d": "11-16",
-          "s": 947
+          "s": 815
         },
         {
           "d": "11-17",
-          "s": 958
+          "s": 815
         },
         {
           "d": "11-18",
-          "s": 967
+          "s": 853
+        },
+        {
+          "d": "11-19",
+          "s": 872
+        },
+        {
+          "d": "11-20",
+          "s": 896
+        },
+        {
+          "d": "11-21",
+          "s": 906
+        },
+        {
+          "d": "11-22",
+          "s": 926
+        },
+        {
+          "d": "11-23",
+          "s": 946
+        },
+        {
+          "d": "11-24",
+          "s": 957
+        },
+        {
+          "d": "11-25",
+          "s": 966
+        },
+        {
+          "d": "11-26",
+          "s": 990
+        },
+        {
+          "d": "11-27",
+          "s": 997
+        }
+      ]
+    },
+    "score": {
+      "score": 90.07,
+      "breakdown": {
+        "vel": 87,
+        "acc": 50,
+        "health": 97,
+        "fresh": 95,
+        "signal": 55
+      },
+      "stage": "early",
+      "stage_multiplier": 1.2,
+      "confidence": 1.0,
+      "base_score": 75.06,
+      "explanation": "artex 是 Go 开源项目，主打「Source-built, locally bound FailSafe distribution of ARTEX (v0.3.15)」；处于增长早期，本周涨速 13 star/天；社区健康（fork/star 比 34.3%，0 个 open issue）、开发活跃。"
+    }
+  },
+  {
+    "repo": {
+      "owner": "Noelo-Lab",
+      "name": "kuna",
+      "full_name": "Noelo-Lab/kuna",
+      "description": "An agent-first decompiler designed to be refined by other agents. Kuna is written in Rust and was originally ported from Ghidra.",
+      "stars": 996,
+      "forks": 93,
+      "open_issues": 48,
+      "created_at": "2026-06-07T18:01:35+00:00",
+      "pushed_at": "2026-11-27T15:26:05+00:00",
+      "updated_at": "2026-11-27T11:54:51+00:00",
+      "topics": [
+        "autonomous-refinement",
+        "binary-analysis",
+        "decompilation"
+      ],
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "homepage": "https://kuna.noelo.org",
+      "html_url": "https://github.com/Noelo-Lab/kuna",
+      "default_branch": "main",
+      "archived": false,
+      "search_score": 1.0,
+      "stars_7d_ago": 973,
+      "star_series": [
+        {
+          "d": "10-29",
+          "s": 973
+        },
+        {
+          "d": "10-30",
+          "s": 973
+        },
+        {
+          "d": "10-31",
+          "s": 973
+        },
+        {
+          "d": "11-01",
+          "s": 973
+        },
+        {
+          "d": "11-02",
+          "s": 973
+        },
+        {
+          "d": "11-03",
+          "s": 973
+        },
+        {
+          "d": "11-04",
+          "s": 973
+        },
+        {
+          "d": "11-05",
+          "s": 973
+        },
+        {
+          "d": "11-06",
+          "s": 973
+        },
+        {
+          "d": "11-07",
+          "s": 973
+        },
+        {
+          "d": "11-08",
+          "s": 973
+        },
+        {
+          "d": "11-09",
+          "s": 973
+        },
+        {
+          "d": "11-10",
+          "s": 973
+        },
+        {
+          "d": "11-11",
+          "s": 973
+        },
+        {
+          "d": "11-12",
+          "s": 973
+        },
+        {
+          "d": "11-13",
+          "s": 973
+        },
+        {
+          "d": "11-14",
+          "s": 973
+        },
+        {
+          "d": "11-15",
+          "s": 973
+        },
+        {
+          "d": "11-16",
+          "s": 973
+        },
+        {
+          "d": "11-17",
+          "s": 973
+        },
+        {
+          "d": "11-18",
+          "s": 973
         },
         {
           "d": "11-19",
@@ -624,208 +629,221 @@
         },
         {
           "d": "11-20",
-          "s": 977
+          "s": 973
         },
         {
           "d": "11-21",
-          "s": 979
+          "s": 973
         },
         {
           "d": "11-22",
-          "s": 980
+          "s": 973
         },
         {
           "d": "11-23",
-          "s": 987
+          "s": 973
         },
         {
           "d": "11-24",
-          "s": 991
+          "s": 973
         },
         {
           "d": "11-25",
-          "s": 997
+          "s": 978
         },
         {
           "d": "11-26",
-          "s": 997
+          "s": 993
+        },
+        {
+          "d": "11-27",
+          "s": 996
         }
       ]
     },
     "score": {
-      "score": 42.76,
+      "score": 74.81,
       "breakdown": {
-        "vel": 40,
-        "acc": 35,
-        "health": 61,
-        "fresh": 90,
-        "signal": 70
+        "vel": 48,
+        "acc": 96,
+        "health": 80,
+        "fresh": 53,
+        "signal": 85
       },
-      "stage": "late",
-      "stage_multiplier": 0.85,
+      "stage": "mid_early",
+      "stage_multiplier": 1.1,
       "confidence": 1.0,
-      "base_score": 50.3,
-      "explanation": "skullet 是 TypeScript 开源项目，主打「Smart skeleton states」；接近增长天花板；开发活跃。"
+      "base_score": 68.01,
+      "explanation": "kuna 是 Rust 开源项目，主打「An agent-first decompiler designed to be refined by other agents. Kuna is written in Rust and was originally ported from Ghidra.」；处于中早期增长，本周涨速 3.3 star/天，涨速在加快；社区健康（fork/star 比 9.3%，48 个 open issue）、项目元数据完整。"
     }
   },
   {
     "repo": {
-      "owner": "swamp-club",
-      "name": "swamp",
-      "full_name": "swamp-club/swamp",
-      "description": "Stinemates, Watson, Adam, Mahir, Paul ",
-      "stars": 997,
-      "forks": 82,
-      "open_issues": 2,
-      "created_at": "2026-01-28T17:27:17+00:00",
-      "pushed_at": "2026-11-26T14:28:29+00:00",
-      "updated_at": "2026-11-26T00:41:01+00:00",
-      "topics": [],
+      "owner": "cramt",
+      "name": "m365-copilot-proxy",
+      "full_name": "cramt/m365-copilot-proxy",
+      "description": "OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.",
+      "stars": 200,
+      "forks": 50,
+      "open_issues": 16,
+      "created_at": "2026-03-26T21:28:59+00:00",
+      "pushed_at": "2026-11-26T05:52:43+00:00",
+      "updated_at": "2026-11-27T14:02:17+00:00",
+      "topics": [
+        "coding-agent",
+        "llm",
+        "m365-copilot",
+        "microsoft-copilot",
+        "openai-compatible-api",
+        "proxy",
+        "reverse-engineering",
+        "typescript"
+      ],
       "language": "TypeScript",
-      "license": "NOASSERTION",
+      "license": "MIT",
       "homepage": null,
-      "html_url": "https://github.com/swamp-club/swamp",
+      "html_url": "https://github.com/cramt/m365-copilot-proxy",
       "default_branch": "main",
       "archived": false,
       "search_score": 1.0,
-      "stars_7d_ago": 991,
+      "stars_7d_ago": 185,
       "star_series": [
         {
-          "d": "10-28",
-          "s": 991
-        },
-        {
           "d": "10-29",
-          "s": 991
+          "s": 165
         },
         {
           "d": "10-30",
-          "s": 991
+          "s": 165
         },
         {
           "d": "10-31",
-          "s": 991
+          "s": 165
         },
         {
           "d": "11-01",
-          "s": 991
+          "s": 165
         },
         {
           "d": "11-02",
-          "s": 991
+          "s": 165
         },
         {
           "d": "11-03",
-          "s": 991
+          "s": 165
         },
         {
           "d": "11-04",
-          "s": 991
+          "s": 165
         },
         {
           "d": "11-05",
-          "s": 991
+          "s": 165
         },
         {
           "d": "11-06",
-          "s": 991
+          "s": 166
         },
         {
           "d": "11-07",
-          "s": 991
+          "s": 168
         },
         {
           "d": "11-08",
-          "s": 991
+          "s": 168
         },
         {
           "d": "11-09",
-          "s": 991
+          "s": 169
         },
         {
           "d": "11-10",
-          "s": 991
+          "s": 170
         },
         {
           "d": "11-11",
-          "s": 991
+          "s": 173
         },
         {
           "d": "11-12",
-          "s": 991
+          "s": 175
         },
         {
           "d": "11-13",
-          "s": 991
+          "s": 175
         },
         {
           "d": "11-14",
-          "s": 991
+          "s": 175
         },
         {
           "d": "11-15",
-          "s": 991
+          "s": 176
         },
         {
           "d": "11-16",
-          "s": 991
+          "s": 180
         },
         {
           "d": "11-17",
-          "s": 991
+          "s": 181
         },
         {
           "d": "11-18",
-          "s": 991
+          "s": 183
         },
         {
           "d": "11-19",
-          "s": 991
+          "s": 183
         },
         {
           "d": "11-20",
-          "s": 991
+          "s": 184
         },
         {
           "d": "11-21",
-          "s": 991
+          "s": 185
         },
         {
           "d": "11-22",
-          "s": 991
+          "s": 185
         },
         {
           "d": "11-23",
-          "s": 991
+          "s": 187
         },
         {
           "d": "11-24",
-          "s": 991
+          "s": 189
         },
         {
           "d": "11-25",
-          "s": 996
+          "s": 192
         },
         {
           "d": "11-26",
-          "s": 997
+          "s": 195
+        },
+        {
+          "d": "11-27",
+          "s": 200
         }
       ]
     },
     "score": {
-      "score": 39.0,
+      "score": 63.01,
       "breakdown": {
-        "vel": 18,
-        "acc": 70,
-        "health": 87,
-        "fresh": 18,
-        "signal": 55
+        "vel": 38,
+        "acc": 62,
+        "health": 85,
+        "fresh": 33,
+        "signal": 70
       },
-      "stage": "mid_late",
-      "stage_multiplier": 1.0,
+      "stage": "early",
+      "stage_multiplier": 1.2,
       "confidence": 1.0,
-      "base_score": 39.0,
-      "explanation": "swamp 是 TypeScript 开源项目，主打「Stinemates, Watson, Adam, Mahir, Paul」；处于中后期增长，涨速在加快；社区健康（fork/star 比 8.2%，2 个 open issue）。"
+      "base_score": 52.51,
+      "explanation": "m365-copilot-proxy 是 TypeScript 开源项目，主打「OpenAI-compatible proxy for Microsoft 365 Copilot — use the Copilot licence you already have as a backend for pi, openclaw and other coding agents. Prompt-emulated tool calling, no extra licence, no MCP.」；处于增长早期；社区健康（fork/star 比 25.0%，16 个 open issue）。"
     }
   }
 ]
